@@ -1,0 +1,2919 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE23A5FF1EEE44320063EE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23A5FE1EEE44320063EE90 /* main.m */; };
+		CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE23A6091EEE44320063EE90 /* Assets.xcassets */; };
+		CE23A6181EEE44320063EE90 /* VoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23A6171EEE44320063EE90 /* VoomTests.m */; };
+		CE23A6231EEE44320063EE90 /* VoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23A6221EEE44320063EE90 /* VoomUITests.m */; };
+		CE23A7491EEE44C80063EE90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23A7481EEE44C80063EE90 /* AppDelegate.m */; };
+		CE6A0EE21EEE475500321430 /* VoomParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EE11EEE475500321430 /* VoomParentViewController.m */; };
+		CE6A0EE51EEE478000321430 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EE41EEE478000321430 /* SideMenuViewController.m */; };
+		CE6A0EE91EEE47A400321430 /* SideMenuViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EE71EEE47A400321430 /* SideMenuViewControlleriPhone.m */; };
+		CE6A0EEA1EEE47A400321430 /* SideMenuViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0EE81EEE47A400321430 /* SideMenuViewControlleriPhone.xib */; };
+		CE6A0EFA1EEE481F00321430 /* LGSideMenuBorderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EED1EEE481F00321430 /* LGSideMenuBorderView.m */; };
+		CE6A0EFB1EEE481F00321430 /* LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EEF1EEE481F00321430 /* LGSideMenuController.m */; };
+		CE6A0EFC1EEE481F00321430 /* LGSideMenuGesturesHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EF11EEE481F00321430 /* LGSideMenuGesturesHandler.m */; };
+		CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EF31EEE481F00321430 /* LGSideMenuHelper.m */; };
+		CE6A0EFE1EEE481F00321430 /* LGSideMenuSegue.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EF51EEE481F00321430 /* LGSideMenuSegue.m */; };
+		CE6A0EFF1EEE481F00321430 /* LGSideMenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EF71EEE481F00321430 /* LGSideMenuView.m */; };
+		CE6A0F001EEE481F00321430 /* UIViewController+LGSideMenuController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EF91EEE481F00321430 /* UIViewController+LGSideMenuController.m */; };
+		CE6A0F031EEE48A600321430 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F021EEE48A600321430 /* LoginViewController.m */; };
+		CE6A0F071EEE48C500321430 /* LoginViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F051EEE48C500321430 /* LoginViewControlleriPhone.m */; };
+		CE6A0F081EEE48C500321430 /* LoginViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F061EEE48C500321430 /* LoginViewControlleriPhone.xib */; };
+		CE6A0F0F1EEE4D6E00321430 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F0E1EEE4D6E00321430 /* Default-568h@2x.png */; };
+		CE6A0F2A1EEF40CC00321430 /* APRoundedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F291EEF40CC00321430 /* APRoundedButton.m */; };
+		CE6A0F2D1EEF455F00321430 /* RegistrationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F2C1EEF455F00321430 /* RegistrationViewController.m */; };
+		CE6A0F311EEF458500321430 /* RegistrationViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F2F1EEF458500321430 /* RegistrationViewControlleriPhone.m */; };
+		CE6A0F321EEF458500321430 /* RegistrationViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F301EEF458500321430 /* RegistrationViewControlleriPhone.xib */; };
+		CE6A0F371EEF4A0800321430 /* HeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F351EEF4A0800321430 /* HeaderView.m */; };
+		CE6A0F381EEF4A0800321430 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F361EEF4A0800321430 /* HeaderView.xib */; };
+		CE6A0F3E1EEF4C5300321430 /* BackHeaderView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F3C1EEF4C5300321430 /* BackHeaderView.m */; };
+		CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F3D1EEF4C5300321430 /* BackHeaderView.xib */; };
+		CE6A0F421EEF526800321430 /* VehicleLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F411EEF526800321430 /* VehicleLibraryViewController.m */; };
+		CE6A0F461EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F441EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m */; };
+		CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F451EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib */; };
+		CE6A0F4A1EEF52DB00321430 /* back-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */; };
+		CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */; };
+		CE6A0F4F1EEF550000321430 /* FooterBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F4E1EEF550000321430 /* FooterBarView.m */; };
+		CE6A0F511EEF551A00321430 /* FooterBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F501EEF551A00321430 /* FooterBarView.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE23A6141EEE44320063EE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE23A5F21EEE44320063EE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE23A5F91EEE44320063EE90;
+			remoteInfo = Voom;
+		};
+		CE23A61F1EEE44320063EE90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE23A5F21EEE44320063EE90 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE23A5F91EEE44320063EE90;
+			remoteInfo = Voom;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE23A5FA1EEE44320063EE90 /* Voom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voom.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE23A5FE1EEE44320063EE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE23A6091EEE44320063EE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE23A60E1EEE44320063EE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE23A6131EEE44320063EE90 /* VoomTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoomTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE23A6171EEE44320063EE90 /* VoomTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoomTests.m; sourceTree = "<group>"; };
+		CE23A6191EEE44320063EE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE23A61E1EEE44320063EE90 /* VoomUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VoomUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE23A6221EEE44320063EE90 /* VoomUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VoomUITests.m; sourceTree = "<group>"; };
+		CE23A6241EEE44320063EE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE23A7471EEE44C80063EE90 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE23A7481EEE44C80063EE90 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE6A0EE01EEE475500321430 /* VoomParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomParentViewController.h; sourceTree = "<group>"; };
+		CE6A0EE11EEE475500321430 /* VoomParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomParentViewController.m; sourceTree = "<group>"; };
+		CE6A0EE31EEE478000321430 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
+		CE6A0EE41EEE478000321430 /* SideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewController.m; sourceTree = "<group>"; };
+		CE6A0EE61EEE47A400321430 /* SideMenuViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A0EE71EEE47A400321430 /* SideMenuViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A0EE81EEE47A400321430 /* SideMenuViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A0EEC1EEE481F00321430 /* LGSideMenuBorderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuBorderView.h; sourceTree = "<group>"; };
+		CE6A0EED1EEE481F00321430 /* LGSideMenuBorderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuBorderView.m; sourceTree = "<group>"; };
+		CE6A0EEE1EEE481F00321430 /* LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuController.h; sourceTree = "<group>"; };
+		CE6A0EEF1EEE481F00321430 /* LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuController.m; sourceTree = "<group>"; };
+		CE6A0EF01EEE481F00321430 /* LGSideMenuGesturesHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuGesturesHandler.h; sourceTree = "<group>"; };
+		CE6A0EF11EEE481F00321430 /* LGSideMenuGesturesHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuGesturesHandler.m; sourceTree = "<group>"; };
+		CE6A0EF21EEE481F00321430 /* LGSideMenuHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuHelper.h; sourceTree = "<group>"; };
+		CE6A0EF31EEE481F00321430 /* LGSideMenuHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuHelper.m; sourceTree = "<group>"; };
+		CE6A0EF41EEE481F00321430 /* LGSideMenuSegue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuSegue.h; sourceTree = "<group>"; };
+		CE6A0EF51EEE481F00321430 /* LGSideMenuSegue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuSegue.m; sourceTree = "<group>"; };
+		CE6A0EF61EEE481F00321430 /* LGSideMenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LGSideMenuView.h; sourceTree = "<group>"; };
+		CE6A0EF71EEE481F00321430 /* LGSideMenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LGSideMenuView.m; sourceTree = "<group>"; };
+		CE6A0EF81EEE481F00321430 /* UIViewController+LGSideMenuController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LGSideMenuController.h"; sourceTree = "<group>"; };
+		CE6A0EF91EEE481F00321430 /* UIViewController+LGSideMenuController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LGSideMenuController.m"; sourceTree = "<group>"; };
+		CE6A0F011EEE48A600321430 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		CE6A0F021EEE48A600321430 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		CE6A0F041EEE48C500321430 /* LoginViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A0F051EEE48C500321430 /* LoginViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A0F061EEE48C500321430 /* LoginViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A0F0E1EEE4D6E00321430 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		CE6A0F101EEE538200321430 /* Constants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		CE6A0F281EEF40CC00321430 /* APRoundedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = APRoundedButton.h; sourceTree = "<group>"; };
+		CE6A0F291EEF40CC00321430 /* APRoundedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = APRoundedButton.m; sourceTree = "<group>"; };
+		CE6A0F2B1EEF455F00321430 /* RegistrationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewController.h; sourceTree = "<group>"; };
+		CE6A0F2C1EEF455F00321430 /* RegistrationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewController.m; sourceTree = "<group>"; };
+		CE6A0F2E1EEF458500321430 /* RegistrationViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegistrationViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A0F2F1EEF458500321430 /* RegistrationViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegistrationViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A0F301EEF458500321430 /* RegistrationViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RegistrationViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A0F341EEF4A0800321430 /* HeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeaderView.h; sourceTree = "<group>"; };
+		CE6A0F351EEF4A0800321430 /* HeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HeaderView.m; sourceTree = "<group>"; };
+		CE6A0F361EEF4A0800321430 /* HeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
+		CE6A0F391EEF4A8300321430 /* Voom_PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Voom_PrefixHeader.pch; sourceTree = "<group>"; };
+		CE6A0F3B1EEF4C5300321430 /* BackHeaderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BackHeaderView.h; sourceTree = "<group>"; };
+		CE6A0F3C1EEF4C5300321430 /* BackHeaderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BackHeaderView.m; sourceTree = "<group>"; };
+		CE6A0F3D1EEF4C5300321430 /* BackHeaderView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BackHeaderView.xib; sourceTree = "<group>"; };
+		CE6A0F401EEF526800321430 /* VehicleLibraryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleLibraryViewController.h; sourceTree = "<group>"; };
+		CE6A0F411EEF526800321430 /* VehicleLibraryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleLibraryViewController.m; sourceTree = "<group>"; };
+		CE6A0F431EEF527F00321430 /* VehicleLibraryViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleLibraryViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A0F441EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleLibraryViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A0F451EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleLibraryViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A0F4D1EEF550000321430 /* FooterBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterBarView.h; sourceTree = "<group>"; };
+		CE6A0F4E1EEF550000321430 /* FooterBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterBarView.m; sourceTree = "<group>"; };
+		CE6A0F501EEF551A00321430 /* FooterBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterBarView.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE23A5F71EEE44320063EE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE23A6101EEE44320063EE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE23A61B1EEE44320063EE90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE23A5F11EEE44320063EE90 = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F391EEF4A8300321430 /* Voom_PrefixHeader.pch */,
+				CE6A0F0E1EEE4D6E00321430 /* Default-568h@2x.png */,
+				CE23A5FC1EEE44320063EE90 /* Voom */,
+				CE23A6161EEE44320063EE90 /* VoomTests */,
+				CE23A6211EEE44320063EE90 /* VoomUITests */,
+				CE23A5FB1EEE44320063EE90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE23A5FB1EEE44320063EE90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A5FA1EEE44320063EE90 /* Voom.app */,
+				CE23A6131EEE44320063EE90 /* VoomTests.xctest */,
+				CE23A61E1EEE44320063EE90 /* VoomUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE23A5FC1EEE44320063EE90 /* Voom */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6301EEE44A00063EE90 /* AppPreferences */,
+				CE23A6311EEE44A00063EE90 /* Classes */,
+				CE23A7421EEE44A10063EE90 /* Constants */,
+				CE23A7431EEE44A10063EE90 /* Utility */,
+				CE23A6091EEE44320063EE90 /* Assets.xcassets */,
+				CE23A60E1EEE44320063EE90 /* Info.plist */,
+				CE23A5FD1EEE44320063EE90 /* Supporting Files */,
+			);
+			path = Voom;
+			sourceTree = "<group>";
+		};
+		CE23A5FD1EEE44320063EE90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A5FE1EEE44320063EE90 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CE23A6161EEE44320063EE90 /* VoomTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6171EEE44320063EE90 /* VoomTests.m */,
+				CE23A6191EEE44320063EE90 /* Info.plist */,
+			);
+			path = VoomTests;
+			sourceTree = "<group>";
+		};
+		CE23A6211EEE44320063EE90 /* VoomUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6221EEE44320063EE90 /* VoomUITests.m */,
+				CE23A6241EEE44320063EE90 /* Info.plist */,
+			);
+			path = VoomUITests;
+			sourceTree = "<group>";
+		};
+		CE23A6301EEE44A00063EE90 /* AppPreferences */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = AppPreferences;
+			sourceTree = "<group>";
+		};
+		CE23A6311EEE44A00063EE90 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6321EEE44A00063EE90 /* AppDelegate */,
+				CE23A6331EEE44A00063EE90 /* ViewController */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		CE23A6321EEE44A00063EE90 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7471EEE44C80063EE90 /* AppDelegate.h */,
+				CE23A7481EEE44C80063EE90 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		CE23A6331EEE44A00063EE90 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7241EEE44A00063EE90 /* VoomParentViewController */,
+				CE23A6341EEE44A00063EE90 /* AccountSettingsViewController */,
+				CE23A6431EEE44A00063EE90 /* BreakdownsViewController */,
+				CE23A6521EEE44A00063EE90 /* ChangePasswordViewController */,
+				CE23A6611EEE44A00063EE90 /* FinesViewController */,
+				CE23A6701EEE44A00063EE90 /* LoginViewController */,
+				CE23A67F1EEE44A00063EE90 /* MileageViewController */,
+				CE23A68E1EEE44A00063EE90 /* RegistrationViewController */,
+				CE23A69D1EEE44A00063EE90 /* RemindersViewController */,
+				CE23A6AC1EEE44A00063EE90 /* SettingsViewController */,
+				CE23A6BB1EEE44A00063EE90 /* SideMenuViewController */,
+				CE23A6CA1EEE44A00063EE90 /* Toll RoadsViewController */,
+				CE23A6D91EEE44A00063EE90 /* VehicleCheckViewController */,
+				CE23A6E81EEE44A00063EE90 /* VehicleInfoViewController */,
+				CE23A6F71EEE44A00063EE90 /* VehicleLibraryViewController */,
+				CE23A7061EEE44A00063EE90 /* VehicleRegistrationInfoViewController */,
+				CE23A7151EEE44A00063EE90 /* VehicleServicesViewController */,
+				CE23A7331EEE44A10063EE90 /* WarrantOfFitnessViewController */,
+			);
+			name = ViewController;
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		CE23A6341EEE44A00063EE90 /* AccountSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6351EEE44A00063EE90 /* Controller */,
+				CE23A6381EEE44A00063EE90 /* Images */,
+				CE23A63B1EEE44A00063EE90 /* Modal */,
+				CE23A6401EEE44A00063EE90 /* View */,
+			);
+			path = AccountSettingsViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6351EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6361EEE44A00063EE90 /* iPad */,
+				CE23A6371EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6361EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6371EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6381EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6391EEE44A00063EE90 /* iPad */,
+				CE23A63A1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6391EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A63A1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A63B1EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A63C1EEE44A00063EE90 /* Bo */,
+				CE23A63D1EEE44A00063EE90 /* Enums */,
+				CE23A63E1EEE44A00063EE90 /* Request */,
+				CE23A63F1EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A63C1EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A63D1EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A63E1EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A63F1EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A6401EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6411EEE44A00063EE90 /* iPad */,
+				CE23A6421EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A6411EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6421EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6431EEE44A00063EE90 /* BreakdownsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6441EEE44A00063EE90 /* Controller */,
+				CE23A6471EEE44A00063EE90 /* Images */,
+				CE23A64A1EEE44A00063EE90 /* Modal */,
+				CE23A64F1EEE44A00063EE90 /* View */,
+			);
+			path = BreakdownsViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6441EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6451EEE44A00063EE90 /* iPad */,
+				CE23A6461EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6451EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6461EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6471EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6481EEE44A00063EE90 /* iPad */,
+				CE23A6491EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6481EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6491EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A64A1EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A64B1EEE44A00063EE90 /* Bo */,
+				CE23A64C1EEE44A00063EE90 /* Enums */,
+				CE23A64D1EEE44A00063EE90 /* Request */,
+				CE23A64E1EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A64B1EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A64C1EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A64D1EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A64E1EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A64F1EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6501EEE44A00063EE90 /* iPad */,
+				CE23A6511EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A6501EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6511EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6521EEE44A00063EE90 /* ChangePasswordViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6531EEE44A00063EE90 /* Controller */,
+				CE23A6561EEE44A00063EE90 /* Images */,
+				CE23A6591EEE44A00063EE90 /* Modal */,
+				CE23A65E1EEE44A00063EE90 /* View */,
+			);
+			path = ChangePasswordViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6531EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6541EEE44A00063EE90 /* iPad */,
+				CE23A6551EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6541EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6551EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6561EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6571EEE44A00063EE90 /* iPad */,
+				CE23A6581EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6571EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6581EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6591EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A65A1EEE44A00063EE90 /* Bo */,
+				CE23A65B1EEE44A00063EE90 /* Enums */,
+				CE23A65C1EEE44A00063EE90 /* Request */,
+				CE23A65D1EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A65A1EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A65B1EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A65C1EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A65D1EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A65E1EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A65F1EEE44A00063EE90 /* iPad */,
+				CE23A6601EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A65F1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6601EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6611EEE44A00063EE90 /* FinesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6621EEE44A00063EE90 /* Controller */,
+				CE23A6651EEE44A00063EE90 /* Images */,
+				CE23A6681EEE44A00063EE90 /* Modal */,
+				CE23A66D1EEE44A00063EE90 /* View */,
+			);
+			path = FinesViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6621EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6631EEE44A00063EE90 /* iPad */,
+				CE23A6641EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6631EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6641EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6651EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6661EEE44A00063EE90 /* iPad */,
+				CE23A6671EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6661EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6671EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6681EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6691EEE44A00063EE90 /* Bo */,
+				CE23A66A1EEE44A00063EE90 /* Enums */,
+				CE23A66B1EEE44A00063EE90 /* Request */,
+				CE23A66C1EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6691EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A66A1EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A66B1EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A66C1EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A66D1EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A66E1EEE44A00063EE90 /* iPad */,
+				CE23A66F1EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A66E1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A66F1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6701EEE44A00063EE90 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6711EEE44A00063EE90 /* Controller */,
+				CE23A6741EEE44A00063EE90 /* Images */,
+				CE23A6771EEE44A00063EE90 /* Modal */,
+				CE23A67C1EEE44A00063EE90 /* View */,
+			);
+			path = LoginViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6711EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6721EEE44A00063EE90 /* iPad */,
+				CE23A6731EEE44A00063EE90 /* iPhone */,
+				CE6A0F011EEE48A600321430 /* LoginViewController.h */,
+				CE6A0F021EEE48A600321430 /* LoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6721EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6731EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F041EEE48C500321430 /* LoginViewControlleriPhone.h */,
+				CE6A0F051EEE48C500321430 /* LoginViewControlleriPhone.m */,
+				CE6A0F061EEE48C500321430 /* LoginViewControlleriPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6741EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6751EEE44A00063EE90 /* iPad */,
+				CE23A6761EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6751EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6761EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6771EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6781EEE44A00063EE90 /* Bo */,
+				CE23A6791EEE44A00063EE90 /* Enums */,
+				CE23A67A1EEE44A00063EE90 /* Request */,
+				CE23A67B1EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6781EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A6791EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A67A1EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A67B1EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A67C1EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A67D1EEE44A00063EE90 /* iPad */,
+				CE23A67E1EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A67D1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A67E1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A67F1EEE44A00063EE90 /* MileageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6801EEE44A00063EE90 /* Controller */,
+				CE23A6831EEE44A00063EE90 /* Images */,
+				CE23A6861EEE44A00063EE90 /* Modal */,
+				CE23A68B1EEE44A00063EE90 /* View */,
+			);
+			path = MileageViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6801EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6811EEE44A00063EE90 /* iPad */,
+				CE23A6821EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6811EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6821EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6831EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6841EEE44A00063EE90 /* iPad */,
+				CE23A6851EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6841EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6851EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6861EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6871EEE44A00063EE90 /* Bo */,
+				CE23A6881EEE44A00063EE90 /* Enums */,
+				CE23A6891EEE44A00063EE90 /* Request */,
+				CE23A68A1EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6871EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A6881EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A6891EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A68A1EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A68B1EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A68C1EEE44A00063EE90 /* iPad */,
+				CE23A68D1EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A68C1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A68D1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A68E1EEE44A00063EE90 /* RegistrationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A68F1EEE44A00063EE90 /* Controller */,
+				CE23A6921EEE44A00063EE90 /* Images */,
+				CE23A6951EEE44A00063EE90 /* Modal */,
+				CE23A69A1EEE44A00063EE90 /* View */,
+			);
+			path = RegistrationViewController;
+			sourceTree = "<group>";
+		};
+		CE23A68F1EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6901EEE44A00063EE90 /* iPad */,
+				CE23A6911EEE44A00063EE90 /* iPhone */,
+				CE6A0F2B1EEF455F00321430 /* RegistrationViewController.h */,
+				CE6A0F2C1EEF455F00321430 /* RegistrationViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6901EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6911EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F2E1EEF458500321430 /* RegistrationViewControlleriPhone.h */,
+				CE6A0F2F1EEF458500321430 /* RegistrationViewControlleriPhone.m */,
+				CE6A0F301EEF458500321430 /* RegistrationViewControlleriPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6921EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6931EEE44A00063EE90 /* iPad */,
+				CE23A6941EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6931EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6941EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6951EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6961EEE44A00063EE90 /* Bo */,
+				CE23A6971EEE44A00063EE90 /* Enums */,
+				CE23A6981EEE44A00063EE90 /* Request */,
+				CE23A6991EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6961EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A6971EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A6981EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A6991EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A69A1EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A69B1EEE44A00063EE90 /* iPad */,
+				CE23A69C1EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A69B1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A69C1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A69D1EEE44A00063EE90 /* RemindersViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A69E1EEE44A00063EE90 /* Controller */,
+				CE23A6A11EEE44A00063EE90 /* Images */,
+				CE23A6A41EEE44A00063EE90 /* Modal */,
+				CE23A6A91EEE44A00063EE90 /* View */,
+			);
+			path = RemindersViewController;
+			sourceTree = "<group>";
+		};
+		CE23A69E1EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A69F1EEE44A00063EE90 /* iPad */,
+				CE23A6A01EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A69F1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6A01EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6A11EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6A21EEE44A00063EE90 /* iPad */,
+				CE23A6A31EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6A21EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6A31EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6A41EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6A51EEE44A00063EE90 /* Bo */,
+				CE23A6A61EEE44A00063EE90 /* Enums */,
+				CE23A6A71EEE44A00063EE90 /* Request */,
+				CE23A6A81EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6A51EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A6A61EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A6A71EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A6A81EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A6A91EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6AA1EEE44A00063EE90 /* iPad */,
+				CE23A6AB1EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A6AA1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6AB1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6AC1EEE44A00063EE90 /* SettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6AD1EEE44A00063EE90 /* Controller */,
+				CE23A6B01EEE44A00063EE90 /* Images */,
+				CE23A6B31EEE44A00063EE90 /* Modal */,
+				CE23A6B81EEE44A00063EE90 /* View */,
+			);
+			path = SettingsViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6AD1EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6AE1EEE44A00063EE90 /* iPad */,
+				CE23A6AF1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6AE1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6AF1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6B01EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6B11EEE44A00063EE90 /* iPad */,
+				CE23A6B21EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6B11EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6B21EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6B31EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6B41EEE44A00063EE90 /* Bo */,
+				CE23A6B51EEE44A00063EE90 /* Enums */,
+				CE23A6B61EEE44A00063EE90 /* Request */,
+				CE23A6B71EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6B41EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A6B51EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A6B61EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A6B71EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A6B81EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6B91EEE44A00063EE90 /* iPad */,
+				CE23A6BA1EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A6B91EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6BA1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6BB1EEE44A00063EE90 /* SideMenuViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6BC1EEE44A00063EE90 /* Controller */,
+				CE23A6BF1EEE44A00063EE90 /* Images */,
+				CE23A6C21EEE44A00063EE90 /* Modal */,
+				CE23A6C71EEE44A00063EE90 /* View */,
+			);
+			path = SideMenuViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6BC1EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6BD1EEE44A00063EE90 /* iPad */,
+				CE23A6BE1EEE44A00063EE90 /* iPhone */,
+				CE6A0EE31EEE478000321430 /* SideMenuViewController.h */,
+				CE6A0EE41EEE478000321430 /* SideMenuViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6BD1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6BE1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0EE61EEE47A400321430 /* SideMenuViewControlleriPhone.h */,
+				CE6A0EE71EEE47A400321430 /* SideMenuViewControlleriPhone.m */,
+				CE6A0EE81EEE47A400321430 /* SideMenuViewControlleriPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6BF1EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6C01EEE44A00063EE90 /* iPad */,
+				CE23A6C11EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6C01EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6C11EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6C21EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6C31EEE44A00063EE90 /* Bo */,
+				CE23A6C41EEE44A00063EE90 /* Enums */,
+				CE23A6C51EEE44A00063EE90 /* Request */,
+				CE23A6C61EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6C31EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A6C41EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A6C51EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A6C61EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A6C71EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6C81EEE44A00063EE90 /* iPad */,
+				CE23A6C91EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A6C81EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6C91EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6CA1EEE44A00063EE90 /* Toll RoadsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6CB1EEE44A00063EE90 /* Controller */,
+				CE23A6CE1EEE44A00063EE90 /* Images */,
+				CE23A6D11EEE44A00063EE90 /* Modal */,
+				CE23A6D61EEE44A00063EE90 /* View */,
+			);
+			path = "Toll RoadsViewController";
+			sourceTree = "<group>";
+		};
+		CE23A6CB1EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6CC1EEE44A00063EE90 /* iPad */,
+				CE23A6CD1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6CC1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6CD1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6CE1EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6CF1EEE44A00063EE90 /* iPad */,
+				CE23A6D01EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6CF1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6D01EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6D11EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6D21EEE44A00063EE90 /* Bo */,
+				CE23A6D31EEE44A00063EE90 /* Enums */,
+				CE23A6D41EEE44A00063EE90 /* Request */,
+				CE23A6D51EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6D21EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A6D31EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A6D41EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A6D51EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A6D61EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6D71EEE44A00063EE90 /* iPad */,
+				CE23A6D81EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A6D71EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6D81EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6D91EEE44A00063EE90 /* VehicleCheckViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6DA1EEE44A00063EE90 /* Controller */,
+				CE23A6DD1EEE44A00063EE90 /* Images */,
+				CE23A6E01EEE44A00063EE90 /* Modal */,
+				CE23A6E51EEE44A00063EE90 /* View */,
+			);
+			path = VehicleCheckViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6DA1EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6DB1EEE44A00063EE90 /* iPad */,
+				CE23A6DC1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6DB1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6DC1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6DD1EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6DE1EEE44A00063EE90 /* iPad */,
+				CE23A6DF1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6DE1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6DF1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6E01EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6E11EEE44A00063EE90 /* Bo */,
+				CE23A6E21EEE44A00063EE90 /* Enums */,
+				CE23A6E31EEE44A00063EE90 /* Request */,
+				CE23A6E41EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6E11EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A6E21EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A6E31EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A6E41EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A6E51EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6E61EEE44A00063EE90 /* iPad */,
+				CE23A6E71EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A6E61EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6E71EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6E81EEE44A00063EE90 /* VehicleInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6E91EEE44A00063EE90 /* Controller */,
+				CE23A6EC1EEE44A00063EE90 /* Images */,
+				CE23A6EF1EEE44A00063EE90 /* Modal */,
+				CE23A6F41EEE44A00063EE90 /* View */,
+			);
+			path = VehicleInfoViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6E91EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6EA1EEE44A00063EE90 /* iPad */,
+				CE23A6EB1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6EA1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6EB1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6EC1EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6ED1EEE44A00063EE90 /* iPad */,
+				CE23A6EE1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6ED1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6EE1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6EF1EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6F01EEE44A00063EE90 /* Bo */,
+				CE23A6F11EEE44A00063EE90 /* Enums */,
+				CE23A6F21EEE44A00063EE90 /* Request */,
+				CE23A6F31EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6F01EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A6F11EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A6F21EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A6F31EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A6F41EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6F51EEE44A00063EE90 /* iPad */,
+				CE23A6F61EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A6F51EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6F61EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6F71EEE44A00063EE90 /* VehicleLibraryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6F81EEE44A00063EE90 /* Controller */,
+				CE23A6FB1EEE44A00063EE90 /* Images */,
+				CE23A6FE1EEE44A00063EE90 /* Modal */,
+				CE23A7031EEE44A00063EE90 /* View */,
+			);
+			path = VehicleLibraryViewController;
+			sourceTree = "<group>";
+		};
+		CE23A6F81EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6F91EEE44A00063EE90 /* iPad */,
+				CE23A6FA1EEE44A00063EE90 /* iPhone */,
+				CE6A0F401EEF526800321430 /* VehicleLibraryViewController.h */,
+				CE6A0F411EEF526800321430 /* VehicleLibraryViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A6F91EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6FA1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F431EEF527F00321430 /* VehicleLibraryViewControlleriPhone.h */,
+				CE6A0F441EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m */,
+				CE6A0F451EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6FB1EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6FC1EEE44A00063EE90 /* iPad */,
+				CE23A6FD1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A6FC1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A6FD1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A6FE1EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A6FF1EEE44A00063EE90 /* Bo */,
+				CE23A7001EEE44A00063EE90 /* Enums */,
+				CE23A7011EEE44A00063EE90 /* Request */,
+				CE23A7021EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A6FF1EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A7001EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A7011EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A7021EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A7031EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7041EEE44A00063EE90 /* iPad */,
+				CE23A7051EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A7041EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7051EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A7061EEE44A00063EE90 /* VehicleRegistrationInfoViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7071EEE44A00063EE90 /* Controller */,
+				CE23A70A1EEE44A00063EE90 /* Images */,
+				CE23A70D1EEE44A00063EE90 /* Modal */,
+				CE23A7121EEE44A00063EE90 /* View */,
+			);
+			path = VehicleRegistrationInfoViewController;
+			sourceTree = "<group>";
+		};
+		CE23A7071EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7081EEE44A00063EE90 /* iPad */,
+				CE23A7091EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A7081EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7091EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A70A1EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A70B1EEE44A00063EE90 /* iPad */,
+				CE23A70C1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A70B1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A70C1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A70D1EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A70E1EEE44A00063EE90 /* Bo */,
+				CE23A70F1EEE44A00063EE90 /* Enums */,
+				CE23A7101EEE44A00063EE90 /* Request */,
+				CE23A7111EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A70E1EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A70F1EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A7101EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A7111EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A7121EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7131EEE44A00063EE90 /* iPad */,
+				CE23A7141EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A7131EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7141EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A7151EEE44A00063EE90 /* VehicleServicesViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7161EEE44A00063EE90 /* Controller */,
+				CE23A7191EEE44A00063EE90 /* Images */,
+				CE23A71C1EEE44A00063EE90 /* Modal */,
+				CE23A7211EEE44A00063EE90 /* View */,
+			);
+			path = VehicleServicesViewController;
+			sourceTree = "<group>";
+		};
+		CE23A7161EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7171EEE44A00063EE90 /* iPad */,
+				CE23A7181EEE44A00063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A7171EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7181EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A7191EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A71A1EEE44A00063EE90 /* iPad */,
+				CE23A71B1EEE44A00063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A71A1EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A71B1EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A71C1EEE44A00063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A71D1EEE44A00063EE90 /* Bo */,
+				CE23A71E1EEE44A00063EE90 /* Enums */,
+				CE23A71F1EEE44A00063EE90 /* Request */,
+				CE23A7201EEE44A00063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A71D1EEE44A00063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A71E1EEE44A00063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A71F1EEE44A00063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A7201EEE44A00063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A7211EEE44A00063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7221EEE44A00063EE90 /* iPad */,
+				CE23A7231EEE44A00063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A7221EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7231EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A7241EEE44A00063EE90 /* VoomParentViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7251EEE44A00063EE90 /* Controller */,
+				CE23A7281EEE44A00063EE90 /* Images */,
+				CE23A72B1EEE44A10063EE90 /* Modal */,
+				CE23A7301EEE44A10063EE90 /* View */,
+			);
+			path = VoomParentViewController;
+			sourceTree = "<group>";
+		};
+		CE23A7251EEE44A00063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7261EEE44A00063EE90 /* iPad */,
+				CE23A7271EEE44A00063EE90 /* iPhone */,
+				CE6A0EE01EEE475500321430 /* VoomParentViewController.h */,
+				CE6A0EE11EEE475500321430 /* VoomParentViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A7261EEE44A00063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7271EEE44A00063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A7281EEE44A00063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7291EEE44A10063EE90 /* iPad */,
+				CE23A72A1EEE44A10063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A7291EEE44A10063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A72A1EEE44A10063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */,
+				CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A72B1EEE44A10063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A72C1EEE44A10063EE90 /* Bo */,
+				CE23A72D1EEE44A10063EE90 /* Enums */,
+				CE23A72E1EEE44A10063EE90 /* Request */,
+				CE23A72F1EEE44A10063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A72C1EEE44A10063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A72D1EEE44A10063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A72E1EEE44A10063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A72F1EEE44A10063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A7301EEE44A10063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7311EEE44A10063EE90 /* iPad */,
+				CE23A7321EEE44A10063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A7311EEE44A10063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7321EEE44A10063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F4C1EEF54BE00321430 /* FooterBarView */,
+				CE6A0F3A1EEF4C5300321430 /* BackHeaderView */,
+				CE6A0F331EEF4A0800321430 /* HeaderView */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A7331EEE44A10063EE90 /* WarrantOfFitnessViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7341EEE44A10063EE90 /* Controller */,
+				CE23A7371EEE44A10063EE90 /* Images */,
+				CE23A73A1EEE44A10063EE90 /* Modal */,
+				CE23A73F1EEE44A10063EE90 /* View */,
+			);
+			path = WarrantOfFitnessViewController;
+			sourceTree = "<group>";
+		};
+		CE23A7341EEE44A10063EE90 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7351EEE44A10063EE90 /* iPad */,
+				CE23A7361EEE44A10063EE90 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE23A7351EEE44A10063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7361EEE44A10063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A7371EEE44A10063EE90 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7381EEE44A10063EE90 /* iPad */,
+				CE23A7391EEE44A10063EE90 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE23A7381EEE44A10063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7391EEE44A10063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A73A1EEE44A10063EE90 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A73B1EEE44A10063EE90 /* Bo */,
+				CE23A73C1EEE44A10063EE90 /* Enums */,
+				CE23A73D1EEE44A10063EE90 /* Request */,
+				CE23A73E1EEE44A10063EE90 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE23A73B1EEE44A10063EE90 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE23A73C1EEE44A10063EE90 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE23A73D1EEE44A10063EE90 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE23A73E1EEE44A10063EE90 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE23A73F1EEE44A10063EE90 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE23A7401EEE44A10063EE90 /* iPad */,
+				CE23A7411EEE44A10063EE90 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE23A7401EEE44A10063EE90 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE23A7411EEE44A10063EE90 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE23A7421EEE44A10063EE90 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F101EEE538200321430 /* Constants.h */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		CE23A7431EEE44A10063EE90 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F271EEF40CC00321430 /* RoundedButton */,
+				CE6A0EEB1EEE481F00321430 /* LGSideMenuController */,
+			);
+			path = Utility;
+			sourceTree = "<group>";
+		};
+		CE6A0EEB1EEE481F00321430 /* LGSideMenuController */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0EEC1EEE481F00321430 /* LGSideMenuBorderView.h */,
+				CE6A0EED1EEE481F00321430 /* LGSideMenuBorderView.m */,
+				CE6A0EEE1EEE481F00321430 /* LGSideMenuController.h */,
+				CE6A0EEF1EEE481F00321430 /* LGSideMenuController.m */,
+				CE6A0EF01EEE481F00321430 /* LGSideMenuGesturesHandler.h */,
+				CE6A0EF11EEE481F00321430 /* LGSideMenuGesturesHandler.m */,
+				CE6A0EF21EEE481F00321430 /* LGSideMenuHelper.h */,
+				CE6A0EF31EEE481F00321430 /* LGSideMenuHelper.m */,
+				CE6A0EF41EEE481F00321430 /* LGSideMenuSegue.h */,
+				CE6A0EF51EEE481F00321430 /* LGSideMenuSegue.m */,
+				CE6A0EF61EEE481F00321430 /* LGSideMenuView.h */,
+				CE6A0EF71EEE481F00321430 /* LGSideMenuView.m */,
+				CE6A0EF81EEE481F00321430 /* UIViewController+LGSideMenuController.h */,
+				CE6A0EF91EEE481F00321430 /* UIViewController+LGSideMenuController.m */,
+			);
+			path = LGSideMenuController;
+			sourceTree = "<group>";
+		};
+		CE6A0F271EEF40CC00321430 /* RoundedButton */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F281EEF40CC00321430 /* APRoundedButton.h */,
+				CE6A0F291EEF40CC00321430 /* APRoundedButton.m */,
+			);
+			path = RoundedButton;
+			sourceTree = "<group>";
+		};
+		CE6A0F331EEF4A0800321430 /* HeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F341EEF4A0800321430 /* HeaderView.h */,
+				CE6A0F351EEF4A0800321430 /* HeaderView.m */,
+				CE6A0F361EEF4A0800321430 /* HeaderView.xib */,
+			);
+			path = HeaderView;
+			sourceTree = "<group>";
+		};
+		CE6A0F3A1EEF4C5300321430 /* BackHeaderView */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F3B1EEF4C5300321430 /* BackHeaderView.h */,
+				CE6A0F3C1EEF4C5300321430 /* BackHeaderView.m */,
+				CE6A0F3D1EEF4C5300321430 /* BackHeaderView.xib */,
+			);
+			path = BackHeaderView;
+			sourceTree = "<group>";
+		};
+		CE6A0F4C1EEF54BE00321430 /* FooterBarView */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F4D1EEF550000321430 /* FooterBarView.h */,
+				CE6A0F4E1EEF550000321430 /* FooterBarView.m */,
+				CE6A0F501EEF551A00321430 /* FooterBarView.xib */,
+			);
+			path = FooterBarView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE23A5F91EEE44320063EE90 /* Voom */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE23A6271EEE44320063EE90 /* Build configuration list for PBXNativeTarget "Voom" */;
+			buildPhases = (
+				CE23A5F61EEE44320063EE90 /* Sources */,
+				CE23A5F71EEE44320063EE90 /* Frameworks */,
+				CE23A5F81EEE44320063EE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Voom;
+			productName = Voom;
+			productReference = CE23A5FA1EEE44320063EE90 /* Voom.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE23A6121EEE44320063EE90 /* VoomTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE23A62A1EEE44320063EE90 /* Build configuration list for PBXNativeTarget "VoomTests" */;
+			buildPhases = (
+				CE23A60F1EEE44320063EE90 /* Sources */,
+				CE23A6101EEE44320063EE90 /* Frameworks */,
+				CE23A6111EEE44320063EE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE23A6151EEE44320063EE90 /* PBXTargetDependency */,
+			);
+			name = VoomTests;
+			productName = VoomTests;
+			productReference = CE23A6131EEE44320063EE90 /* VoomTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE23A61D1EEE44320063EE90 /* VoomUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE23A62D1EEE44320063EE90 /* Build configuration list for PBXNativeTarget "VoomUITests" */;
+			buildPhases = (
+				CE23A61A1EEE44320063EE90 /* Sources */,
+				CE23A61B1EEE44320063EE90 /* Frameworks */,
+				CE23A61C1EEE44320063EE90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE23A6201EEE44320063EE90 /* PBXTargetDependency */,
+			);
+			name = VoomUITests;
+			productName = VoomUITests;
+			productReference = CE23A61E1EEE44320063EE90 /* VoomUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE23A5F21EEE44320063EE90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = user;
+				TargetAttributes = {
+					CE23A5F91EEE44320063EE90 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					CE23A6121EEE44320063EE90 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE23A5F91EEE44320063EE90;
+					};
+					CE23A61D1EEE44320063EE90 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = CE23A5F91EEE44320063EE90;
+					};
+				};
+			};
+			buildConfigurationList = CE23A5F51EEE44320063EE90 /* Build configuration list for PBXProject "Voom" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE23A5F11EEE44320063EE90;
+			productRefGroup = CE23A5FB1EEE44320063EE90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE23A5F91EEE44320063EE90 /* Voom */,
+				CE23A6121EEE44320063EE90 /* VoomTests */,
+				CE23A61D1EEE44320063EE90 /* VoomUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE23A5F81EEE44320063EE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6A0F321EEF458500321430 /* RegistrationViewControlleriPhone.xib in Resources */,
+				CE6A0EEA1EEE47A400321430 /* SideMenuViewControlleriPhone.xib in Resources */,
+				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
+				CE6A0F081EEE48C500321430 /* LoginViewControlleriPhone.xib in Resources */,
+				CE6A0F0F1EEE4D6E00321430 /* Default-568h@2x.png in Resources */,
+				CE6A0F381EEF4A0800321430 /* HeaderView.xib in Resources */,
+				CE6A0F4A1EEF52DB00321430 /* back-iPhone@2x.png in Resources */,
+				CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */,
+				CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */,
+				CE6A0F511EEF551A00321430 /* FooterBarView.xib in Resources */,
+				CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE23A6111EEE44320063EE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE23A61C1EEE44320063EE90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE23A5F61EEE44320063EE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE6A0EE91EEE47A400321430 /* SideMenuViewControlleriPhone.m in Sources */,
+				CE6A0F071EEE48C500321430 /* LoginViewControlleriPhone.m in Sources */,
+				CE6A0F461EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m in Sources */,
+				CE6A0EFA1EEE481F00321430 /* LGSideMenuBorderView.m in Sources */,
+				CE6A0F031EEE48A600321430 /* LoginViewController.m in Sources */,
+				CE6A0EE51EEE478000321430 /* SideMenuViewController.m in Sources */,
+				CE6A0EFC1EEE481F00321430 /* LGSideMenuGesturesHandler.m in Sources */,
+				CE6A0F4F1EEF550000321430 /* FooterBarView.m in Sources */,
+				CE6A0EFE1EEE481F00321430 /* LGSideMenuSegue.m in Sources */,
+				CE6A0EFF1EEE481F00321430 /* LGSideMenuView.m in Sources */,
+				CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */,
+				CE6A0F2A1EEF40CC00321430 /* APRoundedButton.m in Sources */,
+				CE6A0EFB1EEE481F00321430 /* LGSideMenuController.m in Sources */,
+				CE6A0F311EEF458500321430 /* RegistrationViewControlleriPhone.m in Sources */,
+				CE6A0F371EEF4A0800321430 /* HeaderView.m in Sources */,
+				CE6A0F421EEF526800321430 /* VehicleLibraryViewController.m in Sources */,
+				CE6A0F3E1EEF4C5300321430 /* BackHeaderView.m in Sources */,
+				CE6A0F2D1EEF455F00321430 /* RegistrationViewController.m in Sources */,
+				CE6A0EE21EEE475500321430 /* VoomParentViewController.m in Sources */,
+				CE23A5FF1EEE44320063EE90 /* main.m in Sources */,
+				CE23A7491EEE44C80063EE90 /* AppDelegate.m in Sources */,
+				CE6A0F001EEE481F00321430 /* UIViewController+LGSideMenuController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE23A60F1EEE44320063EE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE23A6181EEE44320063EE90 /* VoomTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE23A61A1EEE44320063EE90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE23A6231EEE44320063EE90 /* VoomUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE23A6151EEE44320063EE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE23A5F91EEE44320063EE90 /* Voom */;
+			targetProxy = CE23A6141EEE44320063EE90 /* PBXContainerItemProxy */;
+		};
+		CE23A6201EEE44320063EE90 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE23A5F91EEE44320063EE90 /* Voom */;
+			targetProxy = CE23A61F1EEE44320063EE90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		CE23A6251EEE44320063EE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CE23A6261EEE44320063EE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE23A6281EEE44320063EE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/user/Desktop/Voom_IOS_ObjC/Voom_PrefixHeader.pch;
+				INFOPLIST_FILE = Voom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.Voom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE23A6291EEE44320063EE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = /Users/user/Desktop/Voom_IOS_ObjC/Voom_PrefixHeader.pch;
+				INFOPLIST_FILE = Voom/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.Voom;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE23A62B1EEE44320063EE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voom.app/Voom";
+			};
+			name = Debug;
+		};
+		CE23A62C1EEE44320063EE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = VoomTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voom.app/Voom";
+			};
+			name = Release;
+		};
+		CE23A62E1EEE44320063EE90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Voom;
+			};
+			name = Debug;
+		};
+		CE23A62F1EEE44320063EE90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = VoomUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = Voom;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE23A5F51EEE44320063EE90 /* Build configuration list for PBXProject "Voom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE23A6251EEE44320063EE90 /* Debug */,
+				CE23A6261EEE44320063EE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE23A6271EEE44320063EE90 /* Build configuration list for PBXNativeTarget "Voom" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE23A6281EEE44320063EE90 /* Debug */,
+				CE23A6291EEE44320063EE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE23A62A1EEE44320063EE90 /* Build configuration list for PBXNativeTarget "VoomTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE23A62B1EEE44320063EE90 /* Debug */,
+				CE23A62C1EEE44320063EE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE23A62D1EEE44320063EE90 /* Build configuration list for PBXNativeTarget "VoomUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE23A62E1EEE44320063EE90 /* Debug */,
+				CE23A62F1EEE44320063EE90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE23A5F21EEE44320063EE90 /* Project object */;
+}
