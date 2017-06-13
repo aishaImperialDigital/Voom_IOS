@@ -42,6 +42,19 @@
 		CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */; };
 		CE6A0F4F1EEF550000321430 /* FooterBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F4E1EEF550000321430 /* FooterBarView.m */; };
 		CE6A0F511EEF551A00321430 /* FooterBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F501EEF551A00321430 /* FooterBarView.xib */; };
+		CE6A0F541EEF623200321430 /* VehicleCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F531EEF623200321430 /* VehicleCheckViewController.m */; };
+		CE6A0F581EEF624C00321430 /* VehicleCheckViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F561EEF624C00321430 /* VehicleCheckViewControlleriPhone.m */; };
+		CE6A0F591EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F571EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib */; };
+		CE6A0F5C1EEF627E00321430 /* RemindersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F5B1EEF627E00321430 /* RemindersViewController.m */; };
+		CE6A0F601EEF629C00321430 /* RemindersViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F5E1EEF629C00321430 /* RemindersViewControlleriPhone.m */; };
+		CE6A0F611EEF629C00321430 /* RemindersViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F5F1EEF629C00321430 /* RemindersViewControlleriPhone.xib */; };
+		CE6A0F671EEF636300321430 /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F661EEF636300321430 /* SettingsViewController.m */; };
+		CE6A0F6B1EEF637D00321430 /* SettingsViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F691EEF637D00321430 /* SettingsViewControlleriPhone.m */; };
+		CE6A0F6C1EEF637D00321430 /* SettingsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F6A1EEF637D00321430 /* SettingsViewControlleriPhone.xib */; };
+		CE6A0F701EEF7F3200321430 /* UITabBar+NewSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F6F1EEF7F3200321430 /* UITabBar+NewSize.m */; };
+		CE6A0F731EEF835E00321430 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F721EEF835E00321430 /* AppPreferences.m */; };
+		CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F741EEF852300321430 /* passwrdIcon@2x.png */; };
+		CE6A0F771EEF852400321430 /* userIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F751EEF852300321430 /* userIcon@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -126,6 +139,27 @@
 		CE6A0F4D1EEF550000321430 /* FooterBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterBarView.h; sourceTree = "<group>"; };
 		CE6A0F4E1EEF550000321430 /* FooterBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterBarView.m; sourceTree = "<group>"; };
 		CE6A0F501EEF551A00321430 /* FooterBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterBarView.xib; sourceTree = "<group>"; };
+		CE6A0F521EEF623200321430 /* VehicleCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleCheckViewController.h; sourceTree = "<group>"; };
+		CE6A0F531EEF623200321430 /* VehicleCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleCheckViewController.m; sourceTree = "<group>"; };
+		CE6A0F551EEF624C00321430 /* VehicleCheckViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleCheckViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A0F561EEF624C00321430 /* VehicleCheckViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleCheckViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A0F571EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleCheckViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A0F5A1EEF627E00321430 /* RemindersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersViewController.h; sourceTree = "<group>"; };
+		CE6A0F5B1EEF627E00321430 /* RemindersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersViewController.m; sourceTree = "<group>"; };
+		CE6A0F5D1EEF629C00321430 /* RemindersViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RemindersViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A0F5E1EEF629C00321430 /* RemindersViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RemindersViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A0F5F1EEF629C00321430 /* RemindersViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RemindersViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A0F651EEF636300321430 /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		CE6A0F661EEF636300321430 /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		CE6A0F681EEF637D00321430 /* SettingsViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A0F691EEF637D00321430 /* SettingsViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A0F6A1EEF637D00321430 /* SettingsViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A0F6E1EEF7F3200321430 /* UITabBar+NewSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITabBar+NewSize.h"; sourceTree = "<group>"; };
+		CE6A0F6F1EEF7F3200321430 /* UITabBar+NewSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+NewSize.m"; sourceTree = "<group>"; };
+		CE6A0F711EEF835E00321430 /* AppPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPreferences.h; sourceTree = "<group>"; };
+		CE6A0F721EEF835E00321430 /* AppPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppPreferences.m; sourceTree = "<group>"; };
+		CE6A0F741EEF852300321430 /* passwrdIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "passwrdIcon@2x.png"; sourceTree = "<group>"; };
+		CE6A0F751EEF852300321430 /* userIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userIcon@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +252,8 @@
 		CE23A6301EEE44A00063EE90 /* AppPreferences */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A0F711EEF835E00321430 /* AppPreferences.h */,
+				CE6A0F721EEF835E00321430 /* AppPreferences.m */,
 			);
 			path = AppPreferences;
 			sourceTree = "<group>";
@@ -800,6 +836,8 @@
 		CE23A6761EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A0F741EEF852300321430 /* passwrdIcon@2x.png */,
+				CE6A0F751EEF852300321430 /* userIcon@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1125,6 +1163,8 @@
 			children = (
 				CE23A69F1EEE44A00063EE90 /* iPad */,
 				CE23A6A01EEE44A00063EE90 /* iPhone */,
+				CE6A0F5A1EEF627E00321430 /* RemindersViewController.h */,
+				CE6A0F5B1EEF627E00321430 /* RemindersViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1139,6 +1179,9 @@
 		CE23A6A01EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A0F5D1EEF629C00321430 /* RemindersViewControlleriPhone.h */,
+				CE6A0F5E1EEF629C00321430 /* RemindersViewControlleriPhone.m */,
+				CE6A0F5F1EEF629C00321430 /* RemindersViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1244,6 +1287,8 @@
 			children = (
 				CE23A6AE1EEE44A00063EE90 /* iPad */,
 				CE23A6AF1EEE44A00063EE90 /* iPhone */,
+				CE6A0F651EEF636300321430 /* SettingsViewController.h */,
+				CE6A0F661EEF636300321430 /* SettingsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1258,6 +1303,9 @@
 		CE23A6AF1EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A0F681EEF637D00321430 /* SettingsViewControlleriPhone.h */,
+				CE6A0F691EEF637D00321430 /* SettingsViewControlleriPhone.m */,
+				CE6A0F6A1EEF637D00321430 /* SettingsViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1606,6 +1654,8 @@
 			children = (
 				CE23A6DB1EEE44A00063EE90 /* iPad */,
 				CE23A6DC1EEE44A00063EE90 /* iPhone */,
+				CE6A0F521EEF623200321430 /* VehicleCheckViewController.h */,
+				CE6A0F531EEF623200321430 /* VehicleCheckViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1620,6 +1670,9 @@
 		CE23A6DC1EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A0F551EEF624C00321430 /* VehicleCheckViewControlleriPhone.h */,
+				CE6A0F561EEF624C00321430 /* VehicleCheckViewControlleriPhone.m */,
+				CE6A0F571EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2446,6 +2499,7 @@
 		CE23A7431EEE44A10063EE90 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A0F6D1EEF70B700321430 /* CustomTabBar */,
 				CE6A0F271EEF40CC00321430 /* RoundedButton */,
 				CE6A0EEB1EEE481F00321430 /* LGSideMenuController */,
 			);
@@ -2510,6 +2564,15 @@
 				CE6A0F501EEF551A00321430 /* FooterBarView.xib */,
 			);
 			path = FooterBarView;
+			sourceTree = "<group>";
+		};
+		CE6A0F6D1EEF70B700321430 /* CustomTabBar */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F6E1EEF7F3200321430 /* UITabBar+NewSize.h */,
+				CE6A0F6F1EEF7F3200321430 /* UITabBar+NewSize.m */,
+			);
+			path = CustomTabBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2619,9 +2682,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6A0F321EEF458500321430 /* RegistrationViewControlleriPhone.xib in Resources */,
+				CE6A0F591EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib in Resources */,
 				CE6A0EEA1EEE47A400321430 /* SideMenuViewControlleriPhone.xib in Resources */,
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
+				CE6A0F771EEF852400321430 /* userIcon@2x.png in Resources */,
+				CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */,
 				CE6A0F081EEE48C500321430 /* LoginViewControlleriPhone.xib in Resources */,
+				CE6A0F611EEF629C00321430 /* RemindersViewControlleriPhone.xib in Resources */,
+				CE6A0F6C1EEF637D00321430 /* SettingsViewControlleriPhone.xib in Resources */,
 				CE6A0F0F1EEE4D6E00321430 /* Default-568h@2x.png in Resources */,
 				CE6A0F381EEF4A0800321430 /* HeaderView.xib in Resources */,
 				CE6A0F4A1EEF52DB00321430 /* back-iPhone@2x.png in Resources */,
@@ -2656,14 +2724,20 @@
 				CE6A0EE91EEE47A400321430 /* SideMenuViewControlleriPhone.m in Sources */,
 				CE6A0F071EEE48C500321430 /* LoginViewControlleriPhone.m in Sources */,
 				CE6A0F461EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m in Sources */,
+				CE6A0F671EEF636300321430 /* SettingsViewController.m in Sources */,
+				CE6A0F601EEF629C00321430 /* RemindersViewControlleriPhone.m in Sources */,
 				CE6A0EFA1EEE481F00321430 /* LGSideMenuBorderView.m in Sources */,
 				CE6A0F031EEE48A600321430 /* LoginViewController.m in Sources */,
 				CE6A0EE51EEE478000321430 /* SideMenuViewController.m in Sources */,
 				CE6A0EFC1EEE481F00321430 /* LGSideMenuGesturesHandler.m in Sources */,
 				CE6A0F4F1EEF550000321430 /* FooterBarView.m in Sources */,
+				CE6A0F5C1EEF627E00321430 /* RemindersViewController.m in Sources */,
 				CE6A0EFE1EEE481F00321430 /* LGSideMenuSegue.m in Sources */,
+				CE6A0F6B1EEF637D00321430 /* SettingsViewControlleriPhone.m in Sources */,
+				CE6A0F581EEF624C00321430 /* VehicleCheckViewControlleriPhone.m in Sources */,
 				CE6A0EFF1EEE481F00321430 /* LGSideMenuView.m in Sources */,
 				CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */,
+				CE6A0F731EEF835E00321430 /* AppPreferences.m in Sources */,
 				CE6A0F2A1EEF40CC00321430 /* APRoundedButton.m in Sources */,
 				CE6A0EFB1EEE481F00321430 /* LGSideMenuController.m in Sources */,
 				CE6A0F311EEF458500321430 /* RegistrationViewControlleriPhone.m in Sources */,
@@ -2673,7 +2747,9 @@
 				CE6A0F2D1EEF455F00321430 /* RegistrationViewController.m in Sources */,
 				CE6A0EE21EEE475500321430 /* VoomParentViewController.m in Sources */,
 				CE23A5FF1EEE44320063EE90 /* main.m in Sources */,
+				CE6A0F541EEF623200321430 /* VehicleCheckViewController.m in Sources */,
 				CE23A7491EEE44C80063EE90 /* AppDelegate.m in Sources */,
+				CE6A0F701EEF7F3200321430 /* UITabBar+NewSize.m in Sources */,
 				CE6A0F001EEE481F00321430 /* UIViewController+LGSideMenuController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

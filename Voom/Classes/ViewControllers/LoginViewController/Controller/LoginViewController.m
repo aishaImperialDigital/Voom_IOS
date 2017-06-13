@@ -39,7 +39,8 @@
 #pragma mark methods
 -(IBAction)gotoLogin:(id)sender;
 {
-    [self loadVehicleLibraryViewController];
+   // [self loadVehicleLibraryViewController];
+    [self createTabBarController];
 }
 
 -(IBAction)gotoRegisteration:(id)sender;
