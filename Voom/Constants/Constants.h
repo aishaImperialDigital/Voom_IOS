@@ -18,6 +18,21 @@
 
 #define kAppTitleTextColor colorRGB(229,118,21,1)
 
+#define kTitleRegistration @"Register"
+#define kVehicleLibrary @"Vehicle Library"
+#define kVehicleInfo @"Vehicle Info"
+#define kVehicleRegistration @"Vehicle Registration"
+#define kTitleServices @"Services"
+#define kFitnessWarrant @"Warrant of Fitness"
+#define kTitleMileage @"Mileage"
+#define kTitleTollRoads @"Toll Roads"
+#define kTitleFines @"Fines"
+#define kTitleBreakDowns @"Breakdowns Roads"
+#define kTitleVehicleCheck @"Vehicle Check"
+#define kTitleReminders @"Reminders"
+#define kTitleSettings @"Settings"
+#define kTitleChangePassword @"Change Password"
+#define kTitleAccountSetting @"Acount Settings"
 
 /*
  General

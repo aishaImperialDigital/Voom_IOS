@@ -9,14 +9,13 @@
 #import <UIKit/UIKit.h>
 #import "HeaderView.h"
 #import "BackHeaderView.h"
-#import "FooterBarView.h"
+
 @interface VoomParentViewController : UIViewController
 {
  
 }
 @property (nonatomic,strong) HeaderView *headerView;
 @property (nonatomic,strong) BackHeaderView *backHeaderView;
-@property (nonatomic,strong) FooterBarView *footerView;
 @property (nonatomic,strong) UITabBarController *tabBarController;
 
 #pragma mark methods

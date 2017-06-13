@@ -47,33 +47,29 @@
     [self.view addSubview:self.backHeaderView];
 }
 
--(void) setupFooter
-{
-    self.footerView = [[[NSBundle mainBundle] loadNibNamed:@"BackHeaderView" owner:self options:nil] objectAtIndex:0];
-    self.footerView.frame = CGRectMake(0, 0, self.footerView.frame.size.width, self.footerView.frame.size.height);
-    [self.view addSubview:self.footerView];
-}
 
 -(void) createTabBarController
 {
     VehicleLibraryViewControlleriPhone *vehicleViewController = [[VehicleLibraryViewControlleriPhone alloc] initWithNibName:@"VehicleLibraryViewControlleriPhone" bundle:nil];
-    vehicleViewController.title = @"Vehicle";
-    vehicleViewController.tabBarItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemSearch tag:0];
+    vehicleViewController.title = @"Vehicles";
+    vehicleViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Vehicles" image:nil tag:0];
+
     UINavigationController *firstNavController = [[UINavigationController alloc]initWithRootViewController:vehicleViewController];
     
     VehicleCheckViewControlleriPhone *vehicleCheckViewController = [[VehicleCheckViewControlleriPhone alloc]init];
-    vehicleCheckViewController.title = @"Vehicle-Check";
-    vehicleCheckViewController.tabBarItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemFavorites tag:1];
+    vehicleCheckViewController.title = kTitleVehicleCheck;
+    vehicleCheckViewController.tabBarItem =  [[UITabBarItem alloc] initWithTitle:kTitleVehicleCheck image:nil tag:1];
     UINavigationController *secondNavController = [[UINavigationController alloc]initWithRootViewController:vehicleCheckViewController];
     
     RemindersViewControlleriPhone *reminderViewController = [[RemindersViewControlleriPhone alloc]init];
-    reminderViewController.title = @"Reminder";
-    reminderViewController.tabBarItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemRecents tag:2];
+    reminderViewController.title = kTitleReminders;
+    reminderViewController.tabBarItem =  [[UITabBarItem alloc] initWithTitle:kTitleReminders image:nil tag:2];
     UINavigationController *thirdNavController = [[UINavigationController alloc]initWithRootViewController:reminderViewController];
     
     SettingsViewControlleriPhone *forthViewController = [[SettingsViewControlleriPhone alloc]initWithNibName:@"SettingsViewControlleriPhone" bundle:nil];
-    forthViewController.title = @"Settings";
-    forthViewController.tabBarItem = [[UITabBarItem alloc]initWithTabBarSystemItem:UITabBarSystemItemHistory tag:3];
+    forthViewController.title = kTitleSettings;
+    forthViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:kTitleSettings image:nil tag:3];
+    
     UINavigationController *forthNavController = [[UINavigationController alloc]initWithRootViewController:forthViewController];
     
     

@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.headerView.hidden = YES;
+    self.backHeaderView.titleLabel.text = kTitleRegistration;
     [self setupBackAppHeader];
     [self.backHeaderView.backButton addTarget:self action:@selector(goBack:) forControlEvents:UIControlEventTouchUpInside];
     

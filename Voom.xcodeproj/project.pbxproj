@@ -40,8 +40,6 @@
 		CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F451EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib */; };
 		CE6A0F4A1EEF52DB00321430 /* back-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */; };
 		CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */; };
-		CE6A0F4F1EEF550000321430 /* FooterBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F4E1EEF550000321430 /* FooterBarView.m */; };
-		CE6A0F511EEF551A00321430 /* FooterBarView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F501EEF551A00321430 /* FooterBarView.xib */; };
 		CE6A0F541EEF623200321430 /* VehicleCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F531EEF623200321430 /* VehicleCheckViewController.m */; };
 		CE6A0F581EEF624C00321430 /* VehicleCheckViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F561EEF624C00321430 /* VehicleCheckViewControlleriPhone.m */; };
 		CE6A0F591EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F571EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib */; };
@@ -55,6 +53,17 @@
 		CE6A0F731EEF835E00321430 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F721EEF835E00321430 /* AppPreferences.m */; };
 		CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F741EEF852300321430 /* passwrdIcon@2x.png */; };
 		CE6A0F771EEF852400321430 /* userIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F751EEF852300321430 /* userIcon@2x.png */; };
+		CE6A0F811EEF961400321430 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F7A1EEF961400321430 /* TPKeyboardAvoidingCollectionView.m */; };
+		CE6A0F821EEF961400321430 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F7C1EEF961400321430 /* TPKeyboardAvoidingScrollView.m */; };
+		CE6A0F831EEF961400321430 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F7E1EEF961400321430 /* TPKeyboardAvoidingTableView.m */; };
+		CE6A0F841EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F801EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
+		CE6A0F861EEF9DD800321430 /* Voom_UI copy 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F851EEF9DD800321430 /* Voom_UI copy 2.jpg */; };
+		CE6A0F881EEFA08700321430 /* Voom_UI copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F871EEFA08700321430 /* Voom_UI copy.jpg */; };
+		CE6A0F8C1EEFA26300321430 /* TPRoundedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F8B1EEFA26300321430 /* TPRoundedTextField.m */; };
+		CE6A0F901EEFA36000321430 /* Voom_UI copy 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F8D1EEFA36000321430 /* Voom_UI copy 2.jpg */; };
+		CE6A0F911EEFA36000321430 /* Voom_UI copy 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F8E1EEFA36000321430 /* Voom_UI copy 3.jpg */; };
+		CE6A0F921EEFA36000321430 /* Voom_UI copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F8F1EEFA36000321430 /* Voom_UI copy.jpg */; };
+		CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -136,9 +145,6 @@
 		CE6A0F451EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleLibraryViewControlleriPhone.xib; sourceTree = "<group>"; };
 		CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-iPhone@2x.png"; sourceTree = "<group>"; };
 		CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-iPhone@2x.png"; sourceTree = "<group>"; };
-		CE6A0F4D1EEF550000321430 /* FooterBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FooterBarView.h; sourceTree = "<group>"; };
-		CE6A0F4E1EEF550000321430 /* FooterBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FooterBarView.m; sourceTree = "<group>"; };
-		CE6A0F501EEF551A00321430 /* FooterBarView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FooterBarView.xib; sourceTree = "<group>"; };
 		CE6A0F521EEF623200321430 /* VehicleCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleCheckViewController.h; sourceTree = "<group>"; };
 		CE6A0F531EEF623200321430 /* VehicleCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleCheckViewController.m; sourceTree = "<group>"; };
 		CE6A0F551EEF624C00321430 /* VehicleCheckViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleCheckViewControlleriPhone.h; sourceTree = "<group>"; };
@@ -160,6 +166,22 @@
 		CE6A0F721EEF835E00321430 /* AppPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppPreferences.m; sourceTree = "<group>"; };
 		CE6A0F741EEF852300321430 /* passwrdIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "passwrdIcon@2x.png"; sourceTree = "<group>"; };
 		CE6A0F751EEF852300321430 /* userIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userIcon@2x.png"; sourceTree = "<group>"; };
+		CE6A0F791EEF961400321430 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
+		CE6A0F7A1EEF961400321430 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
+		CE6A0F7B1EEF961400321430 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		CE6A0F7C1EEF961400321430 /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		CE6A0F7D1EEF961400321430 /* TPKeyboardAvoidingTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingTableView.h; sourceTree = "<group>"; };
+		CE6A0F7E1EEF961400321430 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
+		CE6A0F7F1EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
+		CE6A0F801EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
+		CE6A0F851EEF9DD800321430 /* Voom_UI copy 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 2.jpg"; sourceTree = "<group>"; };
+		CE6A0F871EEFA08700321430 /* Voom_UI copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy.jpg"; sourceTree = "<group>"; };
+		CE6A0F8A1EEFA26300321430 /* TPRoundedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRoundedTextField.h; sourceTree = "<group>"; };
+		CE6A0F8B1EEFA26300321430 /* TPRoundedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRoundedTextField.m; sourceTree = "<group>"; };
+		CE6A0F8D1EEFA36000321430 /* Voom_UI copy 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 2.jpg"; sourceTree = "<group>"; };
+		CE6A0F8E1EEFA36000321430 /* Voom_UI copy 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 3.jpg"; sourceTree = "<group>"; };
+		CE6A0F8F1EEFA36000321430 /* Voom_UI copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy.jpg"; sourceTree = "<group>"; };
+		CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 5.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -190,6 +212,12 @@
 		CE23A5F11EEE44320063EE90 = {
 			isa = PBXGroup;
 			children = (
+				CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */,
+				CE6A0F8D1EEFA36000321430 /* Voom_UI copy 2.jpg */,
+				CE6A0F8E1EEFA36000321430 /* Voom_UI copy 3.jpg */,
+				CE6A0F8F1EEFA36000321430 /* Voom_UI copy.jpg */,
+				CE6A0F871EEFA08700321430 /* Voom_UI copy.jpg */,
+				CE6A0F851EEF9DD800321430 /* Voom_UI copy 2.jpg */,
 				CE6A0F391EEF4A8300321430 /* Voom_PrefixHeader.pch */,
 				CE6A0F0E1EEE4D6E00321430 /* Default-568h@2x.png */,
 				CE23A5FC1EEE44320063EE90 /* Voom */,
@@ -2362,7 +2390,6 @@
 		CE23A7321EEE44A10063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				CE6A0F4C1EEF54BE00321430 /* FooterBarView */,
 				CE6A0F3A1EEF4C5300321430 /* BackHeaderView */,
 				CE6A0F331EEF4A0800321430 /* HeaderView */,
 			);
@@ -2499,6 +2526,8 @@
 		CE23A7431EEE44A10063EE90 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A0F891EEFA23400321430 /* RoundedTextField */,
+				CE6A0F781EEF961400321430 /* KeyboardHandler */,
 				CE6A0F6D1EEF70B700321430 /* CustomTabBar */,
 				CE6A0F271EEF40CC00321430 /* RoundedButton */,
 				CE6A0EEB1EEE481F00321430 /* LGSideMenuController */,
@@ -2556,16 +2585,6 @@
 			path = BackHeaderView;
 			sourceTree = "<group>";
 		};
-		CE6A0F4C1EEF54BE00321430 /* FooterBarView */ = {
-			isa = PBXGroup;
-			children = (
-				CE6A0F4D1EEF550000321430 /* FooterBarView.h */,
-				CE6A0F4E1EEF550000321430 /* FooterBarView.m */,
-				CE6A0F501EEF551A00321430 /* FooterBarView.xib */,
-			);
-			path = FooterBarView;
-			sourceTree = "<group>";
-		};
 		CE6A0F6D1EEF70B700321430 /* CustomTabBar */ = {
 			isa = PBXGroup;
 			children = (
@@ -2573,6 +2592,30 @@
 				CE6A0F6F1EEF7F3200321430 /* UITabBar+NewSize.m */,
 			);
 			path = CustomTabBar;
+			sourceTree = "<group>";
+		};
+		CE6A0F781EEF961400321430 /* KeyboardHandler */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F791EEF961400321430 /* TPKeyboardAvoidingCollectionView.h */,
+				CE6A0F7A1EEF961400321430 /* TPKeyboardAvoidingCollectionView.m */,
+				CE6A0F7B1EEF961400321430 /* TPKeyboardAvoidingScrollView.h */,
+				CE6A0F7C1EEF961400321430 /* TPKeyboardAvoidingScrollView.m */,
+				CE6A0F7D1EEF961400321430 /* TPKeyboardAvoidingTableView.h */,
+				CE6A0F7E1EEF961400321430 /* TPKeyboardAvoidingTableView.m */,
+				CE6A0F7F1EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.h */,
+				CE6A0F801EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m */,
+			);
+			path = KeyboardHandler;
+			sourceTree = "<group>";
+		};
+		CE6A0F891EEFA23400321430 /* RoundedTextField */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F8A1EEFA26300321430 /* TPRoundedTextField.h */,
+				CE6A0F8B1EEFA26300321430 /* TPRoundedTextField.m */,
+			);
+			path = RoundedTextField;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -2683,19 +2726,24 @@
 			files = (
 				CE6A0F321EEF458500321430 /* RegistrationViewControlleriPhone.xib in Resources */,
 				CE6A0F591EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib in Resources */,
+				CE6A0F901EEFA36000321430 /* Voom_UI copy 2.jpg in Resources */,
 				CE6A0EEA1EEE47A400321430 /* SideMenuViewControlleriPhone.xib in Resources */,
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
 				CE6A0F771EEF852400321430 /* userIcon@2x.png in Resources */,
 				CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */,
 				CE6A0F081EEE48C500321430 /* LoginViewControlleriPhone.xib in Resources */,
+				CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */,
 				CE6A0F611EEF629C00321430 /* RemindersViewControlleriPhone.xib in Resources */,
 				CE6A0F6C1EEF637D00321430 /* SettingsViewControlleriPhone.xib in Resources */,
 				CE6A0F0F1EEE4D6E00321430 /* Default-568h@2x.png in Resources */,
 				CE6A0F381EEF4A0800321430 /* HeaderView.xib in Resources */,
+				CE6A0F881EEFA08700321430 /* Voom_UI copy.jpg in Resources */,
 				CE6A0F4A1EEF52DB00321430 /* back-iPhone@2x.png in Resources */,
+				CE6A0F861EEF9DD800321430 /* Voom_UI copy 2.jpg in Resources */,
 				CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */,
+				CE6A0F921EEFA36000321430 /* Voom_UI copy.jpg in Resources */,
 				CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */,
-				CE6A0F511EEF551A00321430 /* FooterBarView.xib in Resources */,
+				CE6A0F911EEFA36000321430 /* Voom_UI copy 3.jpg in Resources */,
 				CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2722,6 +2770,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				CE6A0EE91EEE47A400321430 /* SideMenuViewControlleriPhone.m in Sources */,
+				CE6A0F831EEF961400321430 /* TPKeyboardAvoidingTableView.m in Sources */,
+				CE6A0F821EEF961400321430 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				CE6A0F071EEE48C500321430 /* LoginViewControlleriPhone.m in Sources */,
 				CE6A0F461EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m in Sources */,
 				CE6A0F671EEF636300321430 /* SettingsViewController.m in Sources */,
@@ -2730,11 +2780,13 @@
 				CE6A0F031EEE48A600321430 /* LoginViewController.m in Sources */,
 				CE6A0EE51EEE478000321430 /* SideMenuViewController.m in Sources */,
 				CE6A0EFC1EEE481F00321430 /* LGSideMenuGesturesHandler.m in Sources */,
-				CE6A0F4F1EEF550000321430 /* FooterBarView.m in Sources */,
+				CE6A0F8C1EEFA26300321430 /* TPRoundedTextField.m in Sources */,
 				CE6A0F5C1EEF627E00321430 /* RemindersViewController.m in Sources */,
+				CE6A0F811EEF961400321430 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				CE6A0EFE1EEE481F00321430 /* LGSideMenuSegue.m in Sources */,
 				CE6A0F6B1EEF637D00321430 /* SettingsViewControlleriPhone.m in Sources */,
 				CE6A0F581EEF624C00321430 /* VehicleCheckViewControlleriPhone.m in Sources */,
+				CE6A0F841EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				CE6A0EFF1EEE481F00321430 /* LGSideMenuView.m in Sources */,
 				CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */,
 				CE6A0F731EEF835E00321430 /* AppPreferences.m in Sources */,
