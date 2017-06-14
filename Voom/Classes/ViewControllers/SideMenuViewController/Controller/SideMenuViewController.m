@@ -7,6 +7,7 @@
 //
 
 #import "SideMenuViewController.h"
+#import "SideMenuTableViewCell.h"
 #import "Constants.h"
 
 @interface SideMenuViewController ()
@@ -24,6 +25,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.sideMenuArray = [NSArray arrayWithObjects:@"Vehicle Info",@"Registration",@"Service",@"WoF",@"Mileage",@"Toll Roads",@"Fines",@"Breakdowns",@"Accidents", nil];
    
 }
 
@@ -42,4 +44,33 @@
 }
 */
 
+#pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 8;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    SideMenuTableViewCell *cell;
+    cell =  [self.tableView dequeueReusableCellWithIdentifier:@"SideMenuTableViewCell"];
+       if (cell == nil){
+        cell = (SideMenuTableViewCell *) [[SideMenuTableViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"SideMenuTableViewCell"];
+    }
+    cell.backgroundColor = [UIColor clearColor];
+    cell.contentView.backgroundColor = [UIColor clearColor];
+    cell.titleLabel.text = [self.sideMenuArray objectAtIndex:indexPath.row];
+    cell.textLabel.textColor = kAppBackgroundColor;
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return 40;
+}
 @end

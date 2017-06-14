@@ -137,6 +137,10 @@
 		CE6A10491EF0E16300321430 /* VoomResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10481EF0E16300321430 /* VoomResponse.m */; };
 		CE6A104D1EF0E2E000321430 /* EntityErrorsBO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A104C1EF0E2E000321430 /* EntityErrorsBO.m */; };
 		CE6A10511EF0E30700321430 /* VoomParentBO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10501EF0E30700321430 /* VoomParentBO.m */; };
+		CE6A105C1EF1E43700321430 /* VoomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A105B1EF1E43700321430 /* VoomTableViewCell.m */; };
+		CE6A10601EF1E85B00321430 /* SideMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A105E1EF1E85B00321430 /* SideMenuTableViewCell.m */; };
+		CE6A10611EF1E85B00321430 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A105F1EF1E85B00321430 /* SideMenuTableViewCell.xib */; };
+		CE6A10631EF1F76900321430 /* transport1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10621EF1F76900321430 /* transport1@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -351,6 +355,12 @@
 		CE6A104C1EF0E2E000321430 /* EntityErrorsBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityErrorsBO.m; sourceTree = "<group>"; };
 		CE6A104F1EF0E30700321430 /* VoomParentBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomParentBO.h; sourceTree = "<group>"; };
 		CE6A10501EF0E30700321430 /* VoomParentBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomParentBO.m; sourceTree = "<group>"; };
+		CE6A105A1EF1E43700321430 /* VoomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomTableViewCell.h; sourceTree = "<group>"; };
+		CE6A105B1EF1E43700321430 /* VoomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomTableViewCell.m; sourceTree = "<group>"; };
+		CE6A105D1EF1E85B00321430 /* SideMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuTableViewCell.h; sourceTree = "<group>"; };
+		CE6A105E1EF1E85B00321430 /* SideMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuTableViewCell.m; sourceTree = "<group>"; };
+		CE6A105F1EF1E85B00321430 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		CE6A10621EF1F76900321430 /* transport1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transport1@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1651,6 +1661,7 @@
 		CE23A6C11EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10621EF1F76900321430 /* transport1@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1713,6 +1724,9 @@
 		CE23A6C91EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A105D1EF1E85B00321430 /* SideMenuTableViewCell.h */,
+				CE6A105E1EF1E85B00321430 /* SideMenuTableViewCell.m */,
+				CE6A105F1EF1E85B00321430 /* SideMenuTableViewCell.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2573,6 +2587,7 @@
 		CE23A7321EEE44A10063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10521EF1DDFC00321430 /* VoomParentTableViewCell */,
 				CE6A0F3A1EEF4C5300321430 /* BackHeaderView */,
 				CE6A0F331EEF4A0800321430 /* HeaderView */,
 			);
@@ -3011,6 +3026,15 @@
 			path = VoomParentBO;
 			sourceTree = "<group>";
 		};
+		CE6A10521EF1DDFC00321430 /* VoomParentTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A105A1EF1E43700321430 /* VoomTableViewCell.h */,
+				CE6A105B1EF1E43700321430 /* VoomTableViewCell.m */,
+			);
+			path = VoomParentTableViewCell;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3137,6 +3161,7 @@
 				CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */,
 				CE6A0FB41EF0B46100321430 /* ic_ads@3x.png in Resources */,
 				CE6A0F081EEE48C500321430 /* LoginViewControlleriPhone.xib in Resources */,
+				CE6A10631EF1F76900321430 /* transport1@2x.png in Resources */,
 				CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */,
 				CE6A0F611EEF629C00321430 /* RemindersViewControlleriPhone.xib in Resources */,
 				CE6A0FB61EF0B46100321430 /* ic_chat_36pt@2x.png in Resources */,
@@ -3159,6 +3184,7 @@
 				CE6A0F921EEFA36000321430 /* Voom_UI copy.jpg in Resources */,
 				CE6A0FBE1EF0B46100321430 /* ic_person_36pt@3x.png in Resources */,
 				CE6A0FBB1EF0B46100321430 /* ic_home_36pt@3x.png in Resources */,
+				CE6A10611EF1E85B00321430 /* SideMenuTableViewCell.xib in Resources */,
 				CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */,
 				CE6A0F911EEFA36000321430 /* Voom_UI copy 3.jpg in Resources */,
 				CE6A0FC01EF0B46100321430 /* ic_search_36pt.png in Resources */,
@@ -3224,6 +3250,7 @@
 				CE6A10281EF0D49100321430 /* EVEMappings.m in Sources */,
 				CE6A102F1EF0D49100321430 /* CoreWebService.m in Sources */,
 				CE6A10431EF0DF8A00321430 /* NSObject+NSCoding.m in Sources */,
+				CE6A105C1EF1E43700321430 /* VoomTableViewCell.m in Sources */,
 				CE6A0FFB1EF0CD5C00321430 /* SpringTextField.swift in Sources */,
 				CE6A0EFC1EEE481F00321430 /* LGSideMenuGesturesHandler.m in Sources */,
 				CE6A0F8C1EEFA26300321430 /* TPRoundedTextField.m in Sources */,
@@ -3244,6 +3271,7 @@
 				CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */,
 				CE6A0FF61EF0CD5C00321430 /* Spring.swift in Sources */,
 				CE6A0F731EEF835E00321430 /* AppPreferences.m in Sources */,
+				CE6A10601EF1E85B00321430 /* SideMenuTableViewCell.m in Sources */,
 				CE6A0F2A1EEF40CC00321430 /* APRoundedButton.m in Sources */,
 				CE6A0FE81EF0CD5C00321430 /* DesignableButton.swift in Sources */,
 				CE6A0FE51EF0CD5C00321430 /* AsyncImageView.swift in Sources */,

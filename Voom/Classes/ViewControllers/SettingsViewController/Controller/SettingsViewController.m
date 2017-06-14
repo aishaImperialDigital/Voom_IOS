@@ -34,5 +34,8 @@
     // Pass the selected object to the new view controller.
 }
 */
-
+-(IBAction)logoutUser:(id)sender;
+{
+    
+}
 @end

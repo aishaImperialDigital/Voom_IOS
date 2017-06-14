@@ -61,12 +61,14 @@
     LoginViewControlleriPhone  *loginViewController =[[LoginViewControlleriPhone alloc] initWithNibName:@"LoginViewControlleriPhone" bundle:nil];
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
     navigationController.navigationBarHidden = YES;
+    
     SideMenuViewControlleriPhone  *sideViewController =[[SideMenuViewControlleriPhone alloc] initWithNibName:@"SideMenuViewControlleriPhone" bundle:nil];
-    self.leftSideMenu = [LGSideMenuController sideMenuControllerWithRootViewController:navigationController leftViewController:sideViewController rightViewController:sideViewController];
+    self.leftSideMenu = [[LGSideMenuController alloc] initWithRootViewController:navigationController];
+    self.leftSideMenu.leftViewController = sideViewController;
     self.leftSideMenu.leftViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
-    self.leftSideMenu.rightViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
     self.leftSideMenu.leftViewBackgroundColor = kAppSecondaryColor;
-    self.leftSideMenu.rightViewBackgroundColor = kAppSecondaryColor;
+    
+    
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = self.leftSideMenu;

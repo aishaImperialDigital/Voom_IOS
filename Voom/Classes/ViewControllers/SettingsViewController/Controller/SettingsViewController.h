@@ -8,6 +8,10 @@
 
 #import "VoomParentViewController.h"
 
-@interface SettingsViewController : VoomParentViewController
+@interface SettingsViewController : VoomParentViewController{
+    
+}
+@property(nonatomic,strong) IBOutlet UIButton *logoutButton;
+-(IBAction)logoutUser:(id)sender;
 
 @end

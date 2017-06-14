@@ -8,6 +8,9 @@
 
 #import "VoomParentViewController.h"
 
-@interface SideMenuViewController : VoomParentViewController
-
+@interface SideMenuViewController : UIViewController{
+    
+}
+@property (nonatomic,strong) IBOutlet UITableView *tableView;
+@property (nonatomic,strong) NSArray *sideMenuArray;
 @end
