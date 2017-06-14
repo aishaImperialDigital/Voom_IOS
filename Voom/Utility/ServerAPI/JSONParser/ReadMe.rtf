@@ -1,0 +1,32 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1265\cocoasubrtf200
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 Menlo-Regular;}
+{\colortbl;\red255\green255\blue255;\red92\green38\blue153;\red63\green110\blue116;\red38\green71\blue75;
+\red196\green26\blue22;\red170\green13\blue145;}
+\margl1440\margr1440\vieww9000\viewh8400\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\b\fs24 \cf0 Mapping an Object:\
+Ever object should have implemented the \
+
+\f1\b0\fs28 \CocoaLigature0 + (\cf2 NSDictionary\cf0 *)getObjectMap;\
+method to provide mapping dictionary for de-serialising JSON data to objects.  
+\f0\b\fs24 \CocoaLigature1 \
+\
+\
+Mapping NSString\
+\
+
+\b0 \
+Map for NSArray containing  custom objects.\
+\
+\pard\tx674\pardeftab674\pardirnatural
+
+\f1\fs28 \cf0 \CocoaLigature0 [\cf3 News\cf0  \cf4 mappingWithKey\cf0 :\cf5 @"newsList"\cf0  \cf4 mapping\cf0 :[\cf3 News\cf0  \cf4 getObjectMap\cf0 ]], \cf5 @"Data"\cf0 ,\cf6 nil\cf0 ];\
+\
+\
+Map for custom Object:\
+[\cf3 WindowObject\cf0  \cf4 mappingWithKey\cf0 :\cf5 @"window"\cf0  \cf4 mapping\cf0 :[\cf3 WindowObject\cf0  \cf4 getObjectMap\cf0 ]], \cf5 @"window"\cf0 ,
+\f0\fs24 \CocoaLigature1 ]\
+
+\f1\fs28 \cf5 \CocoaLigature0 \
+}

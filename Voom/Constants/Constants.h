@@ -18,6 +18,8 @@
 
 #define kAppTitleTextColor colorRGB(229,118,21,1)
 
+#define nsLog(formatString, ...) NSLog((@"" formatString), ##__VA_ARGS__)
+
 #define kTitleRegistration @"Register"
 #define kVehicleLibrary @"Vehicle Library"
 #define kVehicleInfo @"Vehicle Info"
@@ -98,7 +100,6 @@ NSLocalizedStringFromTableInBundle(key, stringTable, currentLanguageBundle, @"")
 #define font(fontName, fontSize)  IS_IPAD()?[UIFont fontWithName:fontName size:[UIFont fontWithName:fontName size:fontSize].pointSize*1.4]:[UIFont fontWithName:fontName size:fontSize]
 #define ENGLISH_HEADING_FONT_NORMAL(fontSize) IS_IPAD()?[UIFont fontWithName:@"SFUIText-Medium" size:[UIFont fontWithName:@"SFUIText-Medium" size:fontSize].pointSize*1.7]:[UIFont fontWithName:@"SFUIText-Medium" size:fontSize]
 #define ENGLISH_HEADING_FONT_Black(fontSize)  IS_IPAD()?[UIFont fontWithName:@"SFUIText-Bold" size:[UIFont fontWithName:@"SFUIText-Bold" size:fontSize].pointSize*1.7]:[UIFont fontWithName:@"SFUIText-Bold" size:fontSize]
-
 #define ENGLISH_HEADING_FONT_Light(fontSize)  IS_IPAD()?[UIFont fontWithName:@"SFUIText-Light" size:[UIFont fontWithName:@"SFUIText-Light" size:fontSize].pointSize*1.7]:[UIFont fontWithName:@"SFUIText-Light" size:fontSize]
 
 /*
@@ -113,3 +114,25 @@ images
 
 #define kDashBoard_Add_Button IS_IPAD()? [UIImage imageNamed:@"item-add-small-iPad.png"]:[UIImage imageNamed:@"item-add-small-iPhone.png"]
 #define kDashBoard_Minus_Button IS_IPAD()? [UIImage imageNamed:@"item-delet-small-iPad.png"]:[UIImage imageNamed:@"item-delet-small-iPhone.png"]
+
+/*
+ Controls Height and Width
+*/
+
+#define TAB_BAR_HEIGHT 60
+
+#define kLanguageCookie @"X-Language"
+#define kAuthCookie @"X-AspNet-Auth"
+#define kWebMessageHost @"com.mol"
+
+
+#define kCharsetUTF8Value     @"application/x-www-form-urlencoded"
+#define kContentTypeHeader    @"Content-Type"
+#define kContentLengthHeader  @"Content-Length"
+#define kRequestParamInfo     @"X-RequestParamInfo"
+#define kAcceptLanguage       @"Accept-Language"
+#define kContentTypeVaue      @"application/json"
+#define kPOSTRequest @"POST"
+#define kGETRequest @"GET"
+#define kRequestParamInfo     @"X-RequestParamInfo"
+#define kMessageHtml @"message"

@@ -9,10 +9,12 @@
 #import "AppDelegate.h"
 #import "LoginViewControlleriPhone.h"
 #import "SideMenuViewControlleriPhone.h"
-#import "LGSideMenuController.h"
+
 #import "Constants.h"
 
-@interface AppDelegate ()
+@interface AppDelegate (){
+    
+}
 
 @end
 
@@ -60,14 +62,14 @@
     UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
     navigationController.navigationBarHidden = YES;
     SideMenuViewControlleriPhone  *sideViewController =[[SideMenuViewControlleriPhone alloc] initWithNibName:@"SideMenuViewControlleriPhone" bundle:nil];
-    LGSideMenuController *lgMenu = [LGSideMenuController sideMenuControllerWithRootViewController:navigationController leftViewController:sideViewController rightViewController:sideViewController];
-    lgMenu.leftViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
-    lgMenu.rightViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
-    lgMenu.leftViewBackgroundColor = kAppSecondaryColor;
-    lgMenu.rightViewBackgroundColor = kAppSecondaryColor;
+    self.leftSideMenu = [LGSideMenuController sideMenuControllerWithRootViewController:navigationController leftViewController:sideViewController rightViewController:sideViewController];
+    self.leftSideMenu.leftViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
+    self.leftSideMenu.rightViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
+    self.leftSideMenu.leftViewBackgroundColor = kAppSecondaryColor;
+    self.leftSideMenu.rightViewBackgroundColor = kAppSecondaryColor;
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = lgMenu;
+    self.window.rootViewController = self.leftSideMenu;
     [self.window makeKeyAndVisible];
 }
 

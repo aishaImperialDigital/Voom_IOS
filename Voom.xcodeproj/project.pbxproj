@@ -84,6 +84,59 @@
 		CE6A0FC01EF0B46100321430 /* ic_search_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAC1EF0B46100321430 /* ic_search_36pt.png */; };
 		CE6A0FC11EF0B46100321430 /* ic_search_36pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAD1EF0B46100321430 /* ic_search_36pt@2x.png */; };
 		CE6A0FC21EF0B46100321430 /* ic_search_36pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAE1EF0B46100321430 /* ic_search_36pt@3x.png */; };
+		CE6A0FE41EF0CD5C00321430 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FC61EF0CD5C00321430 /* AsyncButton.swift */; };
+		CE6A0FE51EF0CD5C00321430 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FC71EF0CD5C00321430 /* AsyncImageView.swift */; };
+		CE6A0FE61EF0CD5C00321430 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FC81EF0CD5C00321430 /* AutoTextView.swift */; };
+		CE6A0FE71EF0CD5C00321430 /* BlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FC91EF0CD5C00321430 /* BlurView.swift */; };
+		CE6A0FE81EF0CD5C00321430 /* DesignableButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FCA1EF0CD5C00321430 /* DesignableButton.swift */; };
+		CE6A0FE91EF0CD5C00321430 /* DesignableImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FCB1EF0CD5C00321430 /* DesignableImageView.swift */; };
+		CE6A0FEA1EF0CD5C00321430 /* DesignableLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FCC1EF0CD5C00321430 /* DesignableLabel.swift */; };
+		CE6A0FEB1EF0CD5C00321430 /* DesignableTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FCD1EF0CD5C00321430 /* DesignableTabBarController.swift */; };
+		CE6A0FEC1EF0CD5C00321430 /* DesignableTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FCE1EF0CD5C00321430 /* DesignableTextField.swift */; };
+		CE6A0FED1EF0CD5C00321430 /* DesignableTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FCF1EF0CD5C00321430 /* DesignableTextView.swift */; };
+		CE6A0FEE1EF0CD5C00321430 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FD01EF0CD5C00321430 /* DesignableView.swift */; };
+		CE6A0FEF1EF0CD5C00321430 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FD11EF0CD5C00321430 /* ImageLoader.swift */; };
+		CE6A0FF01EF0CD5C00321430 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FD21EF0CD5C00321430 /* Info.plist */; };
+		CE6A0FF11EF0CD5C00321430 /* KeyboardLayoutConstraint.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FD31EF0CD5C00321430 /* KeyboardLayoutConstraint.swift */; };
+		CE6A0FF21EF0CD5C00321430 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FD41EF0CD5C00321430 /* LoadingView.swift */; };
+		CE6A0FF31EF0CD5C00321430 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FD51EF0CD5C00321430 /* LoadingView.xib */; };
+		CE6A0FF41EF0CD5C00321430 /* Misc.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FD61EF0CD5C00321430 /* Misc.swift */; };
+		CE6A0FF51EF0CD5C00321430 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FD71EF0CD5C00321430 /* SoundPlayer.swift */; };
+		CE6A0FF61EF0CD5C00321430 /* Spring.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FD91EF0CD5C00321430 /* Spring.swift */; };
+		CE6A0FF71EF0CD5C00321430 /* SpringAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FDA1EF0CD5C00321430 /* SpringAnimation.swift */; };
+		CE6A0FF81EF0CD5C00321430 /* SpringButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FDB1EF0CD5C00321430 /* SpringButton.swift */; };
+		CE6A0FF91EF0CD5C00321430 /* SpringImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FDC1EF0CD5C00321430 /* SpringImageView.swift */; };
+		CE6A0FFA1EF0CD5C00321430 /* SpringLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FDD1EF0CD5C00321430 /* SpringLabel.swift */; };
+		CE6A0FFB1EF0CD5C00321430 /* SpringTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FDE1EF0CD5C00321430 /* SpringTextField.swift */; };
+		CE6A0FFC1EF0CD5C00321430 /* SpringTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FDF1EF0CD5C00321430 /* SpringTextView.swift */; };
+		CE6A0FFD1EF0CD5C00321430 /* SpringView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FE01EF0CD5C00321430 /* SpringView.swift */; };
+		CE6A0FFE1EF0CD5C00321430 /* TransitionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FE11EF0CD5C00321430 /* TransitionManager.swift */; };
+		CE6A0FFF1EF0CD5C00321430 /* TransitionZoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FE21EF0CD5C00321430 /* TransitionZoom.swift */; };
+		CE6A10001EF0CD5C00321430 /* UnwindSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FE31EF0CD5C00321430 /* UnwindSegue.swift */; };
+		CE6A10241EF0D49100321430 /* EVECacheDiskHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10041EF0D49100321430 /* EVECacheDiskHandler.m */; };
+		CE6A10251EF0D49100321430 /* EVEKeyGenrator.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10061EF0D49100321430 /* EVEKeyGenrator.m */; };
+		CE6A10261EF0D49100321430 /* EVEDataMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10091EF0D49100321430 /* EVEDataMappings.m */; };
+		CE6A10271EF0D49100321430 /* EVEDateMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A100B1EF0D49100321430 /* EVEDateMappings.m */; };
+		CE6A10281EF0D49100321430 /* EVEMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A100D1EF0D49100321430 /* EVEMappings.m */; };
+		CE6A10291EF0D49100321430 /* EVESetMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A100F1EF0D49100321430 /* EVESetMappings.m */; };
+		CE6A102A1EF0D49100321430 /* EVEURLMappings.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10111EF0D49100321430 /* EVEURLMappings.m */; };
+		CE6A102B1EF0D49100321430 /* EVEValidMappingKey.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10131EF0D49100321430 /* EVEValidMappingKey.m */; };
+		CE6A102C1EF0D49100321430 /* NSObject+EVEObjectMapping.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10151EF0D49100321430 /* NSObject+EVEObjectMapping.m */; };
+		CE6A102D1EF0D49100321430 /* ReadMe.rtf in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10161EF0D49100321430 /* ReadMe.rtf */; };
+		CE6A102E1EF0D49100321430 /* CoreURLConnection.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10191EF0D49100321430 /* CoreURLConnection.m */; };
+		CE6A102F1EF0D49100321430 /* CoreWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A101B1EF0D49100321430 /* CoreWebService.m */; };
+		CE6A10301EF0D49100321430 /* EVEDataDownloadProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A101D1EF0D49100321430 /* EVEDataDownloadProgress.m */; };
+		CE6A10311EF0D49100321430 /* EVEError.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A101F1EF0D49100321430 /* EVEError.m */; };
+		CE6A10321EF0D49100321430 /* EVEJSONService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10211EF0D49100321430 /* EVEJSONService.m */; };
+		CE6A10341EF0DA6200321430 /* business1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10331EF0DA6200321430 /* business1@2x.png */; };
+		CE6A10361EF0DA8000321430 /* signs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10351EF0DA8000321430 /* signs@2x.png */; };
+		CE6A10381EF0DA9D00321430 /* edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10371EF0DA9D00321430 /* edit@2x.png */; };
+		CE6A103C1EF0DEBB00321430 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A103B1EF0DEBB00321430 /* Reachability.m */; };
+		CE6A10421EF0DF8A00321430 /* Archiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A103F1EF0DF8A00321430 /* Archiver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE6A10431EF0DF8A00321430 /* NSObject+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10411EF0DF8A00321430 /* NSObject+NSCoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		CE6A10491EF0E16300321430 /* VoomResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10481EF0E16300321430 /* VoomResponse.m */; };
+		CE6A104D1EF0E2E000321430 /* EntityErrorsBO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A104C1EF0E2E000321430 /* EntityErrorsBO.m */; };
+		CE6A10511EF0E30700321430 /* VoomParentBO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10501EF0E30700321430 /* VoomParentBO.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -222,6 +275,82 @@
 		CE6A0FAC1EF0B46100321430 /* ic_search_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search_36pt.png; sourceTree = "<group>"; };
 		CE6A0FAD1EF0B46100321430 /* ic_search_36pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_36pt@2x.png"; sourceTree = "<group>"; };
 		CE6A0FAE1EF0B46100321430 /* ic_search_36pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_36pt@3x.png"; sourceTree = "<group>"; };
+		CE6A0FC41EF0CBDB00321430 /* Voom-Bridging-Header-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Voom-Bridging-Header-Swift.h"; sourceTree = "<group>"; };
+		CE6A0FC61EF0CD5C00321430 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
+		CE6A0FC71EF0CD5C00321430 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
+		CE6A0FC81EF0CD5C00321430 /* AutoTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoTextView.swift; sourceTree = "<group>"; };
+		CE6A0FC91EF0CD5C00321430 /* BlurView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BlurView.swift; sourceTree = "<group>"; };
+		CE6A0FCA1EF0CD5C00321430 /* DesignableButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableButton.swift; sourceTree = "<group>"; };
+		CE6A0FCB1EF0CD5C00321430 /* DesignableImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableImageView.swift; sourceTree = "<group>"; };
+		CE6A0FCC1EF0CD5C00321430 /* DesignableLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableLabel.swift; sourceTree = "<group>"; };
+		CE6A0FCD1EF0CD5C00321430 /* DesignableTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTabBarController.swift; sourceTree = "<group>"; };
+		CE6A0FCE1EF0CD5C00321430 /* DesignableTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextField.swift; sourceTree = "<group>"; };
+		CE6A0FCF1EF0CD5C00321430 /* DesignableTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableTextView.swift; sourceTree = "<group>"; };
+		CE6A0FD01EF0CD5C00321430 /* DesignableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		CE6A0FD11EF0CD5C00321430 /* ImageLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
+		CE6A0FD21EF0CD5C00321430 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE6A0FD31EF0CD5C00321430 /* KeyboardLayoutConstraint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KeyboardLayoutConstraint.swift; sourceTree = "<group>"; };
+		CE6A0FD41EF0CD5C00321430 /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		CE6A0FD51EF0CD5C00321430 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
+		CE6A0FD61EF0CD5C00321430 /* Misc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Misc.swift; sourceTree = "<group>"; };
+		CE6A0FD71EF0CD5C00321430 /* SoundPlayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
+		CE6A0FD81EF0CD5C00321430 /* Spring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Spring.h; sourceTree = "<group>"; };
+		CE6A0FD91EF0CD5C00321430 /* Spring.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Spring.swift; sourceTree = "<group>"; };
+		CE6A0FDA1EF0CD5C00321430 /* SpringAnimation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringAnimation.swift; sourceTree = "<group>"; };
+		CE6A0FDB1EF0CD5C00321430 /* SpringButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringButton.swift; sourceTree = "<group>"; };
+		CE6A0FDC1EF0CD5C00321430 /* SpringImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringImageView.swift; sourceTree = "<group>"; };
+		CE6A0FDD1EF0CD5C00321430 /* SpringLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringLabel.swift; sourceTree = "<group>"; };
+		CE6A0FDE1EF0CD5C00321430 /* SpringTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextField.swift; sourceTree = "<group>"; };
+		CE6A0FDF1EF0CD5C00321430 /* SpringTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringTextView.swift; sourceTree = "<group>"; };
+		CE6A0FE01EF0CD5C00321430 /* SpringView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpringView.swift; sourceTree = "<group>"; };
+		CE6A0FE11EF0CD5C00321430 /* TransitionManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionManager.swift; sourceTree = "<group>"; };
+		CE6A0FE21EF0CD5C00321430 /* TransitionZoom.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransitionZoom.swift; sourceTree = "<group>"; };
+		CE6A0FE31EF0CD5C00321430 /* UnwindSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnwindSegue.swift; sourceTree = "<group>"; };
+		CE6A10031EF0D49100321430 /* EVECacheDiskHandler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVECacheDiskHandler.h; sourceTree = "<group>"; };
+		CE6A10041EF0D49100321430 /* EVECacheDiskHandler.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVECacheDiskHandler.m; sourceTree = "<group>"; };
+		CE6A10051EF0D49100321430 /* EVEKeyGenrator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEKeyGenrator.h; sourceTree = "<group>"; };
+		CE6A10061EF0D49100321430 /* EVEKeyGenrator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEKeyGenrator.m; sourceTree = "<group>"; };
+		CE6A10081EF0D49100321430 /* EVEDataMappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEDataMappings.h; sourceTree = "<group>"; };
+		CE6A10091EF0D49100321430 /* EVEDataMappings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEDataMappings.m; sourceTree = "<group>"; };
+		CE6A100A1EF0D49100321430 /* EVEDateMappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEDateMappings.h; sourceTree = "<group>"; };
+		CE6A100B1EF0D49100321430 /* EVEDateMappings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEDateMappings.m; sourceTree = "<group>"; };
+		CE6A100C1EF0D49100321430 /* EVEMappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEMappings.h; sourceTree = "<group>"; };
+		CE6A100D1EF0D49100321430 /* EVEMappings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEMappings.m; sourceTree = "<group>"; };
+		CE6A100E1EF0D49100321430 /* EVESetMappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVESetMappings.h; sourceTree = "<group>"; };
+		CE6A100F1EF0D49100321430 /* EVESetMappings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVESetMappings.m; sourceTree = "<group>"; };
+		CE6A10101EF0D49100321430 /* EVEURLMappings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEURLMappings.h; sourceTree = "<group>"; };
+		CE6A10111EF0D49100321430 /* EVEURLMappings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEURLMappings.m; sourceTree = "<group>"; };
+		CE6A10121EF0D49100321430 /* EVEValidMappingKey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEValidMappingKey.h; sourceTree = "<group>"; };
+		CE6A10131EF0D49100321430 /* EVEValidMappingKey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEValidMappingKey.m; sourceTree = "<group>"; };
+		CE6A10141EF0D49100321430 /* NSObject+EVEObjectMapping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+EVEObjectMapping.h"; sourceTree = "<group>"; };
+		CE6A10151EF0D49100321430 /* NSObject+EVEObjectMapping.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+EVEObjectMapping.m"; sourceTree = "<group>"; };
+		CE6A10161EF0D49100321430 /* ReadMe.rtf */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.rtf; path = ReadMe.rtf; sourceTree = "<group>"; };
+		CE6A10181EF0D49100321430 /* CoreURLConnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreURLConnection.h; sourceTree = "<group>"; };
+		CE6A10191EF0D49100321430 /* CoreURLConnection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreURLConnection.m; sourceTree = "<group>"; };
+		CE6A101A1EF0D49100321430 /* CoreWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreWebService.h; sourceTree = "<group>"; };
+		CE6A101B1EF0D49100321430 /* CoreWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreWebService.m; sourceTree = "<group>"; };
+		CE6A101C1EF0D49100321430 /* EVEDataDownloadProgress.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEDataDownloadProgress.h; sourceTree = "<group>"; };
+		CE6A101D1EF0D49100321430 /* EVEDataDownloadProgress.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEDataDownloadProgress.m; sourceTree = "<group>"; };
+		CE6A101E1EF0D49100321430 /* EVEError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEError.h; sourceTree = "<group>"; };
+		CE6A101F1EF0D49100321430 /* EVEError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEError.m; sourceTree = "<group>"; };
+		CE6A10201EF0D49100321430 /* EVEJSONService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEJSONService.h; sourceTree = "<group>"; };
+		CE6A10211EF0D49100321430 /* EVEJSONService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEJSONService.m; sourceTree = "<group>"; };
+		CE6A10221EF0D49100321430 /* EventoServerAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventoServerAPIConstants.h; sourceTree = "<group>"; };
+		CE6A10331EF0DA6200321430 /* business1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business1@2x.png"; sourceTree = "<group>"; };
+		CE6A10351EF0DA8000321430 /* signs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signs@2x.png"; sourceTree = "<group>"; };
+		CE6A10371EF0DA9D00321430 /* edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@2x.png"; sourceTree = "<group>"; };
+		CE6A103A1EF0DEBB00321430 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		CE6A103B1EF0DEBB00321430 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		CE6A103E1EF0DF8A00321430 /* Archiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archiver.h; sourceTree = "<group>"; };
+		CE6A103F1EF0DF8A00321430 /* Archiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archiver.m; sourceTree = "<group>"; };
+		CE6A10401EF0DF8A00321430 /* NSObject+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSCoding.h"; sourceTree = "<group>"; };
+		CE6A10411EF0DF8A00321430 /* NSObject+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSCoding.m"; sourceTree = "<group>"; };
+		CE6A10471EF0E16300321430 /* VoomResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomResponse.h; sourceTree = "<group>"; };
+		CE6A10481EF0E16300321430 /* VoomResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomResponse.m; sourceTree = "<group>"; };
+		CE6A104B1EF0E2E000321430 /* EntityErrorsBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityErrorsBO.h; sourceTree = "<group>"; };
+		CE6A104C1EF0E2E000321430 /* EntityErrorsBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityErrorsBO.m; sourceTree = "<group>"; };
+		CE6A104F1EF0E30700321430 /* VoomParentBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomParentBO.h; sourceTree = "<group>"; };
+		CE6A10501EF0E30700321430 /* VoomParentBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomParentBO.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -252,6 +381,7 @@
 		CE23A5F11EEE44320063EE90 = {
 			isa = PBXGroup;
 			children = (
+				CE6A0FC41EF0CBDB00321430 /* Voom-Bridging-Header-Swift.h */,
 				CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */,
 				CE6A0F8D1EEFA36000321430 /* Voom_UI copy 2.jpg */,
 				CE6A0F8E1EEFA36000321430 /* Voom_UI copy 3.jpg */,
@@ -2374,6 +2504,9 @@
 				CE6A0FAA1EF0B46100321430 /* ic_search */,
 				CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */,
 				CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */,
+				CE6A10331EF0DA6200321430 /* business1@2x.png */,
+				CE6A10351EF0DA8000321430 /* signs@2x.png */,
+				CE6A10371EF0DA9D00321430 /* edit@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2392,6 +2525,8 @@
 		CE23A72C1EEE44A10063EE90 /* Bo */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A104E1EF0E30700321430 /* VoomParentBO */,
+				CE6A104A1EF0E2E000321430 /* EntityErrors */,
 			);
 			path = Bo;
 			sourceTree = "<group>";
@@ -2413,6 +2548,8 @@
 		CE23A72F1EEE44A10063EE90 /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10471EF0E16300321430 /* VoomResponse.h */,
+				CE6A10481EF0E16300321430 /* VoomResponse.m */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -2572,6 +2709,10 @@
 		CE23A7431EEE44A10063EE90 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A103D1EF0DF8A00321430 /* Archiver */,
+				CE6A10391EF0DEBB00321430 /* Reachablity */,
+				CE6A10011EF0D49100321430 /* ServerAPI */,
+				CE6A0FC51EF0CD5C00321430 /* Spring */,
 				CE6A0F891EEFA23400321430 /* RoundedTextField */,
 				CE6A0F781EEF961400321430 /* KeyboardHandler */,
 				CE6A0F6D1EEF70B700321430 /* CustomTabBar */,
@@ -2726,6 +2867,150 @@
 			path = ic_search;
 			sourceTree = "<group>";
 		};
+		CE6A0FC51EF0CD5C00321430 /* Spring */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0FC61EF0CD5C00321430 /* AsyncButton.swift */,
+				CE6A0FC71EF0CD5C00321430 /* AsyncImageView.swift */,
+				CE6A0FC81EF0CD5C00321430 /* AutoTextView.swift */,
+				CE6A0FC91EF0CD5C00321430 /* BlurView.swift */,
+				CE6A0FCA1EF0CD5C00321430 /* DesignableButton.swift */,
+				CE6A0FCB1EF0CD5C00321430 /* DesignableImageView.swift */,
+				CE6A0FCC1EF0CD5C00321430 /* DesignableLabel.swift */,
+				CE6A0FCD1EF0CD5C00321430 /* DesignableTabBarController.swift */,
+				CE6A0FCE1EF0CD5C00321430 /* DesignableTextField.swift */,
+				CE6A0FCF1EF0CD5C00321430 /* DesignableTextView.swift */,
+				CE6A0FD01EF0CD5C00321430 /* DesignableView.swift */,
+				CE6A0FD11EF0CD5C00321430 /* ImageLoader.swift */,
+				CE6A0FD21EF0CD5C00321430 /* Info.plist */,
+				CE6A0FD31EF0CD5C00321430 /* KeyboardLayoutConstraint.swift */,
+				CE6A0FD41EF0CD5C00321430 /* LoadingView.swift */,
+				CE6A0FD51EF0CD5C00321430 /* LoadingView.xib */,
+				CE6A0FD61EF0CD5C00321430 /* Misc.swift */,
+				CE6A0FD71EF0CD5C00321430 /* SoundPlayer.swift */,
+				CE6A0FD81EF0CD5C00321430 /* Spring.h */,
+				CE6A0FD91EF0CD5C00321430 /* Spring.swift */,
+				CE6A0FDA1EF0CD5C00321430 /* SpringAnimation.swift */,
+				CE6A0FDB1EF0CD5C00321430 /* SpringButton.swift */,
+				CE6A0FDC1EF0CD5C00321430 /* SpringImageView.swift */,
+				CE6A0FDD1EF0CD5C00321430 /* SpringLabel.swift */,
+				CE6A0FDE1EF0CD5C00321430 /* SpringTextField.swift */,
+				CE6A0FDF1EF0CD5C00321430 /* SpringTextView.swift */,
+				CE6A0FE01EF0CD5C00321430 /* SpringView.swift */,
+				CE6A0FE11EF0CD5C00321430 /* TransitionManager.swift */,
+				CE6A0FE21EF0CD5C00321430 /* TransitionZoom.swift */,
+				CE6A0FE31EF0CD5C00321430 /* UnwindSegue.swift */,
+			);
+			path = Spring;
+			sourceTree = "<group>";
+		};
+		CE6A10011EF0D49100321430 /* ServerAPI */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10021EF0D49100321430 /* Cache */,
+				CE6A10071EF0D49100321430 /* JSONParser */,
+				CE6A10171EF0D49100321430 /* ServerCommunication */,
+				CE6A10231EF0D49100321430 /* XMLParser */,
+			);
+			path = ServerAPI;
+			sourceTree = "<group>";
+		};
+		CE6A10021EF0D49100321430 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10031EF0D49100321430 /* EVECacheDiskHandler.h */,
+				CE6A10041EF0D49100321430 /* EVECacheDiskHandler.m */,
+				CE6A10051EF0D49100321430 /* EVEKeyGenrator.h */,
+				CE6A10061EF0D49100321430 /* EVEKeyGenrator.m */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		CE6A10071EF0D49100321430 /* JSONParser */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10081EF0D49100321430 /* EVEDataMappings.h */,
+				CE6A10091EF0D49100321430 /* EVEDataMappings.m */,
+				CE6A100A1EF0D49100321430 /* EVEDateMappings.h */,
+				CE6A100B1EF0D49100321430 /* EVEDateMappings.m */,
+				CE6A100C1EF0D49100321430 /* EVEMappings.h */,
+				CE6A100D1EF0D49100321430 /* EVEMappings.m */,
+				CE6A100E1EF0D49100321430 /* EVESetMappings.h */,
+				CE6A100F1EF0D49100321430 /* EVESetMappings.m */,
+				CE6A10101EF0D49100321430 /* EVEURLMappings.h */,
+				CE6A10111EF0D49100321430 /* EVEURLMappings.m */,
+				CE6A10121EF0D49100321430 /* EVEValidMappingKey.h */,
+				CE6A10131EF0D49100321430 /* EVEValidMappingKey.m */,
+				CE6A10141EF0D49100321430 /* NSObject+EVEObjectMapping.h */,
+				CE6A10151EF0D49100321430 /* NSObject+EVEObjectMapping.m */,
+				CE6A10161EF0D49100321430 /* ReadMe.rtf */,
+			);
+			path = JSONParser;
+			sourceTree = "<group>";
+		};
+		CE6A10171EF0D49100321430 /* ServerCommunication */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10181EF0D49100321430 /* CoreURLConnection.h */,
+				CE6A10191EF0D49100321430 /* CoreURLConnection.m */,
+				CE6A101A1EF0D49100321430 /* CoreWebService.h */,
+				CE6A101B1EF0D49100321430 /* CoreWebService.m */,
+				CE6A101C1EF0D49100321430 /* EVEDataDownloadProgress.h */,
+				CE6A101D1EF0D49100321430 /* EVEDataDownloadProgress.m */,
+				CE6A101E1EF0D49100321430 /* EVEError.h */,
+				CE6A101F1EF0D49100321430 /* EVEError.m */,
+				CE6A10201EF0D49100321430 /* EVEJSONService.h */,
+				CE6A10211EF0D49100321430 /* EVEJSONService.m */,
+				CE6A10221EF0D49100321430 /* EventoServerAPIConstants.h */,
+			);
+			path = ServerCommunication;
+			sourceTree = "<group>";
+		};
+		CE6A10231EF0D49100321430 /* XMLParser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = XMLParser;
+			sourceTree = "<group>";
+		};
+		CE6A10391EF0DEBB00321430 /* Reachablity */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A103A1EF0DEBB00321430 /* Reachability.h */,
+				CE6A103B1EF0DEBB00321430 /* Reachability.m */,
+			);
+			path = Reachablity;
+			sourceTree = "<group>";
+		};
+		CE6A103D1EF0DF8A00321430 /* Archiver */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A103E1EF0DF8A00321430 /* Archiver.h */,
+				CE6A103F1EF0DF8A00321430 /* Archiver.m */,
+				CE6A10401EF0DF8A00321430 /* NSObject+NSCoding.h */,
+				CE6A10411EF0DF8A00321430 /* NSObject+NSCoding.m */,
+			);
+			path = Archiver;
+			sourceTree = "<group>";
+		};
+		CE6A104A1EF0E2E000321430 /* EntityErrors */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A104B1EF0E2E000321430 /* EntityErrorsBO.h */,
+				CE6A104C1EF0E2E000321430 /* EntityErrorsBO.m */,
+			);
+			path = EntityErrors;
+			sourceTree = "<group>";
+		};
+		CE6A104E1EF0E30700321430 /* VoomParentBO */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A104F1EF0E30700321430 /* VoomParentBO.h */,
+				CE6A10501EF0E30700321430 /* VoomParentBO.m */,
+			);
+			path = VoomParentBO;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2793,15 +3078,18 @@
 				TargetAttributes = {
 					CE23A5F91EEE44320063EE90 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 					CE23A6121EEE44320063EE90 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE23A5F91EEE44320063EE90;
 					};
 					CE23A61D1EEE44320063EE90 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 						TestTargetID = CE23A5F91EEE44320063EE90;
 					};
@@ -2843,6 +3131,7 @@
 				CE6A0F901EEFA36000321430 /* Voom_UI copy 2.jpg in Resources */,
 				CE6A0EEA1EEE47A400321430 /* SideMenuViewControlleriPhone.xib in Resources */,
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
+				CE6A10381EF0DA9D00321430 /* edit@2x.png in Resources */,
 				CE6A0FB01EF0B46100321430 /* ic_add_task@2x.png in Resources */,
 				CE6A0F771EEF852400321430 /* userIcon@2x.png in Resources */,
 				CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */,
@@ -2852,11 +3141,14 @@
 				CE6A0F611EEF629C00321430 /* RemindersViewControlleriPhone.xib in Resources */,
 				CE6A0FB61EF0B46100321430 /* ic_chat_36pt@2x.png in Resources */,
 				CE6A0FB71EF0B46100321430 /* ic_chat_36pt@3x.png in Resources */,
+				CE6A0FF01EF0CD5C00321430 /* Info.plist in Resources */,
 				CE6A0F6C1EEF637D00321430 /* SettingsViewControlleriPhone.xib in Resources */,
 				CE6A0F0F1EEE4D6E00321430 /* Default-568h@2x.png in Resources */,
+				CE6A10361EF0DA8000321430 /* signs@2x.png in Resources */,
 				CE6A0FC21EF0B46100321430 /* ic_search_36pt@3x.png in Resources */,
 				CE6A0F381EEF4A0800321430 /* HeaderView.xib in Resources */,
 				CE6A0FB11EF0B46100321430 /* ic_add_task@3x.png in Resources */,
+				CE6A102D1EF0D49100321430 /* ReadMe.rtf in Resources */,
 				CE6A0FB31EF0B46100321430 /* ic_ads@2x.png in Resources */,
 				CE6A0FBC1EF0B46100321430 /* ic_person_36pt.png in Resources */,
 				CE6A0FB21EF0B46100321430 /* ic_ads.png in Resources */,
@@ -2870,9 +3162,11 @@
 				CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */,
 				CE6A0F911EEFA36000321430 /* Voom_UI copy 3.jpg in Resources */,
 				CE6A0FC01EF0B46100321430 /* ic_search_36pt.png in Resources */,
+				CE6A10341EF0DA6200321430 /* business1@2x.png in Resources */,
 				CE6A0FAF1EF0B46100321430 /* ic_add_task.png in Resources */,
 				CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */,
 				CE6A0FBF1EF0B46100321430 /* Contents.json in Resources */,
+				CE6A0FF31EF0CD5C00321430 /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2897,38 +3191,85 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6A0FF51EF0CD5C00321430 /* SoundPlayer.swift in Sources */,
 				CE6A0EE91EEE47A400321430 /* SideMenuViewControlleriPhone.m in Sources */,
+				CE6A0FEA1EF0CD5C00321430 /* DesignableLabel.swift in Sources */,
+				CE6A0FE41EF0CD5C00321430 /* AsyncButton.swift in Sources */,
 				CE6A0F831EEF961400321430 /* TPKeyboardAvoidingTableView.m in Sources */,
+				CE6A10261EF0D49100321430 /* EVEDataMappings.m in Sources */,
+				CE6A0FFA1EF0CD5C00321430 /* SpringLabel.swift in Sources */,
+				CE6A0FF81EF0CD5C00321430 /* SpringButton.swift in Sources */,
+				CE6A0FF11EF0CD5C00321430 /* KeyboardLayoutConstraint.swift in Sources */,
+				CE6A10511EF0E30700321430 /* VoomParentBO.m in Sources */,
+				CE6A10491EF0E16300321430 /* VoomResponse.m in Sources */,
+				CE6A0FF21EF0CD5C00321430 /* LoadingView.swift in Sources */,
+				CE6A103C1EF0DEBB00321430 /* Reachability.m in Sources */,
+				CE6A0FFC1EF0CD5C00321430 /* SpringTextView.swift in Sources */,
+				CE6A10301EF0D49100321430 /* EVEDataDownloadProgress.m in Sources */,
+				CE6A102B1EF0D49100321430 /* EVEValidMappingKey.m in Sources */,
 				CE6A0F821EEF961400321430 /* TPKeyboardAvoidingScrollView.m in Sources */,
+				CE6A10291EF0D49100321430 /* EVESetMappings.m in Sources */,
+				CE6A10271EF0D49100321430 /* EVEDateMappings.m in Sources */,
 				CE6A0F071EEE48C500321430 /* LoginViewControlleriPhone.m in Sources */,
 				CE6A0F461EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m in Sources */,
 				CE6A0F671EEF636300321430 /* SettingsViewController.m in Sources */,
+				CE6A102E1EF0D49100321430 /* CoreURLConnection.m in Sources */,
+				CE6A0FEE1EF0CD5C00321430 /* DesignableView.swift in Sources */,
+				CE6A0FF41EF0CD5C00321430 /* Misc.swift in Sources */,
 				CE6A0F601EEF629C00321430 /* RemindersViewControlleriPhone.m in Sources */,
 				CE6A0EFA1EEE481F00321430 /* LGSideMenuBorderView.m in Sources */,
+				CE6A0FF71EF0CD5C00321430 /* SpringAnimation.swift in Sources */,
 				CE6A0F031EEE48A600321430 /* LoginViewController.m in Sources */,
 				CE6A0EE51EEE478000321430 /* SideMenuViewController.m in Sources */,
+				CE6A10281EF0D49100321430 /* EVEMappings.m in Sources */,
+				CE6A102F1EF0D49100321430 /* CoreWebService.m in Sources */,
+				CE6A10431EF0DF8A00321430 /* NSObject+NSCoding.m in Sources */,
+				CE6A0FFB1EF0CD5C00321430 /* SpringTextField.swift in Sources */,
 				CE6A0EFC1EEE481F00321430 /* LGSideMenuGesturesHandler.m in Sources */,
 				CE6A0F8C1EEFA26300321430 /* TPRoundedTextField.m in Sources */,
 				CE6A0F5C1EEF627E00321430 /* RemindersViewController.m in Sources */,
 				CE6A0F811EEF961400321430 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				CE6A0FF91EF0CD5C00321430 /* SpringImageView.swift in Sources */,
 				CE6A0EFE1EEE481F00321430 /* LGSideMenuSegue.m in Sources */,
+				CE6A10001EF0CD5C00321430 /* UnwindSegue.swift in Sources */,
+				CE6A0FE91EF0CD5C00321430 /* DesignableImageView.swift in Sources */,
 				CE6A0F6B1EEF637D00321430 /* SettingsViewControlleriPhone.m in Sources */,
 				CE6A0F581EEF624C00321430 /* VehicleCheckViewControlleriPhone.m in Sources */,
 				CE6A0F841EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				CE6A10421EF0DF8A00321430 /* Archiver.m in Sources */,
+				CE6A10311EF0D49100321430 /* EVEError.m in Sources */,
+				CE6A102C1EF0D49100321430 /* NSObject+EVEObjectMapping.m in Sources */,
 				CE6A0EFF1EEE481F00321430 /* LGSideMenuView.m in Sources */,
+				CE6A0FEC1EF0CD5C00321430 /* DesignableTextField.swift in Sources */,
 				CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */,
+				CE6A0FF61EF0CD5C00321430 /* Spring.swift in Sources */,
 				CE6A0F731EEF835E00321430 /* AppPreferences.m in Sources */,
 				CE6A0F2A1EEF40CC00321430 /* APRoundedButton.m in Sources */,
+				CE6A0FE81EF0CD5C00321430 /* DesignableButton.swift in Sources */,
+				CE6A0FE51EF0CD5C00321430 /* AsyncImageView.swift in Sources */,
 				CE6A0EFB1EEE481F00321430 /* LGSideMenuController.m in Sources */,
 				CE6A0F311EEF458500321430 /* RegistrationViewControlleriPhone.m in Sources */,
 				CE6A0F371EEF4A0800321430 /* HeaderView.m in Sources */,
 				CE6A0F421EEF526800321430 /* VehicleLibraryViewController.m in Sources */,
 				CE6A0F3E1EEF4C5300321430 /* BackHeaderView.m in Sources */,
+				CE6A0FFD1EF0CD5C00321430 /* SpringView.swift in Sources */,
+				CE6A0FE61EF0CD5C00321430 /* AutoTextView.swift in Sources */,
 				CE6A0F2D1EEF455F00321430 /* RegistrationViewController.m in Sources */,
+				CE6A0FEB1EF0CD5C00321430 /* DesignableTabBarController.swift in Sources */,
 				CE6A0EE21EEE475500321430 /* VoomParentViewController.m in Sources */,
+				CE6A104D1EF0E2E000321430 /* EntityErrorsBO.m in Sources */,
+				CE6A0FFE1EF0CD5C00321430 /* TransitionManager.swift in Sources */,
+				CE6A0FFF1EF0CD5C00321430 /* TransitionZoom.swift in Sources */,
+				CE6A102A1EF0D49100321430 /* EVEURLMappings.m in Sources */,
+				CE6A0FEF1EF0CD5C00321430 /* ImageLoader.swift in Sources */,
+				CE6A0FED1EF0CD5C00321430 /* DesignableTextView.swift in Sources */,
 				CE23A5FF1EEE44320063EE90 /* main.m in Sources */,
+				CE6A10321EF0D49100321430 /* EVEJSONService.m in Sources */,
 				CE6A0F541EEF623200321430 /* VehicleCheckViewController.m in Sources */,
+				CE6A10241EF0D49100321430 /* EVECacheDiskHandler.m in Sources */,
 				CE23A7491EEE44C80063EE90 /* AppDelegate.m in Sources */,
+				CE6A0FE71EF0CD5C00321430 /* BlurView.swift in Sources */,
+				CE6A10251EF0D49100321430 /* EVEKeyGenrator.m in Sources */,
 				CE6A0F701EEF7F3200321430 /* UITabBar+NewSize.m in Sources */,
 				CE6A0F001EEE481F00321430 /* UIViewController+LGSideMenuController.m in Sources */,
 			);
@@ -3068,6 +3409,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.Voom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -3081,17 +3423,20 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.Voom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
 		CE23A62B1EEE44320063EE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VoomTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voom.app/Voom";
 			};
 			name = Debug;
@@ -3099,11 +3444,13 @@
 		CE23A62C1EEE44320063EE90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VoomTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Voom.app/Voom";
 			};
 			name = Release;
@@ -3111,10 +3458,12 @@
 		CE23A62E1EEE44320063EE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = VoomUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Voom;
 			};
 			name = Debug;
@@ -3122,10 +3471,12 @@
 		CE23A62F1EEE44320063EE90 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = VoomUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = Voom;
 			};
 			name = Release;
