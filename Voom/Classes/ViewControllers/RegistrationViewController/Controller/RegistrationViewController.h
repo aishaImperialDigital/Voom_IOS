@@ -8,6 +8,11 @@
 
 #import "VoomParentViewController.h"
 
-@interface RegistrationViewController : VoomParentViewController
+@interface RegistrationViewController : VoomParentViewController{
+    
+}
+
+//@property(nonatomic,strong)
+
 
 @end

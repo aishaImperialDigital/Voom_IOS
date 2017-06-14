@@ -17,10 +17,12 @@
 @property (nonatomic,strong) HeaderView *headerView;
 @property (nonatomic,strong) BackHeaderView *backHeaderView;
 @property (nonatomic,strong) UITabBarController *tabBarController;
+@property(nonatomic,strong) UIDatePicker *datePicker;
 
 #pragma mark methods
 
 -(void) setupAppHeader;
 -(void) setupBackAppHeader;
 -(void) createTabBarController;
+-(void) showDatePicker;
 @end

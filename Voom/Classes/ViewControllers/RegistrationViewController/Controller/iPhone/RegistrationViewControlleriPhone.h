@@ -8,6 +8,9 @@
 
 #import "RegistrationViewController.h"
 
-@interface RegistrationViewControlleriPhone : RegistrationViewController
+@interface RegistrationViewControlleriPhone : RegistrationViewController{
+    
+}
+
 
 @end

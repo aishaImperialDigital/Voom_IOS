@@ -21,7 +21,7 @@
     self.backHeaderView.titleLabel.text = kTitleRegistration;
     [self setupBackAppHeader];
     [self.backHeaderView.backButton addTarget:self action:@selector(goBack:) forControlEvents:UIControlEventTouchUpInside];
-    
+    [self.datePicker addTarget:self action:@selector(onDatePickerValueChanged:) forControlEvents:UIControlEventValueChanged];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -45,5 +45,16 @@
 {
     [self.navigationController popViewControllerAnimated:YES];
 }
+
+-(void) setAsDateField:(UITextField *) textField
+{
+    textField.inputView = self.datePicker;
+}
+
+- (void)onDatePickerValueChanged:(UIDatePicker *)datePicker
+{
+    //self.textField.text = [self.dateFormatter stringFromDate:datePicker.date];
+}
+
 
 @end

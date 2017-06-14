@@ -7,7 +7,7 @@
 //
 
 #import "TPRoundedTextField.h"
-
+#import <QuartzCore/QuartzCore.h>
 
 @interface TPRoundedTextField()
 {
@@ -24,6 +24,14 @@
     self.bottomLeft = YES;
     self.bottomRigth = YES;
     self.cornerRadius = 15;
+    [self setBorderStyle:UITextBorderStyleRoundedRect];
+    [self.layer setMasksToBounds:YES];
+    [self.layer setCornerRadius:12.0f];
+    [self.layer setBorderColor:[[UIColor whiteColor] CGColor]];
+    [self.layer setBorderWidth:1];
+    [self setBackgroundColor:[UIColor clearColor]];
+    [self setValue:[UIColor whiteColor] forKeyPath:@"_placeholderLabel.textColor"];
+   
 }
 
 - (void)setTopLeft:(BOOL)topLeft {
@@ -58,15 +66,13 @@
 - (void)drawRect:(CGRect)rect {
     [super drawRect:rect];
     
-    UIBezierPath *maskPath =
-    [UIBezierPath bezierPathWithRoundedRect:self.bounds
-                          byRoundingCorners:_corners
-                                cornerRadii:CGSizeMake(_cornerRadius, _cornerRadius+10)];
-    
-    CAShapeLayer *maskLayer = [CAShapeLayer layer];
-    maskLayer.frame         = self.bounds;
-    maskLayer.path          = maskPath.CGPath;
-    self.layer.mask         = maskLayer;
+    UIBezierPath *path = [UIBezierPath bezierPathWithRoundedRect:rect
+                                               byRoundingCorners:UIRectCornerTopLeft |UIRectCornerTopRight
+                                                     cornerRadii:CGSizeMake(6.0, 6.0)];
+    CAShapeLayer *layers = [CAShapeLayer layer];
+    layers.frame = rect;
+    layers.path = path.CGPath;
+    self.layer.mask = layers;
     
 }
 

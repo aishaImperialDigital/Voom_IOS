@@ -31,39 +31,39 @@
                     <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <subviews>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="john.andrew@gmail.com" placeholder="john.andrew@gmail.com" textAlignment="natural" minimumFontSize="17" id="4fa-yL-o61">
-                            <rect key="frame" x="86" y="294" width="188" height="30"/>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="john.andrew@gmail.com" placeholder="john.andrew@gmail.com" textAlignment="natural" minimumFontSize="17" id="4fa-yL-o61" userLabel="usernameTextField">
+                            <rect key="frame" x="86" y="297" width="194" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
                             <textInputTraits key="textInputTraits"/>
                         </textField>
-                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="* * * *" placeholder="* * * *" textAlignment="natural" minimumFontSize="17" id="tlk-rH-i9U">
-                            <rect key="frame" x="86" y="332" width="188" height="23"/>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="1234" textAlignment="natural" minimumFontSize="17" id="tlk-rH-i9U">
+                            <rect key="frame" x="84" y="332" width="194" height="30"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <fontDescription key="fontDescription" type="system" pointSize="10"/>
-                            <textInputTraits key="textInputTraits"/>
+                            <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                         </textField>
-                        <view contentMode="scaleToFill" misplaced="YES" id="Smc-99-WZf">
+                        <view contentMode="scaleToFill" misplaced="YES" id="Smc-99-WZf" userLabel="usernameSeparator">
                             <rect key="frame" x="46" y="324" width="235" height="1"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
-                        <view contentMode="scaleToFill" misplaced="YES" id="QdO-Eq-OWr">
+                        <view contentMode="scaleToFill" misplaced="YES" id="QdO-Eq-OWr" userLabel="passwordSeparator">
                             <rect key="frame" x="45" y="359" width="238" height="1"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                         </view>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="passwrdIcon.png" id="24v-qJ-SZb">
-                            <rect key="frame" x="56" y="338" width="15" height="15"/>
+                            <rect key="frame" x="55" y="339" width="15" height="15"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </imageView>
-                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Not registered yet? Register now!" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EIy-Ep-OGt">
-                            <rect key="frame" x="4" y="484" width="314" height="29"/>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Not registered yet?" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="EIy-Ep-OGt">
+                            <rect key="frame" x="75" y="484" width="106" height="29"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <fontDescription key="fontDescription" type="system" pointSize="11"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
                             <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                             <nil key="highlightedColor"/>
                         </label>
@@ -79,14 +79,18 @@
                             </connections>
                         </button>
                         <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="uY2-Rq-fmc">
-                            <rect key="frame" x="179" y="448" width="97" height="30"/>
+                            <rect key="frame" x="168" y="484" width="76" height="28"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="9"/>
+                            <state key="normal" title="Register now!">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
                             <connections>
                                 <action selector="gotoRegisteration:" destination="-1" eventType="touchUpInside" id="48E-Wm-4Bl"/>
                             </connections>
                         </button>
                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="userIcon.png" id="ZWf-8x-90A">
-                            <rect key="frame" x="56" y="306" width="15" height="15"/>
+                            <rect key="frame" x="55" y="304" width="15" height="15"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                         </imageView>

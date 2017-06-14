@@ -21,24 +21,10 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-       
-    LoginViewControlleriPhone  *loginViewController =[[LoginViewControlleriPhone alloc] initWithNibName:@"LoginViewControlleriPhone" bundle:nil];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
-    navigationController.navigationBarHidden = YES;
-    SideMenuViewControlleriPhone  *sideViewController =[[SideMenuViewControlleriPhone alloc] initWithNibName:@"SideMenuViewControlleriPhone" bundle:nil];
-    LGSideMenuController *lgMenu = [LGSideMenuController sideMenuControllerWithRootViewController:navigationController leftViewController:sideViewController rightViewController:sideViewController];
-    lgMenu.leftViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
-    lgMenu.rightViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
-    lgMenu.leftViewBackgroundColor = kAppSecondaryColor;
-    lgMenu.rightViewBackgroundColor = kAppSecondaryColor;
-    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
-    self.window.backgroundColor = [UIColor whiteColor];
-    self.window.rootViewController = lgMenu;
-    [self.window makeKeyAndVisible];
-    
+    [self setApplicationLayoutSettings];
+    [self setApplicationRootLayout];
     return YES;
 }
-
 
 - (void)applicationWillResignActive:(UIApplication *)application {
     // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
@@ -66,5 +52,27 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+#pragma mark Layout Methods
+
+-(void) setApplicationRootLayout{
+    
+    LoginViewControlleriPhone  *loginViewController =[[LoginViewControlleriPhone alloc] initWithNibName:@"LoginViewControlleriPhone" bundle:nil];
+    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    navigationController.navigationBarHidden = YES;
+    SideMenuViewControlleriPhone  *sideViewController =[[SideMenuViewControlleriPhone alloc] initWithNibName:@"SideMenuViewControlleriPhone" bundle:nil];
+    LGSideMenuController *lgMenu = [LGSideMenuController sideMenuControllerWithRootViewController:navigationController leftViewController:sideViewController rightViewController:sideViewController];
+    lgMenu.leftViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
+    lgMenu.rightViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
+    lgMenu.leftViewBackgroundColor = kAppSecondaryColor;
+    lgMenu.rightViewBackgroundColor = kAppSecondaryColor;
+    self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    self.window.rootViewController = lgMenu;
+    [self.window makeKeyAndVisible];
+}
+
+-(void) setApplicationLayoutSettings{
+    [AppPreferences changeApplicationTabBarAppearance];
+}
 
 @end

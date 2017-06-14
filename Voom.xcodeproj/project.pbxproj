@@ -64,6 +64,26 @@
 		CE6A0F911EEFA36000321430 /* Voom_UI copy 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F8E1EEFA36000321430 /* Voom_UI copy 3.jpg */; };
 		CE6A0F921EEFA36000321430 /* Voom_UI copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F8F1EEFA36000321430 /* Voom_UI copy.jpg */; };
 		CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */; };
+		CE6A0FAF1EF0B46100321430 /* ic_add_task.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F961EF0B46100321430 /* ic_add_task.png */; };
+		CE6A0FB01EF0B46100321430 /* ic_add_task@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F971EF0B46100321430 /* ic_add_task@2x.png */; };
+		CE6A0FB11EF0B46100321430 /* ic_add_task@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F981EF0B46100321430 /* ic_add_task@3x.png */; };
+		CE6A0FB21EF0B46100321430 /* ic_ads.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9A1EF0B46100321430 /* ic_ads.png */; };
+		CE6A0FB31EF0B46100321430 /* ic_ads@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9B1EF0B46100321430 /* ic_ads@2x.png */; };
+		CE6A0FB41EF0B46100321430 /* ic_ads@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9C1EF0B46100321430 /* ic_ads@3x.png */; };
+		CE6A0FB51EF0B46100321430 /* ic_chat_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9E1EF0B46100321430 /* ic_chat_36pt.png */; };
+		CE6A0FB61EF0B46100321430 /* ic_chat_36pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9F1EF0B46100321430 /* ic_chat_36pt@2x.png */; };
+		CE6A0FB71EF0B46100321430 /* ic_chat_36pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA01EF0B46100321430 /* ic_chat_36pt@3x.png */; };
+		CE6A0FB81EF0B46100321430 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA21EF0B46100321430 /* Contents.json */; };
+		CE6A0FB91EF0B46100321430 /* ic_home_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA31EF0B46100321430 /* ic_home_36pt.png */; };
+		CE6A0FBA1EF0B46100321430 /* ic_home_36pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA41EF0B46100321430 /* ic_home_36pt@2x.png */; };
+		CE6A0FBB1EF0B46100321430 /* ic_home_36pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA51EF0B46100321430 /* ic_home_36pt@3x.png */; };
+		CE6A0FBC1EF0B46100321430 /* ic_person_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA71EF0B46100321430 /* ic_person_36pt.png */; };
+		CE6A0FBD1EF0B46100321430 /* ic_person_36pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA81EF0B46100321430 /* ic_person_36pt@2x.png */; };
+		CE6A0FBE1EF0B46100321430 /* ic_person_36pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA91EF0B46100321430 /* ic_person_36pt@3x.png */; };
+		CE6A0FBF1EF0B46100321430 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAB1EF0B46100321430 /* Contents.json */; };
+		CE6A0FC01EF0B46100321430 /* ic_search_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAC1EF0B46100321430 /* ic_search_36pt.png */; };
+		CE6A0FC11EF0B46100321430 /* ic_search_36pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAD1EF0B46100321430 /* ic_search_36pt@2x.png */; };
+		CE6A0FC21EF0B46100321430 /* ic_search_36pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAE1EF0B46100321430 /* ic_search_36pt@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -182,6 +202,26 @@
 		CE6A0F8E1EEFA36000321430 /* Voom_UI copy 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 3.jpg"; sourceTree = "<group>"; };
 		CE6A0F8F1EEFA36000321430 /* Voom_UI copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy.jpg"; sourceTree = "<group>"; };
 		CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 5.jpg"; sourceTree = "<group>"; };
+		CE6A0F961EF0B46100321430 /* ic_add_task.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_add_task.png; sourceTree = "<group>"; };
+		CE6A0F971EF0B46100321430 /* ic_add_task@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add_task@2x.png"; sourceTree = "<group>"; };
+		CE6A0F981EF0B46100321430 /* ic_add_task@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add_task@3x.png"; sourceTree = "<group>"; };
+		CE6A0F9A1EF0B46100321430 /* ic_ads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_ads.png; sourceTree = "<group>"; };
+		CE6A0F9B1EF0B46100321430 /* ic_ads@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ads@2x.png"; sourceTree = "<group>"; };
+		CE6A0F9C1EF0B46100321430 /* ic_ads@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ads@3x.png"; sourceTree = "<group>"; };
+		CE6A0F9E1EF0B46100321430 /* ic_chat_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_chat_36pt.png; sourceTree = "<group>"; };
+		CE6A0F9F1EF0B46100321430 /* ic_chat_36pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_chat_36pt@2x.png"; sourceTree = "<group>"; };
+		CE6A0FA01EF0B46100321430 /* ic_chat_36pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_chat_36pt@3x.png"; sourceTree = "<group>"; };
+		CE6A0FA21EF0B46100321430 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		CE6A0FA31EF0B46100321430 /* ic_home_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_36pt.png; sourceTree = "<group>"; };
+		CE6A0FA41EF0B46100321430 /* ic_home_36pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_home_36pt@2x.png"; sourceTree = "<group>"; };
+		CE6A0FA51EF0B46100321430 /* ic_home_36pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_home_36pt@3x.png"; sourceTree = "<group>"; };
+		CE6A0FA71EF0B46100321430 /* ic_person_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_person_36pt.png; sourceTree = "<group>"; };
+		CE6A0FA81EF0B46100321430 /* ic_person_36pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_person_36pt@2x.png"; sourceTree = "<group>"; };
+		CE6A0FA91EF0B46100321430 /* ic_person_36pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_person_36pt@3x.png"; sourceTree = "<group>"; };
+		CE6A0FAB1EF0B46100321430 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
+		CE6A0FAC1EF0B46100321430 /* ic_search_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search_36pt.png; sourceTree = "<group>"; };
+		CE6A0FAD1EF0B46100321430 /* ic_search_36pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_36pt@2x.png"; sourceTree = "<group>"; };
+		CE6A0FAE1EF0B46100321430 /* ic_search_36pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_36pt@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -2326,6 +2366,12 @@
 		CE23A72A1EEE44A10063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A0F951EF0B46100321430 /* ic_add_task */,
+				CE6A0F991EF0B46100321430 /* ic_ads */,
+				CE6A0F9D1EF0B46100321430 /* ic_chat */,
+				CE6A0FA11EF0B46100321430 /* ic_home */,
+				CE6A0FA61EF0B46100321430 /* ic_person */,
+				CE6A0FAA1EF0B46100321430 /* ic_search */,
 				CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */,
 				CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */,
 			);
@@ -2618,6 +2664,68 @@
 			path = RoundedTextField;
 			sourceTree = "<group>";
 		};
+		CE6A0F951EF0B46100321430 /* ic_add_task */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F961EF0B46100321430 /* ic_add_task.png */,
+				CE6A0F971EF0B46100321430 /* ic_add_task@2x.png */,
+				CE6A0F981EF0B46100321430 /* ic_add_task@3x.png */,
+			);
+			path = ic_add_task;
+			sourceTree = "<group>";
+		};
+		CE6A0F991EF0B46100321430 /* ic_ads */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F9A1EF0B46100321430 /* ic_ads.png */,
+				CE6A0F9B1EF0B46100321430 /* ic_ads@2x.png */,
+				CE6A0F9C1EF0B46100321430 /* ic_ads@3x.png */,
+			);
+			path = ic_ads;
+			sourceTree = "<group>";
+		};
+		CE6A0F9D1EF0B46100321430 /* ic_chat */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F9E1EF0B46100321430 /* ic_chat_36pt.png */,
+				CE6A0F9F1EF0B46100321430 /* ic_chat_36pt@2x.png */,
+				CE6A0FA01EF0B46100321430 /* ic_chat_36pt@3x.png */,
+			);
+			path = ic_chat;
+			sourceTree = "<group>";
+		};
+		CE6A0FA11EF0B46100321430 /* ic_home */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0FA21EF0B46100321430 /* Contents.json */,
+				CE6A0FA31EF0B46100321430 /* ic_home_36pt.png */,
+				CE6A0FA41EF0B46100321430 /* ic_home_36pt@2x.png */,
+				CE6A0FA51EF0B46100321430 /* ic_home_36pt@3x.png */,
+			);
+			path = ic_home;
+			sourceTree = "<group>";
+		};
+		CE6A0FA61EF0B46100321430 /* ic_person */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0FA71EF0B46100321430 /* ic_person_36pt.png */,
+				CE6A0FA81EF0B46100321430 /* ic_person_36pt@2x.png */,
+				CE6A0FA91EF0B46100321430 /* ic_person_36pt@3x.png */,
+			);
+			path = ic_person;
+			sourceTree = "<group>";
+		};
+		CE6A0FAA1EF0B46100321430 /* ic_search */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0FAB1EF0B46100321430 /* Contents.json */,
+				CE6A0FAC1EF0B46100321430 /* ic_search_36pt.png */,
+				CE6A0FAD1EF0B46100321430 /* ic_search_36pt@2x.png */,
+				CE6A0FAE1EF0B46100321430 /* ic_search_36pt@3x.png */,
+			);
+			path = ic_search;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -2724,27 +2832,47 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CE6A0FBD1EF0B46100321430 /* ic_person_36pt@2x.png in Resources */,
 				CE6A0F321EEF458500321430 /* RegistrationViewControlleriPhone.xib in Resources */,
+				CE6A0FBA1EF0B46100321430 /* ic_home_36pt@2x.png in Resources */,
 				CE6A0F591EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib in Resources */,
+				CE6A0FB51EF0B46100321430 /* ic_chat_36pt.png in Resources */,
+				CE6A0FB91EF0B46100321430 /* ic_home_36pt.png in Resources */,
+				CE6A0FB81EF0B46100321430 /* Contents.json in Resources */,
+				CE6A0FC11EF0B46100321430 /* ic_search_36pt@2x.png in Resources */,
 				CE6A0F901EEFA36000321430 /* Voom_UI copy 2.jpg in Resources */,
 				CE6A0EEA1EEE47A400321430 /* SideMenuViewControlleriPhone.xib in Resources */,
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
+				CE6A0FB01EF0B46100321430 /* ic_add_task@2x.png in Resources */,
 				CE6A0F771EEF852400321430 /* userIcon@2x.png in Resources */,
 				CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */,
+				CE6A0FB41EF0B46100321430 /* ic_ads@3x.png in Resources */,
 				CE6A0F081EEE48C500321430 /* LoginViewControlleriPhone.xib in Resources */,
 				CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */,
 				CE6A0F611EEF629C00321430 /* RemindersViewControlleriPhone.xib in Resources */,
+				CE6A0FB61EF0B46100321430 /* ic_chat_36pt@2x.png in Resources */,
+				CE6A0FB71EF0B46100321430 /* ic_chat_36pt@3x.png in Resources */,
 				CE6A0F6C1EEF637D00321430 /* SettingsViewControlleriPhone.xib in Resources */,
 				CE6A0F0F1EEE4D6E00321430 /* Default-568h@2x.png in Resources */,
+				CE6A0FC21EF0B46100321430 /* ic_search_36pt@3x.png in Resources */,
 				CE6A0F381EEF4A0800321430 /* HeaderView.xib in Resources */,
+				CE6A0FB11EF0B46100321430 /* ic_add_task@3x.png in Resources */,
+				CE6A0FB31EF0B46100321430 /* ic_ads@2x.png in Resources */,
+				CE6A0FBC1EF0B46100321430 /* ic_person_36pt.png in Resources */,
+				CE6A0FB21EF0B46100321430 /* ic_ads.png in Resources */,
 				CE6A0F881EEFA08700321430 /* Voom_UI copy.jpg in Resources */,
 				CE6A0F4A1EEF52DB00321430 /* back-iPhone@2x.png in Resources */,
 				CE6A0F861EEF9DD800321430 /* Voom_UI copy 2.jpg in Resources */,
 				CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */,
 				CE6A0F921EEFA36000321430 /* Voom_UI copy.jpg in Resources */,
+				CE6A0FBE1EF0B46100321430 /* ic_person_36pt@3x.png in Resources */,
+				CE6A0FBB1EF0B46100321430 /* ic_home_36pt@3x.png in Resources */,
 				CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */,
 				CE6A0F911EEFA36000321430 /* Voom_UI copy 3.jpg in Resources */,
+				CE6A0FC01EF0B46100321430 /* ic_search_36pt.png in Resources */,
+				CE6A0FAF1EF0B46100321430 /* ic_add_task.png in Resources */,
 				CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */,
+				CE6A0FBF1EF0B46100321430 /* Contents.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
