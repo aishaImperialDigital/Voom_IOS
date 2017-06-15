@@ -9,6 +9,16 @@
 #import "SideMenuViewController.h"
 #import "SideMenuTableViewCell.h"
 #import "Constants.h"
+#import "VehicleInfoViewControlleriPhone.h"
+#import "VehicleRegistrationInfoViewControlleriPhone.h"
+#import "VehicleServicesViewControlleriPhone.h"
+#import "WarrantOfFitnessViewControlleriPhone.h"
+#import "VehicleMileageViewControlleriPhone.h"
+#import "TollRoadsViewControlleriPhone.h"
+#import "FinesViewController.h"
+#import "BreakdownsViewControlleriPhone.h"
+#import "AccidentsViewControlleriPhone.h"
+
 
 @interface SideMenuViewController ()
 
@@ -73,4 +83,92 @@
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
     return 40;
 }
+
+#pragma mark side menu methods
+
+-(void) loadViewControllersForIndex:(int)index{
+    switch (index) {
+        case VehicleInfoIndex:
+             [self goToVehicleInfo];
+             break;
+        case RegistrationIndex:
+             [self goToVehicleRegistration];
+             break;
+        case ServicesIndex:
+             [self goToVehicleServices];
+             break;
+        case WOFIndex:
+             [self goToVehicleWOF];
+             break;
+        case MileageIndex:
+             [self goToMileage];
+             break;
+        case TollRoadsIndex:
+             [self goToTollRoads];
+             break;
+        case FinesIndex:
+             [self goToFines];
+             break;
+        case BreakdownsIndex:
+             [self goToBreakDowns];
+             break;
+        case AccidentsIndex:
+             [self goToAccidents];
+            break;
+        default:
+            break;
+    }
+}
+
+
+
+-(void)goToVehicleInfo{
+    
+    VehicleInfoViewControlleriPhone *vehicleInfo = [[VehicleInfoViewControlleriPhone alloc] initWithNibName:@"VehicleInfoViewControlleriPhone" bundle:nil];
+    [self.navigationController pushViewController:vehicleInfo animated:YES];
+                                                       
+}
+
+-(void)goToVehicleRegistration{
+       //VehicleRegistrationInfoViewControlleriPhone
+    
+}
+
+-(void)goToVehicleServices{
+     /// VehicleServicesViewControlleriPhone
+
+}
+
+-(void)goToVehicleWOF{
+    //  WarrantOfFitnessViewControlleriPhone
+
+}
+
+-(void)goToMileage{
+    //  VehicleMileageViewControlleriPhone
+    
+}
+
+-(void)goToTollRoads{
+     // TollRoadsViewControlleriPhone
+
+}
+
+-(void)goToFines{
+   // FinesViewControlleriPhone
+
+    
+}
+
+-(void)goToBreakDowns{
+   // BreakdownsViewControlleriPhone
+
+    
+}
+
+-(void)goToAccidents{
+   // AcidentsViewControlleriPhone
+    
+}
+
 @end

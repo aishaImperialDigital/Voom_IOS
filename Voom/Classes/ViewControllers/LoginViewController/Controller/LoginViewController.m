@@ -63,4 +63,15 @@
     [self.navigationController pushViewController:vehicleViewController animated:YES];
 }
 
+#pragma mark - DataManager Delegate
+
+- (void)didGetEntity:(id)entity{
+}
+
+- (BOOL)didGetError:(id)error{
+    self.view.userInteractionEnabled = YES;
+    return NO;
+}
+
+
 @end

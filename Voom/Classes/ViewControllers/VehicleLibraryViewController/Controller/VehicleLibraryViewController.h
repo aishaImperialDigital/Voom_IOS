@@ -8,6 +8,9 @@
 
 #import "VoomParentViewController.h"
 
-@interface VehicleLibraryViewController : VoomParentViewController
+@interface VehicleLibraryViewController : VoomParentViewController{
+    
+}
+@property(nonatomic,strong) IBOutlet UITableView *tableView;
 
 @end

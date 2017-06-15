@@ -136,3 +136,15 @@ images
 #define kGETRequest @"GET"
 #define kRequestParamInfo     @"X-RequestParamInfo"
 #define kMessageHtml @"message"
+
+
+
+#define VehicleInfoIndex 0
+#define RegistrationIndex 1
+#define ServicesIndex 2
+#define WOFIndex 3
+#define MileageIndex 4
+#define TollRoadsIndex 5
+#define FinesIndex 6
+#define BreakdownsIndex 7
+#define AccidentsIndex 8

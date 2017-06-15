@@ -57,12 +57,7 @@
 		CE6A0F821EEF961400321430 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F7C1EEF961400321430 /* TPKeyboardAvoidingScrollView.m */; };
 		CE6A0F831EEF961400321430 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F7E1EEF961400321430 /* TPKeyboardAvoidingTableView.m */; };
 		CE6A0F841EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F801EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
-		CE6A0F861EEF9DD800321430 /* Voom_UI copy 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F851EEF9DD800321430 /* Voom_UI copy 2.jpg */; };
-		CE6A0F881EEFA08700321430 /* Voom_UI copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F871EEFA08700321430 /* Voom_UI copy.jpg */; };
 		CE6A0F8C1EEFA26300321430 /* TPRoundedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F8B1EEFA26300321430 /* TPRoundedTextField.m */; };
-		CE6A0F901EEFA36000321430 /* Voom_UI copy 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F8D1EEFA36000321430 /* Voom_UI copy 2.jpg */; };
-		CE6A0F911EEFA36000321430 /* Voom_UI copy 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F8E1EEFA36000321430 /* Voom_UI copy 3.jpg */; };
-		CE6A0F921EEFA36000321430 /* Voom_UI copy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F8F1EEFA36000321430 /* Voom_UI copy.jpg */; };
 		CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */; };
 		CE6A0FAF1EF0B46100321430 /* ic_add_task.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F961EF0B46100321430 /* ic_add_task.png */; };
 		CE6A0FB01EF0B46100321430 /* ic_add_task@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F971EF0B46100321430 /* ic_add_task@2x.png */; };
@@ -138,9 +133,39 @@
 		CE6A104D1EF0E2E000321430 /* EntityErrorsBO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A104C1EF0E2E000321430 /* EntityErrorsBO.m */; };
 		CE6A10511EF0E30700321430 /* VoomParentBO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10501EF0E30700321430 /* VoomParentBO.m */; };
 		CE6A105C1EF1E43700321430 /* VoomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A105B1EF1E43700321430 /* VoomTableViewCell.m */; };
-		CE6A10601EF1E85B00321430 /* SideMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A105E1EF1E85B00321430 /* SideMenuTableViewCell.m */; };
-		CE6A10611EF1E85B00321430 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A105F1EF1E85B00321430 /* SideMenuTableViewCell.xib */; };
 		CE6A10631EF1F76900321430 /* transport1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10621EF1F76900321430 /* transport1@2x.png */; };
+		CE6A106B1EF2517500321430 /* SideMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10691EF2517500321430 /* SideMenuTableViewCell.m */; };
+		CE6A106C1EF2517500321430 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A106A1EF2517500321430 /* SideMenuTableViewCell.xib */; };
+		CE6A10701EF2521700321430 /* VehicleLibraryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A106F1EF2521700321430 /* VehicleLibraryTableViewCell.m */; };
+		CE6A10721EF252B600321430 /* VehicleLibraryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10711EF252B600321430 /* VehicleLibraryTableViewCell.xib */; };
+		CE6A10741EF3392800321430 /* edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10731EF3392800321430 /* edit@2x.png */; };
+		CE6A10771EF33BD000321430 /* VehicleInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10761EF33BD000321430 /* VehicleInfoViewController.m */; };
+		CE6A107B1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10791EF33C0A00321430 /* VehicleInfoViewControlleriPhone.m */; };
+		CE6A107C1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A107A1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib */; };
+		CE6A109D1EF3459200321430 /* VehicleRegistrationInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A109C1EF3459200321430 /* VehicleRegistrationInfoViewController.m */; };
+		CE6A10A11EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A109F1EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.m */; };
+		CE6A10A21EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10A01EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.xib */; };
+		CE6A10A51EF3478E00321430 /* VehicleServicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10A41EF3478E00321430 /* VehicleServicesViewController.m */; };
+		CE6A10A91EF347BC00321430 /* VehicleServicesViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10A71EF347BC00321430 /* VehicleServicesViewControlleriPhone.m */; };
+		CE6A10AA1EF347BC00321430 /* VehicleServicesViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10A81EF347BC00321430 /* VehicleServicesViewControlleriPhone.xib */; };
+		CE6A10AD1EF3484900321430 /* WarrantOfFitnessViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10AC1EF3484900321430 /* WarrantOfFitnessViewController.m */; };
+		CE6A10B11EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10AF1EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.m */; };
+		CE6A10B21EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10B01EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.xib */; };
+		CE6A10B51EF348C900321430 /* VehicleMileageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10B41EF348C900321430 /* VehicleMileageViewController.m */; };
+		CE6A10B91EF348E700321430 /* VehicleMileageViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10B71EF348E700321430 /* VehicleMileageViewControlleriPhone.m */; };
+		CE6A10BA1EF348E700321430 /* VehicleMileageViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10B81EF348E700321430 /* VehicleMileageViewControlleriPhone.xib */; };
+		CE6A10BD1EF349B700321430 /* TollRoadsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10BC1EF349B700321430 /* TollRoadsViewController.m */; };
+		CE6A10C61EF34A2E00321430 /* TollRoadsViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10C41EF34A2E00321430 /* TollRoadsViewControlleriPhone.m */; };
+		CE6A10C71EF34A2E00321430 /* TollRoadsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10C51EF34A2E00321430 /* TollRoadsViewControlleriPhone.xib */; };
+		CE6A10CA1EF34AEB00321430 /* FinesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10C91EF34AEB00321430 /* FinesViewController.m */; };
+		CE6A10CE1EF34B0300321430 /* FinesViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10CC1EF34B0300321430 /* FinesViewControlleriPhone.m */; };
+		CE6A10CF1EF34B0300321430 /* FinesViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10CD1EF34B0300321430 /* FinesViewControlleriPhone.xib */; };
+		CE6A10D21EF34D1E00321430 /* BreakdownsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10D11EF34D1E00321430 /* BreakdownsViewController.m */; };
+		CE6A10D61EF34D3C00321430 /* BreakdownsViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10D41EF34D3C00321430 /* BreakdownsViewControlleriPhone.m */; };
+		CE6A10D71EF34D3C00321430 /* BreakdownsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10D51EF34D3C00321430 /* BreakdownsViewControlleriPhone.xib */; };
+		CE6A10E91EF3523200321430 /* AccidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10E81EF3523200321430 /* AccidentsViewController.m */; };
+		CE6A10ED1EF3526000321430 /* AccidentsViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10EB1EF3526000321430 /* AccidentsViewControlleriPhone.m */; };
+		CE6A10EE1EF3526000321430 /* AccidentsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10EC1EF3526000321430 /* AccidentsViewControlleriPhone.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -251,13 +276,8 @@
 		CE6A0F7E1EEF961400321430 /* TPKeyboardAvoidingTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingTableView.m; sourceTree = "<group>"; };
 		CE6A0F7F1EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+TPKeyboardAvoidingAdditions.h"; sourceTree = "<group>"; };
 		CE6A0F801EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TPKeyboardAvoidingAdditions.m"; sourceTree = "<group>"; };
-		CE6A0F851EEF9DD800321430 /* Voom_UI copy 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 2.jpg"; sourceTree = "<group>"; };
-		CE6A0F871EEFA08700321430 /* Voom_UI copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy.jpg"; sourceTree = "<group>"; };
 		CE6A0F8A1EEFA26300321430 /* TPRoundedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRoundedTextField.h; sourceTree = "<group>"; };
 		CE6A0F8B1EEFA26300321430 /* TPRoundedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRoundedTextField.m; sourceTree = "<group>"; };
-		CE6A0F8D1EEFA36000321430 /* Voom_UI copy 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 2.jpg"; sourceTree = "<group>"; };
-		CE6A0F8E1EEFA36000321430 /* Voom_UI copy 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 3.jpg"; sourceTree = "<group>"; };
-		CE6A0F8F1EEFA36000321430 /* Voom_UI copy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy.jpg"; sourceTree = "<group>"; };
 		CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 5.jpg"; sourceTree = "<group>"; };
 		CE6A0F961EF0B46100321430 /* ic_add_task.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_add_task.png; sourceTree = "<group>"; };
 		CE6A0F971EF0B46100321430 /* ic_add_task@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add_task@2x.png"; sourceTree = "<group>"; };
@@ -357,10 +377,59 @@
 		CE6A10501EF0E30700321430 /* VoomParentBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomParentBO.m; sourceTree = "<group>"; };
 		CE6A105A1EF1E43700321430 /* VoomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomTableViewCell.h; sourceTree = "<group>"; };
 		CE6A105B1EF1E43700321430 /* VoomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomTableViewCell.m; sourceTree = "<group>"; };
-		CE6A105D1EF1E85B00321430 /* SideMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuTableViewCell.h; sourceTree = "<group>"; };
-		CE6A105E1EF1E85B00321430 /* SideMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuTableViewCell.m; sourceTree = "<group>"; };
-		CE6A105F1EF1E85B00321430 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
 		CE6A10621EF1F76900321430 /* transport1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transport1@2x.png"; sourceTree = "<group>"; };
+		CE6A10681EF2517500321430 /* SideMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuTableViewCell.h; sourceTree = "<group>"; };
+		CE6A10691EF2517500321430 /* SideMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuTableViewCell.m; sourceTree = "<group>"; };
+		CE6A106A1EF2517500321430 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
+		CE6A106E1EF2521700321430 /* VehicleLibraryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleLibraryTableViewCell.h; sourceTree = "<group>"; };
+		CE6A106F1EF2521700321430 /* VehicleLibraryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleLibraryTableViewCell.m; sourceTree = "<group>"; };
+		CE6A10711EF252B600321430 /* VehicleLibraryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleLibraryTableViewCell.xib; sourceTree = "<group>"; };
+		CE6A10731EF3392800321430 /* edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@2x.png"; sourceTree = "<group>"; };
+		CE6A10751EF33BD000321430 /* VehicleInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInfoViewController.h; sourceTree = "<group>"; };
+		CE6A10761EF33BD000321430 /* VehicleInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInfoViewController.m; sourceTree = "<group>"; };
+		CE6A10781EF33C0A00321430 /* VehicleInfoViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInfoViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A10791EF33C0A00321430 /* VehicleInfoViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInfoViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A107A1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleInfoViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A109B1EF3459200321430 /* VehicleRegistrationInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleRegistrationInfoViewController.h; sourceTree = "<group>"; };
+		CE6A109C1EF3459200321430 /* VehicleRegistrationInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleRegistrationInfoViewController.m; sourceTree = "<group>"; };
+		CE6A109E1EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleRegistrationInfoViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A109F1EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleRegistrationInfoViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A10A01EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleRegistrationInfoViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A10A31EF3478E00321430 /* VehicleServicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleServicesViewController.h; sourceTree = "<group>"; };
+		CE6A10A41EF3478E00321430 /* VehicleServicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleServicesViewController.m; sourceTree = "<group>"; };
+		CE6A10A61EF347BC00321430 /* VehicleServicesViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleServicesViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A10A71EF347BC00321430 /* VehicleServicesViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleServicesViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A10A81EF347BC00321430 /* VehicleServicesViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleServicesViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A10AB1EF3484900321430 /* WarrantOfFitnessViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarrantOfFitnessViewController.h; sourceTree = "<group>"; };
+		CE6A10AC1EF3484900321430 /* WarrantOfFitnessViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarrantOfFitnessViewController.m; sourceTree = "<group>"; };
+		CE6A10AE1EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarrantOfFitnessViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A10AF1EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WarrantOfFitnessViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A10B01EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WarrantOfFitnessViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A10B31EF348C900321430 /* VehicleMileageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleMileageViewController.h; sourceTree = "<group>"; };
+		CE6A10B41EF348C900321430 /* VehicleMileageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleMileageViewController.m; sourceTree = "<group>"; };
+		CE6A10B61EF348E700321430 /* VehicleMileageViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleMileageViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A10B71EF348E700321430 /* VehicleMileageViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleMileageViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A10B81EF348E700321430 /* VehicleMileageViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleMileageViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A10BB1EF349B700321430 /* TollRoadsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollRoadsViewController.h; sourceTree = "<group>"; };
+		CE6A10BC1EF349B700321430 /* TollRoadsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollRoadsViewController.m; sourceTree = "<group>"; };
+		CE6A10C31EF34A2E00321430 /* TollRoadsViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollRoadsViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A10C41EF34A2E00321430 /* TollRoadsViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollRoadsViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A10C51EF34A2E00321430 /* TollRoadsViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TollRoadsViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A10C81EF34AEB00321430 /* FinesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinesViewController.h; sourceTree = "<group>"; };
+		CE6A10C91EF34AEB00321430 /* FinesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinesViewController.m; sourceTree = "<group>"; };
+		CE6A10CB1EF34B0300321430 /* FinesViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FinesViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A10CC1EF34B0300321430 /* FinesViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FinesViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A10CD1EF34B0300321430 /* FinesViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FinesViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A10D01EF34D1E00321430 /* BreakdownsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakdownsViewController.h; sourceTree = "<group>"; };
+		CE6A10D11EF34D1E00321430 /* BreakdownsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakdownsViewController.m; sourceTree = "<group>"; };
+		CE6A10D31EF34D3C00321430 /* BreakdownsViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BreakdownsViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A10D41EF34D3C00321430 /* BreakdownsViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BreakdownsViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A10D51EF34D3C00321430 /* BreakdownsViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BreakdownsViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A10E71EF3523200321430 /* AccidentsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccidentsViewController.h; sourceTree = "<group>"; };
+		CE6A10E81EF3523200321430 /* AccidentsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccidentsViewController.m; sourceTree = "<group>"; };
+		CE6A10EA1EF3526000321430 /* AccidentsViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccidentsViewControlleriPhone.h; sourceTree = "<group>"; };
+		CE6A10EB1EF3526000321430 /* AccidentsViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccidentsViewControlleriPhone.m; sourceTree = "<group>"; };
+		CE6A10EC1EF3526000321430 /* AccidentsViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccidentsViewControlleriPhone.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -391,13 +460,9 @@
 		CE23A5F11EEE44320063EE90 = {
 			isa = PBXGroup;
 			children = (
+				CE6A10731EF3392800321430 /* edit@2x.png */,
 				CE6A0FC41EF0CBDB00321430 /* Voom-Bridging-Header-Swift.h */,
 				CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */,
-				CE6A0F8D1EEFA36000321430 /* Voom_UI copy 2.jpg */,
-				CE6A0F8E1EEFA36000321430 /* Voom_UI copy 3.jpg */,
-				CE6A0F8F1EEFA36000321430 /* Voom_UI copy.jpg */,
-				CE6A0F871EEFA08700321430 /* Voom_UI copy.jpg */,
-				CE6A0F851EEF9DD800321430 /* Voom_UI copy 2.jpg */,
 				CE6A0F391EEF4A8300321430 /* Voom_PrefixHeader.pch */,
 				CE6A0F0E1EEE4D6E00321430 /* Default-568h@2x.png */,
 				CE23A5FC1EEE44320063EE90 /* Voom */,
@@ -487,6 +552,8 @@
 		CE23A6331EEE44A00063EE90 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10D81EF351F100321430 /* AccidentsViewController */,
+				CE6A107D1EF33CAD00321430 /* VehicleRegistrationViewController */,
 				CE23A7241EEE44A00063EE90 /* VoomParentViewController */,
 				CE23A6341EEE44A00063EE90 /* AccountSettingsViewController */,
 				CE23A6431EEE44A00063EE90 /* BreakdownsViewController */,
@@ -645,6 +712,8 @@
 			children = (
 				CE23A6451EEE44A00063EE90 /* iPad */,
 				CE23A6461EEE44A00063EE90 /* iPhone */,
+				CE6A10D01EF34D1E00321430 /* BreakdownsViewController.h */,
+				CE6A10D11EF34D1E00321430 /* BreakdownsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -659,6 +728,9 @@
 		CE23A6461EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10D31EF34D3C00321430 /* BreakdownsViewControlleriPhone.h */,
+				CE6A10D41EF34D3C00321430 /* BreakdownsViewControlleriPhone.m */,
+				CE6A10D51EF34D3C00321430 /* BreakdownsViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -883,6 +955,8 @@
 			children = (
 				CE23A6631EEE44A00063EE90 /* iPad */,
 				CE23A6641EEE44A00063EE90 /* iPhone */,
+				CE6A10C81EF34AEB00321430 /* FinesViewController.h */,
+				CE6A10C91EF34AEB00321430 /* FinesViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -897,6 +971,9 @@
 		CE23A6641EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10CB1EF34B0300321430 /* FinesViewControlleriPhone.h */,
+				CE6A10CC1EF34B0300321430 /* FinesViewControlleriPhone.m */,
+				CE6A10CD1EF34B0300321430 /* FinesViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1128,6 +1205,8 @@
 			children = (
 				CE23A6811EEE44A00063EE90 /* iPad */,
 				CE23A6821EEE44A00063EE90 /* iPhone */,
+				CE6A10B31EF348C900321430 /* VehicleMileageViewController.h */,
+				CE6A10B41EF348C900321430 /* VehicleMileageViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1142,6 +1221,9 @@
 		CE23A6821EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10B61EF348E700321430 /* VehicleMileageViewControlleriPhone.h */,
+				CE6A10B71EF348E700321430 /* VehicleMileageViewControlleriPhone.m */,
+				CE6A10B81EF348E700321430 /* VehicleMileageViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1724,9 +1806,7 @@
 		CE23A6C91EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				CE6A105D1EF1E85B00321430 /* SideMenuTableViewCell.h */,
-				CE6A105E1EF1E85B00321430 /* SideMenuTableViewCell.m */,
-				CE6A105F1EF1E85B00321430 /* SideMenuTableViewCell.xib */,
+				CE6A10671EF2517500321430 /* SideMenuCell */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1747,6 +1827,8 @@
 			children = (
 				CE23A6CC1EEE44A00063EE90 /* iPad */,
 				CE23A6CD1EEE44A00063EE90 /* iPhone */,
+				CE6A10BB1EF349B700321430 /* TollRoadsViewController.h */,
+				CE6A10BC1EF349B700321430 /* TollRoadsViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -1761,6 +1843,9 @@
 		CE23A6CD1EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10C31EF34A2E00321430 /* TollRoadsViewControlleriPhone.h */,
+				CE6A10C41EF34A2E00321430 /* TollRoadsViewControlleriPhone.m */,
+				CE6A10C51EF34A2E00321430 /* TollRoadsViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1990,6 +2075,8 @@
 			children = (
 				CE23A6EA1EEE44A00063EE90 /* iPad */,
 				CE23A6EB1EEE44A00063EE90 /* iPhone */,
+				CE6A10751EF33BD000321430 /* VehicleInfoViewController.h */,
+				CE6A10761EF33BD000321430 /* VehicleInfoViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2004,6 +2091,9 @@
 		CE23A6EB1EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10781EF33C0A00321430 /* VehicleInfoViewControlleriPhone.h */,
+				CE6A10791EF33C0A00321430 /* VehicleInfoViewControlleriPhone.m */,
+				CE6A107A1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2213,6 +2303,7 @@
 		CE23A7051EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A106D1EF251BB00321430 /* VehicleLibraryCell */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2233,6 +2324,8 @@
 			children = (
 				CE23A7081EEE44A00063EE90 /* iPad */,
 				CE23A7091EEE44A00063EE90 /* iPhone */,
+				CE6A109B1EF3459200321430 /* VehicleRegistrationInfoViewController.h */,
+				CE6A109C1EF3459200321430 /* VehicleRegistrationInfoViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2247,6 +2340,9 @@
 		CE23A7091EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A109E1EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.h */,
+				CE6A109F1EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.m */,
+				CE6A10A01EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2352,6 +2448,8 @@
 			children = (
 				CE23A7171EEE44A00063EE90 /* iPad */,
 				CE23A7181EEE44A00063EE90 /* iPhone */,
+				CE6A10A31EF3478E00321430 /* VehicleServicesViewController.h */,
+				CE6A10A41EF3478E00321430 /* VehicleServicesViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2366,6 +2464,9 @@
 		CE23A7181EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10A61EF347BC00321430 /* VehicleServicesViewControlleriPhone.h */,
+				CE6A10A71EF347BC00321430 /* VehicleServicesViewControlleriPhone.m */,
+				CE6A10A81EF347BC00321430 /* VehicleServicesViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2610,6 +2711,8 @@
 			children = (
 				CE23A7351EEE44A10063EE90 /* iPad */,
 				CE23A7361EEE44A10063EE90 /* iPhone */,
+				CE6A10AB1EF3484900321430 /* WarrantOfFitnessViewController.h */,
+				CE6A10AC1EF3484900321430 /* WarrantOfFitnessViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -2624,6 +2727,9 @@
 		CE23A7361EEE44A10063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10AE1EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.h */,
+				CE6A10AF1EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.m */,
+				CE6A10B01EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.xib */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -3035,6 +3141,269 @@
 			path = VoomParentTableViewCell;
 			sourceTree = "<group>";
 		};
+		CE6A10671EF2517500321430 /* SideMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10681EF2517500321430 /* SideMenuTableViewCell.h */,
+				CE6A10691EF2517500321430 /* SideMenuTableViewCell.m */,
+				CE6A106A1EF2517500321430 /* SideMenuTableViewCell.xib */,
+			);
+			path = SideMenuCell;
+			sourceTree = "<group>";
+		};
+		CE6A106D1EF251BB00321430 /* VehicleLibraryCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A106E1EF2521700321430 /* VehicleLibraryTableViewCell.h */,
+				CE6A106F1EF2521700321430 /* VehicleLibraryTableViewCell.m */,
+				CE6A10711EF252B600321430 /* VehicleLibraryTableViewCell.xib */,
+			);
+			path = VehicleLibraryCell;
+			sourceTree = "<group>";
+		};
+		CE6A107D1EF33CAD00321430 /* VehicleRegistrationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A107E1EF33CAD00321430 /* Controller */,
+				CE6A10811EF33CAD00321430 /* Images */,
+				CE6A10841EF33CAD00321430 /* Modal */,
+				CE6A10891EF33CAD00321430 /* View */,
+			);
+			path = VehicleRegistrationViewController;
+			sourceTree = "<group>";
+		};
+		CE6A107E1EF33CAD00321430 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A107F1EF33CAD00321430 /* iPad */,
+				CE6A10801EF33CAD00321430 /* iPhone */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE6A107F1EF33CAD00321430 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE6A10801EF33CAD00321430 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE6A10811EF33CAD00321430 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10821EF33CAD00321430 /* iPad */,
+				CE6A10831EF33CAD00321430 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE6A10821EF33CAD00321430 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE6A10831EF33CAD00321430 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE6A10841EF33CAD00321430 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10851EF33CAD00321430 /* Bo */,
+				CE6A10861EF33CAD00321430 /* Enums */,
+				CE6A10871EF33CAD00321430 /* Request */,
+				CE6A10881EF33CAD00321430 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE6A10851EF33CAD00321430 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE6A10861EF33CAD00321430 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE6A10871EF33CAD00321430 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE6A10881EF33CAD00321430 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE6A10891EF33CAD00321430 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A108A1EF33CAD00321430 /* iPad */,
+				CE6A108B1EF33CAD00321430 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE6A108A1EF33CAD00321430 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE6A108B1EF33CAD00321430 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE6A10D81EF351F100321430 /* AccidentsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10D91EF351F100321430 /* Controller */,
+				CE6A10DC1EF351F100321430 /* Images */,
+				CE6A10DF1EF351F100321430 /* Modal */,
+				CE6A10E41EF351F100321430 /* View */,
+			);
+			path = AccidentsViewController;
+			sourceTree = "<group>";
+		};
+		CE6A10D91EF351F100321430 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10DA1EF351F100321430 /* iPad */,
+				CE6A10DB1EF351F100321430 /* iPhone */,
+				CE6A10E71EF3523200321430 /* AccidentsViewController.h */,
+				CE6A10E81EF3523200321430 /* AccidentsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		CE6A10DA1EF351F100321430 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE6A10DB1EF351F100321430 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10EA1EF3526000321430 /* AccidentsViewControlleriPhone.h */,
+				CE6A10EB1EF3526000321430 /* AccidentsViewControlleriPhone.m */,
+				CE6A10EC1EF3526000321430 /* AccidentsViewControlleriPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE6A10DC1EF351F100321430 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10DD1EF351F100321430 /* iPad */,
+				CE6A10DE1EF351F100321430 /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		CE6A10DD1EF351F100321430 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE6A10DE1EF351F100321430 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		CE6A10DF1EF351F100321430 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10E01EF351F100321430 /* Bo */,
+				CE6A10E11EF351F100321430 /* Enums */,
+				CE6A10E21EF351F100321430 /* Request */,
+				CE6A10E31EF351F100321430 /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		CE6A10E01EF351F100321430 /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		CE6A10E11EF351F100321430 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		CE6A10E21EF351F100321430 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		CE6A10E31EF351F100321430 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		CE6A10E41EF351F100321430 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10E51EF351F100321430 /* iPad */,
+				CE6A10E61EF351F100321430 /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		CE6A10E51EF351F100321430 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		CE6A10E61EF351F100321430 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3148,14 +3517,17 @@
 				CE6A0F321EEF458500321430 /* RegistrationViewControlleriPhone.xib in Resources */,
 				CE6A0FBA1EF0B46100321430 /* ic_home_36pt@2x.png in Resources */,
 				CE6A0F591EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib in Resources */,
+				CE6A10BA1EF348E700321430 /* VehicleMileageViewControlleriPhone.xib in Resources */,
 				CE6A0FB51EF0B46100321430 /* ic_chat_36pt.png in Resources */,
 				CE6A0FB91EF0B46100321430 /* ic_home_36pt.png in Resources */,
+				CE6A107C1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib in Resources */,
+				CE6A10CF1EF34B0300321430 /* FinesViewControlleriPhone.xib in Resources */,
 				CE6A0FB81EF0B46100321430 /* Contents.json in Resources */,
 				CE6A0FC11EF0B46100321430 /* ic_search_36pt@2x.png in Resources */,
-				CE6A0F901EEFA36000321430 /* Voom_UI copy 2.jpg in Resources */,
 				CE6A0EEA1EEE47A400321430 /* SideMenuViewControlleriPhone.xib in Resources */,
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
 				CE6A10381EF0DA9D00321430 /* edit@2x.png in Resources */,
+				CE6A10EE1EF3526000321430 /* AccidentsViewControlleriPhone.xib in Resources */,
 				CE6A0FB01EF0B46100321430 /* ic_add_task@2x.png in Resources */,
 				CE6A0F771EEF852400321430 /* userIcon@2x.png in Resources */,
 				CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */,
@@ -3167,30 +3539,33 @@
 				CE6A0FB61EF0B46100321430 /* ic_chat_36pt@2x.png in Resources */,
 				CE6A0FB71EF0B46100321430 /* ic_chat_36pt@3x.png in Resources */,
 				CE6A0FF01EF0CD5C00321430 /* Info.plist in Resources */,
+				CE6A10C71EF34A2E00321430 /* TollRoadsViewControlleriPhone.xib in Resources */,
 				CE6A0F6C1EEF637D00321430 /* SettingsViewControlleriPhone.xib in Resources */,
+				CE6A106C1EF2517500321430 /* SideMenuTableViewCell.xib in Resources */,
+				CE6A10B21EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.xib in Resources */,
+				CE6A10A21EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.xib in Resources */,
+				CE6A10741EF3392800321430 /* edit@2x.png in Resources */,
 				CE6A0F0F1EEE4D6E00321430 /* Default-568h@2x.png in Resources */,
 				CE6A10361EF0DA8000321430 /* signs@2x.png in Resources */,
 				CE6A0FC21EF0B46100321430 /* ic_search_36pt@3x.png in Resources */,
 				CE6A0F381EEF4A0800321430 /* HeaderView.xib in Resources */,
 				CE6A0FB11EF0B46100321430 /* ic_add_task@3x.png in Resources */,
 				CE6A102D1EF0D49100321430 /* ReadMe.rtf in Resources */,
+				CE6A10D71EF34D3C00321430 /* BreakdownsViewControlleriPhone.xib in Resources */,
 				CE6A0FB31EF0B46100321430 /* ic_ads@2x.png in Resources */,
+				CE6A10AA1EF347BC00321430 /* VehicleServicesViewControlleriPhone.xib in Resources */,
 				CE6A0FBC1EF0B46100321430 /* ic_person_36pt.png in Resources */,
 				CE6A0FB21EF0B46100321430 /* ic_ads.png in Resources */,
-				CE6A0F881EEFA08700321430 /* Voom_UI copy.jpg in Resources */,
 				CE6A0F4A1EEF52DB00321430 /* back-iPhone@2x.png in Resources */,
-				CE6A0F861EEF9DD800321430 /* Voom_UI copy 2.jpg in Resources */,
 				CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */,
-				CE6A0F921EEFA36000321430 /* Voom_UI copy.jpg in Resources */,
 				CE6A0FBE1EF0B46100321430 /* ic_person_36pt@3x.png in Resources */,
 				CE6A0FBB1EF0B46100321430 /* ic_home_36pt@3x.png in Resources */,
-				CE6A10611EF1E85B00321430 /* SideMenuTableViewCell.xib in Resources */,
 				CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */,
-				CE6A0F911EEFA36000321430 /* Voom_UI copy 3.jpg in Resources */,
 				CE6A0FC01EF0B46100321430 /* ic_search_36pt.png in Resources */,
 				CE6A10341EF0DA6200321430 /* business1@2x.png in Resources */,
 				CE6A0FAF1EF0B46100321430 /* ic_add_task.png in Resources */,
 				CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */,
+				CE6A10721EF252B600321430 /* VehicleLibraryTableViewCell.xib in Resources */,
 				CE6A0FBF1EF0B46100321430 /* Contents.json in Resources */,
 				CE6A0FF31EF0CD5C00321430 /* LoadingView.xib in Resources */,
 			);
@@ -3223,6 +3598,7 @@
 				CE6A0FE41EF0CD5C00321430 /* AsyncButton.swift in Sources */,
 				CE6A0F831EEF961400321430 /* TPKeyboardAvoidingTableView.m in Sources */,
 				CE6A10261EF0D49100321430 /* EVEDataMappings.m in Sources */,
+				CE6A10A51EF3478E00321430 /* VehicleServicesViewController.m in Sources */,
 				CE6A0FFA1EF0CD5C00321430 /* SpringLabel.swift in Sources */,
 				CE6A0FF81EF0CD5C00321430 /* SpringButton.swift in Sources */,
 				CE6A0FF11EF0CD5C00321430 /* KeyboardLayoutConstraint.swift in Sources */,
@@ -3230,19 +3606,23 @@
 				CE6A10491EF0E16300321430 /* VoomResponse.m in Sources */,
 				CE6A0FF21EF0CD5C00321430 /* LoadingView.swift in Sources */,
 				CE6A103C1EF0DEBB00321430 /* Reachability.m in Sources */,
+				CE6A10D21EF34D1E00321430 /* BreakdownsViewController.m in Sources */,
 				CE6A0FFC1EF0CD5C00321430 /* SpringTextView.swift in Sources */,
 				CE6A10301EF0D49100321430 /* EVEDataDownloadProgress.m in Sources */,
+				CE6A10C61EF34A2E00321430 /* TollRoadsViewControlleriPhone.m in Sources */,
 				CE6A102B1EF0D49100321430 /* EVEValidMappingKey.m in Sources */,
 				CE6A0F821EEF961400321430 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				CE6A10291EF0D49100321430 /* EVESetMappings.m in Sources */,
 				CE6A10271EF0D49100321430 /* EVEDateMappings.m in Sources */,
 				CE6A0F071EEE48C500321430 /* LoginViewControlleriPhone.m in Sources */,
+				CE6A107B1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.m in Sources */,
 				CE6A0F461EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m in Sources */,
 				CE6A0F671EEF636300321430 /* SettingsViewController.m in Sources */,
 				CE6A102E1EF0D49100321430 /* CoreURLConnection.m in Sources */,
 				CE6A0FEE1EF0CD5C00321430 /* DesignableView.swift in Sources */,
 				CE6A0FF41EF0CD5C00321430 /* Misc.swift in Sources */,
 				CE6A0F601EEF629C00321430 /* RemindersViewControlleriPhone.m in Sources */,
+				CE6A10ED1EF3526000321430 /* AccidentsViewControlleriPhone.m in Sources */,
 				CE6A0EFA1EEE481F00321430 /* LGSideMenuBorderView.m in Sources */,
 				CE6A0FF71EF0CD5C00321430 /* SpringAnimation.swift in Sources */,
 				CE6A0F031EEE48A600321430 /* LoginViewController.m in Sources */,
@@ -3250,8 +3630,11 @@
 				CE6A10281EF0D49100321430 /* EVEMappings.m in Sources */,
 				CE6A102F1EF0D49100321430 /* CoreWebService.m in Sources */,
 				CE6A10431EF0DF8A00321430 /* NSObject+NSCoding.m in Sources */,
+				CE6A10AD1EF3484900321430 /* WarrantOfFitnessViewController.m in Sources */,
+				CE6A109D1EF3459200321430 /* VehicleRegistrationInfoViewController.m in Sources */,
 				CE6A105C1EF1E43700321430 /* VoomTableViewCell.m in Sources */,
 				CE6A0FFB1EF0CD5C00321430 /* SpringTextField.swift in Sources */,
+				CE6A10B11EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.m in Sources */,
 				CE6A0EFC1EEE481F00321430 /* LGSideMenuGesturesHandler.m in Sources */,
 				CE6A0F8C1EEFA26300321430 /* TPRoundedTextField.m in Sources */,
 				CE6A0F5C1EEF627E00321430 /* RemindersViewController.m in Sources */,
@@ -3261,23 +3644,33 @@
 				CE6A10001EF0CD5C00321430 /* UnwindSegue.swift in Sources */,
 				CE6A0FE91EF0CD5C00321430 /* DesignableImageView.swift in Sources */,
 				CE6A0F6B1EEF637D00321430 /* SettingsViewControlleriPhone.m in Sources */,
+				CE6A106B1EF2517500321430 /* SideMenuTableViewCell.m in Sources */,
 				CE6A0F581EEF624C00321430 /* VehicleCheckViewControlleriPhone.m in Sources */,
 				CE6A0F841EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
+				CE6A10BD1EF349B700321430 /* TollRoadsViewController.m in Sources */,
 				CE6A10421EF0DF8A00321430 /* Archiver.m in Sources */,
 				CE6A10311EF0D49100321430 /* EVEError.m in Sources */,
 				CE6A102C1EF0D49100321430 /* NSObject+EVEObjectMapping.m in Sources */,
 				CE6A0EFF1EEE481F00321430 /* LGSideMenuView.m in Sources */,
 				CE6A0FEC1EF0CD5C00321430 /* DesignableTextField.swift in Sources */,
+				CE6A10701EF2521700321430 /* VehicleLibraryTableViewCell.m in Sources */,
+				CE6A10B51EF348C900321430 /* VehicleMileageViewController.m in Sources */,
+				CE6A10D61EF34D3C00321430 /* BreakdownsViewControlleriPhone.m in Sources */,
+				CE6A10CE1EF34B0300321430 /* FinesViewControlleriPhone.m in Sources */,
 				CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */,
 				CE6A0FF61EF0CD5C00321430 /* Spring.swift in Sources */,
 				CE6A0F731EEF835E00321430 /* AppPreferences.m in Sources */,
-				CE6A10601EF1E85B00321430 /* SideMenuTableViewCell.m in Sources */,
 				CE6A0F2A1EEF40CC00321430 /* APRoundedButton.m in Sources */,
+				CE6A10771EF33BD000321430 /* VehicleInfoViewController.m in Sources */,
 				CE6A0FE81EF0CD5C00321430 /* DesignableButton.swift in Sources */,
 				CE6A0FE51EF0CD5C00321430 /* AsyncImageView.swift in Sources */,
 				CE6A0EFB1EEE481F00321430 /* LGSideMenuController.m in Sources */,
+				CE6A10B91EF348E700321430 /* VehicleMileageViewControlleriPhone.m in Sources */,
+				CE6A10E91EF3523200321430 /* AccidentsViewController.m in Sources */,
+				CE6A10CA1EF34AEB00321430 /* FinesViewController.m in Sources */,
 				CE6A0F311EEF458500321430 /* RegistrationViewControlleriPhone.m in Sources */,
 				CE6A0F371EEF4A0800321430 /* HeaderView.m in Sources */,
+				CE6A10A11EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.m in Sources */,
 				CE6A0F421EEF526800321430 /* VehicleLibraryViewController.m in Sources */,
 				CE6A0F3E1EEF4C5300321430 /* BackHeaderView.m in Sources */,
 				CE6A0FFD1EF0CD5C00321430 /* SpringView.swift in Sources */,
@@ -3285,6 +3678,7 @@
 				CE6A0F2D1EEF455F00321430 /* RegistrationViewController.m in Sources */,
 				CE6A0FEB1EF0CD5C00321430 /* DesignableTabBarController.swift in Sources */,
 				CE6A0EE21EEE475500321430 /* VoomParentViewController.m in Sources */,
+				CE6A10A91EF347BC00321430 /* VehicleServicesViewControlleriPhone.m in Sources */,
 				CE6A104D1EF0E2E000321430 /* EntityErrorsBO.m in Sources */,
 				CE6A0FFE1EF0CD5C00321430 /* TransitionManager.swift in Sources */,
 				CE6A0FFF1EF0CD5C00321430 /* TransitionZoom.swift in Sources */,
