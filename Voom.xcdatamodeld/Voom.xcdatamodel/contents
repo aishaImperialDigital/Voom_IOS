@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="12141" systemVersion="16F73" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Accidents" representedClassName="Accidents" syncable="YES" codeGenerationType="class">
+        <attribute name="contact_no" optional="YES" syncable="YES"/>
+        <attribute name="drivers_licence_no" optional="YES" syncable="YES"/>
+        <attribute name="drivers_name" optional="YES" syncable="YES"/>
+        <attribute name="insurance" optional="YES" syncable="YES"/>
+        <attribute name="insurance_co" optional="YES" syncable="YES"/>
+        <attribute name="reg_number" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Breakdowns" representedClassName="Breakdowns" syncable="YES" codeGenerationType="class">
+        <attribute name="assistance_on" optional="YES" syncable="YES"/>
+        <attribute name="company" optional="YES" syncable="YES"/>
+        <attribute name="contact_no" optional="YES" syncable="YES"/>
+        <attribute name="membership_no" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Mileage" representedClassName="Mileage" syncable="YES" codeGenerationType="class">
+        <attribute name="currentOdometer_km" optional="YES" syncable="YES"/>
+        <attribute name="km_bought" optional="YES" syncable="YES"/>
+        <attribute name="purchase_date" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Notifications" representedClassName="Notifications" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" syncable="YES"/>
+        <attribute name="id" optional="YES" syncable="YES"/>
+        <attribute name="title" optional="YES" syncable="YES"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Voom_user" syncable="YES"/>
+    </entity>
+    <entity name="Reminders" representedClassName="Reminders" syncable="YES" codeGenerationType="class">
+        <attribute name="name" optional="YES" syncable="YES"/>
+        <attribute name="type" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="UserRegisteration" representedClassName="UserRegisteration" syncable="YES" codeGenerationType="class">
+        <attribute name="date_of_birth" optional="YES" syncable="YES"/>
+        <attribute name="drivers_licence" optional="YES" syncable="YES"/>
+        <attribute name="email_address" optional="YES" syncable="YES"/>
+        <attribute name="first_name" optional="YES" syncable="YES"/>
+        <attribute name="last_name" optional="YES" syncable="YES"/>
+        <attribute name="mobile_number" optional="YES" syncable="YES"/>
+        <attribute name="rego_number" optional="YES" syncable="YES"/>
+        <relationship name="oneToOne" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Voom_user" syncable="YES"/>
+    </entity>
+    <entity name="Vehicle" representedClassName="Vehicle" syncable="YES" codeGenerationType="class">
+        <attribute name="id" optional="YES" syncable="YES"/>
+        <attribute name="name" optional="YES" syncable="YES"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VehicleLibrary" inverseName="newRelationship1" inverseEntity="VehicleLibrary" syncable="YES"/>
+    </entity>
+    <entity name="VehicleCheck" representedClassName="VehicleCheck" syncable="YES" codeGenerationType="class">
+        <attribute name="ns_market_valuation" optional="YES" syncable="YES"/>
+        <attribute name="nz_history" optional="YES" syncable="YES"/>
+        <attribute name="old_history" optional="YES" syncable="YES"/>
+        <attribute name="ownership_guarantee" optional="YES" syncable="YES"/>
+        <attribute name="vehicle_Info" optional="YES" syncable="YES"/>
+        <attribute name="vehicleInfo" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="VehicleFines" representedClassName="VehicleFines" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" syncable="YES"/>
+        <attribute name="date" optional="YES" syncable="YES"/>
+        <attribute name="fine_number" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Vehicleinfo" representedClassName="Vehicleinfo" syncable="YES" codeGenerationType="class">
+        <attribute name="assembly_type" optional="YES" syncable="YES"/>
+        <attribute name="axles" optional="YES" syncable="YES"/>
+        <attribute name="body_style" optional="YES" syncable="YES"/>
+        <attribute name="cc_rating" optional="YES" syncable="YES"/>
+        <attribute name="chassis" optional="YES" syncable="YES"/>
+        <attribute name="color" optional="YES" syncable="YES"/>
+        <attribute name="country_of_origin" optional="YES" syncable="YES"/>
+        <attribute name="engine_no" optional="YES" syncable="YES"/>
+        <attribute name="fuel_type" optional="YES" syncable="YES"/>
+        <attribute name="gross_vehicle_mass" optional="YES" syncable="YES"/>
+        <attribute name="make" optional="YES" syncable="YES"/>
+        <attribute name="model" optional="YES" syncable="YES"/>
+        <attribute name="plate" optional="YES" syncable="YES"/>
+        <attribute name="seats" optional="YES" syncable="YES"/>
+        <attribute name="tare_weight" optional="YES" syncable="YES"/>
+        <attribute name="transmission" optional="YES" syncable="YES"/>
+        <attribute name="vehicle_type" optional="YES" syncable="YES"/>
+        <attribute name="vin" optional="YES" syncable="YES"/>
+        <attribute name="year" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="VehicleLibrary" representedClassName="VehicleLibrary" syncable="YES" codeGenerationType="class">
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Voom_user" inverseName="newRelationship" inverseEntity="Voom_user" syncable="YES"/>
+        <relationship name="newRelationship1" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="Vehicle" inverseName="newRelationship" inverseEntity="Vehicle" syncable="YES"/>
+    </entity>
+    <entity name="VehicleRegistration" representedClassName="VehicleRegistration" syncable="YES" codeGenerationType="class">
+        <attribute name="registration_renewal_date" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="VehicleServiceInfo" representedClassName="VehicleServiceInfo" syncable="YES" codeGenerationType="class">
+        <attribute name="odometer_km" optional="YES" syncable="YES"/>
+        <attribute name="service_due_date" optional="YES" syncable="YES"/>
+        <attribute name="service_last_date" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="VehicleTollRoads" representedClassName="VehicleTollRoads" syncable="YES" codeGenerationType="class">
+        <attribute name="amount" optional="YES" syncable="YES"/>
+        <attribute name="date" optional="YES" syncable="YES"/>
+        <attribute name="toll_number" optional="YES" syncable="YES"/>
+    </entity>
+    <entity name="Voom_user" representedClassName="Voom_user" syncable="YES" codeGenerationType="class">
+        <attribute name="active" optional="YES" attributeType="Boolean" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="email" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="id" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="mobile_number" optional="YES" syncable="YES"/>
+        <attribute name="password" optional="YES" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="newRelationship" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="VehicleLibrary" inverseName="newRelationship" inverseEntity="VehicleLibrary" syncable="YES"/>
+    </entity>
+    <entity name="Wof" representedClassName="Wof" syncable="YES" codeGenerationType="class">
+        <attribute name="desc" optional="YES" syncable="YES"/>
+        <attribute name="wof_renewal_date" optional="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="UserRegisteration" positionX="-1089" positionY="-1314" width="128" height="163"/>
+        <element name="VehicleLibrary" positionX="-1116" positionY="-1477" width="128" height="73"/>
+        <element name="Vehicleinfo" positionX="-792" positionY="-1305" width="128" height="328"/>
+        <element name="Vehicle" positionX="-1314" positionY="-1413" width="128" height="88"/>
+        <element name="Wof" positionX="-1424" positionY="-1162" width="164" height="73"/>
+        <element name="VehicleServiceInfo" positionX="-1134" positionY="-819" width="128" height="88"/>
+        <element name="Mileage" positionX="-1386" positionY="-891" width="162" height="88"/>
+        <element name="VehicleTollRoads" positionX="-938" positionY="-1179" width="128" height="88"/>
+        <element name="VehicleFines" positionX="-1134" positionY="-693" width="128" height="88"/>
+        <element name="Breakdowns" positionX="-1091" positionY="-1125" width="128" height="103"/>
+        <element name="VehicleCheck" positionX="-1386" positionY="-754" width="128" height="133"/>
+        <element name="Notifications" positionX="-936" positionY="-1305" width="128" height="103"/>
+        <element name="Reminders" positionX="-1424" positionY="-1287" width="128" height="73"/>
+        <element name="Voom_user" positionX="-947" positionY="-1489" width="128" height="148"/>
+        <element name="VehicleRegistration" positionX="-936" positionY="-805" width="162" height="58"/>
+        <element name="Accidents" positionX="-1242" positionY="-1287" width="128" height="133"/>
+    </elements>
+</model>
