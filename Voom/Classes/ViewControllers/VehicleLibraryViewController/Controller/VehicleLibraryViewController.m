@@ -9,6 +9,8 @@
 #import "VehicleLibraryViewController.h"
 #import "VehicleLibraryTableViewCell.h"
 
+#define VEHICLE_LIBRARY_TABLE_HEIGHT 60
+
 @interface VehicleLibraryViewController ()
 
 @end
@@ -18,7 +20,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.headerView.titleLabel.text = kVehicleLibrary;
+    self.headerView.titleLabel.text = kTitleVehicleLibrary;
+    self.headerView.addButtonButton.hidden = NO;
     
 }
 
@@ -55,6 +58,7 @@
     cell.backgroundColor = [UIColor clearColor];
     cell.contentView.backgroundColor = [UIColor clearColor];
     cell.titleLabel.text = @"Jan's Car";
+    cell.iconImage.image = [self setVehicleImageForType:(indexPath.row+7)];
     cell.textLabel.textColor = kAppBackgroundColor;
     return cell;
 }
@@ -63,7 +67,13 @@
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 80;
+    return VEHICLE_LIBRARY_TABLE_HEIGHT;
 }
 
+#pragma mark methods
+-(UIImage *) setVehicleImageForType:(int) index
+{
+    UIImage *imageName = [UIImage imageNamed:[NSString stringWithFormat:@"%d.png",index]];
+    return imageName;
+}
 @end

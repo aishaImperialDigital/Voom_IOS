@@ -6,8 +6,8 @@
 //  Copyright © 2017 user. All rights reserved.
 //
 
-#import "VoomParentViewController.h"
+#import "VehicleInfoViewController.h"
 
-@interface VehicleInfoViewControlleriPhone : VoomParentViewController
+@interface VehicleInfoViewControlleriPhone : VehicleInfoViewController
 
 @end

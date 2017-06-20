@@ -13,6 +13,7 @@
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic,strong) LGSideMenuController *leftSideMenu;
+@property (nonatomic,strong) UINavigationController *homeNavigationController;
 
 @end
 

@@ -20,9 +20,9 @@
 
 #define nsLog(formatString, ...) NSLog((@"" formatString), ##__VA_ARGS__)
 
-#define kTitleRegistration @"Register"
-#define kVehicleLibrary @"Vehicle Library"
-#define kVehicleInfo @"Vehicle Info"
+#define kTitleRegistration @"Registeration"
+#define kTitleVehicleLibrary @"Vehicle Library"
+#define kTitleVehicleInfo @"Vehicle Info"
 #define kVehicleRegistration @"Vehicle Registration"
 #define kTitleServices @"Services"
 #define kFitnessWarrant @"Warrant of Fitness"
@@ -35,12 +35,11 @@
 #define kTitleSettings @"Settings"
 #define kTitleChangePassword @"Change Password"
 #define kTitleAccountSetting @"Acount Settings"
+#define kTitleAccidents @"Accidents"
 
 /*
  General
  */
-
-
 
 #define kiPadArabicImageSuffix @"-iPad-ar.png"
 #define kiPadEnglishImageSuffix @"-iPad-en.png"
@@ -119,7 +118,8 @@ images
  Controls Height and Width
 */
 
-#define TAB_BAR_HEIGHT 60
+#define TAB_BAR_HEIGHT 70
+
 
 #define kLanguageCookie @"X-Language"
 #define kAuthCookie @"X-AspNet-Auth"
@@ -138,13 +138,13 @@ images
 #define kMessageHtml @"message"
 
 
-
-#define VehicleInfoIndex 0
-#define RegistrationIndex 1
-#define ServicesIndex 2
-#define WOFIndex 3
-#define MileageIndex 4
-#define TollRoadsIndex 5
-#define FinesIndex 6
-#define BreakdownsIndex 7
-#define AccidentsIndex 8
+#define VehicleLibraryIndex 0
+#define VehicleInfoIndex 1
+#define RegistrationIndex 2
+#define ServicesIndex 3
+#define WOFIndex 4
+#define MileageIndex 5
+#define TollRoadsIndex 6
+#define FinesIndex 7
+#define BreakdownsIndex 8
+#define AccidentsIndex 9

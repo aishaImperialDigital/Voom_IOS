@@ -15,5 +15,6 @@
 @property (nonatomic,strong) IBOutlet UIButton *sideMenuButton;
 @property (nonatomic,strong) IBOutlet UIButton *addButtonButton;
 @property (nonatomic,strong) IBOutlet UILabel *titleLabel;
+@property (nonatomic,strong) IBOutlet UILabel *titleSubLabel;
 
 @end

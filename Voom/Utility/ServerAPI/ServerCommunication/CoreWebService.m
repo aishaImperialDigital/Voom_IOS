@@ -8,7 +8,7 @@
 #import <UIKit/UIDevice.h>
 #import "EVEError.h"
 #import "NSObject+EVEObjectMapping.h"
-#import "VoomResponse.h"
+
 
 @implementation CoreWebService
 
@@ -97,24 +97,10 @@
     //send the delegate message
     
     if([delegate respondsToSelector:@selector(service:didGet:)]){
-     
-        VoomResponse *response = (VoomResponse *)xmlObject;
-        if([response isKindOfClass:[VoomResponse class]])
-        {
-        if ([response.entityError count] > 0) {
-            EntityErrorsBO *error = [response.entityError objectAtIndex:0];
-            if ([error.errorNumber intValue] == 6) {
-               // [[NSNotificationCenter defaultCenter] postNotificationName:@"UNATH"
-                //                                                    object:nil];
-            }else{
                 [delegate service:self didGet:xmlObject];
-            }
         }else{
             [delegate service:self didGet:xmlObject];
-  
         }
-        }
-    }
 }
 
 

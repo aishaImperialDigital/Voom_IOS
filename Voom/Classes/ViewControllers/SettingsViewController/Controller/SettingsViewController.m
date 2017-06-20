@@ -7,6 +7,9 @@
 //
 
 #import "SettingsViewController.h"
+#import "SettingsViewCell.h"
+
+#define SETTINGS_TABLE_HEIGHT 40
 
 @interface SettingsViewController ()
 
@@ -18,6 +21,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
      self.headerView.titleLabel.text = kTitleSettings;
+     settingsArray = [[NSArray alloc] initWithObjects:@"Account Setting",@"Notifications",@"Change Password",@"Terms & Conditions",@"Contact Us", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -34,8 +38,36 @@
     // Pass the selected object to the new view controller.
 }
 */
--(IBAction)logoutUser:(id)sender;
-{
-    
+#pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
 }
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return settingsArray.count;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    SettingsViewCell *cell;
+    cell =  [self.tableView dequeueReusableCellWithIdentifier:@"SettingsViewCell"];
+    if (cell == nil){
+        cell = (SettingsViewCell *) [[SettingsViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"SettingsViewCell"];
+    }
+    cell.backgroundColor = [UIColor clearColor];
+    cell.contentView.backgroundColor = [UIColor clearColor];
+    cell.titleLabel.text = [settingsArray objectAtIndex:indexPath.row];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return SETTINGS_TABLE_HEIGHT;
+}
+
+
+
 @end

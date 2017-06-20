@@ -1,11 +1,9 @@
-/*Created by Muhammad Imran on 4/6/14. */
-
 
 /**
  *  Base Server URL, We will use this constant to construct the URLs for web service requests
  */
 
-#define kBaseServerURL                     @"http://162.13.137.145:8036/WebServices/"
+#define kBaseServerURL                     @"https://www.entisyapp.com/index.php/"
 /**
  *  This notification will be fired when the server is down and we try to access some web service.
  *  We need to handle this notification on any central place to show some alert message to user

@@ -9,9 +9,9 @@
 #import "VoomParentViewController.h"
 
 @interface SettingsViewController : VoomParentViewController{
-    
+    NSArray *settingsArray;
 }
-@property(nonatomic,strong) IBOutlet UIButton *logoutButton;
--(IBAction)logoutUser:(id)sender;
+@property(nonatomic,strong) IBOutlet UITableView *tableView;
+
 
 @end

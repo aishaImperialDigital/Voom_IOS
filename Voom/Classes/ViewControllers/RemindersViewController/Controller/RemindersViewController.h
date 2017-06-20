@@ -8,6 +8,9 @@
 
 #import "VoomParentViewController.h"
 
-@interface RemindersViewController : VoomParentViewController
+@interface RemindersViewController : VoomParentViewController{
+    
+}
+@property(nonatomic,strong) IBOutlet UITableView *tableView;
 
 @end

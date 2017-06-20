@@ -23,10 +23,7 @@
 
     return self;
 }
-//http://mobile.mol.gov.ae/"
-//http://mobile.mol.gov.ae/Mob_SSO/server
-//@"http://10.30.1.154/"
-//http://10.30.3.50/
+
 - (id)initWithAppVersionServiceURL:(NSString*)serviceURLString cacheMode:(EVEURLConnectionCacheMode)cacheMode{
     if (self = [super initWithRootUrl:@"http://10.30.3.50/" serviceUrl:serviceURLString]) {
         url = [NSURL URLWithString:[NSString stringWithFormat:@"%@%@",@"http://10.30.3.50/",serviceURLString]];

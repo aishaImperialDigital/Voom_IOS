@@ -10,7 +10,7 @@
 
 @implementation UITabBar (NewSize)
 - (CGSize)sizeThatFits:(CGSize)size {
-    CGSize newSize = CGSizeMake(size.width,44);
+    CGSize newSize = CGSizeMake(size.width,TAB_BAR_HEIGHT);
     return newSize;
 }
 @end

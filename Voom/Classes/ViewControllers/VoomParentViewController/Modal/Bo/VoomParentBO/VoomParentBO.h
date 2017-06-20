@@ -2,7 +2,7 @@
 //  VoomParentBO.h
 //  Voom
 //
-//  Created by user on 14/06/17.
+
 //  Copyright © 2017 user. All rights reserved.
 //
 
@@ -13,8 +13,9 @@
 
 @interface VoomParentBO : NSObject<NSCoding>
 
-@property (nonatomic, strong) NSNumber *Id;
-@property (nonatomic, strong) NSString *Name;
+@property (nonatomic, strong) NSString *errorcode;
+@property (nonatomic, strong) NSString *errormsg;
+
 + (NSMutableDictionary*)getObjectMap;
 
 @end

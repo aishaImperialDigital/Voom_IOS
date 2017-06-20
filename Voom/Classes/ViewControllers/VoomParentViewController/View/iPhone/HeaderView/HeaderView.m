@@ -22,6 +22,8 @@
     [super awakeFromNib];
     self.backgroundColor = kAppBackgroundColor;
     self.titleLabel.textColor = kAppTitleTextColor;
+    self.titleSubLabel.hidden = YES;
+    self.addButtonButton.hidden = YES;
 }
 
 @end

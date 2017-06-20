@@ -9,8 +9,8 @@
 #import "AppDelegate.h"
 #import "LoginViewControlleriPhone.h"
 #import "SideMenuViewControlleriPhone.h"
-
 #import "Constants.h"
+#import "Firebase.h"
 
 @interface AppDelegate (){
     
@@ -25,6 +25,7 @@
     // Override point for customization after application launch.
     [self setApplicationLayoutSettings];
     [self setApplicationRootLayout];
+    [FIRApp configure];
     return YES;
 }
 
@@ -59,16 +60,14 @@
 -(void) setApplicationRootLayout{
     
     LoginViewControlleriPhone  *loginViewController =[[LoginViewControlleriPhone alloc] initWithNibName:@"LoginViewControlleriPhone" bundle:nil];
-    UINavigationController *navigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
-    navigationController.navigationBarHidden = YES;
+    self.homeNavigationController = [[UINavigationController alloc] initWithRootViewController:loginViewController];
+    self.homeNavigationController.navigationBarHidden = YES;
     
     SideMenuViewControlleriPhone  *sideViewController =[[SideMenuViewControlleriPhone alloc] initWithNibName:@"SideMenuViewControlleriPhone" bundle:nil];
-    self.leftSideMenu = [[LGSideMenuController alloc] initWithRootViewController:navigationController];
+    self.leftSideMenu = [[LGSideMenuController alloc] initWithRootViewController:self.homeNavigationController];
     self.leftSideMenu.leftViewController = sideViewController;
     self.leftSideMenu.leftViewPresentationStyle = LGSideMenuPresentationStyleSlideAbove;
     self.leftSideMenu.leftViewBackgroundColor = kAppSecondaryColor;
-    
-    
     self.window = [[UIWindow alloc] initWithFrame:UIScreen.mainScreen.bounds];
     self.window.backgroundColor = [UIColor whiteColor];
     self.window.rootViewController = self.leftSideMenu;

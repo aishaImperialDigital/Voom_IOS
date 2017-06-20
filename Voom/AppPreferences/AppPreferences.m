@@ -25,7 +25,7 @@
 
 
 +(void) changeApplicationTabBarAppearance{
-    [UITabBar.appearance setBarTintColor: kAppBackgroundColor];
+    [UITabBar.appearance setBarTintColor:kAppBackgroundColor];
     [UITabBar.appearance setTintColor: kAppSecondaryColor];
     [UITabBarItem.appearance setTitleTextAttributes:@{NSForegroundColorAttributeName :kAppSecondaryColor}
                                            forState:UIControlStateSelected];

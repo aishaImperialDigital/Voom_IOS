@@ -7,11 +7,72 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2227C8D71EF78AFB00315306 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A21EF78AFB00315306 /* GoogleMobileAds.framework */; };
+		2227C8D81EF78AFB00315306 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A41EF78AFB00315306 /* FirebaseAnalytics.framework */; };
+		2227C8D91EF78AFB00315306 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A51EF78AFB00315306 /* FirebaseCore.framework */; };
+		2227C8DA1EF78AFB00315306 /* FirebaseCoreDiagnostics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A61EF78AFB00315306 /* FirebaseCoreDiagnostics.framework */; };
+		2227C8DB1EF78AFB00315306 /* FirebaseInstanceID.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A71EF78AFB00315306 /* FirebaseInstanceID.framework */; };
+		2227C8DC1EF78AFB00315306 /* FirebaseNanoPB.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A81EF78AFB00315306 /* FirebaseNanoPB.framework */; };
+		2227C8DD1EF78AFB00315306 /* GoogleToolboxForMac.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A91EF78AFB00315306 /* GoogleToolboxForMac.framework */; };
+		2227C8DE1EF78AFB00315306 /* FirebaseAuth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8AB1EF78AFB00315306 /* FirebaseAuth.framework */; };
+		2227C8DF1EF78AFB00315306 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8AC1EF78AFB00315306 /* GTMSessionFetcher.framework */; };
+		2227C8E01EF78AFB00315306 /* batch-upload in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8AE1EF78AFB00315306 /* batch-upload */; };
+		2227C8E11EF78AFB00315306 /* dump_syms in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8AF1EF78AFB00315306 /* dump_syms */; };
+		2227C8E21EF78AFB00315306 /* extract-keys in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8B01EF78AFB00315306 /* extract-keys */; };
+		2227C8E31EF78AFB00315306 /* FirebaseCrash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8B11EF78AFB00315306 /* FirebaseCrash.framework */; };
+		2227C8E41EF78AFB00315306 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8B21EF78AFB00315306 /* Protobuf.framework */; };
+		2227C8E51EF78AFB00315306 /* upload-sym in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8B31EF78AFB00315306 /* upload-sym */; };
+		2227C8E61EF78AFB00315306 /* upload-sym-util.bash in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8B41EF78AFB00315306 /* upload-sym-util.bash */; };
+		2227C8E71EF78AFB00315306 /* upload-sym.sh in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8B51EF78AFB00315306 /* upload-sym.sh */; };
+		2227C8E81EF78AFB00315306 /* FirebaseDatabase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8B71EF78AFB00315306 /* FirebaseDatabase.framework */; };
+		2227C8E91EF78AFB00315306 /* FirebaseDynamicLinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8B91EF78AFB00315306 /* FirebaseDynamicLinks.framework */; };
+		2227C8EA1EF78AFB00315306 /* FirebaseDynamicLinks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8BC1EF78AFB00315306 /* FirebaseDynamicLinks.framework */; };
+		2227C8EB1EF78AFB00315306 /* FirebaseInvites.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8BD1EF78AFB00315306 /* FirebaseInvites.framework */; };
+		2227C8EC1EF78AFB00315306 /* GoogleAPIClientForREST.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8BE1EF78AFB00315306 /* GoogleAPIClientForREST.framework */; };
+		2227C8ED1EF78AFB00315306 /* GoogleSignIn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8BF1EF78AFB00315306 /* GoogleSignIn.framework */; };
+		2227C8EE1EF78AFB00315306 /* GTMOAuth2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8C01EF78AFB00315306 /* GTMOAuth2.framework */; };
+		2227C8EF1EF78AFB00315306 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8C11EF78AFB00315306 /* GTMSessionFetcher.framework */; };
+		2227C8F01EF78AFB00315306 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8C21EF78AFB00315306 /* Protobuf.framework */; };
+		2227C8F11EF78AFB00315306 /* GINInviteResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8C41EF78AFB00315306 /* GINInviteResources.bundle */; };
+		2227C8F21EF78AFB00315306 /* GoogleSignIn.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8C51EF78AFB00315306 /* GoogleSignIn.bundle */; };
+		2227C8F31EF78AFB00315306 /* GPPACLPickerResources.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8C61EF78AFB00315306 /* GPPACLPickerResources.bundle */; };
+		2227C8F41EF78AFB00315306 /* FirebaseMessaging.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8C81EF78AFB00315306 /* FirebaseMessaging.framework */; };
+		2227C8F51EF78AFB00315306 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8C91EF78AFB00315306 /* Protobuf.framework */; };
+		2227C8F61EF78AFB00315306 /* NOTICES in Resources */ = {isa = PBXBuildFile; fileRef = 2227C8CB1EF78AFB00315306 /* NOTICES */; };
+		2227C8F71EF78AFB00315306 /* FirebasePerformance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8CD1EF78AFB00315306 /* FirebasePerformance.framework */; };
+		2227C8F81EF78AFB00315306 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8CE1EF78AFB00315306 /* GTMSessionFetcher.framework */; };
+		2227C8F91EF78AFB00315306 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8CF1EF78AFB00315306 /* Protobuf.framework */; };
+		2227C8FA1EF78AFB00315306 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 2227C8D01EF78AFB00315306 /* README.md */; };
+		2227C8FB1EF78AFB00315306 /* FirebaseRemoteConfig.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8D21EF78AFB00315306 /* FirebaseRemoteConfig.framework */; };
+		2227C8FC1EF78AFB00315306 /* Protobuf.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8D31EF78AFB00315306 /* Protobuf.framework */; };
+		2227C8FD1EF78AFB00315306 /* FirebaseStorage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8D51EF78AFB00315306 /* FirebaseStorage.framework */; };
+		2227C8FE1EF78AFB00315306 /* GTMSessionFetcher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8D61EF78AFB00315306 /* GTMSessionFetcher.framework */; };
+		2227C9061EF7977F00315306 /* UserProfileBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9051EF7977F00315306 /* UserProfileBO.m */; };
+		2227C90A1EF88F3C00315306 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9091EF88F3C00315306 /* MBProgressHUD.m */; };
+		2227C90E1EF89CEF00315306 /* VoomSessionManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C90D1EF89CEF00315306 /* VoomSessionManger.m */; };
+		2227C9121EF89FF300315306 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9111EF89FF300315306 /* User.m */; };
+		226E0BC91EF788CE007AAE03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 226E0BC81EF788CE007AAE03 /* GoogleService-Info.plist */; };
+		22BC79D71EF743EF004A97D1 /* VoomBaseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79D61EF743EF004A97D1 /* VoomBaseDataManager.m */; };
+		22BC79E81EF74AD8004A97D1 /* LoginWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79E41EF74AD8004A97D1 /* LoginWebService.m */; };
+		22BC79FE1EF74AE3004A97D1 /* LoginBodyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79EC1EF74AE2004A97D1 /* LoginBodyResponse.m */; };
+		22BC7A081EF74DDF004A97D1 /* MOLRequestBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC7A071EF74DDF004A97D1 /* MOLRequestBO.m */; };
+		22BC7A1E1EF777BF004A97D1 /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC7A1D1EF777BF004A97D1 /* LoginManager.m */; };
+		22BC7A221EF77B04004A97D1 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC7A211EF77B04004A97D1 /* MMMaterialDesignSpinner.m */; };
 		CE23A5FF1EEE44320063EE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23A5FE1EEE44320063EE90 /* main.m */; };
 		CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE23A6091EEE44320063EE90 /* Assets.xcassets */; };
 		CE23A6181EEE44320063EE90 /* VoomTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23A6171EEE44320063EE90 /* VoomTests.m */; };
 		CE23A6231EEE44320063EE90 /* VoomUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23A6221EEE44320063EE90 /* VoomUITests.m */; };
 		CE23A7491EEE44C80063EE90 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23A7481EEE44C80063EE90 /* AppDelegate.m */; };
+		CE28517F1EF384D800A039DF /* back-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE28517E1EF384D800A039DF /* back-iPhone@2x.png */; };
+		CE2851871EF38E2600A039DF /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2851801EF38E2600A039DF /* 7.png */; };
+		CE2851881EF38E2600A039DF /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2851811EF38E2600A039DF /* 8.png */; };
+		CE2851891EF38E2600A039DF /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2851821EF38E2600A039DF /* 9.png */; };
+		CE28518A1EF38E2600A039DF /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2851831EF38E2600A039DF /* 10.png */; };
+		CE28518B1EF38E2600A039DF /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2851841EF38E2600A039DF /* 11.png */; };
+		CE28518C1EF38E2600A039DF /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2851851EF38E2600A039DF /* 12.png */; };
+		CE28518D1EF38E2600A039DF /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = CE2851861EF38E2600A039DF /* 13.png */; };
+		CE2851911EF39B2D00A039DF /* ReminderTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2851901EF39B2D00A039DF /* ReminderTableViewCell.m */; };
+		CE2851931EF39B4000A039DF /* ReminderTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE2851921EF39B4000A039DF /* ReminderTableViewCell.xib */; };
 		CE6A0EE21EEE475500321430 /* VoomParentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EE11EEE475500321430 /* VoomParentViewController.m */; };
 		CE6A0EE51EEE478000321430 /* SideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EE41EEE478000321430 /* SideMenuViewController.m */; };
 		CE6A0EE91EEE47A400321430 /* SideMenuViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0EE71EEE47A400321430 /* SideMenuViewControlleriPhone.m */; };
@@ -38,8 +99,6 @@
 		CE6A0F421EEF526800321430 /* VehicleLibraryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F411EEF526800321430 /* VehicleLibraryViewController.m */; };
 		CE6A0F461EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F441EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m */; };
 		CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F451EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib */; };
-		CE6A0F4A1EEF52DB00321430 /* back-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */; };
-		CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */; };
 		CE6A0F541EEF623200321430 /* VehicleCheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F531EEF623200321430 /* VehicleCheckViewController.m */; };
 		CE6A0F581EEF624C00321430 /* VehicleCheckViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F561EEF624C00321430 /* VehicleCheckViewControlleriPhone.m */; };
 		CE6A0F591EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F571EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib */; };
@@ -51,34 +110,12 @@
 		CE6A0F6C1EEF637D00321430 /* SettingsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F6A1EEF637D00321430 /* SettingsViewControlleriPhone.xib */; };
 		CE6A0F701EEF7F3200321430 /* UITabBar+NewSize.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F6F1EEF7F3200321430 /* UITabBar+NewSize.m */; };
 		CE6A0F731EEF835E00321430 /* AppPreferences.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F721EEF835E00321430 /* AppPreferences.m */; };
-		CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F741EEF852300321430 /* passwrdIcon@2x.png */; };
-		CE6A0F771EEF852400321430 /* userIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F751EEF852300321430 /* userIcon@2x.png */; };
 		CE6A0F811EEF961400321430 /* TPKeyboardAvoidingCollectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F7A1EEF961400321430 /* TPKeyboardAvoidingCollectionView.m */; };
 		CE6A0F821EEF961400321430 /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F7C1EEF961400321430 /* TPKeyboardAvoidingScrollView.m */; };
 		CE6A0F831EEF961400321430 /* TPKeyboardAvoidingTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F7E1EEF961400321430 /* TPKeyboardAvoidingTableView.m */; };
 		CE6A0F841EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F801EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m */; };
 		CE6A0F8C1EEFA26300321430 /* TPRoundedTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0F8B1EEFA26300321430 /* TPRoundedTextField.m */; };
 		CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */; };
-		CE6A0FAF1EF0B46100321430 /* ic_add_task.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F961EF0B46100321430 /* ic_add_task.png */; };
-		CE6A0FB01EF0B46100321430 /* ic_add_task@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F971EF0B46100321430 /* ic_add_task@2x.png */; };
-		CE6A0FB11EF0B46100321430 /* ic_add_task@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F981EF0B46100321430 /* ic_add_task@3x.png */; };
-		CE6A0FB21EF0B46100321430 /* ic_ads.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9A1EF0B46100321430 /* ic_ads.png */; };
-		CE6A0FB31EF0B46100321430 /* ic_ads@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9B1EF0B46100321430 /* ic_ads@2x.png */; };
-		CE6A0FB41EF0B46100321430 /* ic_ads@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9C1EF0B46100321430 /* ic_ads@3x.png */; };
-		CE6A0FB51EF0B46100321430 /* ic_chat_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9E1EF0B46100321430 /* ic_chat_36pt.png */; };
-		CE6A0FB61EF0B46100321430 /* ic_chat_36pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0F9F1EF0B46100321430 /* ic_chat_36pt@2x.png */; };
-		CE6A0FB71EF0B46100321430 /* ic_chat_36pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA01EF0B46100321430 /* ic_chat_36pt@3x.png */; };
-		CE6A0FB81EF0B46100321430 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA21EF0B46100321430 /* Contents.json */; };
-		CE6A0FB91EF0B46100321430 /* ic_home_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA31EF0B46100321430 /* ic_home_36pt.png */; };
-		CE6A0FBA1EF0B46100321430 /* ic_home_36pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA41EF0B46100321430 /* ic_home_36pt@2x.png */; };
-		CE6A0FBB1EF0B46100321430 /* ic_home_36pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA51EF0B46100321430 /* ic_home_36pt@3x.png */; };
-		CE6A0FBC1EF0B46100321430 /* ic_person_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA71EF0B46100321430 /* ic_person_36pt.png */; };
-		CE6A0FBD1EF0B46100321430 /* ic_person_36pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA81EF0B46100321430 /* ic_person_36pt@2x.png */; };
-		CE6A0FBE1EF0B46100321430 /* ic_person_36pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FA91EF0B46100321430 /* ic_person_36pt@3x.png */; };
-		CE6A0FBF1EF0B46100321430 /* Contents.json in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAB1EF0B46100321430 /* Contents.json */; };
-		CE6A0FC01EF0B46100321430 /* ic_search_36pt.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAC1EF0B46100321430 /* ic_search_36pt.png */; };
-		CE6A0FC11EF0B46100321430 /* ic_search_36pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAD1EF0B46100321430 /* ic_search_36pt@2x.png */; };
-		CE6A0FC21EF0B46100321430 /* ic_search_36pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A0FAE1EF0B46100321430 /* ic_search_36pt@3x.png */; };
 		CE6A0FE41EF0CD5C00321430 /* AsyncButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FC61EF0CD5C00321430 /* AsyncButton.swift */; };
 		CE6A0FE51EF0CD5C00321430 /* AsyncImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FC71EF0CD5C00321430 /* AsyncImageView.swift */; };
 		CE6A0FE61EF0CD5C00321430 /* AutoTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE6A0FC81EF0CD5C00321430 /* AutoTextView.swift */; };
@@ -123,22 +160,15 @@
 		CE6A10301EF0D49100321430 /* EVEDataDownloadProgress.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A101D1EF0D49100321430 /* EVEDataDownloadProgress.m */; };
 		CE6A10311EF0D49100321430 /* EVEError.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A101F1EF0D49100321430 /* EVEError.m */; };
 		CE6A10321EF0D49100321430 /* EVEJSONService.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10211EF0D49100321430 /* EVEJSONService.m */; };
-		CE6A10341EF0DA6200321430 /* business1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10331EF0DA6200321430 /* business1@2x.png */; };
-		CE6A10361EF0DA8000321430 /* signs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10351EF0DA8000321430 /* signs@2x.png */; };
-		CE6A10381EF0DA9D00321430 /* edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10371EF0DA9D00321430 /* edit@2x.png */; };
 		CE6A103C1EF0DEBB00321430 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A103B1EF0DEBB00321430 /* Reachability.m */; };
 		CE6A10421EF0DF8A00321430 /* Archiver.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A103F1EF0DF8A00321430 /* Archiver.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		CE6A10431EF0DF8A00321430 /* NSObject+NSCoding.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10411EF0DF8A00321430 /* NSObject+NSCoding.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		CE6A10491EF0E16300321430 /* VoomResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10481EF0E16300321430 /* VoomResponse.m */; };
-		CE6A104D1EF0E2E000321430 /* EntityErrorsBO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A104C1EF0E2E000321430 /* EntityErrorsBO.m */; };
 		CE6A10511EF0E30700321430 /* VoomParentBO.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10501EF0E30700321430 /* VoomParentBO.m */; };
 		CE6A105C1EF1E43700321430 /* VoomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A105B1EF1E43700321430 /* VoomTableViewCell.m */; };
-		CE6A10631EF1F76900321430 /* transport1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10621EF1F76900321430 /* transport1@2x.png */; };
 		CE6A106B1EF2517500321430 /* SideMenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10691EF2517500321430 /* SideMenuTableViewCell.m */; };
 		CE6A106C1EF2517500321430 /* SideMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A106A1EF2517500321430 /* SideMenuTableViewCell.xib */; };
 		CE6A10701EF2521700321430 /* VehicleLibraryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A106F1EF2521700321430 /* VehicleLibraryTableViewCell.m */; };
 		CE6A10721EF252B600321430 /* VehicleLibraryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10711EF252B600321430 /* VehicleLibraryTableViewCell.xib */; };
-		CE6A10741EF3392800321430 /* edit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10731EF3392800321430 /* edit@2x.png */; };
 		CE6A10771EF33BD000321430 /* VehicleInfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10761EF33BD000321430 /* VehicleInfoViewController.m */; };
 		CE6A107B1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10791EF33C0A00321430 /* VehicleInfoViewControlleriPhone.m */; };
 		CE6A107C1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A107A1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib */; };
@@ -166,6 +196,19 @@
 		CE6A10E91EF3523200321430 /* AccidentsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10E81EF3523200321430 /* AccidentsViewController.m */; };
 		CE6A10ED1EF3526000321430 /* AccidentsViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10EB1EF3526000321430 /* AccidentsViewControlleriPhone.m */; };
 		CE6A10EE1EF3526000321430 /* AccidentsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10EC1EF3526000321430 /* AccidentsViewControlleriPhone.xib */; };
+		CE6A10F21EF3761A00321430 /* SettingsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = CE6A10F11EF3761A00321430 /* SettingsViewCell.m */; };
+		CE6A10F41EF3763500321430 /* SettingsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10F31EF3763500321430 /* SettingsViewCell.xib */; };
+		CE6A10F71EF37D0300321430 /* emaiIcon-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10F51EF37D0300321430 /* emaiIcon-iPhone@2x.png */; };
+		CE6A10F81EF37D0300321430 /* passwordIcon-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10F61EF37D0300321430 /* passwordIcon-iPhone@2x.png */; };
+		CE6A10FA1EF37DAB00321430 /* VehicleInfoEdit-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10F91EF37DAB00321430 /* VehicleInfoEdit-iPhone@2x.png */; };
+		CE6A10FC1EF37EA000321430 /* sideMenu-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10FB1EF37EA000321430 /* sideMenu-iPhone@2x.png */; };
+		CE6A10FE1EF37EF400321430 /* addVehicle-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A10FD1EF37EF400321430 /* addVehicle-iPhone@2x.png */; };
+		CE6A110A1EF3833400321430 /* background-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A11091EF3833400321430 /* background-iPhone@2x.png */; };
+		CE6A11101EF3834B00321430 /* Reminder-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A110C1EF3834B00321430 /* Reminder-iPhone@2x.png */; };
+		CE6A11111EF3834C00321430 /* Settings-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A110D1EF3834B00321430 /* Settings-iPhone@2x.png */; };
+		CE6A11121EF3834C00321430 /* VehicleCheck-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A110E1EF3834B00321430 /* VehicleCheck-iPhone@2x.png */; };
+		CE6A11131EF3834C00321430 /* VehicleLibrary-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A110F1EF3834B00321430 /* VehicleLibrary-iPhone@2x.png */; };
+		CE6A11151EF3839A00321430 /* logo-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A11141EF3839A00321430 /* logo-iPhone@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -186,6 +229,73 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2227C8A21EF78AFB00315306 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		2227C8A41EF78AFB00315306 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
+		2227C8A51EF78AFB00315306 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
+		2227C8A61EF78AFB00315306 /* FirebaseCoreDiagnostics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCoreDiagnostics.framework; sourceTree = "<group>"; };
+		2227C8A71EF78AFB00315306 /* FirebaseInstanceID.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInstanceID.framework; sourceTree = "<group>"; };
+		2227C8A81EF78AFB00315306 /* FirebaseNanoPB.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseNanoPB.framework; sourceTree = "<group>"; };
+		2227C8A91EF78AFB00315306 /* GoogleToolboxForMac.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleToolboxForMac.framework; sourceTree = "<group>"; };
+		2227C8AB1EF78AFB00315306 /* FirebaseAuth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAuth.framework; sourceTree = "<group>"; };
+		2227C8AC1EF78AFB00315306 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		2227C8AE1EF78AFB00315306 /* batch-upload */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "batch-upload"; sourceTree = "<group>"; };
+		2227C8AF1EF78AFB00315306 /* dump_syms */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = dump_syms; sourceTree = "<group>"; };
+		2227C8B01EF78AFB00315306 /* extract-keys */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "extract-keys"; sourceTree = "<group>"; };
+		2227C8B11EF78AFB00315306 /* FirebaseCrash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCrash.framework; sourceTree = "<group>"; };
+		2227C8B21EF78AFB00315306 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		2227C8B31EF78AFB00315306 /* upload-sym */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-sym"; sourceTree = "<group>"; };
+		2227C8B41EF78AFB00315306 /* upload-sym-util.bash */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "upload-sym-util.bash"; sourceTree = "<group>"; };
+		2227C8B51EF78AFB00315306 /* upload-sym.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = "upload-sym.sh"; sourceTree = "<group>"; };
+		2227C8B71EF78AFB00315306 /* FirebaseDatabase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDatabase.framework; sourceTree = "<group>"; };
+		2227C8B91EF78AFB00315306 /* FirebaseDynamicLinks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDynamicLinks.framework; sourceTree = "<group>"; };
+		2227C8BA1EF78AFB00315306 /* Firebase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Firebase.h; sourceTree = "<group>"; };
+		2227C8BC1EF78AFB00315306 /* FirebaseDynamicLinks.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseDynamicLinks.framework; sourceTree = "<group>"; };
+		2227C8BD1EF78AFB00315306 /* FirebaseInvites.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseInvites.framework; sourceTree = "<group>"; };
+		2227C8BE1EF78AFB00315306 /* GoogleAPIClientForREST.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleAPIClientForREST.framework; sourceTree = "<group>"; };
+		2227C8BF1EF78AFB00315306 /* GoogleSignIn.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleSignIn.framework; sourceTree = "<group>"; };
+		2227C8C01EF78AFB00315306 /* GTMOAuth2.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMOAuth2.framework; sourceTree = "<group>"; };
+		2227C8C11EF78AFB00315306 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		2227C8C21EF78AFB00315306 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		2227C8C41EF78AFB00315306 /* GINInviteResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GINInviteResources.bundle; sourceTree = "<group>"; };
+		2227C8C51EF78AFB00315306 /* GoogleSignIn.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GoogleSignIn.bundle; sourceTree = "<group>"; };
+		2227C8C61EF78AFB00315306 /* GPPACLPickerResources.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = GPPACLPickerResources.bundle; sourceTree = "<group>"; };
+		2227C8C81EF78AFB00315306 /* FirebaseMessaging.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseMessaging.framework; sourceTree = "<group>"; };
+		2227C8C91EF78AFB00315306 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		2227C8CA1EF78AFB00315306 /* module.modulemap */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = "sourcecode.module-map"; path = module.modulemap; sourceTree = "<group>"; };
+		2227C8CB1EF78AFB00315306 /* NOTICES */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICES; sourceTree = "<group>"; };
+		2227C8CD1EF78AFB00315306 /* FirebasePerformance.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebasePerformance.framework; sourceTree = "<group>"; };
+		2227C8CE1EF78AFB00315306 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		2227C8CF1EF78AFB00315306 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		2227C8D01EF78AFB00315306 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		2227C8D21EF78AFB00315306 /* FirebaseRemoteConfig.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseRemoteConfig.framework; sourceTree = "<group>"; };
+		2227C8D31EF78AFB00315306 /* Protobuf.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Protobuf.framework; sourceTree = "<group>"; };
+		2227C8D51EF78AFB00315306 /* FirebaseStorage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseStorage.framework; sourceTree = "<group>"; };
+		2227C8D61EF78AFB00315306 /* GTMSessionFetcher.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GTMSessionFetcher.framework; sourceTree = "<group>"; };
+		2227C9041EF7977F00315306 /* UserProfileBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserProfileBO.h; sourceTree = "<group>"; };
+		2227C9051EF7977F00315306 /* UserProfileBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserProfileBO.m; sourceTree = "<group>"; };
+		2227C9081EF88F3C00315306 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		2227C9091EF88F3C00315306 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		2227C90C1EF89CEF00315306 /* VoomSessionManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomSessionManger.h; sourceTree = "<group>"; };
+		2227C90D1EF89CEF00315306 /* VoomSessionManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomSessionManger.m; sourceTree = "<group>"; };
+		2227C9101EF89FF300315306 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		2227C9111EF89FF300315306 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		226E0BC11EF78418007AAE03 /* libPods-Voom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Voom.a"; path = "../../Library/Developer/Xcode/DerivedData/Voom-drtqbhvtewgghodmpiayzwvpigzu/Build/Products/Debug-iphonesimulator/libPods-Voom.a"; sourceTree = "<group>"; };
+		226E0BC31EF7844A007AAE03 /* libPods-VoomTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-VoomTests.a"; path = "Pods/../build/Debug-iphoneos/libPods-VoomTests.a"; sourceTree = "<group>"; };
+		226E0BC61EF7845B007AAE03 /* libGoogleToolboxForMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleToolboxForMac.a; path = "../../Library/Developer/Xcode/DerivedData/Voom-drtqbhvtewgghodmpiayzwvpigzu/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/libGoogleToolboxForMac.a"; sourceTree = "<group>"; };
+		226E0BC81EF788CE007AAE03 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		22BC79D51EF743EF004A97D1 /* VoomBaseDataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomBaseDataManager.h; sourceTree = "<group>"; };
+		22BC79D61EF743EF004A97D1 /* VoomBaseDataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomBaseDataManager.m; sourceTree = "<group>"; };
+		22BC79D81EF74AAB004A97D1 /* LoginErrorTypeEnum.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LoginErrorTypeEnum.h; sourceTree = "<group>"; };
+		22BC79E31EF74AD8004A97D1 /* LoginWebService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginWebService.h; sourceTree = "<group>"; };
+		22BC79E41EF74AD8004A97D1 /* LoginWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWebService.m; sourceTree = "<group>"; };
+		22BC79EB1EF74AE2004A97D1 /* LoginBodyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginBodyResponse.h; sourceTree = "<group>"; };
+		22BC79EC1EF74AE2004A97D1 /* LoginBodyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginBodyResponse.m; sourceTree = "<group>"; };
+		22BC7A061EF74DDF004A97D1 /* MOLRequestBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOLRequestBO.h; sourceTree = "<group>"; };
+		22BC7A071EF74DDF004A97D1 /* MOLRequestBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOLRequestBO.m; sourceTree = "<group>"; };
+		22BC7A1C1EF777BF004A97D1 /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
+		22BC7A1D1EF777BF004A97D1 /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
+		22BC7A201EF77B04004A97D1 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
+		22BC7A211EF77B04004A97D1 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
 		CE23A5FA1EEE44320063EE90 /* Voom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE23A5FE1EEE44320063EE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE23A6091EEE44320063EE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -198,6 +308,17 @@
 		CE23A6241EEE44320063EE90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE23A7471EEE44C80063EE90 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CE23A7481EEE44C80063EE90 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE28517E1EF384D800A039DF /* back-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE2851801EF38E2600A039DF /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 7.png; sourceTree = "<group>"; };
+		CE2851811EF38E2600A039DF /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 8.png; sourceTree = "<group>"; };
+		CE2851821EF38E2600A039DF /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 9.png; sourceTree = "<group>"; };
+		CE2851831EF38E2600A039DF /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 10.png; sourceTree = "<group>"; };
+		CE2851841EF38E2600A039DF /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		CE2851851EF38E2600A039DF /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 12.png; sourceTree = "<group>"; };
+		CE2851861EF38E2600A039DF /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 13.png; sourceTree = "<group>"; };
+		CE28518F1EF39B2D00A039DF /* ReminderTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReminderTableViewCell.h; sourceTree = "<group>"; };
+		CE2851901EF39B2D00A039DF /* ReminderTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReminderTableViewCell.m; sourceTree = "<group>"; };
+		CE2851921EF39B4000A039DF /* ReminderTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReminderTableViewCell.xib; sourceTree = "<group>"; };
 		CE6A0EE01EEE475500321430 /* VoomParentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomParentViewController.h; sourceTree = "<group>"; };
 		CE6A0EE11EEE475500321430 /* VoomParentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomParentViewController.m; sourceTree = "<group>"; };
 		CE6A0EE31EEE478000321430 /* SideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuViewController.h; sourceTree = "<group>"; };
@@ -245,8 +366,6 @@
 		CE6A0F431EEF527F00321430 /* VehicleLibraryViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleLibraryViewControlleriPhone.h; sourceTree = "<group>"; };
 		CE6A0F441EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleLibraryViewControlleriPhone.m; sourceTree = "<group>"; };
 		CE6A0F451EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleLibraryViewControlleriPhone.xib; sourceTree = "<group>"; };
-		CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "back-iPhone@2x.png"; sourceTree = "<group>"; };
-		CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-iPhone@2x.png"; sourceTree = "<group>"; };
 		CE6A0F521EEF623200321430 /* VehicleCheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleCheckViewController.h; sourceTree = "<group>"; };
 		CE6A0F531EEF623200321430 /* VehicleCheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleCheckViewController.m; sourceTree = "<group>"; };
 		CE6A0F551EEF624C00321430 /* VehicleCheckViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleCheckViewControlleriPhone.h; sourceTree = "<group>"; };
@@ -266,8 +385,6 @@
 		CE6A0F6F1EEF7F3200321430 /* UITabBar+NewSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITabBar+NewSize.m"; sourceTree = "<group>"; };
 		CE6A0F711EEF835E00321430 /* AppPreferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppPreferences.h; sourceTree = "<group>"; };
 		CE6A0F721EEF835E00321430 /* AppPreferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppPreferences.m; sourceTree = "<group>"; };
-		CE6A0F741EEF852300321430 /* passwrdIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "passwrdIcon@2x.png"; sourceTree = "<group>"; };
-		CE6A0F751EEF852300321430 /* userIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "userIcon@2x.png"; sourceTree = "<group>"; };
 		CE6A0F791EEF961400321430 /* TPKeyboardAvoidingCollectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingCollectionView.h; sourceTree = "<group>"; };
 		CE6A0F7A1EEF961400321430 /* TPKeyboardAvoidingCollectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingCollectionView.m; sourceTree = "<group>"; };
 		CE6A0F7B1EEF961400321430 /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
@@ -279,26 +396,6 @@
 		CE6A0F8A1EEFA26300321430 /* TPRoundedTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPRoundedTextField.h; sourceTree = "<group>"; };
 		CE6A0F8B1EEFA26300321430 /* TPRoundedTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPRoundedTextField.m; sourceTree = "<group>"; };
 		CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Voom_UI copy 5.jpg"; sourceTree = "<group>"; };
-		CE6A0F961EF0B46100321430 /* ic_add_task.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_add_task.png; sourceTree = "<group>"; };
-		CE6A0F971EF0B46100321430 /* ic_add_task@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add_task@2x.png"; sourceTree = "<group>"; };
-		CE6A0F981EF0B46100321430 /* ic_add_task@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_add_task@3x.png"; sourceTree = "<group>"; };
-		CE6A0F9A1EF0B46100321430 /* ic_ads.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_ads.png; sourceTree = "<group>"; };
-		CE6A0F9B1EF0B46100321430 /* ic_ads@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ads@2x.png"; sourceTree = "<group>"; };
-		CE6A0F9C1EF0B46100321430 /* ic_ads@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_ads@3x.png"; sourceTree = "<group>"; };
-		CE6A0F9E1EF0B46100321430 /* ic_chat_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_chat_36pt.png; sourceTree = "<group>"; };
-		CE6A0F9F1EF0B46100321430 /* ic_chat_36pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_chat_36pt@2x.png"; sourceTree = "<group>"; };
-		CE6A0FA01EF0B46100321430 /* ic_chat_36pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_chat_36pt@3x.png"; sourceTree = "<group>"; };
-		CE6A0FA21EF0B46100321430 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		CE6A0FA31EF0B46100321430 /* ic_home_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_home_36pt.png; sourceTree = "<group>"; };
-		CE6A0FA41EF0B46100321430 /* ic_home_36pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_home_36pt@2x.png"; sourceTree = "<group>"; };
-		CE6A0FA51EF0B46100321430 /* ic_home_36pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_home_36pt@3x.png"; sourceTree = "<group>"; };
-		CE6A0FA71EF0B46100321430 /* ic_person_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_person_36pt.png; sourceTree = "<group>"; };
-		CE6A0FA81EF0B46100321430 /* ic_person_36pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_person_36pt@2x.png"; sourceTree = "<group>"; };
-		CE6A0FA91EF0B46100321430 /* ic_person_36pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_person_36pt@3x.png"; sourceTree = "<group>"; };
-		CE6A0FAB1EF0B46100321430 /* Contents.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Contents.json; sourceTree = "<group>"; };
-		CE6A0FAC1EF0B46100321430 /* ic_search_36pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ic_search_36pt.png; sourceTree = "<group>"; };
-		CE6A0FAD1EF0B46100321430 /* ic_search_36pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_36pt@2x.png"; sourceTree = "<group>"; };
-		CE6A0FAE1EF0B46100321430 /* ic_search_36pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_search_36pt@3x.png"; sourceTree = "<group>"; };
 		CE6A0FC41EF0CBDB00321430 /* Voom-Bridging-Header-Swift.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Voom-Bridging-Header-Swift.h"; sourceTree = "<group>"; };
 		CE6A0FC61EF0CD5C00321430 /* AsyncButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncButton.swift; sourceTree = "<group>"; };
 		CE6A0FC71EF0CD5C00321430 /* AsyncImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AsyncImageView.swift; sourceTree = "<group>"; };
@@ -360,31 +457,22 @@
 		CE6A10201EF0D49100321430 /* EVEJSONService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EVEJSONService.h; sourceTree = "<group>"; };
 		CE6A10211EF0D49100321430 /* EVEJSONService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EVEJSONService.m; sourceTree = "<group>"; };
 		CE6A10221EF0D49100321430 /* EventoServerAPIConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventoServerAPIConstants.h; sourceTree = "<group>"; };
-		CE6A10331EF0DA6200321430 /* business1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "business1@2x.png"; sourceTree = "<group>"; };
-		CE6A10351EF0DA8000321430 /* signs@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "signs@2x.png"; sourceTree = "<group>"; };
-		CE6A10371EF0DA9D00321430 /* edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@2x.png"; sourceTree = "<group>"; };
 		CE6A103A1EF0DEBB00321430 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
 		CE6A103B1EF0DEBB00321430 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		CE6A103E1EF0DF8A00321430 /* Archiver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Archiver.h; sourceTree = "<group>"; };
 		CE6A103F1EF0DF8A00321430 /* Archiver.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Archiver.m; sourceTree = "<group>"; };
 		CE6A10401EF0DF8A00321430 /* NSObject+NSCoding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+NSCoding.h"; sourceTree = "<group>"; };
 		CE6A10411EF0DF8A00321430 /* NSObject+NSCoding.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+NSCoding.m"; sourceTree = "<group>"; };
-		CE6A10471EF0E16300321430 /* VoomResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomResponse.h; sourceTree = "<group>"; };
-		CE6A10481EF0E16300321430 /* VoomResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomResponse.m; sourceTree = "<group>"; };
-		CE6A104B1EF0E2E000321430 /* EntityErrorsBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EntityErrorsBO.h; sourceTree = "<group>"; };
-		CE6A104C1EF0E2E000321430 /* EntityErrorsBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EntityErrorsBO.m; sourceTree = "<group>"; };
 		CE6A104F1EF0E30700321430 /* VoomParentBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomParentBO.h; sourceTree = "<group>"; };
 		CE6A10501EF0E30700321430 /* VoomParentBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomParentBO.m; sourceTree = "<group>"; };
 		CE6A105A1EF1E43700321430 /* VoomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomTableViewCell.h; sourceTree = "<group>"; };
 		CE6A105B1EF1E43700321430 /* VoomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomTableViewCell.m; sourceTree = "<group>"; };
-		CE6A10621EF1F76900321430 /* transport1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transport1@2x.png"; sourceTree = "<group>"; };
 		CE6A10681EF2517500321430 /* SideMenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SideMenuTableViewCell.h; sourceTree = "<group>"; };
 		CE6A10691EF2517500321430 /* SideMenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SideMenuTableViewCell.m; sourceTree = "<group>"; };
 		CE6A106A1EF2517500321430 /* SideMenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SideMenuTableViewCell.xib; sourceTree = "<group>"; };
 		CE6A106E1EF2521700321430 /* VehicleLibraryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleLibraryTableViewCell.h; sourceTree = "<group>"; };
 		CE6A106F1EF2521700321430 /* VehicleLibraryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleLibraryTableViewCell.m; sourceTree = "<group>"; };
 		CE6A10711EF252B600321430 /* VehicleLibraryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleLibraryTableViewCell.xib; sourceTree = "<group>"; };
-		CE6A10731EF3392800321430 /* edit@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "edit@2x.png"; sourceTree = "<group>"; };
 		CE6A10751EF33BD000321430 /* VehicleInfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInfoViewController.h; sourceTree = "<group>"; };
 		CE6A10761EF33BD000321430 /* VehicleInfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInfoViewController.m; sourceTree = "<group>"; };
 		CE6A10781EF33C0A00321430 /* VehicleInfoViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInfoViewControlleriPhone.h; sourceTree = "<group>"; };
@@ -430,6 +518,20 @@
 		CE6A10EA1EF3526000321430 /* AccidentsViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccidentsViewControlleriPhone.h; sourceTree = "<group>"; };
 		CE6A10EB1EF3526000321430 /* AccidentsViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccidentsViewControlleriPhone.m; sourceTree = "<group>"; };
 		CE6A10EC1EF3526000321430 /* AccidentsViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccidentsViewControlleriPhone.xib; sourceTree = "<group>"; };
+		CE6A10F01EF3761A00321430 /* SettingsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewCell.h; sourceTree = "<group>"; };
+		CE6A10F11EF3761A00321430 /* SettingsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewCell.m; sourceTree = "<group>"; };
+		CE6A10F31EF3763500321430 /* SettingsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SettingsViewCell.xib; sourceTree = "<group>"; };
+		CE6A10F51EF37D0300321430 /* emaiIcon-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "emaiIcon-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A10F61EF37D0300321430 /* passwordIcon-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "passwordIcon-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A10F91EF37DAB00321430 /* VehicleInfoEdit-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VehicleInfoEdit-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A10FB1EF37EA000321430 /* sideMenu-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "sideMenu-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A10FD1EF37EF400321430 /* addVehicle-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "addVehicle-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A11091EF3833400321430 /* background-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A110C1EF3834B00321430 /* Reminder-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Reminder-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A110D1EF3834B00321430 /* Settings-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Settings-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A110E1EF3834B00321430 /* VehicleCheck-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VehicleCheck-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A110F1EF3834B00321430 /* VehicleLibrary-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VehicleLibrary-iPhone@2x.png"; sourceTree = "<group>"; };
+		CE6A11141EF3839A00321430 /* logo-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-iPhone@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -437,6 +539,35 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2227C8E81EF78AFB00315306 /* FirebaseDatabase.framework in Frameworks */,
+				2227C8DD1EF78AFB00315306 /* GoogleToolboxForMac.framework in Frameworks */,
+				2227C8EE1EF78AFB00315306 /* GTMOAuth2.framework in Frameworks */,
+				2227C8ED1EF78AFB00315306 /* GoogleSignIn.framework in Frameworks */,
+				2227C8F81EF78AFB00315306 /* GTMSessionFetcher.framework in Frameworks */,
+				2227C8DF1EF78AFB00315306 /* GTMSessionFetcher.framework in Frameworks */,
+				2227C8F71EF78AFB00315306 /* FirebasePerformance.framework in Frameworks */,
+				2227C8D81EF78AFB00315306 /* FirebaseAnalytics.framework in Frameworks */,
+				2227C8FC1EF78AFB00315306 /* Protobuf.framework in Frameworks */,
+				2227C8DA1EF78AFB00315306 /* FirebaseCoreDiagnostics.framework in Frameworks */,
+				2227C8F01EF78AFB00315306 /* Protobuf.framework in Frameworks */,
+				2227C8E41EF78AFB00315306 /* Protobuf.framework in Frameworks */,
+				2227C8FB1EF78AFB00315306 /* FirebaseRemoteConfig.framework in Frameworks */,
+				2227C8DB1EF78AFB00315306 /* FirebaseInstanceID.framework in Frameworks */,
+				2227C8E91EF78AFB00315306 /* FirebaseDynamicLinks.framework in Frameworks */,
+				2227C8DC1EF78AFB00315306 /* FirebaseNanoPB.framework in Frameworks */,
+				2227C8EA1EF78AFB00315306 /* FirebaseDynamicLinks.framework in Frameworks */,
+				2227C8DE1EF78AFB00315306 /* FirebaseAuth.framework in Frameworks */,
+				2227C8D71EF78AFB00315306 /* GoogleMobileAds.framework in Frameworks */,
+				2227C8F51EF78AFB00315306 /* Protobuf.framework in Frameworks */,
+				2227C8F41EF78AFB00315306 /* FirebaseMessaging.framework in Frameworks */,
+				2227C8EB1EF78AFB00315306 /* FirebaseInvites.framework in Frameworks */,
+				2227C8EF1EF78AFB00315306 /* GTMSessionFetcher.framework in Frameworks */,
+				2227C8D91EF78AFB00315306 /* FirebaseCore.framework in Frameworks */,
+				2227C8FE1EF78AFB00315306 /* GTMSessionFetcher.framework in Frameworks */,
+				2227C8F91EF78AFB00315306 /* Protobuf.framework in Frameworks */,
+				2227C8EC1EF78AFB00315306 /* GoogleAPIClientForREST.framework in Frameworks */,
+				2227C8E31EF78AFB00315306 /* FirebaseCrash.framework in Frameworks */,
+				2227C8FD1EF78AFB00315306 /* FirebaseStorage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,18 +588,288 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2227C8A01EF78AFB00315306 /* Firebase */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8A11EF78AFB00315306 /* AdMob */,
+				2227C8A31EF78AFB00315306 /* Analytics */,
+				2227C8AA1EF78AFB00315306 /* Auth */,
+				2227C8AD1EF78AFB00315306 /* Crash */,
+				2227C8B61EF78AFB00315306 /* Database */,
+				2227C8B81EF78AFB00315306 /* DynamicLinks */,
+				2227C8BA1EF78AFB00315306 /* Firebase.h */,
+				2227C8BB1EF78AFB00315306 /* Invites */,
+				2227C8C71EF78AFB00315306 /* Messaging */,
+				2227C8CA1EF78AFB00315306 /* module.modulemap */,
+				2227C8CB1EF78AFB00315306 /* NOTICES */,
+				2227C8CC1EF78AFB00315306 /* Performance */,
+				2227C8D01EF78AFB00315306 /* README.md */,
+				2227C8D11EF78AFB00315306 /* RemoteConfig */,
+				2227C8D41EF78AFB00315306 /* Storage */,
+			);
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		2227C8A11EF78AFB00315306 /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8A21EF78AFB00315306 /* GoogleMobileAds.framework */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		2227C8A31EF78AFB00315306 /* Analytics */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8A41EF78AFB00315306 /* FirebaseAnalytics.framework */,
+				2227C8A51EF78AFB00315306 /* FirebaseCore.framework */,
+				2227C8A61EF78AFB00315306 /* FirebaseCoreDiagnostics.framework */,
+				2227C8A71EF78AFB00315306 /* FirebaseInstanceID.framework */,
+				2227C8A81EF78AFB00315306 /* FirebaseNanoPB.framework */,
+				2227C8A91EF78AFB00315306 /* GoogleToolboxForMac.framework */,
+			);
+			path = Analytics;
+			sourceTree = "<group>";
+		};
+		2227C8AA1EF78AFB00315306 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8AB1EF78AFB00315306 /* FirebaseAuth.framework */,
+				2227C8AC1EF78AFB00315306 /* GTMSessionFetcher.framework */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		2227C8AD1EF78AFB00315306 /* Crash */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8AE1EF78AFB00315306 /* batch-upload */,
+				2227C8AF1EF78AFB00315306 /* dump_syms */,
+				2227C8B01EF78AFB00315306 /* extract-keys */,
+				2227C8B11EF78AFB00315306 /* FirebaseCrash.framework */,
+				2227C8B21EF78AFB00315306 /* Protobuf.framework */,
+				2227C8B31EF78AFB00315306 /* upload-sym */,
+				2227C8B41EF78AFB00315306 /* upload-sym-util.bash */,
+				2227C8B51EF78AFB00315306 /* upload-sym.sh */,
+			);
+			path = Crash;
+			sourceTree = "<group>";
+		};
+		2227C8B61EF78AFB00315306 /* Database */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8B71EF78AFB00315306 /* FirebaseDatabase.framework */,
+			);
+			path = Database;
+			sourceTree = "<group>";
+		};
+		2227C8B81EF78AFB00315306 /* DynamicLinks */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8B91EF78AFB00315306 /* FirebaseDynamicLinks.framework */,
+			);
+			path = DynamicLinks;
+			sourceTree = "<group>";
+		};
+		2227C8BB1EF78AFB00315306 /* Invites */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8BC1EF78AFB00315306 /* FirebaseDynamicLinks.framework */,
+				2227C8BD1EF78AFB00315306 /* FirebaseInvites.framework */,
+				2227C8BE1EF78AFB00315306 /* GoogleAPIClientForREST.framework */,
+				2227C8BF1EF78AFB00315306 /* GoogleSignIn.framework */,
+				2227C8C01EF78AFB00315306 /* GTMOAuth2.framework */,
+				2227C8C11EF78AFB00315306 /* GTMSessionFetcher.framework */,
+				2227C8C21EF78AFB00315306 /* Protobuf.framework */,
+				2227C8C31EF78AFB00315306 /* Resources */,
+			);
+			path = Invites;
+			sourceTree = "<group>";
+		};
+		2227C8C31EF78AFB00315306 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8C41EF78AFB00315306 /* GINInviteResources.bundle */,
+				2227C8C51EF78AFB00315306 /* GoogleSignIn.bundle */,
+				2227C8C61EF78AFB00315306 /* GPPACLPickerResources.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		2227C8C71EF78AFB00315306 /* Messaging */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8C81EF78AFB00315306 /* FirebaseMessaging.framework */,
+				2227C8C91EF78AFB00315306 /* Protobuf.framework */,
+			);
+			path = Messaging;
+			sourceTree = "<group>";
+		};
+		2227C8CC1EF78AFB00315306 /* Performance */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8CD1EF78AFB00315306 /* FirebasePerformance.framework */,
+				2227C8CE1EF78AFB00315306 /* GTMSessionFetcher.framework */,
+				2227C8CF1EF78AFB00315306 /* Protobuf.framework */,
+			);
+			path = Performance;
+			sourceTree = "<group>";
+		};
+		2227C8D11EF78AFB00315306 /* RemoteConfig */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8D21EF78AFB00315306 /* FirebaseRemoteConfig.framework */,
+				2227C8D31EF78AFB00315306 /* Protobuf.framework */,
+			);
+			path = RemoteConfig;
+			sourceTree = "<group>";
+		};
+		2227C8D41EF78AFB00315306 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				2227C8D51EF78AFB00315306 /* FirebaseStorage.framework */,
+				2227C8D61EF78AFB00315306 /* GTMSessionFetcher.framework */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		2227C9031EF7976200315306 /* UserProfileBO */ = {
+			isa = PBXGroup;
+			children = (
+				2227C9041EF7977F00315306 /* UserProfileBO.h */,
+				2227C9051EF7977F00315306 /* UserProfileBO.m */,
+			);
+			path = UserProfileBO;
+			sourceTree = "<group>";
+		};
+		2227C9071EF88F3C00315306 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				2227C9081EF88F3C00315306 /* MBProgressHUD.h */,
+				2227C9091EF88F3C00315306 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		2227C90B1EF89CEF00315306 /* SessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				2227C90F1EF89FF300315306 /* User */,
+				2227C90C1EF89CEF00315306 /* VoomSessionManger.h */,
+				2227C90D1EF89CEF00315306 /* VoomSessionManger.m */,
+			);
+			path = SessionManager;
+			sourceTree = "<group>";
+		};
+		2227C90F1EF89FF300315306 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2227C9101EF89FF300315306 /* User.h */,
+				2227C9111EF89FF300315306 /* User.m */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		22BC79D41EF743EF004A97D1 /* DataAccessLayer */ = {
+			isa = PBXGroup;
+			children = (
+				22BC79D51EF743EF004A97D1 /* VoomBaseDataManager.h */,
+				22BC79D61EF743EF004A97D1 /* VoomBaseDataManager.m */,
+			);
+			path = DataAccessLayer;
+			sourceTree = "<group>";
+		};
+		22BC79E21EF74AD8004A97D1 /* LoginWebService */ = {
+			isa = PBXGroup;
+			children = (
+				22BC79E31EF74AD8004A97D1 /* LoginWebService.h */,
+				22BC79E41EF74AD8004A97D1 /* LoginWebService.m */,
+			);
+			path = LoginWebService;
+			sourceTree = "<group>";
+		};
+		22BC79E91EF74AE2004A97D1 /* Login */ = {
+			isa = PBXGroup;
+			children = (
+				22BC79EA1EF74AE2004A97D1 /* LoginBodyResponse */,
+			);
+			path = Login;
+			sourceTree = "<group>";
+		};
+		22BC79EA1EF74AE2004A97D1 /* LoginBodyResponse */ = {
+			isa = PBXGroup;
+			children = (
+				22BC79EB1EF74AE2004A97D1 /* LoginBodyResponse.h */,
+				22BC79EC1EF74AE2004A97D1 /* LoginBodyResponse.m */,
+			);
+			path = LoginBodyResponse;
+			sourceTree = "<group>";
+		};
+		22BC7A041EF74CA6004A97D1 /* VoomSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = VoomSessionManager;
+			sourceTree = "<group>";
+		};
+		22BC7A051EF74DDF004A97D1 /* MOLRequestBO */ = {
+			isa = PBXGroup;
+			children = (
+				22BC7A061EF74DDF004A97D1 /* MOLRequestBO.h */,
+				22BC7A071EF74DDF004A97D1 /* MOLRequestBO.m */,
+			);
+			path = MOLRequestBO;
+			sourceTree = "<group>";
+		};
+		22BC7A111EF755DB004A97D1 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				22BC7A1B1EF777BF004A97D1 /* LoginManager */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		22BC7A1B1EF777BF004A97D1 /* LoginManager */ = {
+			isa = PBXGroup;
+			children = (
+				22BC7A1C1EF777BF004A97D1 /* LoginManager.h */,
+				22BC7A1D1EF777BF004A97D1 /* LoginManager.m */,
+			);
+			path = LoginManager;
+			sourceTree = "<group>";
+		};
+		22BC7A1F1EF77B04004A97D1 /* MaterialDesignSpinner */ = {
+			isa = PBXGroup;
+			children = (
+				22BC7A201EF77B04004A97D1 /* MMMaterialDesignSpinner.h */,
+				22BC7A211EF77B04004A97D1 /* MMMaterialDesignSpinner.m */,
+			);
+			path = MaterialDesignSpinner;
+			sourceTree = "<group>";
+		};
+		9CDA8FE48D3F3198860292D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				226E0BC61EF7845B007AAE03 /* libGoogleToolboxForMac.a */,
+				226E0BC31EF7844A007AAE03 /* libPods-VoomTests.a */,
+				226E0BC11EF78418007AAE03 /* libPods-Voom.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		CE23A5F11EEE44320063EE90 = {
 			isa = PBXGroup;
 			children = (
-				CE6A10731EF3392800321430 /* edit@2x.png */,
+				226E0BC81EF788CE007AAE03 /* GoogleService-Info.plist */,
+				CE6A0F391EEF4A8300321430 /* Voom_PrefixHeader.pch */,
 				CE6A0FC41EF0CBDB00321430 /* Voom-Bridging-Header-Swift.h */,
 				CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */,
-				CE6A0F391EEF4A8300321430 /* Voom_PrefixHeader.pch */,
 				CE6A0F0E1EEE4D6E00321430 /* Default-568h@2x.png */,
 				CE23A5FC1EEE44320063EE90 /* Voom */,
 				CE23A6161EEE44320063EE90 /* VoomTests */,
 				CE23A6211EEE44320063EE90 /* VoomUITests */,
 				CE23A5FB1EEE44320063EE90 /* Products */,
+				9CDA8FE48D3F3198860292D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -552,9 +953,9 @@
 		CE23A6331EEE44A00063EE90 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				CE23A7241EEE44A00063EE90 /* VoomParentViewController */,
 				CE6A10D81EF351F100321430 /* AccidentsViewController */,
 				CE6A107D1EF33CAD00321430 /* VehicleRegistrationViewController */,
-				CE23A7241EEE44A00063EE90 /* VoomParentViewController */,
 				CE23A6341EEE44A00063EE90 /* AccountSettingsViewController */,
 				CE23A6431EEE44A00063EE90 /* BreakdownsViewController */,
 				CE23A6521EEE44A00063EE90 /* ChangePasswordViewController */,
@@ -1121,8 +1522,8 @@
 		CE23A6761EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				CE6A0F741EEF852300321430 /* passwrdIcon@2x.png */,
-				CE6A0F751EEF852300321430 /* userIcon@2x.png */,
+				CE6A10F51EF37D0300321430 /* emaiIcon-iPhone@2x.png */,
+				CE6A10F61EF37D0300321430 /* passwordIcon-iPhone@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1141,6 +1542,7 @@
 		CE23A6781EEE44A00063EE90 /* Bo */ = {
 			isa = PBXGroup;
 			children = (
+				2227C9031EF7976200315306 /* UserProfileBO */,
 			);
 			path = Bo;
 			sourceTree = "<group>";
@@ -1148,6 +1550,7 @@
 		CE23A6791EEE44A00063EE90 /* Enums */ = {
 			isa = PBXGroup;
 			children = (
+				22BC79D81EF74AAB004A97D1 /* LoginErrorTypeEnum.h */,
 			);
 			path = Enums;
 			sourceTree = "<group>";
@@ -1155,6 +1558,7 @@
 		CE23A67A1EEE44A00063EE90 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				22BC79E21EF74AD8004A97D1 /* LoginWebService */,
 			);
 			path = Request;
 			sourceTree = "<group>";
@@ -1162,6 +1566,7 @@
 		CE23A67B1EEE44A00063EE90 /* Response */ = {
 			isa = PBXGroup;
 			children = (
+				22BC79E91EF74AE2004A97D1 /* Login */,
 			);
 			path = Response;
 			sourceTree = "<group>";
@@ -1557,6 +1962,7 @@
 		CE23A6AB1EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE28518E1EF39AF100A039DF /* ReminderTableViewCell */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1681,6 +2087,7 @@
 		CE23A6BA1EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10EF1EF3741A00321430 /* SettingsViewCell */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -1743,7 +2150,7 @@
 		CE23A6C11EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				CE6A10621EF1F76900321430 /* transport1@2x.png */,
+				CE6A10FB1EF37EA000321430 /* sideMenu-iPhone@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2117,6 +2524,7 @@
 		CE23A6EE1EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE6A10FD1EF37EF400321430 /* addVehicle-iPhone@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2241,6 +2649,14 @@
 		CE23A6FD1EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				CE2851801EF38E2600A039DF /* 7.png */,
+				CE2851811EF38E2600A039DF /* 8.png */,
+				CE2851821EF38E2600A039DF /* 9.png */,
+				CE2851831EF38E2600A039DF /* 10.png */,
+				CE2851841EF38E2600A039DF /* 11.png */,
+				CE2851851EF38E2600A039DF /* 12.png */,
+				CE2851861EF38E2600A039DF /* 13.png */,
+				CE6A10F91EF37DAB00321430 /* VehicleInfoEdit-iPhone@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2611,17 +3027,10 @@
 		CE23A72A1EEE44A10063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
-				CE6A0F951EF0B46100321430 /* ic_add_task */,
-				CE6A0F991EF0B46100321430 /* ic_ads */,
-				CE6A0F9D1EF0B46100321430 /* ic_chat */,
-				CE6A0FA11EF0B46100321430 /* ic_home */,
-				CE6A0FA61EF0B46100321430 /* ic_person */,
-				CE6A0FAA1EF0B46100321430 /* ic_search */,
-				CE6A0F481EEF52DB00321430 /* back-iPhone@2x.png */,
-				CE6A0F491EEF52DB00321430 /* menu-iPhone@2x.png */,
-				CE6A10331EF0DA6200321430 /* business1@2x.png */,
-				CE6A10351EF0DA8000321430 /* signs@2x.png */,
-				CE6A10371EF0DA9D00321430 /* edit@2x.png */,
+				CE6A110B1EF3834B00321430 /* tabbar */,
+				CE6A11091EF3833400321430 /* background-iPhone@2x.png */,
+				CE6A11141EF3839A00321430 /* logo-iPhone@2x.png */,
+				CE28517E1EF384D800A039DF /* back-iPhone@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2629,10 +3038,10 @@
 		CE23A72B1EEE44A10063EE90 /* Modal */ = {
 			isa = PBXGroup;
 			children = (
+				22BC7A111EF755DB004A97D1 /* DataManager */,
 				CE23A72C1EEE44A10063EE90 /* Bo */,
 				CE23A72D1EEE44A10063EE90 /* Enums */,
 				CE23A72E1EEE44A10063EE90 /* Request */,
-				CE23A72F1EEE44A10063EE90 /* Response */,
 			);
 			path = Modal;
 			sourceTree = "<group>";
@@ -2640,8 +3049,8 @@
 		CE23A72C1EEE44A10063EE90 /* Bo */ = {
 			isa = PBXGroup;
 			children = (
+				22BC7A051EF74DDF004A97D1 /* MOLRequestBO */,
 				CE6A104E1EF0E30700321430 /* VoomParentBO */,
-				CE6A104A1EF0E2E000321430 /* EntityErrors */,
 			);
 			path = Bo;
 			sourceTree = "<group>";
@@ -2658,15 +3067,6 @@
 			children = (
 			);
 			path = Request;
-			sourceTree = "<group>";
-		};
-		CE23A72F1EEE44A10063EE90 /* Response */ = {
-			isa = PBXGroup;
-			children = (
-				CE6A10471EF0E16300321430 /* VoomResponse.h */,
-				CE6A10481EF0E16300321430 /* VoomResponse.m */,
-			);
-			path = Response;
 			sourceTree = "<group>";
 		};
 		CE23A7301EEE44A10063EE90 /* View */ = {
@@ -2830,6 +3230,12 @@
 		CE23A7431EEE44A10063EE90 /* Utility */ = {
 			isa = PBXGroup;
 			children = (
+				2227C90B1EF89CEF00315306 /* SessionManager */,
+				2227C9071EF88F3C00315306 /* MBProgressHUD */,
+				2227C8A01EF78AFB00315306 /* Firebase */,
+				22BC7A1F1EF77B04004A97D1 /* MaterialDesignSpinner */,
+				22BC7A041EF74CA6004A97D1 /* VoomSessionManager */,
+				22BC79D41EF743EF004A97D1 /* DataAccessLayer */,
 				CE6A103D1EF0DF8A00321430 /* Archiver */,
 				CE6A10391EF0DEBB00321430 /* Reachablity */,
 				CE6A10011EF0D49100321430 /* ServerAPI */,
@@ -2841,6 +3247,16 @@
 				CE6A0EEB1EEE481F00321430 /* LGSideMenuController */,
 			);
 			path = Utility;
+			sourceTree = "<group>";
+		};
+		CE28518E1EF39AF100A039DF /* ReminderTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE28518F1EF39B2D00A039DF /* ReminderTableViewCell.h */,
+				CE2851901EF39B2D00A039DF /* ReminderTableViewCell.m */,
+				CE2851921EF39B4000A039DF /* ReminderTableViewCell.xib */,
+			);
+			path = ReminderTableViewCell;
 			sourceTree = "<group>";
 		};
 		CE6A0EEB1EEE481F00321430 /* LGSideMenuController */ = {
@@ -2924,68 +3340,6 @@
 				CE6A0F8B1EEFA26300321430 /* TPRoundedTextField.m */,
 			);
 			path = RoundedTextField;
-			sourceTree = "<group>";
-		};
-		CE6A0F951EF0B46100321430 /* ic_add_task */ = {
-			isa = PBXGroup;
-			children = (
-				CE6A0F961EF0B46100321430 /* ic_add_task.png */,
-				CE6A0F971EF0B46100321430 /* ic_add_task@2x.png */,
-				CE6A0F981EF0B46100321430 /* ic_add_task@3x.png */,
-			);
-			path = ic_add_task;
-			sourceTree = "<group>";
-		};
-		CE6A0F991EF0B46100321430 /* ic_ads */ = {
-			isa = PBXGroup;
-			children = (
-				CE6A0F9A1EF0B46100321430 /* ic_ads.png */,
-				CE6A0F9B1EF0B46100321430 /* ic_ads@2x.png */,
-				CE6A0F9C1EF0B46100321430 /* ic_ads@3x.png */,
-			);
-			path = ic_ads;
-			sourceTree = "<group>";
-		};
-		CE6A0F9D1EF0B46100321430 /* ic_chat */ = {
-			isa = PBXGroup;
-			children = (
-				CE6A0F9E1EF0B46100321430 /* ic_chat_36pt.png */,
-				CE6A0F9F1EF0B46100321430 /* ic_chat_36pt@2x.png */,
-				CE6A0FA01EF0B46100321430 /* ic_chat_36pt@3x.png */,
-			);
-			path = ic_chat;
-			sourceTree = "<group>";
-		};
-		CE6A0FA11EF0B46100321430 /* ic_home */ = {
-			isa = PBXGroup;
-			children = (
-				CE6A0FA21EF0B46100321430 /* Contents.json */,
-				CE6A0FA31EF0B46100321430 /* ic_home_36pt.png */,
-				CE6A0FA41EF0B46100321430 /* ic_home_36pt@2x.png */,
-				CE6A0FA51EF0B46100321430 /* ic_home_36pt@3x.png */,
-			);
-			path = ic_home;
-			sourceTree = "<group>";
-		};
-		CE6A0FA61EF0B46100321430 /* ic_person */ = {
-			isa = PBXGroup;
-			children = (
-				CE6A0FA71EF0B46100321430 /* ic_person_36pt.png */,
-				CE6A0FA81EF0B46100321430 /* ic_person_36pt@2x.png */,
-				CE6A0FA91EF0B46100321430 /* ic_person_36pt@3x.png */,
-			);
-			path = ic_person;
-			sourceTree = "<group>";
-		};
-		CE6A0FAA1EF0B46100321430 /* ic_search */ = {
-			isa = PBXGroup;
-			children = (
-				CE6A0FAB1EF0B46100321430 /* Contents.json */,
-				CE6A0FAC1EF0B46100321430 /* ic_search_36pt.png */,
-				CE6A0FAD1EF0B46100321430 /* ic_search_36pt@2x.png */,
-				CE6A0FAE1EF0B46100321430 /* ic_search_36pt@3x.png */,
-			);
-			path = ic_search;
 			sourceTree = "<group>";
 		};
 		CE6A0FC51EF0CD5C00321430 /* Spring */ = {
@@ -3112,15 +3466,6 @@
 				CE6A10411EF0DF8A00321430 /* NSObject+NSCoding.m */,
 			);
 			path = Archiver;
-			sourceTree = "<group>";
-		};
-		CE6A104A1EF0E2E000321430 /* EntityErrors */ = {
-			isa = PBXGroup;
-			children = (
-				CE6A104B1EF0E2E000321430 /* EntityErrorsBO.h */,
-				CE6A104C1EF0E2E000321430 /* EntityErrorsBO.m */,
-			);
-			path = EntityErrors;
 			sourceTree = "<group>";
 		};
 		CE6A104E1EF0E30700321430 /* VoomParentBO */ = {
@@ -3404,6 +3749,27 @@
 			path = iPhone;
 			sourceTree = "<group>";
 		};
+		CE6A10EF1EF3741A00321430 /* SettingsViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A10F01EF3761A00321430 /* SettingsViewCell.h */,
+				CE6A10F11EF3761A00321430 /* SettingsViewCell.m */,
+				CE6A10F31EF3763500321430 /* SettingsViewCell.xib */,
+			);
+			path = SettingsViewCell;
+			sourceTree = "<group>";
+		};
+		CE6A110B1EF3834B00321430 /* tabbar */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A110C1EF3834B00321430 /* Reminder-iPhone@2x.png */,
+				CE6A110D1EF3834B00321430 /* Settings-iPhone@2x.png */,
+				CE6A110E1EF3834B00321430 /* VehicleCheck-iPhone@2x.png */,
+				CE6A110F1EF3834B00321430 /* VehicleLibrary-iPhone@2x.png */,
+			);
+			path = tabbar;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -3513,60 +3879,63 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE6A0FBD1EF0B46100321430 /* ic_person_36pt@2x.png in Resources */,
 				CE6A0F321EEF458500321430 /* RegistrationViewControlleriPhone.xib in Resources */,
-				CE6A0FBA1EF0B46100321430 /* ic_home_36pt@2x.png in Resources */,
+				2227C8E01EF78AFB00315306 /* batch-upload in Resources */,
 				CE6A0F591EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib in Resources */,
 				CE6A10BA1EF348E700321430 /* VehicleMileageViewControlleriPhone.xib in Resources */,
-				CE6A0FB51EF0B46100321430 /* ic_chat_36pt.png in Resources */,
-				CE6A0FB91EF0B46100321430 /* ic_home_36pt.png in Resources */,
 				CE6A107C1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib in Resources */,
+				2227C8E21EF78AFB00315306 /* extract-keys in Resources */,
+				CE6A11121EF3834C00321430 /* VehicleCheck-iPhone@2x.png in Resources */,
+				CE6A11111EF3834C00321430 /* Settings-iPhone@2x.png in Resources */,
 				CE6A10CF1EF34B0300321430 /* FinesViewControlleriPhone.xib in Resources */,
-				CE6A0FB81EF0B46100321430 /* Contents.json in Resources */,
-				CE6A0FC11EF0B46100321430 /* ic_search_36pt@2x.png in Resources */,
+				CE28518D1EF38E2600A039DF /* 13.png in Resources */,
 				CE6A0EEA1EEE47A400321430 /* SideMenuViewControlleriPhone.xib in Resources */,
+				CE6A10FA1EF37DAB00321430 /* VehicleInfoEdit-iPhone@2x.png in Resources */,
+				CE2851891EF38E2600A039DF /* 9.png in Resources */,
+				CE6A10F71EF37D0300321430 /* emaiIcon-iPhone@2x.png in Resources */,
+				CE28518B1EF38E2600A039DF /* 11.png in Resources */,
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
-				CE6A10381EF0DA9D00321430 /* edit@2x.png in Resources */,
+				CE6A11151EF3839A00321430 /* logo-iPhone@2x.png in Resources */,
+				CE6A10F81EF37D0300321430 /* passwordIcon-iPhone@2x.png in Resources */,
 				CE6A10EE1EF3526000321430 /* AccidentsViewControlleriPhone.xib in Resources */,
-				CE6A0FB01EF0B46100321430 /* ic_add_task@2x.png in Resources */,
-				CE6A0F771EEF852400321430 /* userIcon@2x.png in Resources */,
-				CE6A0F761EEF852400321430 /* passwrdIcon@2x.png in Resources */,
-				CE6A0FB41EF0B46100321430 /* ic_ads@3x.png in Resources */,
 				CE6A0F081EEE48C500321430 /* LoginViewControlleriPhone.xib in Resources */,
-				CE6A10631EF1F76900321430 /* transport1@2x.png in Resources */,
 				CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */,
 				CE6A0F611EEF629C00321430 /* RemindersViewControlleriPhone.xib in Resources */,
-				CE6A0FB61EF0B46100321430 /* ic_chat_36pt@2x.png in Resources */,
-				CE6A0FB71EF0B46100321430 /* ic_chat_36pt@3x.png in Resources */,
+				2227C8E61EF78AFB00315306 /* upload-sym-util.bash in Resources */,
+				2227C8F31EF78AFB00315306 /* GPPACLPickerResources.bundle in Resources */,
+				2227C8F61EF78AFB00315306 /* NOTICES in Resources */,
+				CE2851881EF38E2600A039DF /* 8.png in Resources */,
 				CE6A0FF01EF0CD5C00321430 /* Info.plist in Resources */,
 				CE6A10C71EF34A2E00321430 /* TollRoadsViewControlleriPhone.xib in Resources */,
+				2227C8F11EF78AFB00315306 /* GINInviteResources.bundle in Resources */,
+				CE6A11101EF3834B00321430 /* Reminder-iPhone@2x.png in Resources */,
 				CE6A0F6C1EEF637D00321430 /* SettingsViewControlleriPhone.xib in Resources */,
+				CE2851871EF38E2600A039DF /* 7.png in Resources */,
+				226E0BC91EF788CE007AAE03 /* GoogleService-Info.plist in Resources */,
+				CE6A110A1EF3833400321430 /* background-iPhone@2x.png in Resources */,
 				CE6A106C1EF2517500321430 /* SideMenuTableViewCell.xib in Resources */,
 				CE6A10B21EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.xib in Resources */,
+				CE28518A1EF38E2600A039DF /* 10.png in Resources */,
+				2227C8E51EF78AFB00315306 /* upload-sym in Resources */,
 				CE6A10A21EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.xib in Resources */,
-				CE6A10741EF3392800321430 /* edit@2x.png in Resources */,
+				CE28518C1EF38E2600A039DF /* 12.png in Resources */,
 				CE6A0F0F1EEE4D6E00321430 /* Default-568h@2x.png in Resources */,
-				CE6A10361EF0DA8000321430 /* signs@2x.png in Resources */,
-				CE6A0FC21EF0B46100321430 /* ic_search_36pt@3x.png in Resources */,
+				CE6A10F41EF3763500321430 /* SettingsViewCell.xib in Resources */,
+				2227C8F21EF78AFB00315306 /* GoogleSignIn.bundle in Resources */,
+				2227C8E11EF78AFB00315306 /* dump_syms in Resources */,
 				CE6A0F381EEF4A0800321430 /* HeaderView.xib in Resources */,
-				CE6A0FB11EF0B46100321430 /* ic_add_task@3x.png in Resources */,
+				CE6A10FE1EF37EF400321430 /* addVehicle-iPhone@2x.png in Resources */,
 				CE6A102D1EF0D49100321430 /* ReadMe.rtf in Resources */,
+				CE2851931EF39B4000A039DF /* ReminderTableViewCell.xib in Resources */,
 				CE6A10D71EF34D3C00321430 /* BreakdownsViewControlleriPhone.xib in Resources */,
-				CE6A0FB31EF0B46100321430 /* ic_ads@2x.png in Resources */,
+				CE28517F1EF384D800A039DF /* back-iPhone@2x.png in Resources */,
 				CE6A10AA1EF347BC00321430 /* VehicleServicesViewControlleriPhone.xib in Resources */,
-				CE6A0FBC1EF0B46100321430 /* ic_person_36pt.png in Resources */,
-				CE6A0FB21EF0B46100321430 /* ic_ads.png in Resources */,
-				CE6A0F4A1EEF52DB00321430 /* back-iPhone@2x.png in Resources */,
+				2227C8E71EF78AFB00315306 /* upload-sym.sh in Resources */,
 				CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */,
-				CE6A0FBE1EF0B46100321430 /* ic_person_36pt@3x.png in Resources */,
-				CE6A0FBB1EF0B46100321430 /* ic_home_36pt@3x.png in Resources */,
-				CE6A0F4B1EEF52DB00321430 /* menu-iPhone@2x.png in Resources */,
-				CE6A0FC01EF0B46100321430 /* ic_search_36pt.png in Resources */,
-				CE6A10341EF0DA6200321430 /* business1@2x.png in Resources */,
-				CE6A0FAF1EF0B46100321430 /* ic_add_task.png in Resources */,
+				CE6A10FC1EF37EA000321430 /* sideMenu-iPhone@2x.png in Resources */,
 				CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */,
+				CE6A11131EF3834C00321430 /* VehicleLibrary-iPhone@2x.png in Resources */,
 				CE6A10721EF252B600321430 /* VehicleLibraryTableViewCell.xib in Resources */,
-				CE6A0FBF1EF0B46100321430 /* Contents.json in Resources */,
 				CE6A0FF31EF0CD5C00321430 /* LoadingView.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -3595,6 +3964,7 @@
 				CE6A0FF51EF0CD5C00321430 /* SoundPlayer.swift in Sources */,
 				CE6A0EE91EEE47A400321430 /* SideMenuViewControlleriPhone.m in Sources */,
 				CE6A0FEA1EF0CD5C00321430 /* DesignableLabel.swift in Sources */,
+				22BC79E81EF74AD8004A97D1 /* LoginWebService.m in Sources */,
 				CE6A0FE41EF0CD5C00321430 /* AsyncButton.swift in Sources */,
 				CE6A0F831EEF961400321430 /* TPKeyboardAvoidingTableView.m in Sources */,
 				CE6A10261EF0D49100321430 /* EVEDataMappings.m in Sources */,
@@ -3603,7 +3973,6 @@
 				CE6A0FF81EF0CD5C00321430 /* SpringButton.swift in Sources */,
 				CE6A0FF11EF0CD5C00321430 /* KeyboardLayoutConstraint.swift in Sources */,
 				CE6A10511EF0E30700321430 /* VoomParentBO.m in Sources */,
-				CE6A10491EF0E16300321430 /* VoomResponse.m in Sources */,
 				CE6A0FF21EF0CD5C00321430 /* LoadingView.swift in Sources */,
 				CE6A103C1EF0DEBB00321430 /* Reachability.m in Sources */,
 				CE6A10D21EF34D1E00321430 /* BreakdownsViewController.m in Sources */,
@@ -3614,6 +3983,7 @@
 				CE6A0F821EEF961400321430 /* TPKeyboardAvoidingScrollView.m in Sources */,
 				CE6A10291EF0D49100321430 /* EVESetMappings.m in Sources */,
 				CE6A10271EF0D49100321430 /* EVEDateMappings.m in Sources */,
+				2227C90A1EF88F3C00315306 /* MBProgressHUD.m in Sources */,
 				CE6A0F071EEE48C500321430 /* LoginViewControlleriPhone.m in Sources */,
 				CE6A107B1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.m in Sources */,
 				CE6A0F461EEF527F00321430 /* VehicleLibraryViewControlleriPhone.m in Sources */,
@@ -3624,9 +3994,11 @@
 				CE6A0F601EEF629C00321430 /* RemindersViewControlleriPhone.m in Sources */,
 				CE6A10ED1EF3526000321430 /* AccidentsViewControlleriPhone.m in Sources */,
 				CE6A0EFA1EEE481F00321430 /* LGSideMenuBorderView.m in Sources */,
+				22BC7A081EF74DDF004A97D1 /* MOLRequestBO.m in Sources */,
 				CE6A0FF71EF0CD5C00321430 /* SpringAnimation.swift in Sources */,
 				CE6A0F031EEE48A600321430 /* LoginViewController.m in Sources */,
 				CE6A0EE51EEE478000321430 /* SideMenuViewController.m in Sources */,
+				22BC7A1E1EF777BF004A97D1 /* LoginManager.m in Sources */,
 				CE6A10281EF0D49100321430 /* EVEMappings.m in Sources */,
 				CE6A102F1EF0D49100321430 /* CoreWebService.m in Sources */,
 				CE6A10431EF0DF8A00321430 /* NSObject+NSCoding.m in Sources */,
@@ -3641,6 +4013,7 @@
 				CE6A0F811EEF961400321430 /* TPKeyboardAvoidingCollectionView.m in Sources */,
 				CE6A0FF91EF0CD5C00321430 /* SpringImageView.swift in Sources */,
 				CE6A0EFE1EEE481F00321430 /* LGSideMenuSegue.m in Sources */,
+				CE6A10F21EF3761A00321430 /* SettingsViewCell.m in Sources */,
 				CE6A10001EF0CD5C00321430 /* UnwindSegue.swift in Sources */,
 				CE6A0FE91EF0CD5C00321430 /* DesignableImageView.swift in Sources */,
 				CE6A0F6B1EEF637D00321430 /* SettingsViewControlleriPhone.m in Sources */,
@@ -3655,6 +4028,7 @@
 				CE6A0FEC1EF0CD5C00321430 /* DesignableTextField.swift in Sources */,
 				CE6A10701EF2521700321430 /* VehicleLibraryTableViewCell.m in Sources */,
 				CE6A10B51EF348C900321430 /* VehicleMileageViewController.m in Sources */,
+				2227C90E1EF89CEF00315306 /* VoomSessionManger.m in Sources */,
 				CE6A10D61EF34D3C00321430 /* BreakdownsViewControlleriPhone.m in Sources */,
 				CE6A10CE1EF34B0300321430 /* FinesViewControlleriPhone.m in Sources */,
 				CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */,
@@ -3665,21 +4039,24 @@
 				CE6A0FE81EF0CD5C00321430 /* DesignableButton.swift in Sources */,
 				CE6A0FE51EF0CD5C00321430 /* AsyncImageView.swift in Sources */,
 				CE6A0EFB1EEE481F00321430 /* LGSideMenuController.m in Sources */,
+				22BC79FE1EF74AE3004A97D1 /* LoginBodyResponse.m in Sources */,
 				CE6A10B91EF348E700321430 /* VehicleMileageViewControlleriPhone.m in Sources */,
 				CE6A10E91EF3523200321430 /* AccidentsViewController.m in Sources */,
 				CE6A10CA1EF34AEB00321430 /* FinesViewController.m in Sources */,
 				CE6A0F311EEF458500321430 /* RegistrationViewControlleriPhone.m in Sources */,
+				22BC79D71EF743EF004A97D1 /* VoomBaseDataManager.m in Sources */,
 				CE6A0F371EEF4A0800321430 /* HeaderView.m in Sources */,
 				CE6A10A11EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.m in Sources */,
 				CE6A0F421EEF526800321430 /* VehicleLibraryViewController.m in Sources */,
 				CE6A0F3E1EEF4C5300321430 /* BackHeaderView.m in Sources */,
 				CE6A0FFD1EF0CD5C00321430 /* SpringView.swift in Sources */,
 				CE6A0FE61EF0CD5C00321430 /* AutoTextView.swift in Sources */,
+				2227C9121EF89FF300315306 /* User.m in Sources */,
 				CE6A0F2D1EEF455F00321430 /* RegistrationViewController.m in Sources */,
 				CE6A0FEB1EF0CD5C00321430 /* DesignableTabBarController.swift in Sources */,
 				CE6A0EE21EEE475500321430 /* VoomParentViewController.m in Sources */,
+				2227C9061EF7977F00315306 /* UserProfileBO.m in Sources */,
 				CE6A10A91EF347BC00321430 /* VehicleServicesViewControlleriPhone.m in Sources */,
-				CE6A104D1EF0E2E000321430 /* EntityErrorsBO.m in Sources */,
 				CE6A0FFE1EF0CD5C00321430 /* TransitionManager.swift in Sources */,
 				CE6A0FFF1EF0CD5C00321430 /* TransitionZoom.swift in Sources */,
 				CE6A102A1EF0D49100321430 /* EVEURLMappings.m in Sources */,
@@ -3690,6 +4067,9 @@
 				CE6A0F541EEF623200321430 /* VehicleCheckViewController.m in Sources */,
 				CE6A10241EF0D49100321430 /* EVECacheDiskHandler.m in Sources */,
 				CE23A7491EEE44C80063EE90 /* AppDelegate.m in Sources */,
+				CE2851911EF39B2D00A039DF /* ReminderTableViewCell.m in Sources */,
+				2227C8FA1EF78AFB00315306 /* README.md in Sources */,
+				22BC7A221EF77B04004A97D1 /* MMMaterialDesignSpinner.m in Sources */,
 				CE6A0FE71EF0CD5C00321430 /* BlurView.swift in Sources */,
 				CE6A10251EF0D49100321430 /* EVEKeyGenrator.m in Sources */,
 				CE6A0F701EEF7F3200321430 /* UITabBar+NewSize.m in Sources */,
@@ -3825,10 +4205,26 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/AdMob",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Analytics",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Auth",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Crash",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Database",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/DynamicLinks",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Invites",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Messaging",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Performance",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/RemoteConfig",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Storage",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/user/Desktop/Voom_IOS_ObjC/Voom_PrefixHeader.pch;
+				GCC_PREFIX_HEADER = Voom_PrefixHeader.pch;
 				INFOPLIST_FILE = Voom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.Voom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3839,10 +4235,27 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/AdMob",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Analytics",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Auth",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Crash",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Database",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/DynamicLinks",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Invites",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Messaging",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Performance",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/RemoteConfig",
+					"$(PROJECT_DIR)/Voom/Utility/Firebase/Storage",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = /Users/user/Desktop/Voom_IOS_ObjC/Voom_PrefixHeader.pch;
+				GCC_PREFIX_HEADER = Voom_PrefixHeader.pch;
 				INFOPLIST_FILE = Voom/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = "";
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.Voom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3856,6 +4269,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VoomTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3870,6 +4287,10 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = VoomTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/build/Debug-iphoneos",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -3881,6 +4302,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = VoomUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomUITests;
@@ -3894,6 +4316,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				HEADER_SEARCH_PATHS = "$(inherited)";
 				INFOPLIST_FILE = VoomUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.VoomUITests;

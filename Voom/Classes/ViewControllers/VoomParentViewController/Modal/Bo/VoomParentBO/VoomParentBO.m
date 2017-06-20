@@ -2,7 +2,7 @@
 //  VoomParentBO.m
 //  Voom
 //
-//  Created by user on 14/06/17.
+
 //  Copyright © 2017 user. All rights reserved.
 //
 
@@ -12,8 +12,8 @@
 
 + (NSMutableDictionary*)getObjectMap{
     NSMutableDictionary *objectMap = [NSMutableDictionary dictionaryWithObjectsAndKeys:
-                                      @"Id", @"EntityId",
-                                      @"Name",@"Name"
+                                      @"errorcode", @"errorcode",
+                                      @"errormsg",@"errormsg"
                                       ,nil];
     return objectMap;
 }

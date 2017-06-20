@@ -15,10 +15,11 @@
 #import "WarrantOfFitnessViewControlleriPhone.h"
 #import "VehicleMileageViewControlleriPhone.h"
 #import "TollRoadsViewControlleriPhone.h"
-#import "FinesViewController.h"
+#import "FinesViewControlleriPhone.h"
 #import "BreakdownsViewControlleriPhone.h"
 #import "AccidentsViewControlleriPhone.h"
 
+#define SIDE_MENU_CELL_HEIGHT 40
 
 @interface SideMenuViewController ()
 
@@ -35,7 +36,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.sideMenuArray = [NSArray arrayWithObjects:@"Vehicle Info",@"Registration",@"Service",@"WoF",@"Mileage",@"Toll Roads",@"Fines",@"Breakdowns",@"Accidents", nil];
+    self.sideMenuArray = [NSArray arrayWithObjects:kTitleVehicleLibrary,kTitleVehicleInfo,kTitleRegistration,kTitleServices,kFitnessWarrant,kTitleMileage,kTitleTollRoads,kTitleFines,kTitleBreakDowns,kTitleAccidents, nil];
+    appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
    
 }
 
@@ -78,16 +80,21 @@
 }
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    [self loadViewControllersForIndex:(int)indexPath.row];
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
-    return 40;
+    return SIDE_MENU_CELL_HEIGHT;
 }
 
 #pragma mark side menu methods
 
 -(void) loadViewControllersForIndex:(int)index{
+    [appDelegate.leftSideMenu hideLeftView];
     switch (index) {
+        case VehicleLibraryIndex:
+             [self goToHome];
+            break;
         case VehicleInfoIndex:
              [self goToVehicleInfo];
              break;
@@ -121,54 +128,54 @@
 }
 
 
+-(void)goToHome{
+    
+    [appDelegate.homeNavigationController popToRootViewControllerAnimated:YES];
+}
 
 -(void)goToVehicleInfo{
-    
     VehicleInfoViewControlleriPhone *vehicleInfo = [[VehicleInfoViewControlleriPhone alloc] initWithNibName:@"VehicleInfoViewControlleriPhone" bundle:nil];
-    [self.navigationController pushViewController:vehicleInfo animated:YES];
-                                                       
+    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToVehicleRegistration{
-       //VehicleRegistrationInfoViewControlleriPhone
-    
+    VehicleRegistrationInfoViewControlleriPhone *vehicleInfo = [[VehicleRegistrationInfoViewControlleriPhone alloc] initWithNibName:@"VehicleRegistrationInfoViewControlleriPhone" bundle:nil];
+    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToVehicleServices{
-     /// VehicleServicesViewControlleriPhone
-
+    VehicleServicesViewControlleriPhone *vehicleInfo = [[VehicleServicesViewControlleriPhone alloc] initWithNibName:@"VehicleServicesViewControlleriPhone" bundle:nil];
+    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToVehicleWOF{
-    //  WarrantOfFitnessViewControlleriPhone
-
+    WarrantOfFitnessViewControlleriPhone *vehicleInfo = [[WarrantOfFitnessViewControlleriPhone alloc] initWithNibName:@"WarrantOfFitnessViewControlleriPhone" bundle:nil];
+    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToMileage{
-    //  VehicleMileageViewControlleriPhone
-    
+    VehicleMileageViewControlleriPhone *vehicleInfo = [[VehicleMileageViewControlleriPhone alloc] initWithNibName:@"VehicleMileageViewControlleriPhone" bundle:nil];
+    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToTollRoads{
-     // TollRoadsViewControlleriPhone
-
+    TollRoadsViewControlleriPhone *vehicleInfo = [[TollRoadsViewControlleriPhone alloc] initWithNibName:@"TollRoadsViewControlleriPhone" bundle:nil];
+    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToFines{
-   // FinesViewControlleriPhone
-
-    
+    FinesViewControlleriPhone *vehicleInfo = [[FinesViewControlleriPhone alloc] initWithNibName:@"FinesViewControlleriPhone" bundle:nil];
+    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToBreakDowns{
-   // BreakdownsViewControlleriPhone
-
-    
+    BreakdownsViewControlleriPhone *vehicleInfo = [[BreakdownsViewControlleriPhone alloc] initWithNibName:@"BreakdownsViewControlleriPhone" bundle:nil];
+    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToAccidents{
-   // AcidentsViewControlleriPhone
-    
+    AccidentsViewControlleriPhone *vehicleInfo = [[AccidentsViewControlleriPhone alloc] initWithNibName:@"AcidentsViewControlleriPhone" bundle:nil];
+    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
 }
 
 @end

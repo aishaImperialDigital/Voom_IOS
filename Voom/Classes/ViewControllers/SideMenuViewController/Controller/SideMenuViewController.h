@@ -7,10 +7,12 @@
 //
 
 #import "VoomParentViewController.h"
+#import "AppDelegate.h"
 
 @interface SideMenuViewController : UIViewController{
-    
+    AppDelegate *appDelegate;
 }
 @property (nonatomic,strong) IBOutlet UITableView *tableView;
 @property (nonatomic,strong) NSArray *sideMenuArray;
+
 @end

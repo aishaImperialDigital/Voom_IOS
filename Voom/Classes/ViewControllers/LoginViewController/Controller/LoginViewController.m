@@ -9,9 +9,13 @@
 #import "LoginViewController.h"
 #import "RegistrationViewControlleriPhone.h"
 #import "VehicleLibraryViewControlleriPhone.h"
+#import "LoginManager.h"
+
 
 @interface LoginViewController ()
-
+{
+    LoginManager *dataManager;
+}
 @end
 
 @implementation LoginViewController
@@ -20,6 +24,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.headerView.hidden = YES;
+    [self.usernameTextField setValue:[UIColor whiteColor] forKeyPath:@"_placeholderLabel.textColor"];
+    [self.passwordTextField setValue:[UIColor whiteColor] forKeyPath:@"_placeholderLabel.textColor"];
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -39,8 +47,8 @@
 #pragma mark methods
 -(IBAction)gotoLogin:(id)sender;
 {
-   // [self loadVehicleLibraryViewController];
-    [self createTabBarController];
+    [self getLogin];
+  //  [self createTabBarController];
 }
 
 -(IBAction)gotoRegisteration:(id)sender;
@@ -66,11 +74,38 @@
 #pragma mark - DataManager Delegate
 
 - (void)didGetEntity:(id)entity{
+    self.view.userInteractionEnabled = YES;
+    [self hideActivityAlert];
+    VoomParentBO *parentBo = (VoomParentBO *) entity;
+    if(parentBo.errorcode == 0)
+    {
+        //check data
+    }
+    else
+    {
+        //[self showActivityAlertWithText:parentBo.errormsg];
+        [self showHUD:parentBo.errormsg andTime:1.0];
+    }
 }
 
 - (BOOL)didGetError:(id)error{
-    self.view.userInteractionEnabled = YES;
-    return NO;
+   self.view.userInteractionEnabled = YES;
+   [self hideActivityAlert];
+   return NO;
+}
+
+
+-(void) getLogin
+{
+    dataManager = nil;
+    dataManager = [[LoginManager alloc] init];
+    dataManager.dataManagerDelegate = self;
+   // dataManager.webServiceType = question;
+    dataManager.username = self.usernameTextField.text;
+    dataManager.password = self.passwordTextField.text;
+    self.view.userInteractionEnabled = NO;
+    [self showActivityAlertWithText:@""];
+    [dataManager getEntity:nil];
 }
 
 

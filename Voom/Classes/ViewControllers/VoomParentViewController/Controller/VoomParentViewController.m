@@ -12,7 +12,7 @@
 #import "RemindersViewControlleriPhone.h"
 #import "SettingsViewControlleriPhone.h"
 #import "Constants.h"
-
+#import "MBProgressHUD.h"
 @interface VoomParentViewController ()
 
 @end
@@ -60,22 +60,22 @@
 -(void) createTabBarController{
     VehicleLibraryViewControlleriPhone *vehicleViewController = [[VehicleLibraryViewControlleriPhone alloc] initWithNibName:@"VehicleLibraryViewControlleriPhone" bundle:nil];
     vehicleViewController.title = @"Vehicles";
-    vehicleViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Vehicles" image:[UIImage imageNamed:@"ic_add_task.png"] tag:0];
+    vehicleViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Vehicles" image:[UIImage imageNamed:@"VehicleLibrary-iPhone.png"] tag:0];
     UINavigationController *firstNavController = [[UINavigationController alloc]initWithRootViewController:vehicleViewController];
     
     VehicleCheckViewControlleriPhone *vehicleCheckViewController = [[VehicleCheckViewControlleriPhone alloc] initWithNibName:@"VehicleCheckViewControlleriPhone" bundle:nil];
     vehicleCheckViewController.title = kTitleVehicleCheck;
-    vehicleCheckViewController.tabBarItem =  [[UITabBarItem alloc] initWithTitle:kTitleVehicleCheck image:[UIImage imageNamed:@"ic_add_task.png"] tag:1];
+    vehicleCheckViewController.tabBarItem =  [[UITabBarItem alloc] initWithTitle:kTitleVehicleCheck image:[UIImage imageNamed:@"VehicleCheck-iPhone.png"] tag:1];
     UINavigationController *secondNavController = [[UINavigationController alloc]initWithRootViewController:vehicleCheckViewController];
    
     RemindersViewControlleriPhone *reminderViewController = [[RemindersViewControlleriPhone alloc]initWithNibName:@"RemindersViewControlleriPhone" bundle:nil];
     reminderViewController.title = kTitleReminders;
-    reminderViewController.tabBarItem =  [[UITabBarItem alloc] initWithTitle:kTitleReminders image:[UIImage imageNamed:@"ic_add_task.png"] tag:2];
+    reminderViewController.tabBarItem =  [[UITabBarItem alloc] initWithTitle:kTitleReminders image:[UIImage imageNamed:@"Reminder-iPhone"] tag:2];
     UINavigationController *thirdNavController = [[UINavigationController alloc]initWithRootViewController:reminderViewController];
    
     SettingsViewControlleriPhone *forthViewController = [[SettingsViewControlleriPhone alloc]initWithNibName:@"SettingsViewControlleriPhone" bundle:nil];
     forthViewController.title = kTitleSettings;
-    forthViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:kTitleSettings image:[UIImage imageNamed:@"ic_add_task.png"] tag:3];
+    forthViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:kTitleSettings image:[UIImage imageNamed:@"Settings-iPhone"] tag:3];
     UINavigationController *forthNavController = [[UINavigationController alloc]initWithRootViewController:forthViewController];
     
     self.tabBarController = [[UITabBarController alloc] init];
@@ -83,11 +83,54 @@
     [self.tabBarController.tabBar sizeThatFits:CGSizeMake(SCREEN_WIDTH,TAB_BAR_HEIGHT)];
     self.tabBarController.tabBar.shadowImage = [[UIImage alloc] init];  //delete the default tabbar shadow！
     [self.navigationController pushViewController:self.tabBarController animated:YES];
+   
     firstNavController.navigationBarHidden = YES;
     secondNavController.navigationBarHidden = YES;
     thirdNavController.navigationBarHidden = YES;
     forthNavController.navigationBarHidden = YES;
 }
+
+
+#pragma mark - AlertView Mthods
+- (void)showActivityAlertWithText:(NSString *)text{
+    [self hideActivityAlert];
+    text = @"Loading";
+    self.spinner = nil;
+    if (self.spinner == nil) {
+        self.spinner = [[MMMaterialDesignSpinner alloc] initWithFrame:CGRectMake(0, 0, 60, 60)];
+        self.spinner.center = self.view.center;
+        [self.view addSubview:self.spinner];
+        [self.spinner startAnimating];
+    
+    }
+}
+
+- (void)setSpinnerPosition:(CGPoint )point{
+    self.spinner.center = point;
+    
+}
+
+- (void)hideActivityAlert{
+    if (self.spinner) {
+        [self.spinner stopAnimating];
+        [self.spinner removeFromSuperview];
+        self.spinner = nil;
+    }
+}
+
+-(void)showHUD:(NSString *)title andTime:(double) time  {
+    UIWindow *windows = [[UIApplication sharedApplication] keyWindow];
+    MBProgressHUD *hud = [MBProgressHUD showHUDAddedTo:windows animated:YES];
+    hud.label.text = title;
+    hud.bezelView.backgroundColor = [UIColor blackColor];
+    hud.contentColor = [UIColor whiteColor];
+    hud.tintColor = [UIColor whiteColor];
+    hud.bezelView.alpha = 0.9;
+    hud.margin = 16;
+    [hud hideAnimated:YES afterDelay:time];
+    
+}
+
 
 
 @end
