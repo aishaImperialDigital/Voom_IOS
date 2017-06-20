@@ -10,6 +10,7 @@
 
 
 
+
 #define kServiceURL @"user/login"
 
 
@@ -22,7 +23,7 @@
     return self;
 }
 
-- (void)getLogin{
+- (void)getLogin:(LoginRequestBO *) loginBO{
     
     NSString *refreshedToken = [[FIRInstanceID instanceID] token];
     NSMutableDictionary *contentDictionary = [[NSMutableDictionary alloc]init];

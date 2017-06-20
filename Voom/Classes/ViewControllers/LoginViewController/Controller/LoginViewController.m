@@ -10,6 +10,8 @@
 #import "RegistrationViewControlleriPhone.h"
 #import "VehicleLibraryViewControlleriPhone.h"
 #import "LoginManager.h"
+#import "LoginRequestBO.h"
+
 
 
 @interface LoginViewController ()
@@ -48,7 +50,7 @@
 -(IBAction)gotoLogin:(id)sender;
 {
     [self getLogin];
-  //  [self createTabBarController];
+    //  [self createTabBarController];
 }
 
 -(IBAction)gotoRegisteration:(id)sender;
@@ -94,18 +96,21 @@
    return NO;
 }
 
+- (BOOL)didGetErrorWithManager:(id)error withManager:(id)manager{
+      return NO;
+}
 
 -(void) getLogin
 {
     dataManager = nil;
     dataManager = [[LoginManager alloc] init];
     dataManager.dataManagerDelegate = self;
-   // dataManager.webServiceType = question;
-    dataManager.username = self.usernameTextField.text;
-    dataManager.password = self.passwordTextField.text;
+    LoginRequestBO *loginBO = [[LoginRequestBO alloc] init];
+    loginBO.username = self.usernameTextField.text;
+    loginBO.password = self.passwordTextField.text;
     self.view.userInteractionEnabled = NO;
     [self showActivityAlertWithText:@""];
-    [dataManager getEntity:nil];
+    [dataManager getEntity:loginBO];
 }
 
 

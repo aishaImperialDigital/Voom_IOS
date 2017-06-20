@@ -75,12 +75,13 @@
 		2227C9411EF8D14C00315306 /* VoomDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2227C9401EF8D14C00315306 /* VoomDatePickerView.xib */; };
 		2227C9441EF8D2C400315306 /* VoomMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2227C9431EF8D2C400315306 /* VoomMapView.xib */; };
 		2227C9471EF8D2F200315306 /* VoomMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9461EF8D2F200315306 /* VoomMapView.m */; };
-		2227C94A1EF8D7E700315306 /* Voom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9481EF8D7E700315306 /* Voom.xcdatamodeld */; };
+		2227C94E1EF9CD3300315306 /* VoomRequestBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C94D1EF9CD3300315306 /* VoomRequestBO.m */; };
+		2227C9551EF9CDFD00315306 /* LoginRequestBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9541EF9CDFD00315306 /* LoginRequestBO.m */; };
+		2227C9571EF9E19200315306 /* loc_pin@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2227C9561EF9E19200315306 /* loc_pin@2x.png */; };
 		226E0BC91EF788CE007AAE03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 226E0BC81EF788CE007AAE03 /* GoogleService-Info.plist */; };
 		22BC79D71EF743EF004A97D1 /* VoomBaseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79D61EF743EF004A97D1 /* VoomBaseDataManager.m */; };
 		22BC79E81EF74AD8004A97D1 /* LoginWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79E41EF74AD8004A97D1 /* LoginWebService.m */; };
 		22BC79FE1EF74AE3004A97D1 /* LoginBodyResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79EC1EF74AE2004A97D1 /* LoginBodyResponse.m */; };
-		22BC7A081EF74DDF004A97D1 /* MOLRequestBO.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC7A071EF74DDF004A97D1 /* MOLRequestBO.m */; };
 		22BC7A1E1EF777BF004A97D1 /* LoginManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC7A1D1EF777BF004A97D1 /* LoginManager.m */; };
 		22BC7A221EF77B04004A97D1 /* MMMaterialDesignSpinner.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC7A211EF77B04004A97D1 /* MMMaterialDesignSpinner.m */; };
 		CE23A5FF1EEE44320063EE90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE23A5FE1EEE44320063EE90 /* main.m */; };
@@ -331,7 +332,11 @@
 		2227C9431EF8D2C400315306 /* VoomMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoomMapView.xib; sourceTree = "<group>"; };
 		2227C9451EF8D2F200315306 /* VoomMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomMapView.h; sourceTree = "<group>"; };
 		2227C9461EF8D2F200315306 /* VoomMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomMapView.m; sourceTree = "<group>"; };
-		2227C9491EF8D7E700315306 /* Voom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voom.xcdatamodel; sourceTree = "<group>"; };
+		2227C94C1EF9CD3300315306 /* VoomRequestBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomRequestBO.h; sourceTree = "<group>"; };
+		2227C94D1EF9CD3300315306 /* VoomRequestBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomRequestBO.m; sourceTree = "<group>"; };
+		2227C9531EF9CDFD00315306 /* LoginRequestBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRequestBO.h; sourceTree = "<group>"; };
+		2227C9541EF9CDFD00315306 /* LoginRequestBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRequestBO.m; sourceTree = "<group>"; };
+		2227C9561EF9E19200315306 /* loc_pin@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "loc_pin@2x.png"; sourceTree = "<group>"; };
 		226E0BC11EF78418007AAE03 /* libPods-Voom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Voom.a"; path = "../../Library/Developer/Xcode/DerivedData/Voom-drtqbhvtewgghodmpiayzwvpigzu/Build/Products/Debug-iphonesimulator/libPods-Voom.a"; sourceTree = "<group>"; };
 		226E0BC31EF7844A007AAE03 /* libPods-VoomTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-VoomTests.a"; path = "Pods/../build/Debug-iphoneos/libPods-VoomTests.a"; sourceTree = "<group>"; };
 		226E0BC61EF7845B007AAE03 /* libGoogleToolboxForMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleToolboxForMac.a; path = "../../Library/Developer/Xcode/DerivedData/Voom-drtqbhvtewgghodmpiayzwvpigzu/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/libGoogleToolboxForMac.a"; sourceTree = "<group>"; };
@@ -343,8 +348,6 @@
 		22BC79E41EF74AD8004A97D1 /* LoginWebService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginWebService.m; sourceTree = "<group>"; };
 		22BC79EB1EF74AE2004A97D1 /* LoginBodyResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginBodyResponse.h; sourceTree = "<group>"; };
 		22BC79EC1EF74AE2004A97D1 /* LoginBodyResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginBodyResponse.m; sourceTree = "<group>"; };
-		22BC7A061EF74DDF004A97D1 /* MOLRequestBO.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MOLRequestBO.h; sourceTree = "<group>"; };
-		22BC7A071EF74DDF004A97D1 /* MOLRequestBO.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MOLRequestBO.m; sourceTree = "<group>"; };
 		22BC7A1C1EF777BF004A97D1 /* LoginManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginManager.h; sourceTree = "<group>"; };
 		22BC7A1D1EF777BF004A97D1 /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
 		22BC7A201EF77B04004A97D1 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
@@ -879,6 +882,24 @@
 			path = VoomMapView;
 			sourceTree = "<group>";
 		};
+		2227C94B1EF9CD3300315306 /* VoomRequestBO */ = {
+			isa = PBXGroup;
+			children = (
+				2227C94C1EF9CD3300315306 /* VoomRequestBO.h */,
+				2227C94D1EF9CD3300315306 /* VoomRequestBO.m */,
+			);
+			path = VoomRequestBO;
+			sourceTree = "<group>";
+		};
+		2227C9521EF9CDFD00315306 /* LoginRequestBO */ = {
+			isa = PBXGroup;
+			children = (
+				2227C9531EF9CDFD00315306 /* LoginRequestBO.h */,
+				2227C9541EF9CDFD00315306 /* LoginRequestBO.m */,
+			);
+			path = LoginRequestBO;
+			sourceTree = "<group>";
+		};
 		22BC79D41EF743EF004A97D1 /* DataAccessLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -919,15 +940,6 @@
 			children = (
 			);
 			path = VoomSessionManager;
-			sourceTree = "<group>";
-		};
-		22BC7A051EF74DDF004A97D1 /* MOLRequestBO */ = {
-			isa = PBXGroup;
-			children = (
-				22BC7A061EF74DDF004A97D1 /* MOLRequestBO.h */,
-				22BC7A071EF74DDF004A97D1 /* MOLRequestBO.m */,
-			);
-			path = MOLRequestBO;
 			sourceTree = "<group>";
 		};
 		22BC7A111EF755DB004A97D1 /* DataManager */ = {
@@ -996,7 +1008,7 @@
 		CE23A5F11EEE44320063EE90 = {
 			isa = PBXGroup;
 			children = (
-				2227C9481EF8D7E700315306 /* Voom.xcdatamodeld */,
+				2227C9561EF9E19200315306 /* loc_pin@2x.png */,
 				2227C93B1EF8C70900315306 /* AppResources */,
 				CE23A5FC1EEE44320063EE90 /* Voom */,
 				CE23A6161EEE44320063EE90 /* VoomTests */,
@@ -1676,6 +1688,7 @@
 		CE23A6781EEE44A00063EE90 /* Bo */ = {
 			isa = PBXGroup;
 			children = (
+				2227C9521EF9CDFD00315306 /* LoginRequestBO */,
 				2227C9031EF7976200315306 /* UserProfileBO */,
 			);
 			path = Bo;
@@ -3183,7 +3196,7 @@
 		CE23A72C1EEE44A10063EE90 /* Bo */ = {
 			isa = PBXGroup;
 			children = (
-				22BC7A051EF74DDF004A97D1 /* MOLRequestBO */,
+				2227C94B1EF9CD3300315306 /* VoomRequestBO */,
 				CE6A104E1EF0E30700321430 /* VoomParentBO */,
 			);
 			path = Bo;
@@ -4033,6 +4046,7 @@
 				CE2851891EF38E2600A039DF /* 9.png in Resources */,
 				CE6A10F71EF37D0300321430 /* emaiIcon-iPhone@2x.png in Resources */,
 				CE28518B1EF38E2600A039DF /* 11.png in Resources */,
+				2227C9571EF9E19200315306 /* loc_pin@2x.png in Resources */,
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
 				CE6A11151EF3839A00321430 /* logo-iPhone@2x.png in Resources */,
 				CE6A10F81EF37D0300321430 /* passwordIcon-iPhone@2x.png in Resources */,
@@ -4163,7 +4177,6 @@
 				CE6A10A51EF3478E00321430 /* VehicleServicesViewController.m in Sources */,
 				CE6A0FFA1EF0CD5C00321430 /* SpringLabel.swift in Sources */,
 				CE6A0FF81EF0CD5C00321430 /* SpringButton.swift in Sources */,
-				2227C94A1EF8D7E700315306 /* Voom.xcdatamodeld in Sources */,
 				CE6A0FF11EF0CD5C00321430 /* KeyboardLayoutConstraint.swift in Sources */,
 				CE6A10511EF0E30700321430 /* VoomParentBO.m in Sources */,
 				CE6A0FF21EF0CD5C00321430 /* LoadingView.swift in Sources */,
@@ -4187,7 +4200,6 @@
 				CE6A0F601EEF629C00321430 /* RemindersViewControlleriPhone.m in Sources */,
 				CE6A10ED1EF3526000321430 /* AccidentsViewControlleriPhone.m in Sources */,
 				CE6A0EFA1EEE481F00321430 /* LGSideMenuBorderView.m in Sources */,
-				22BC7A081EF74DDF004A97D1 /* MOLRequestBO.m in Sources */,
 				CE6A0FF71EF0CD5C00321430 /* SpringAnimation.swift in Sources */,
 				CE6A0F031EEE48A600321430 /* LoginViewController.m in Sources */,
 				CE6A0EE51EEE478000321430 /* SideMenuViewController.m in Sources */,
@@ -4196,6 +4208,7 @@
 				CE6A102F1EF0D49100321430 /* CoreWebService.m in Sources */,
 				CE6A10431EF0DF8A00321430 /* NSObject+NSCoding.m in Sources */,
 				CE6A10AD1EF3484900321430 /* WarrantOfFitnessViewController.m in Sources */,
+				2227C9551EF9CDFD00315306 /* LoginRequestBO.m in Sources */,
 				CE6A109D1EF3459200321430 /* VehicleRegistrationInfoViewController.m in Sources */,
 				CE6A105C1EF1E43700321430 /* VoomTableViewCell.m in Sources */,
 				CE6A0FFB1EF0CD5C00321430 /* SpringTextField.swift in Sources */,
@@ -4215,6 +4228,7 @@
 				CE6A0F841EEF961400321430 /* UIScrollView+TPKeyboardAvoidingAdditions.m in Sources */,
 				CE6A10BD1EF349B700321430 /* TollRoadsViewController.m in Sources */,
 				CE6A10421EF0DF8A00321430 /* Archiver.m in Sources */,
+				2227C94E1EF9CD3300315306 /* VoomRequestBO.m in Sources */,
 				CE6A10311EF0D49100321430 /* EVEError.m in Sources */,
 				CE6A102C1EF0D49100321430 /* NSObject+EVEObjectMapping.m in Sources */,
 				CE6A0EFF1EEE481F00321430 /* LGSideMenuView.m in Sources */,
@@ -4571,19 +4585,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		2227C9481EF8D7E700315306 /* Voom.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				2227C9491EF8D7E700315306 /* Voom.xcdatamodel */,
-			);
-			currentVersion = 2227C9491EF8D7E700315306 /* Voom.xcdatamodel */;
-			path = Voom.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = CE23A5F21EEE44320063EE90 /* Project object */;
 }

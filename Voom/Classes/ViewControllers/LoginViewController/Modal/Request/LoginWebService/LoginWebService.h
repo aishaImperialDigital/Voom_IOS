@@ -5,9 +5,9 @@
 //
 
 #import "EVEJSONService.h"
-
+#import "LoginRequestBO.h"
 
 @interface LoginWebService : EVEJSONService
 
-- (void)getLogin;
+- (void)getLogin:(LoginRequestBO *) loginBO;
 @end

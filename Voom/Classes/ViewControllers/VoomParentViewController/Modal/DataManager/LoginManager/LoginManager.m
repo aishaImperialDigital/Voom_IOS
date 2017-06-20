@@ -3,15 +3,18 @@
 //
 
 #import "LoginManager.h"
+#import "LoginRequestBO.h"
+#import "LoginRequestBO.h"
 
 @implementation LoginManager
 
 - (void)getEntity:(id)entity{
+    LoginRequestBO *loginRequestBO = (LoginRequestBO *) entity;
     webService = [[LoginWebService alloc] init];
     [webService setCacheMode:EVEURLConnectionCacheModeDisk];
     webService.connection.cacheMode = EVEURLConnectionCacheModeDisk;
     webService.delegate = self ;
-    [webService getLogin];
+    [webService getLogin:loginRequestBO];
 }
 
 

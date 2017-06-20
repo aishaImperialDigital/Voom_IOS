@@ -7,7 +7,7 @@
 #import "VoomBaseDataManager.h"
 #import "User.h"
 
-@interface VoomSessionManger : NSObject <DataManagerDelegate>{
+@interface VoomSessionManger : NSObject{
 }
 
 

@@ -24,6 +24,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = kAppBackgroundColor;
     [self setupAppHeader];
+    [self addMapView];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -131,6 +132,12 @@
     
 }
 
-
+-(void) addMapView
+{
+    self.mapView = [[[NSBundle mainBundle] loadNibNamed:@"VoomMapView" owner:self options:nil] objectAtIndex:0];
+    self.mapView.frame = CGRectMake(0, 0, self.mapView.frame.size.width, self.mapView.frame.size.height);
+    //[self.mapView.sideMenuButton addTarget:self action:@selector(openLeftMenu:) forControlEvents:UIControlEventTouchUpInside];
+    [self.view addSubview:self.mapView];
+}
 
 @end

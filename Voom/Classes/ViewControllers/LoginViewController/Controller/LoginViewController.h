@@ -7,11 +7,10 @@
 //
 
 #import "VoomParentViewController.h"
+#import "VoomBaseDataManager.h"
 
-
-@interface LoginViewController : VoomParentViewController
+@interface LoginViewController : VoomParentViewController<DataManagerDelegate>
 {
-  
 }
 @property (nonatomic,strong) IBOutlet UITextField *usernameTextField;
 @property (nonatomic,strong) IBOutlet UITextField *passwordTextField;

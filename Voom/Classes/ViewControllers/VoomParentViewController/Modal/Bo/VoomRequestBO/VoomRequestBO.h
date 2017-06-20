@@ -6,7 +6,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface MOLRequestBO : NSObject
+@interface VoomRequestBO : NSObject
 
 @property (nonatomic) int pageNumber;
 @property (nonatomic) int pageSize;

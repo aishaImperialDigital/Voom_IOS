@@ -10,6 +10,7 @@
 #import "HeaderView.h"
 #import "BackHeaderView.h"
 #import "MMMaterialDesignSpinner.h"
+#import "VoomMapView.h"
 
 @interface VoomParentViewController : UIViewController
 {
@@ -20,6 +21,7 @@
 @property (nonatomic,strong) UITabBarController *tabBarController;
 @property(nonatomic,strong) UIDatePicker *datePicker;
 @property (nonatomic, strong) MMMaterialDesignSpinner *spinner;
+@property (nonatomic,strong) VoomMapView *mapView;
 #pragma mark methods
 
 -(void) setupAppHeader;

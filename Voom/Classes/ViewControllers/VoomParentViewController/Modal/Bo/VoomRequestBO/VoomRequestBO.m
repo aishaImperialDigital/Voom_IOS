@@ -4,9 +4,9 @@
 //  Copyright (c) 2015 MOL MacBook. All rights reserved.
 //
 
-#import "MOLRequestBO.h"
+#import "VoomRequestBO.h"
 
-@implementation MOLRequestBO
+@implementation VoomRequestBO
 
 
 @end

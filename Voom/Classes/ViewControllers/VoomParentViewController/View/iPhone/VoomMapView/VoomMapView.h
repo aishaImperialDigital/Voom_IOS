@@ -7,7 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <GoogleMaps/GoogleMaps.h>
+#import <GooglePlaces/GooglePlaces.h>
 
 @interface VoomMapView : UIView
+{
+  
+}
+
+
 
 @end
