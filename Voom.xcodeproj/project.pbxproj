@@ -51,6 +51,31 @@
 		2227C90A1EF88F3C00315306 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9091EF88F3C00315306 /* MBProgressHUD.m */; };
 		2227C90E1EF89CEF00315306 /* VoomSessionManger.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C90D1EF89CEF00315306 /* VoomSessionManger.m */; };
 		2227C9121EF89FF300315306 /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9111EF89FF300315306 /* User.m */; };
+		2227C9141EF8C30F00315306 /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9131EF8C30F00315306 /* GoogleMapsBase.framework */; };
+		2227C9161EF8C31400315306 /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9151EF8C31400315306 /* GoogleMaps.framework */; };
+		2227C9181EF8C31900315306 /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9171EF8C31900315306 /* GoogleMapsCore.framework */; };
+		2227C91A1EF8C31D00315306 /* GooglePlacePicker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9191EF8C31D00315306 /* GooglePlacePicker.framework */; };
+		2227C91C1EF8C32000315306 /* GooglePlaces.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C91B1EF8C32000315306 /* GooglePlaces.framework */; };
+		2227C91E1EF8C38000315306 /* GooglePlaces.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2227C91D1EF8C38000315306 /* GooglePlaces.bundle */; };
+		2227C9201EF8C3A600315306 /* GooglePlacePicker.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2227C91F1EF8C3A600315306 /* GooglePlacePicker.bundle */; };
+		2227C9221EF8C3AA00315306 /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 2227C9211EF8C3AA00315306 /* GoogleMaps.bundle */; };
+		2227C9241EF8C3CE00315306 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9231EF8C3CE00315306 /* AVFoundation.framework */; };
+		2227C9261EF8C3D500315306 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9251EF8C3D500315306 /* CoreData.framework */; };
+		2227C9281EF8C3DC00315306 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9271EF8C3DC00315306 /* CoreLocation.framework */; };
+		2227C92A1EF8C3E300315306 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9291EF8C3E300315306 /* CoreText.framework */; };
+		2227C92C1EF8C3EB00315306 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C92B1EF8C3EB00315306 /* GLKit.framework */; };
+		2227C92E1EF8C3F400315306 /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C92D1EF8C3F400315306 /* ImageIO.framework */; };
+		2227C9301EF8C43C00315306 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C92F1EF8C43C00315306 /* libicucore.tbd */; };
+		2227C9321EF8C44800315306 /* libz.1.1.3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9311EF8C44800315306 /* libz.1.1.3.tbd */; };
+		2227C9341EF8C45300315306 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9331EF8C45300315306 /* OpenGLES.framework */; };
+		2227C9361EF8C45B00315306 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9351EF8C45B00315306 /* QuartzCore.framework */; };
+		2227C9381EF8C46000315306 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9371EF8C46000315306 /* SystemConfiguration.framework */; };
+		2227C93A1EF8C4AA00315306 /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C9391EF8C4AA00315306 /* Accelerate.framework */; };
+		2227C93F1EF8D11E00315306 /* VoomDatePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C93E1EF8D11E00315306 /* VoomDatePickerView.m */; };
+		2227C9411EF8D14C00315306 /* VoomDatePickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2227C9401EF8D14C00315306 /* VoomDatePickerView.xib */; };
+		2227C9441EF8D2C400315306 /* VoomMapView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2227C9431EF8D2C400315306 /* VoomMapView.xib */; };
+		2227C9471EF8D2F200315306 /* VoomMapView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9461EF8D2F200315306 /* VoomMapView.m */; };
+		2227C94A1EF8D7E700315306 /* Voom.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2227C9481EF8D7E700315306 /* Voom.xcdatamodeld */; };
 		226E0BC91EF788CE007AAE03 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 226E0BC81EF788CE007AAE03 /* GoogleService-Info.plist */; };
 		22BC79D71EF743EF004A97D1 /* VoomBaseDataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79D61EF743EF004A97D1 /* VoomBaseDataManager.m */; };
 		22BC79E81EF74AD8004A97D1 /* LoginWebService.m in Sources */ = {isa = PBXBuildFile; fileRef = 22BC79E41EF74AD8004A97D1 /* LoginWebService.m */; };
@@ -209,6 +234,7 @@
 		CE6A11121EF3834C00321430 /* VehicleCheck-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A110E1EF3834B00321430 /* VehicleCheck-iPhone@2x.png */; };
 		CE6A11131EF3834C00321430 /* VehicleLibrary-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A110F1EF3834B00321430 /* VehicleLibrary-iPhone@2x.png */; };
 		CE6A11151EF3839A00321430 /* logo-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = CE6A11141EF3839A00321430 /* logo-iPhone@2x.png */; };
+		E796DCEEE6A521A0181FB471 /* libPods-Voom.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC32C562AA86FFE899906F37 /* libPods-Voom.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -279,6 +305,33 @@
 		2227C90D1EF89CEF00315306 /* VoomSessionManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomSessionManger.m; sourceTree = "<group>"; };
 		2227C9101EF89FF300315306 /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
 		2227C9111EF89FF300315306 /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		2227C9131EF8C30F00315306 /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Pods/GoogleMaps/Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		2227C9151EF8C31400315306 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		2227C9171EF8C31900315306 /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		2227C9191EF8C31D00315306 /* GooglePlacePicker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlacePicker.framework; path = Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework; sourceTree = "<group>"; };
+		2227C91B1EF8C32000315306 /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Pods/GooglePlaces/Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		2227C91D1EF8C38000315306 /* GooglePlaces.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Pods/GooglePlaces/Frameworks/GooglePlaces.framework/Versions/A/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		2227C91F1EF8C3A600315306 /* GooglePlacePicker.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GooglePlacePicker.bundle; path = Pods/GooglePlacePicker/Frameworks/GooglePlacePicker.framework/Versions/A/Resources/GooglePlacePicker.bundle; sourceTree = "<group>"; };
+		2227C9211EF8C3AA00315306 /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Pods/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		2227C9231EF8C3CE00315306 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		2227C9251EF8C3D500315306 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2227C9271EF8C3DC00315306 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2227C9291EF8C3E300315306 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		2227C92B1EF8C3EB00315306 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		2227C92D1EF8C3F400315306 /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		2227C92F1EF8C43C00315306 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		2227C9311EF8C44800315306 /* libz.1.1.3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.1.3.tbd; path = usr/lib/libz.1.1.3.tbd; sourceTree = SDKROOT; };
+		2227C9331EF8C45300315306 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		2227C9351EF8C45B00315306 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		2227C9371EF8C46000315306 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		2227C9391EF8C4AA00315306 /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		2227C93D1EF8D11E00315306 /* VoomDatePickerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomDatePickerView.h; sourceTree = "<group>"; };
+		2227C93E1EF8D11E00315306 /* VoomDatePickerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomDatePickerView.m; sourceTree = "<group>"; };
+		2227C9401EF8D14C00315306 /* VoomDatePickerView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoomDatePickerView.xib; sourceTree = "<group>"; };
+		2227C9431EF8D2C400315306 /* VoomMapView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VoomMapView.xib; sourceTree = "<group>"; };
+		2227C9451EF8D2F200315306 /* VoomMapView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoomMapView.h; sourceTree = "<group>"; };
+		2227C9461EF8D2F200315306 /* VoomMapView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoomMapView.m; sourceTree = "<group>"; };
+		2227C9491EF8D7E700315306 /* Voom.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Voom.xcdatamodel; sourceTree = "<group>"; };
 		226E0BC11EF78418007AAE03 /* libPods-Voom.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Voom.a"; path = "../../Library/Developer/Xcode/DerivedData/Voom-drtqbhvtewgghodmpiayzwvpigzu/Build/Products/Debug-iphonesimulator/libPods-Voom.a"; sourceTree = "<group>"; };
 		226E0BC31EF7844A007AAE03 /* libPods-VoomTests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-VoomTests.a"; path = "Pods/../build/Debug-iphoneos/libPods-VoomTests.a"; sourceTree = "<group>"; };
 		226E0BC61EF7845B007AAE03 /* libGoogleToolboxForMac.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libGoogleToolboxForMac.a; path = "../../Library/Developer/Xcode/DerivedData/Voom-drtqbhvtewgghodmpiayzwvpigzu/Build/Products/Debug-iphonesimulator/GoogleToolboxForMac/libGoogleToolboxForMac.a"; sourceTree = "<group>"; };
@@ -296,6 +349,8 @@
 		22BC7A1D1EF777BF004A97D1 /* LoginManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginManager.m; sourceTree = "<group>"; };
 		22BC7A201EF77B04004A97D1 /* MMMaterialDesignSpinner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MMMaterialDesignSpinner.h; sourceTree = "<group>"; };
 		22BC7A211EF77B04004A97D1 /* MMMaterialDesignSpinner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MMMaterialDesignSpinner.m; sourceTree = "<group>"; };
+		73032F6146491E588497C208 /* Pods-Voom.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voom.release.xcconfig"; path = "Pods/Target Support Files/Pods-Voom/Pods-Voom.release.xcconfig"; sourceTree = "<group>"; };
+		9153F65B461D31CB8C694A8B /* Pods-Voom.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Voom.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Voom/Pods-Voom.debug.xcconfig"; sourceTree = "<group>"; };
 		CE23A5FA1EEE44320063EE90 /* Voom.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Voom.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE23A5FE1EEE44320063EE90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		CE23A6091EEE44320063EE90 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -532,6 +587,7 @@
 		CE6A110E1EF3834B00321430 /* VehicleCheck-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VehicleCheck-iPhone@2x.png"; sourceTree = "<group>"; };
 		CE6A110F1EF3834B00321430 /* VehicleLibrary-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "VehicleLibrary-iPhone@2x.png"; sourceTree = "<group>"; };
 		CE6A11141EF3839A00321430 /* logo-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo-iPhone@2x.png"; sourceTree = "<group>"; };
+		DC32C562AA86FFE899906F37 /* libPods-Voom.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Voom.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -539,6 +595,18 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2227C93A1EF8C4AA00315306 /* Accelerate.framework in Frameworks */,
+				2227C92E1EF8C3F400315306 /* ImageIO.framework in Frameworks */,
+				2227C9381EF8C46000315306 /* SystemConfiguration.framework in Frameworks */,
+				2227C9361EF8C45B00315306 /* QuartzCore.framework in Frameworks */,
+				2227C9341EF8C45300315306 /* OpenGLES.framework in Frameworks */,
+				2227C9321EF8C44800315306 /* libz.1.1.3.tbd in Frameworks */,
+				2227C9301EF8C43C00315306 /* libicucore.tbd in Frameworks */,
+				2227C92C1EF8C3EB00315306 /* GLKit.framework in Frameworks */,
+				2227C92A1EF8C3E300315306 /* CoreText.framework in Frameworks */,
+				2227C9281EF8C3DC00315306 /* CoreLocation.framework in Frameworks */,
+				2227C9261EF8C3D500315306 /* CoreData.framework in Frameworks */,
+				2227C9241EF8C3CE00315306 /* AVFoundation.framework in Frameworks */,
 				2227C8E81EF78AFB00315306 /* FirebaseDatabase.framework in Frameworks */,
 				2227C8DD1EF78AFB00315306 /* GoogleToolboxForMac.framework in Frameworks */,
 				2227C8EE1EF78AFB00315306 /* GTMOAuth2.framework in Frameworks */,
@@ -568,6 +636,12 @@
 				2227C8EC1EF78AFB00315306 /* GoogleAPIClientForREST.framework in Frameworks */,
 				2227C8E31EF78AFB00315306 /* FirebaseCrash.framework in Frameworks */,
 				2227C8FD1EF78AFB00315306 /* FirebaseStorage.framework in Frameworks */,
+				E796DCEEE6A521A0181FB471 /* libPods-Voom.a in Frameworks */,
+				2227C9141EF8C30F00315306 /* GoogleMapsBase.framework in Frameworks */,
+				2227C9161EF8C31400315306 /* GoogleMaps.framework in Frameworks */,
+				2227C9181EF8C31900315306 /* GoogleMapsCore.framework in Frameworks */,
+				2227C91A1EF8C31D00315306 /* GooglePlacePicker.framework in Frameworks */,
+				2227C91C1EF8C32000315306 /* GooglePlaces.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,6 +844,41 @@
 			path = User;
 			sourceTree = "<group>";
 		};
+		2227C93B1EF8C70900315306 /* AppResources */ = {
+			isa = PBXGroup;
+			children = (
+				CE6A0F391EEF4A8300321430 /* Voom_PrefixHeader.pch */,
+				CE6A0FC41EF0CBDB00321430 /* Voom-Bridging-Header-Swift.h */,
+				CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */,
+				CE6A0F0E1EEE4D6E00321430 /* Default-568h@2x.png */,
+				2227C9211EF8C3AA00315306 /* GoogleMaps.bundle */,
+				2227C91F1EF8C3A600315306 /* GooglePlacePicker.bundle */,
+				2227C91D1EF8C38000315306 /* GooglePlaces.bundle */,
+				226E0BC81EF788CE007AAE03 /* GoogleService-Info.plist */,
+			);
+			name = AppResources;
+			sourceTree = "<group>";
+		};
+		2227C93C1EF8D0C300315306 /* VoomDatePicker */ = {
+			isa = PBXGroup;
+			children = (
+				2227C93D1EF8D11E00315306 /* VoomDatePickerView.h */,
+				2227C93E1EF8D11E00315306 /* VoomDatePickerView.m */,
+				2227C9401EF8D14C00315306 /* VoomDatePickerView.xib */,
+			);
+			path = VoomDatePicker;
+			sourceTree = "<group>";
+		};
+		2227C9421EF8D2B500315306 /* VoomMapView */ = {
+			isa = PBXGroup;
+			children = (
+				2227C9431EF8D2C400315306 /* VoomMapView.xib */,
+				2227C9451EF8D2F200315306 /* VoomMapView.h */,
+				2227C9461EF8D2F200315306 /* VoomMapView.m */,
+			);
+			path = VoomMapView;
+			sourceTree = "<group>";
+		};
 		22BC79D41EF743EF004A97D1 /* DataAccessLayer */ = {
 			isa = PBXGroup;
 			children = (
@@ -847,12 +956,39 @@
 			path = MaterialDesignSpinner;
 			sourceTree = "<group>";
 		};
+		503C45F97833BBD47264840C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9153F65B461D31CB8C694A8B /* Pods-Voom.debug.xcconfig */,
+				73032F6146491E588497C208 /* Pods-Voom.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		9CDA8FE48D3F3198860292D6 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				2227C9391EF8C4AA00315306 /* Accelerate.framework */,
+				2227C9371EF8C46000315306 /* SystemConfiguration.framework */,
+				2227C9351EF8C45B00315306 /* QuartzCore.framework */,
+				2227C9331EF8C45300315306 /* OpenGLES.framework */,
+				2227C9311EF8C44800315306 /* libz.1.1.3.tbd */,
+				2227C92F1EF8C43C00315306 /* libicucore.tbd */,
+				2227C92D1EF8C3F400315306 /* ImageIO.framework */,
+				2227C92B1EF8C3EB00315306 /* GLKit.framework */,
+				2227C9291EF8C3E300315306 /* CoreText.framework */,
+				2227C9271EF8C3DC00315306 /* CoreLocation.framework */,
+				2227C9251EF8C3D500315306 /* CoreData.framework */,
+				2227C9231EF8C3CE00315306 /* AVFoundation.framework */,
+				2227C91B1EF8C32000315306 /* GooglePlaces.framework */,
+				2227C9191EF8C31D00315306 /* GooglePlacePicker.framework */,
+				2227C9171EF8C31900315306 /* GoogleMapsCore.framework */,
+				2227C9151EF8C31400315306 /* GoogleMaps.framework */,
+				2227C9131EF8C30F00315306 /* GoogleMapsBase.framework */,
 				226E0BC61EF7845B007AAE03 /* libGoogleToolboxForMac.a */,
 				226E0BC31EF7844A007AAE03 /* libPods-VoomTests.a */,
 				226E0BC11EF78418007AAE03 /* libPods-Voom.a */,
+				DC32C562AA86FFE899906F37 /* libPods-Voom.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -860,16 +996,14 @@
 		CE23A5F11EEE44320063EE90 = {
 			isa = PBXGroup;
 			children = (
-				226E0BC81EF788CE007AAE03 /* GoogleService-Info.plist */,
-				CE6A0F391EEF4A8300321430 /* Voom_PrefixHeader.pch */,
-				CE6A0FC41EF0CBDB00321430 /* Voom-Bridging-Header-Swift.h */,
-				CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */,
-				CE6A0F0E1EEE4D6E00321430 /* Default-568h@2x.png */,
+				2227C9481EF8D7E700315306 /* Voom.xcdatamodeld */,
+				2227C93B1EF8C70900315306 /* AppResources */,
 				CE23A5FC1EEE44320063EE90 /* Voom */,
 				CE23A6161EEE44320063EE90 /* VoomTests */,
 				CE23A6211EEE44320063EE90 /* VoomUITests */,
 				CE23A5FB1EEE44320063EE90 /* Products */,
 				9CDA8FE48D3F3198860292D6 /* Frameworks */,
+				503C45F97833BBD47264840C /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -3088,6 +3222,8 @@
 		CE23A7321EEE44A10063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				2227C9421EF8D2B500315306 /* VoomMapView */,
+				2227C93C1EF8D0C300315306 /* VoomDatePicker */,
 				CE6A10521EF1DDFC00321430 /* VoomParentTableViewCell */,
 				CE6A0F3A1EEF4C5300321430 /* BackHeaderView */,
 				CE6A0F331EEF4A0800321430 /* HeaderView */,
@@ -3777,9 +3913,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = CE23A6271EEE44320063EE90 /* Build configuration list for PBXNativeTarget "Voom" */;
 			buildPhases = (
+				9B1C5366D2893533E493C660 /* [CP] Check Pods Manifest.lock */,
 				CE23A5F61EEE44320063EE90 /* Sources */,
 				CE23A5F71EEE44320063EE90 /* Frameworks */,
 				CE23A5F81EEE44320063EE90 /* Resources */,
+				24E2CF32B3787D73DB2BBA8E /* [CP] Embed Pods Frameworks */,
+				EE4CCCA18414AF1B426135FD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -3897,6 +4036,7 @@
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
 				CE6A11151EF3839A00321430 /* logo-iPhone@2x.png in Resources */,
 				CE6A10F81EF37D0300321430 /* passwordIcon-iPhone@2x.png in Resources */,
+				2227C9441EF8D2C400315306 /* VoomMapView.xib in Resources */,
 				CE6A10EE1EF3526000321430 /* AccidentsViewControlleriPhone.xib in Resources */,
 				CE6A0F081EEE48C500321430 /* LoginViewControlleriPhone.xib in Resources */,
 				CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */,
@@ -3936,7 +4076,11 @@
 				CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */,
 				CE6A11131EF3834C00321430 /* VehicleLibrary-iPhone@2x.png in Resources */,
 				CE6A10721EF252B600321430 /* VehicleLibraryTableViewCell.xib in Resources */,
+				2227C9411EF8D14C00315306 /* VoomDatePickerView.xib in Resources */,
 				CE6A0FF31EF0CD5C00321430 /* LoadingView.xib in Resources */,
+				2227C91E1EF8C38000315306 /* GooglePlaces.bundle in Resources */,
+				2227C9221EF8C3AA00315306 /* GoogleMaps.bundle in Resources */,
+				2227C9201EF8C3A600315306 /* GooglePlacePicker.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -3956,6 +4100,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24E2CF32B3787D73DB2BBA8E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voom/Pods-Voom-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9B1C5366D2893533E493C660 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EE4CCCA18414AF1B426135FD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Voom/Pods-Voom-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		CE23A5F61EEE44320063EE90 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -3971,6 +4163,7 @@
 				CE6A10A51EF3478E00321430 /* VehicleServicesViewController.m in Sources */,
 				CE6A0FFA1EF0CD5C00321430 /* SpringLabel.swift in Sources */,
 				CE6A0FF81EF0CD5C00321430 /* SpringButton.swift in Sources */,
+				2227C94A1EF8D7E700315306 /* Voom.xcdatamodeld in Sources */,
 				CE6A0FF11EF0CD5C00321430 /* KeyboardLayoutConstraint.swift in Sources */,
 				CE6A10511EF0E30700321430 /* VoomParentBO.m in Sources */,
 				CE6A0FF21EF0CD5C00321430 /* LoadingView.swift in Sources */,
@@ -4030,6 +4223,7 @@
 				CE6A10B51EF348C900321430 /* VehicleMileageViewController.m in Sources */,
 				2227C90E1EF89CEF00315306 /* VoomSessionManger.m in Sources */,
 				CE6A10D61EF34D3C00321430 /* BreakdownsViewControlleriPhone.m in Sources */,
+				2227C93F1EF8D11E00315306 /* VoomDatePickerView.m in Sources */,
 				CE6A10CE1EF34B0300321430 /* FinesViewControlleriPhone.m in Sources */,
 				CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */,
 				CE6A0FF61EF0CD5C00321430 /* Spring.swift in Sources */,
@@ -4045,6 +4239,7 @@
 				CE6A10CA1EF34AEB00321430 /* FinesViewController.m in Sources */,
 				CE6A0F311EEF458500321430 /* RegistrationViewControlleriPhone.m in Sources */,
 				22BC79D71EF743EF004A97D1 /* VoomBaseDataManager.m in Sources */,
+				2227C9471EF8D2F200315306 /* VoomMapView.m in Sources */,
 				CE6A0F371EEF4A0800321430 /* HeaderView.m in Sources */,
 				CE6A10A11EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.m in Sources */,
 				CE6A0F421EEF526800321430 /* VehicleLibraryViewController.m in Sources */,
@@ -4203,6 +4398,7 @@
 		};
 		CE23A6281EEE44320063EE90 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9153F65B461D31CB8C694A8B /* Pods-Voom.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -4218,6 +4414,10 @@
 					"$(PROJECT_DIR)/Voom/Utility/Firebase/Performance",
 					"$(PROJECT_DIR)/Voom/Utility/Firebase/RemoteConfig",
 					"$(PROJECT_DIR)/Voom/Utility/Firebase/Storage",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+					"$(PROJECT_DIR)/Pods/GooglePlacePicker/Frameworks",
+					"$(PROJECT_DIR)/Pods/GooglePlaces/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Voom_PrefixHeader.pch;
@@ -4233,6 +4433,7 @@
 		};
 		CE23A6291EEE44320063EE90 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73032F6146491E588497C208 /* Pods-Voom.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -4248,6 +4449,10 @@
 					"$(PROJECT_DIR)/Voom/Utility/Firebase/Performance",
 					"$(PROJECT_DIR)/Voom/Utility/Firebase/RemoteConfig",
 					"$(PROJECT_DIR)/Voom/Utility/Firebase/Storage",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Base/Frameworks",
+					"$(PROJECT_DIR)/Pods/GoogleMaps/Maps/Frameworks",
+					"$(PROJECT_DIR)/Pods/GooglePlacePicker/Frameworks",
+					"$(PROJECT_DIR)/Pods/GooglePlaces/Frameworks",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = Voom_PrefixHeader.pch;
@@ -4255,7 +4460,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = "";
 				ONLY_ACTIVE_ARCH = YES;
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_BUNDLE_IDENTIFIER = ImperialDesign.Voom;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
@@ -4366,6 +4571,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2227C9481EF8D7E700315306 /* Voom.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2227C9491EF8D7E700315306 /* Voom.xcdatamodel */,
+			);
+			currentVersion = 2227C9491EF8D7E700315306 /* Voom.xcdatamodel */;
+			path = Voom.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = CE23A5F21EEE44320063EE90 /* Project object */;
 }

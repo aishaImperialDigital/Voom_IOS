@@ -11,7 +11,8 @@
 #import "SideMenuViewControlleriPhone.h"
 #import "Constants.h"
 #import "Firebase.h"
-
+#import <GoogleMaps/GoogleMaps.h>
+#import <GooglePlaces/GooglePlaces.h>
 @interface AppDelegate (){
     
 }
@@ -25,6 +26,7 @@
     // Override point for customization after application launch.
     [self setApplicationLayoutSettings];
     [self setApplicationRootLayout];
+    [self setConfigurations];
     [FIRApp configure];
     return YES;
 }
@@ -78,4 +80,9 @@
     [AppPreferences changeApplicationTabBarAppearance];
 }
 
+-(void) setConfigurations
+{
+     [GMSServices provideAPIKey:Google_API_Key];
+     [GMSPlacesClient provideAPIKey:Google_API_Key];
+}
 @end

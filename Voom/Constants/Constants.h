@@ -148,3 +148,6 @@ images
 #define FinesIndex 7
 #define BreakdownsIndex 8
 #define AccidentsIndex 9
+
+#define GooglePlacesAPI @"AIzaSyAbvjvucpgiMcvb2uNTIMSYoa8134ViN4s"
+#define Google_API_Key @"AIzaSyAgdqt_dEZ_cR9QyYV3cFCls0hmJRKQwmI"
