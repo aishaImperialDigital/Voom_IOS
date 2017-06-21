@@ -10,18 +10,20 @@
 
 @implementation VoomDatePickerView
 
-/*
-// Only override drawRect: if you perform custom drawing.
-// An empty implementation adversely affects performance during animation.
-- (void)drawRect:(CGRect)rect {
-    // Drawing code
-}
-*/
-
 -(void) awakeFromNib
 {
     [super awakeFromNib];
-    self.backgroundColor = kAppBackgroundColor;
+    //self.backgroundColor = kAppBackgroundColor;
 }
+
+-(IBAction)pickerDone:(id)sender
+{
+    if([self.delegate respondsToSelector:@selector(donePressed)])
+    {
+        [self.delegate performSelector:@selector(donePressed)];
+    }
+}
+
+
 
 @end

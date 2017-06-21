@@ -8,8 +8,17 @@
 
 #import <UIKit/UIKit.h>
 
+@protocol VoomDatePickerViewDelegate <NSObject>
+
+-(void) donePressed;
+
+@end
+
 @interface VoomDatePickerView : UIView{
     
 }
-@property(nonatomic,strong) IBOutlet UIDatePicker *picker;
+@property(nonatomic,weak) id <VoomDatePickerViewDelegate> delegate;
+@property(nonatomic,strong) IBOutlet UIDatePicker *datePicker;
+@property(nonatomic,strong) UITextField *dateTextfield;
+-(IBAction)pickerDone:(id)sender;
 @end

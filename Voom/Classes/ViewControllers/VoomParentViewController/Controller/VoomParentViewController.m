@@ -24,7 +24,7 @@
     // Do any additional setup after loading the view.
     self.view.backgroundColor = kAppBackgroundColor;
     [self setupAppHeader];
-    [self addMapView];
+   
 }
 
 - (void)didReceiveMemoryWarning {
@@ -53,10 +53,7 @@
      [appDelegate.leftSideMenu showLeftView];
 }
 
--(void) showDatePicker{
-    self.datePicker = [[UIDatePicker alloc] initWithFrame:CGRectZero];
-    [self.datePicker setDatePickerMode:UIDatePickerModeDate];
-}
+
 
 -(void) createTabBarController{
     VehicleLibraryViewControlleriPhone *vehicleViewController = [[VehicleLibraryViewControlleriPhone alloc] initWithNibName:@"VehicleLibraryViewControlleriPhone" bundle:nil];
@@ -136,8 +133,37 @@
 {
     self.mapView = [[[NSBundle mainBundle] loadNibNamed:@"VoomMapView" owner:self options:nil] objectAtIndex:0];
     self.mapView.frame = CGRectMake(0, 0, self.mapView.frame.size.width, self.mapView.frame.size.height);
-    //[self.mapView.sideMenuButton addTarget:self action:@selector(openLeftMenu:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:self.mapView];
 }
 
+-(void) addDatePickerToTextField:(UITextField *) textField
+{
+    self.datePicker = [[[NSBundle mainBundle] loadNibNamed:@"VoomDatePickerView" owner:self options:nil] objectAtIndex:0];
+    self.datePicker.frame = CGRectMake(0,SCREEN_HEIGHT-self.datePicker.frame.size.height, self.datePicker.frame.size.width, self.datePicker.frame.size.height);
+    [self.view addSubview:self.datePicker];
+    self.datePicker.hidden = YES;
+    self.datePicker.delegate = self;
+    self.datePicker.datePicker.timeZone = [NSTimeZone localTimeZone];
+    self.datePicker.dateTextfield = textField;
+    textField.delegate = self;
+ 
+}
+
+
+
+#pragma mark VoomDatePickerViewDelegate
+-(void) donePressed
+{
+    self.datePicker.hidden = YES;
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"dd/MM/YYYY"];
+    NSString *dateStri=[formatter stringFromDate:self.datePicker.datePicker.date];
+    [self.datePicker.dateTextfield setText:[NSString stringWithFormat:@"%@",dateStri]];
+    
+}
+-(BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+    [self.view endEditing:YES];
+    self.datePicker.hidden = NO;
+    return NO;  // Hide both keyboard and blinking cursor.
+}
 @end

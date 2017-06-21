@@ -7,12 +7,22 @@
 //
 
 #import "VoomParentViewController.h"
+#import "TPRoundedTextField.h"
 
 @interface RegistrationViewController : VoomParentViewController{
     
 }
 
-//@property(nonatomic,strong)
 
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *regoNumberTxtField;
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *firstNametxtField;
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *lastNametxtField;
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *driversLicense;
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *dateOfBirthtxtField;
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *customNametxtField;
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *emailAddresstxtField;
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *mobileNumbertxtField;
+
+-(IBAction)performRegistration:(id)sender;
 
 @end

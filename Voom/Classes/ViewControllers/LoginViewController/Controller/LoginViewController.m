@@ -49,8 +49,14 @@
 #pragma mark methods
 -(IBAction)gotoLogin:(id)sender;
 {
-    [self getLogin];
-    //  [self createTabBarController];
+    if([AppPreferences isValidEmail:self.usernameTextField.text]){
+        [self getLogin];
+        //  [self createTabBarController];
+    }
+    else{
+        [self showHUD:@"Enter Valid email" andTime:1.0];
+    }
+ 
 }
 
 -(IBAction)gotoRegisteration:(id)sender;
