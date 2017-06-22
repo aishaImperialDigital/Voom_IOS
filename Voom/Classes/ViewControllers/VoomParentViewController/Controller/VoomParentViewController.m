@@ -150,7 +150,6 @@
 }
 
 
-
 #pragma mark VoomDatePickerViewDelegate
 -(void) donePressed
 {
@@ -161,6 +160,7 @@
     [self.datePicker.dateTextfield setText:[NSString stringWithFormat:@"%@",dateStri]];
     
 }
+
 -(BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
     [self.view endEditing:YES];
     self.datePicker.hidden = NO;
