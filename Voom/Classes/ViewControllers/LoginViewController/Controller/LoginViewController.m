@@ -50,8 +50,8 @@
 -(IBAction)gotoLogin:(id)sender;
 {
     if([AppPreferences isValidEmail:self.usernameTextField.text]){
-        [self getLogin];
-        //  [self createTabBarController];
+        //[self getLogin];
+        [self createTabBarController];
     }
     else{
         [self showHUD:@"Enter Valid email" andTime:1.0];
