@@ -52,5 +52,9 @@
 	<string>Show your location on the map</string>
 	<key>NSLocationAlwaysUsageDescription</key>
 	<string></string>
+	<key>UIAppFonts</key>
+	<array>
+		<string>proxima-nova-58e16cb321398.otf</string>
+	</array>
 </dict>
 </plist>

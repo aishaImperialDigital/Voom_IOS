@@ -256,6 +256,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2223AC921F021AEC0006CFA3 /* proxima-nova-58e16cb321398.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-58e16cb321398.otf"; sourceTree = "<group>"; };
 		2227C8A21EF78AFB00315306 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		2227C8A41EF78AFB00315306 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		2227C8A51EF78AFB00315306 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
@@ -850,6 +851,7 @@
 		2227C93B1EF8C70900315306 /* AppResources */ = {
 			isa = PBXGroup;
 			children = (
+				2223AC921F021AEC0006CFA3 /* proxima-nova-58e16cb321398.otf */,
 				CE6A0F391EEF4A8300321430 /* Voom_PrefixHeader.pch */,
 				CE6A0FC41EF0CBDB00321430 /* Voom-Bridging-Header-Swift.h */,
 				CE6A0F931EEFA37800321430 /* Voom_UI copy 5.jpg */,
