@@ -13,7 +13,9 @@
 
 @property (strong, nonatomic) UIWindow *window;
 @property (nonatomic,strong) LGSideMenuController *leftSideMenu;
+@property (nonatomic,strong) UITabBarController *tabBarController;
 @property (nonatomic,strong) UINavigationController *homeNavigationController;
+-(void) createTabBarController;
 
 @end
 

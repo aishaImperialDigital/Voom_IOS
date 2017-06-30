@@ -7,7 +7,8 @@
 //
 
 #import "TollRoadsViewController.h"
-
+#import "TollRoadsViewCell.h"
+#define TOLLROADS_TABLE_HEIGHT 40
 @interface TollRoadsViewController ()
 
 @end
@@ -34,5 +35,33 @@
     // Pass the selected object to the new view controller.
 }
 */
+#pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 10;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    TollRoadsViewCell *cell;
+    cell =  [self.tableView dequeueReusableCellWithIdentifier:@"TollRoadsViewCell"];
+    if (cell == nil){
+        cell = (TollRoadsViewCell *) [[TollRoadsViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"TollRoadsViewCell"];
+    }
+    cell.backgroundColor = [UIColor clearColor];
+    cell.contentView.backgroundColor = [UIColor clearColor];
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return TOLLROADS_TABLE_HEIGHT;
+}
 
 @end

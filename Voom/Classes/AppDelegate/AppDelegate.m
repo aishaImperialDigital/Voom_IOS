@@ -9,6 +9,10 @@
 #import "AppDelegate.h"
 #import "LoginViewControlleriPhone.h"
 #import "SideMenuViewControlleriPhone.h"
+#import "VehicleLibraryViewControlleriPhone.h"
+#import "VehicleCheckViewControlleriPhone.h"
+#import "RemindersViewControlleriPhone.h"
+#import "SettingsViewControlleriPhone.h"
 #import "Constants.h"
 #import "Firebase.h"
 #import <GoogleMaps/GoogleMaps.h>
@@ -84,5 +88,38 @@
 {
      [GMSServices provideAPIKey:Google_API_Key];
      [GMSPlacesClient provideAPIKey:Google_API_Key];
+}
+
+-(void) createTabBarController{
+    VehicleLibraryViewControlleriPhone *vehicleViewController = [[VehicleLibraryViewControlleriPhone alloc] initWithNibName:@"VehicleLibraryViewControlleriPhone" bundle:nil];
+    vehicleViewController.title = @"Vehicles";
+    vehicleViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:@"Vehicles" image:[UIImage imageNamed:@"VehicleLibrary-iPhone.png"] tag:0];
+    UINavigationController *firstNavController = [[UINavigationController alloc]initWithRootViewController:vehicleViewController];
+    
+    VehicleCheckViewControlleriPhone *vehicleCheckViewController = [[VehicleCheckViewControlleriPhone alloc] initWithNibName:@"VehicleCheckViewControlleriPhone" bundle:nil];
+    vehicleCheckViewController.title = kTitleVehicleCheck;
+    vehicleCheckViewController.tabBarItem =  [[UITabBarItem alloc] initWithTitle:kTitleVehicleCheck image:[UIImage imageNamed:@"VehicleCheck-iPhone.png"] tag:1];
+    UINavigationController *secondNavController = [[UINavigationController alloc]initWithRootViewController:vehicleCheckViewController];
+    
+    RemindersViewControlleriPhone *reminderViewController = [[RemindersViewControlleriPhone alloc]initWithNibName:@"RemindersViewControlleriPhone" bundle:nil];
+    reminderViewController.title = kTitleReminders;
+    reminderViewController.tabBarItem =  [[UITabBarItem alloc] initWithTitle:kTitleReminders image:[UIImage imageNamed:@"Reminder-iPhone"] tag:2];
+    UINavigationController *thirdNavController = [[UINavigationController alloc]initWithRootViewController:reminderViewController];
+    
+    SettingsViewControlleriPhone *forthViewController = [[SettingsViewControlleriPhone alloc]initWithNibName:@"SettingsViewControlleriPhone" bundle:nil];
+    forthViewController.title = kTitleSettings;
+    forthViewController.tabBarItem = [[UITabBarItem alloc] initWithTitle:kTitleSettings image:[UIImage imageNamed:@"Settings-iPhone"] tag:3];
+    UINavigationController *forthNavController = [[UINavigationController alloc]initWithRootViewController:forthViewController];
+    
+    self.tabBarController = [[UITabBarController alloc] init];
+    self.tabBarController.viewControllers = [[NSArray alloc] initWithObjects:firstNavController, secondNavController, thirdNavController, forthNavController, nil];
+    [self.tabBarController.tabBar sizeThatFits:CGSizeMake(SCREEN_WIDTH,TAB_BAR_HEIGHT)];
+    self.tabBarController.tabBar.shadowImage = [[UIImage alloc] init];  //delete the default tabbar shadow！
+    [self.homeNavigationController pushViewController:self.tabBarController animated:YES];
+    
+    firstNavController.navigationBarHidden = YES;
+    secondNavController.navigationBarHidden = YES;
+    thirdNavController.navigationBarHidden = YES;
+    forthNavController.navigationBarHidden = YES;
 }
 @end

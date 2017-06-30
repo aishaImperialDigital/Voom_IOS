@@ -138,16 +138,18 @@ images
 #define kMessageHtml @"message"
 
 
-#define VehicleLibraryIndex 0
-#define VehicleInfoIndex 1
-#define RegistrationIndex 2
-#define ServicesIndex 3
-#define WOFIndex 4
-#define MileageIndex 5
-#define TollRoadsIndex 6
-#define FinesIndex 7
-#define BreakdownsIndex 8
-#define AccidentsIndex 9
+
+#define VehicleInfoIndex 0
+#define RegistrationIndex 1
+#define ServicesIndex 2
+#define WOFIndex 3
+#define MileageIndex 4
+#define TollRoadsIndex 5
+#define FinesIndex 6
+#define BreakdownsIndex 7
+#define AccidentsIndex 8
 
 #define GooglePlacesAPI @"AIzaSyAbvjvucpgiMcvb2uNTIMSYoa8134ViN4s"
 #define Google_API_Key @"AIzaSyAgdqt_dEZ_cR9QyYV3cFCls0hmJRKQwmI"
+
+#define kDatePickerTag 1001

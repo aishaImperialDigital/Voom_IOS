@@ -7,7 +7,14 @@
 //
 
 #import "VoomParentViewController.h"
+#import "TPRoundedTextField.h"
 
-@interface VehicleMileageViewController : VoomParentViewController
+@interface VehicleMileageViewController : VoomParentViewController{
+    
+}
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *odometerTxtField;
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *purchaseDateTxtField;
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *kilometerBoughtTxtField;
+
 
 @end

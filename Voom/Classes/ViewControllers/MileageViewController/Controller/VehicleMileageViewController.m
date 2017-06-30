@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.headerView.titleLabel.text = kTitleMileage;
+    [self addDatePickerToTextField:self.purchaseDateTxtField];
 }
 
 - (void)didReceiveMemoryWarning {

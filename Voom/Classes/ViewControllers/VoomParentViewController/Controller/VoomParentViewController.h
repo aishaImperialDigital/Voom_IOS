@@ -13,22 +13,20 @@
 #import "VoomMapView.h"
 #import "VoomDatePickerView.h"
 
-@interface VoomParentViewController : UIViewController <VoomDatePickerViewDelegate,UITextFieldDelegate>
+@interface VoomParentViewController : UIViewController <UITextFieldDelegate>
 {
  
 }
 @property (nonatomic,strong) HeaderView *headerView;
 @property (nonatomic,strong) BackHeaderView *backHeaderView;
-@property (nonatomic,strong) UITabBarController *tabBarController;
 @property(nonatomic,strong) VoomDatePickerView *datePicker;
+@property(nonatomic,strong) UITextField *dateTextfield;
 @property (nonatomic, strong) MMMaterialDesignSpinner *spinner;
 @property (nonatomic,strong) VoomMapView *mapView;
 #pragma mark methods
 
 -(void) setupAppHeader;
 -(void) setupBackAppHeader;
--(void) createTabBarController;
--(void) showDatePicker;
 -(void) addMapView;
 
 #pragma mark methods

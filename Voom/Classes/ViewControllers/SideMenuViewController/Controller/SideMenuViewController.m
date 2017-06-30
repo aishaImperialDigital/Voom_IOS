@@ -36,7 +36,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.sideMenuArray = [NSArray arrayWithObjects:kTitleVehicleLibrary,kTitleVehicleInfo,kTitleRegistration,kTitleServices,kFitnessWarrant,kTitleMileage,kTitleTollRoads,kTitleFines,kTitleBreakDowns,kTitleAccidents, nil];
+    self.sideMenuArray = [NSArray arrayWithObjects:kTitleVehicleInfo,kTitleRegistration,kTitleServices,kFitnessWarrant,kTitleMileage,kTitleTollRoads,kTitleFines,kTitleBreakDowns,kTitleAccidents, nil];
     appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
    
 }
@@ -92,9 +92,6 @@
 -(void) loadViewControllersForIndex:(int)index{
     [appDelegate.leftSideMenu hideLeftView];
     switch (index) {
-        case VehicleLibraryIndex:
-             [self goToHome];
-            break;
         case VehicleInfoIndex:
              [self goToVehicleInfo];
              break;
@@ -134,48 +131,66 @@
 }
 
 -(void)goToVehicleInfo{
-    VehicleInfoViewControlleriPhone *vehicleInfo = [[VehicleInfoViewControlleriPhone alloc] initWithNibName:@"VehicleInfoViewControlleriPhone" bundle:nil];
-    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
+     VehicleInfoViewControlleriPhone *vehicleInfo = [[VehicleInfoViewControlleriPhone alloc] initWithNibName:@"VehicleInfoViewControlleriPhone" bundle:nil];
+    appDelegate.tabBarController.selectedViewController
+    = [appDelegate.tabBarController.viewControllers objectAtIndex:0];
+    [appDelegate.tabBarController.selectedViewController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToVehicleRegistration{
     VehicleRegistrationInfoViewControlleriPhone *vehicleInfo = [[VehicleRegistrationInfoViewControlleriPhone alloc] initWithNibName:@"VehicleRegistrationInfoViewControlleriPhone" bundle:nil];
-    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
+    appDelegate.tabBarController.selectedViewController
+    = [appDelegate.tabBarController.viewControllers objectAtIndex:0];
+    [appDelegate.tabBarController.selectedViewController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToVehicleServices{
     VehicleServicesViewControlleriPhone *vehicleInfo = [[VehicleServicesViewControlleriPhone alloc] initWithNibName:@"VehicleServicesViewControlleriPhone" bundle:nil];
-    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
+    appDelegate.tabBarController.selectedViewController
+    = [appDelegate.tabBarController.viewControllers objectAtIndex:0];
+    [appDelegate.tabBarController.selectedViewController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToVehicleWOF{
     WarrantOfFitnessViewControlleriPhone *vehicleInfo = [[WarrantOfFitnessViewControlleriPhone alloc] initWithNibName:@"WarrantOfFitnessViewControlleriPhone" bundle:nil];
-    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
+    appDelegate.tabBarController.selectedViewController
+    = [appDelegate.tabBarController.viewControllers objectAtIndex:0];
+    [appDelegate.tabBarController.selectedViewController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToMileage{
     VehicleMileageViewControlleriPhone *vehicleInfo = [[VehicleMileageViewControlleriPhone alloc] initWithNibName:@"VehicleMileageViewControlleriPhone" bundle:nil];
-    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
+    appDelegate.tabBarController.selectedViewController
+    = [appDelegate.tabBarController.viewControllers objectAtIndex:0];
+    [appDelegate.tabBarController.selectedViewController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToTollRoads{
     TollRoadsViewControlleriPhone *vehicleInfo = [[TollRoadsViewControlleriPhone alloc] initWithNibName:@"TollRoadsViewControlleriPhone" bundle:nil];
-    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
+    appDelegate.tabBarController.selectedViewController
+    = [appDelegate.tabBarController.viewControllers objectAtIndex:0];
+    [appDelegate.tabBarController.selectedViewController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToFines{
     FinesViewControlleriPhone *vehicleInfo = [[FinesViewControlleriPhone alloc] initWithNibName:@"FinesViewControlleriPhone" bundle:nil];
-    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
+    appDelegate.tabBarController.selectedViewController
+    = [appDelegate.tabBarController.viewControllers objectAtIndex:0];
+    [appDelegate.tabBarController.selectedViewController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToBreakDowns{
     BreakdownsViewControlleriPhone *vehicleInfo = [[BreakdownsViewControlleriPhone alloc] initWithNibName:@"BreakdownsViewControlleriPhone" bundle:nil];
-    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
+    appDelegate.tabBarController.selectedViewController
+    = [appDelegate.tabBarController.viewControllers objectAtIndex:0];
+    [appDelegate.tabBarController.selectedViewController pushViewController:vehicleInfo animated:YES];
 }
 
 -(void)goToAccidents{
     AccidentsViewControlleriPhone *vehicleInfo = [[AccidentsViewControlleriPhone alloc] initWithNibName:@"AcidentsViewControlleriPhone" bundle:nil];
-    [appDelegate.homeNavigationController pushViewController:vehicleInfo animated:YES];
+    appDelegate.tabBarController.selectedViewController
+    = [appDelegate.tabBarController.viewControllers objectAtIndex:0];
+    [appDelegate.tabBarController.selectedViewController pushViewController:vehicleInfo animated:YES];
 }
 
 @end

@@ -11,11 +11,13 @@
 
 @interface LoginViewController : VoomParentViewController<DataManagerDelegate>
 {
+    AppDelegate *appDelegate;
 }
 @property (nonatomic,strong) IBOutlet UITextField *usernameTextField;
 @property (nonatomic,strong) IBOutlet UITextField *passwordTextField;
 @property (nonatomic,strong) IBOutlet UIButton *loginButton;
 @property (nonatomic,strong) IBOutlet UILabel *detailLabel;
+
 
 #pragma mark IBAction methods
 -(IBAction)gotoLogin:(id)sender;

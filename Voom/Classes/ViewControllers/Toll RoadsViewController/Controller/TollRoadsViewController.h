@@ -9,5 +9,8 @@
 #import "VoomParentViewController.h"
 
 @interface TollRoadsViewController : VoomParentViewController
-
+{
+    
+}
+@property(nonatomic,strong) IBOutlet UITableView *tableView;
 @end

@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		222783CF1F04976500FF8096 /* VehicleInfoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 222783CE1F04976500FF8096 /* VehicleInfoViewCell.m */; };
+		222783D81F04A1F900FF8096 /* VehicleInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222783D71F04A1F900FF8096 /* VehicleInfoViewCell.xib */; };
+		222783DA1F04A5D800FF8096 /* Screen Shot 2017-06-29 at 3.04.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 222783D91F04A5D700FF8096 /* Screen Shot 2017-06-29 at 3.04.35 PM.png */; };
+		222783DC1F04A64D00FF8096 /* Screen Shot 2017-06-29 at 3.06.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 222783DB1F04A64D00FF8096 /* Screen Shot 2017-06-29 at 3.06.35 PM.png */; };
+		222783DE1F05B7FD00FF8096 /* Screen Shot 2017-06-29 at 2.59.36 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 222783DD1F05B7FD00FF8096 /* Screen Shot 2017-06-29 at 2.59.36 PM.png */; };
+		222783E01F05B82100FF8096 /* Screen Shot 2017-06-29 at 2.59.46 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 222783DF1F05B82100FF8096 /* Screen Shot 2017-06-29 at 2.59.46 PM.png */; };
+		222783E41F05BF6100FF8096 /* TollRoadsViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 222783E31F05BF6100FF8096 /* TollRoadsViewCell.m */; };
+		222783E61F05BF7300FF8096 /* TollRoadsViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222783E51F05BF7300FF8096 /* TollRoadsViewCell.xib */; };
 		2227C8D71EF78AFB00315306 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A21EF78AFB00315306 /* GoogleMobileAds.framework */; };
 		2227C8D81EF78AFB00315306 /* FirebaseAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A41EF78AFB00315306 /* FirebaseAnalytics.framework */; };
 		2227C8D91EF78AFB00315306 /* FirebaseCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2227C8A51EF78AFB00315306 /* FirebaseCore.framework */; };
@@ -257,6 +265,16 @@
 
 /* Begin PBXFileReference section */
 		2223AC921F021AEC0006CFA3 /* proxima-nova-58e16cb321398.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-58e16cb321398.otf"; sourceTree = "<group>"; };
+		222783CD1F04976500FF8096 /* VehicleInfoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInfoViewCell.h; sourceTree = "<group>"; };
+		222783CE1F04976500FF8096 /* VehicleInfoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInfoViewCell.m; sourceTree = "<group>"; };
+		222783D71F04A1F900FF8096 /* VehicleInfoViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VehicleInfoViewCell.xib; sourceTree = "<group>"; };
+		222783D91F04A5D700FF8096 /* Screen Shot 2017-06-29 at 3.04.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-29 at 3.04.35 PM.png"; sourceTree = "<group>"; };
+		222783DB1F04A64D00FF8096 /* Screen Shot 2017-06-29 at 3.06.35 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-29 at 3.06.35 PM.png"; sourceTree = "<group>"; };
+		222783DD1F05B7FD00FF8096 /* Screen Shot 2017-06-29 at 2.59.36 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-29 at 2.59.36 PM.png"; sourceTree = "<group>"; };
+		222783DF1F05B82100FF8096 /* Screen Shot 2017-06-29 at 2.59.46 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-06-29 at 2.59.46 PM.png"; sourceTree = "<group>"; };
+		222783E21F05BF6100FF8096 /* TollRoadsViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TollRoadsViewCell.h; sourceTree = "<group>"; };
+		222783E31F05BF6100FF8096 /* TollRoadsViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TollRoadsViewCell.m; sourceTree = "<group>"; };
+		222783E51F05BF7300FF8096 /* TollRoadsViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TollRoadsViewCell.xib; sourceTree = "<group>"; };
 		2227C8A21EF78AFB00315306 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		2227C8A41EF78AFB00315306 /* FirebaseAnalytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseAnalytics.framework; sourceTree = "<group>"; };
 		2227C8A51EF78AFB00315306 /* FirebaseCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FirebaseCore.framework; sourceTree = "<group>"; };
@@ -666,6 +684,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		222783CC1F04970F00FF8096 /* VehicleInfoCell */ = {
+			isa = PBXGroup;
+			children = (
+				222783CD1F04976500FF8096 /* VehicleInfoViewCell.h */,
+				222783CE1F04976500FF8096 /* VehicleInfoViewCell.m */,
+				222783D71F04A1F900FF8096 /* VehicleInfoViewCell.xib */,
+			);
+			path = VehicleInfoCell;
+			sourceTree = "<group>";
+		};
+		222783E11F05BF4700FF8096 /* TollRoadsViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				222783E21F05BF6100FF8096 /* TollRoadsViewCell.h */,
+				222783E31F05BF6100FF8096 /* TollRoadsViewCell.m */,
+				222783E51F05BF7300FF8096 /* TollRoadsViewCell.xib */,
+			);
+			path = TollRoadsViewCell;
+			sourceTree = "<group>";
+		};
 		2227C8A01EF78AFB00315306 /* Firebase */ = {
 			isa = PBXGroup;
 			children = (
@@ -1010,6 +1048,10 @@
 		CE23A5F11EEE44320063EE90 = {
 			isa = PBXGroup;
 			children = (
+				222783DD1F05B7FD00FF8096 /* Screen Shot 2017-06-29 at 2.59.36 PM.png */,
+				222783DB1F04A64D00FF8096 /* Screen Shot 2017-06-29 at 3.06.35 PM.png */,
+				222783D91F04A5D700FF8096 /* Screen Shot 2017-06-29 at 3.04.35 PM.png */,
+				222783DF1F05B82100FF8096 /* Screen Shot 2017-06-29 at 2.59.46 PM.png */,
 				2227C9561EF9E19200315306 /* loc_pin@2x.png */,
 				2227C93B1EF8C70900315306 /* AppResources */,
 				CE23A5FC1EEE44320063EE90 /* Voom */,
@@ -2487,6 +2529,7 @@
 		CE23A6D81EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				222783E11F05BF4700FF8096 /* TollRoadsViewCell */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -2736,6 +2779,7 @@
 		CE23A6F61EEE44A00063EE90 /* iPhone */ = {
 			isa = PBXGroup;
 			children = (
+				222783CC1F04970F00FF8096 /* VehicleInfoCell */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -4035,6 +4079,7 @@
 			files = (
 				CE6A0F321EEF458500321430 /* RegistrationViewControlleriPhone.xib in Resources */,
 				2227C8E01EF78AFB00315306 /* batch-upload in Resources */,
+				222783E01F05B82100FF8096 /* Screen Shot 2017-06-29 at 2.59.46 PM.png in Resources */,
 				CE6A0F591EEF624C00321430 /* VehicleCheckViewControlleriPhone.xib in Resources */,
 				CE6A10BA1EF348E700321430 /* VehicleMileageViewControlleriPhone.xib in Resources */,
 				CE6A107C1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib in Resources */,
@@ -4050,6 +4095,7 @@
 				CE28518B1EF38E2600A039DF /* 11.png in Resources */,
 				2227C9571EF9E19200315306 /* loc_pin@2x.png in Resources */,
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
+				222783DE1F05B7FD00FF8096 /* Screen Shot 2017-06-29 at 2.59.36 PM.png in Resources */,
 				CE6A11151EF3839A00321430 /* logo-iPhone@2x.png in Resources */,
 				CE6A10F81EF37D0300321430 /* passwordIcon-iPhone@2x.png in Resources */,
 				2227C9441EF8D2C400315306 /* VoomMapView.xib in Resources */,
@@ -4066,6 +4112,7 @@
 				2227C8F11EF78AFB00315306 /* GINInviteResources.bundle in Resources */,
 				CE6A11101EF3834B00321430 /* Reminder-iPhone@2x.png in Resources */,
 				CE6A0F6C1EEF637D00321430 /* SettingsViewControlleriPhone.xib in Resources */,
+				222783D81F04A1F900FF8096 /* VehicleInfoViewCell.xib in Resources */,
 				CE2851871EF38E2600A039DF /* 7.png in Resources */,
 				226E0BC91EF788CE007AAE03 /* GoogleService-Info.plist in Resources */,
 				CE6A110A1EF3833400321430 /* background-iPhone@2x.png in Resources */,
@@ -4087,8 +4134,11 @@
 				CE28517F1EF384D800A039DF /* back-iPhone@2x.png in Resources */,
 				CE6A10AA1EF347BC00321430 /* VehicleServicesViewControlleriPhone.xib in Resources */,
 				2227C8E71EF78AFB00315306 /* upload-sym.sh in Resources */,
+				222783DC1F04A64D00FF8096 /* Screen Shot 2017-06-29 at 3.06.35 PM.png in Resources */,
 				CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */,
+				222783E61F05BF7300FF8096 /* TollRoadsViewCell.xib in Resources */,
 				CE6A10FC1EF37EA000321430 /* sideMenu-iPhone@2x.png in Resources */,
+				222783DA1F04A5D800FF8096 /* Screen Shot 2017-06-29 at 3.04.35 PM.png in Resources */,
 				CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */,
 				CE6A11131EF3834C00321430 /* VehicleLibrary-iPhone@2x.png in Resources */,
 				CE6A10721EF252B600321430 /* VehicleLibraryTableViewCell.xib in Resources */,
@@ -4263,6 +4313,8 @@
 				CE6A0FFD1EF0CD5C00321430 /* SpringView.swift in Sources */,
 				CE6A0FE61EF0CD5C00321430 /* AutoTextView.swift in Sources */,
 				2227C9121EF89FF300315306 /* User.m in Sources */,
+				222783CF1F04976500FF8096 /* VehicleInfoViewCell.m in Sources */,
+				222783E41F05BF6100FF8096 /* TollRoadsViewCell.m in Sources */,
 				CE6A0F2D1EEF455F00321430 /* RegistrationViewController.m in Sources */,
 				CE6A0FEB1EF0CD5C00321430 /* DesignableTabBarController.swift in Sources */,
 				CE6A0EE21EEE475500321430 /* VoomParentViewController.m in Sources */,

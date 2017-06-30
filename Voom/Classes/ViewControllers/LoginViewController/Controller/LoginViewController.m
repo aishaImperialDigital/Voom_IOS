@@ -29,6 +29,7 @@
     [self.usernameTextField setValue:[UIColor whiteColor] forKeyPath:@"_placeholderLabel.textColor"];
     [self.passwordTextField setValue:[UIColor whiteColor] forKeyPath:@"_placeholderLabel.textColor"];
     
+    appDelegate = (AppDelegate*)[UIApplication sharedApplication].delegate;
     
 }
 
@@ -51,7 +52,7 @@
 {
     if([AppPreferences isValidEmail:self.usernameTextField.text]){
         //[self getLogin];
-        [self createTabBarController];
+        [appDelegate createTabBarController];
     }
     else{
         [self showHUD:@"Enter Valid email" andTime:1.0];

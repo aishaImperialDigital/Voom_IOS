@@ -18,6 +18,11 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.headerView.titleLabel.text = kTitleServices;
+    //serviceDatetxtField
+    //nextServiceDueDatetxtField;
+    [self addDatePickerToTextField:self.serviceDatetxtField];
+    [self addDatePickerToTextField:self.nextServiceDueDatetxtField];
+    
 }
 
 - (void)didReceiveMemoryWarning {

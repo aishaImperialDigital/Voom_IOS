@@ -7,7 +7,8 @@
 //
 
 #import "VehicleInfoViewController.h"
-
+#import "VehicleInfoViewCell.h"
+#define INFO_CELL_HEIGHT 40
 @interface VehicleInfoViewController ()
 
 @end
@@ -35,5 +36,35 @@
     // Pass the selected object to the new view controller.
 }
 */
+#pragma mark - Table view data source
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
+    return 1;
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
+    return 8;
+}
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
+    VehicleInfoViewCell *cell;
+    cell =  [self.tableView dequeueReusableCellWithIdentifier:@"VehicleInfoViewCell"];
+    if (cell == nil){
+        cell = (VehicleInfoViewCell *) [[VehicleInfoViewCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"VehicleInfoViewCell"];
+    }
+    cell.backgroundColor = [UIColor clearColor];
+    cell.contentView.backgroundColor = [UIColor clearColor];
+    cell.titleLabel.text = @"field";
+    cell.valueLabel.text = @"value";
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+}
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath{
+    return INFO_CELL_HEIGHT;
+}
 
 @end

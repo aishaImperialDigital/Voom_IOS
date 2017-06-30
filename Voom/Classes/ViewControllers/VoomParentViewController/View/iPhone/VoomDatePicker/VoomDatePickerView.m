@@ -8,22 +8,26 @@
 
 #import "VoomDatePickerView.h"
 
-@implementation VoomDatePickerView
+@implementation VoomDatePickerView 
 
 -(void) awakeFromNib
 {
     [super awakeFromNib];
-    //self.backgroundColor = kAppBackgroundColor;
 }
 
 -(IBAction)pickerDone:(id)sender
 {
-    if([self.delegate respondsToSelector:@selector(donePressed)])
-    {
-        [self.delegate performSelector:@selector(donePressed)];
-    }
+    self.hidden = YES;
+    NSDateFormatter *formatter = [[NSDateFormatter alloc] init];
+    [formatter setDateFormat:@"dd/MM/YYYY"];
+    NSString *dateStri=[formatter stringFromDate:self.datePicker.date];
+    [self.dateTextfield setText:[NSString stringWithFormat:@"%@",dateStri]];
 }
 
-
+-(BOOL)textFieldShouldBeginEditing:(UITextField *)textField {
+    [self endEditing:YES];
+    self.hidden = NO;
+    return NO;  // Hide both keyboard and blinking cursor.
+}
 
 @end
