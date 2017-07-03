@@ -7,7 +7,9 @@
 //
 
 #import "VoomParentViewController.h"
-
-@interface WarrantOfFitnessViewController : VoomParentViewController
-
+#import "TPRoundedTextField.h"
+@interface WarrantOfFitnessViewController : VoomParentViewController{
+    
+}
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *wofDatetxtField;
 @end

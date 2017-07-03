@@ -1,24 +1,22 @@
 //
-//  VehicleRegistrationInfoViewController.m
+//  ContactUsViewController.m
 //  Voom
 //
-//  Created by user on 16/06/17.
+//  Created by gqgnju on 3/07/17.
 //  Copyright © 2017 user. All rights reserved.
 //
 
-#import "VehicleRegistrationInfoViewController.h"
+#import "ContactUsViewController.h"
 
-@interface VehicleRegistrationInfoViewController ()
+@interface ContactUsViewController ()
 
 @end
 
-@implementation VehicleRegistrationInfoViewController
+@implementation ContactUsViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
-    self.headerView.titleLabel.text = kTitleRegistration;
-    [self addDatePickerToTextField:self.renewRegistrationDatetxtField];
 }
 
 - (void)didReceiveMemoryWarning {

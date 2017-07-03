@@ -7,7 +7,10 @@
 //
 
 #import "VoomParentViewController.h"
+#import "TPRoundedTextField.h"
 
-@interface VehicleRegistrationInfoViewController : VoomParentViewController
-
+@interface VehicleRegistrationInfoViewController : VoomParentViewController{
+    
+}
+@property (weak, nonatomic) IBOutlet TPRoundedTextField *renewRegistrationDatetxtField;
 @end

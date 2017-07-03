@@ -7,6 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		220F25A91F099C6F00A389DA /* tick-mark-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F25A71F099C6F00A389DA /* tick-mark-iPhone@2x.png */; };
+		220F25AA1F099C6F00A389DA /* tick-box-iPhone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F25A81F099C6F00A389DA /* tick-box-iPhone@2x.png */; };
+		220F25AD1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.22 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F25AB1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.22 PM.png */; };
+		220F25AE1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.07 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F25AC1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.07 PM.png */; };
+		220F25B41F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.45.55 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F25AF1F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.45.55 PM.png */; };
+		220F25B51F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.01 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F25B01F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.01 PM.png */; };
+		220F25B61F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.30 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F25B11F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.30 PM.png */; };
+		220F25B71F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.12 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F25B21F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.12 PM.png */; };
+		220F25B81F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.06 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 220F25B31F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.06 PM.png */; };
+		220F26061F0A089F00A389DA /* NotificationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220F26051F0A089F00A389DA /* NotificationsViewController.m */; };
+		220F260A1F0A08B900A389DA /* NotificationsViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 220F26081F0A08B900A389DA /* NotificationsViewControlleriPhone.m */; };
+		220F260B1F0A08B900A389DA /* NotificationsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220F26091F0A08B900A389DA /* NotificationsViewControlleriPhone.xib */; };
+		220F260E1F0A096C00A389DA /* TermsAndConditionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220F260D1F0A096C00A389DA /* TermsAndConditionsViewController.m */; };
+		220F26121F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 220F26101F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.m */; };
+		220F26131F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220F26111F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.xib */; };
+		220F26161F0A0B4E00A389DA /* ContactUsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220F26151F0A0B4E00A389DA /* ContactUsViewController.m */; };
+		220F261D1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 220F261B1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.m */; };
+		220F261E1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220F261C1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.xib */; };
+		220F26211F0A0CB700A389DA /* AccountSettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 220F26201F0A0CB700A389DA /* AccountSettingsViewController.m */; };
+		220F26251F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.m in Sources */ = {isa = PBXBuildFile; fileRef = 220F26231F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.m */; };
+		220F26261F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = 220F26241F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.xib */; };
 		222783CF1F04976500FF8096 /* VehicleInfoViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 222783CE1F04976500FF8096 /* VehicleInfoViewCell.m */; };
 		222783D81F04A1F900FF8096 /* VehicleInfoViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 222783D71F04A1F900FF8096 /* VehicleInfoViewCell.xib */; };
 		222783DA1F04A5D800FF8096 /* Screen Shot 2017-06-29 at 3.04.35 PM.png in Resources */ = {isa = PBXBuildFile; fileRef = 222783D91F04A5D700FF8096 /* Screen Shot 2017-06-29 at 3.04.35 PM.png */; };
@@ -264,6 +285,35 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		220F25A71F099C6F00A389DA /* tick-mark-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tick-mark-iPhone@2x.png"; sourceTree = "<group>"; };
+		220F25A81F099C6F00A389DA /* tick-box-iPhone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tick-box-iPhone@2x.png"; sourceTree = "<group>"; };
+		220F25AB1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.22 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-07-03 at 3.44.22 PM.png"; sourceTree = "<group>"; };
+		220F25AC1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.07 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-07-03 at 3.44.07 PM.png"; sourceTree = "<group>"; };
+		220F25AF1F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.45.55 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-07-03 at 4.45.55 PM.png"; sourceTree = "<group>"; };
+		220F25B01F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.01 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-07-03 at 4.46.01 PM.png"; sourceTree = "<group>"; };
+		220F25B11F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.30 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-07-03 at 4.46.30 PM.png"; sourceTree = "<group>"; };
+		220F25B21F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.12 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-07-03 at 4.46.12 PM.png"; sourceTree = "<group>"; };
+		220F25B31F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.06 PM.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Screen Shot 2017-07-03 at 4.46.06 PM.png"; sourceTree = "<group>"; };
+		220F26041F0A089F00A389DA /* NotificationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewController.h; sourceTree = "<group>"; };
+		220F26051F0A089F00A389DA /* NotificationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewController.m; sourceTree = "<group>"; };
+		220F26071F0A08B900A389DA /* NotificationsViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotificationsViewControlleriPhone.h; sourceTree = "<group>"; };
+		220F26081F0A08B900A389DA /* NotificationsViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotificationsViewControlleriPhone.m; sourceTree = "<group>"; };
+		220F26091F0A08B900A389DA /* NotificationsViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotificationsViewControlleriPhone.xib; sourceTree = "<group>"; };
+		220F260C1F0A096C00A389DA /* TermsAndConditionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsAndConditionsViewController.h; sourceTree = "<group>"; };
+		220F260D1F0A096C00A389DA /* TermsAndConditionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsAndConditionsViewController.m; sourceTree = "<group>"; };
+		220F260F1F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TermsAndConditionsViewControlleriPhone.h; sourceTree = "<group>"; };
+		220F26101F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TermsAndConditionsViewControlleriPhone.m; sourceTree = "<group>"; };
+		220F26111F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TermsAndConditionsViewControlleriPhone.xib; sourceTree = "<group>"; };
+		220F26141F0A0B4E00A389DA /* ContactUsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewController.h; sourceTree = "<group>"; };
+		220F26151F0A0B4E00A389DA /* ContactUsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewController.m; sourceTree = "<group>"; };
+		220F261A1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactUsViewControlleriPhone.h; sourceTree = "<group>"; };
+		220F261B1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactUsViewControlleriPhone.m; sourceTree = "<group>"; };
+		220F261C1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactUsViewControlleriPhone.xib; sourceTree = "<group>"; };
+		220F261F1F0A0CB700A389DA /* AccountSettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSettingsViewController.h; sourceTree = "<group>"; };
+		220F26201F0A0CB700A389DA /* AccountSettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSettingsViewController.m; sourceTree = "<group>"; };
+		220F26221F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountSettingsViewControlleriPhone.h; sourceTree = "<group>"; };
+		220F26231F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountSettingsViewControlleriPhone.m; sourceTree = "<group>"; };
+		220F26241F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AccountSettingsViewControlleriPhone.xib; sourceTree = "<group>"; };
 		2223AC921F021AEC0006CFA3 /* proxima-nova-58e16cb321398.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "proxima-nova-58e16cb321398.otf"; sourceTree = "<group>"; };
 		222783CD1F04976500FF8096 /* VehicleInfoViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VehicleInfoViewCell.h; sourceTree = "<group>"; };
 		222783CE1F04976500FF8096 /* VehicleInfoViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VehicleInfoViewCell.m; sourceTree = "<group>"; };
@@ -684,6 +734,502 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		220F25C81F0A056B00A389DA /* AccountSettingsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				220F25C91F0A056B00A389DA /* Controller */,
+				220F25CC1F0A056B00A389DA /* Images */,
+				220F25CF1F0A056B00A389DA /* Modal */,
+				220F25D41F0A056B00A389DA /* View */,
+			);
+			path = AccountSettingsViewController;
+			sourceTree = "<group>";
+		};
+		220F25C91F0A056B00A389DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				220F25CA1F0A056B00A389DA /* iPad */,
+				220F25CB1F0A056B00A389DA /* iPhone */,
+				220F261F1F0A0CB700A389DA /* AccountSettingsViewController.h */,
+				220F26201F0A0CB700A389DA /* AccountSettingsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		220F25CA1F0A056B00A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25CB1F0A056B00A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				220F26221F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.h */,
+				220F26231F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.m */,
+				220F26241F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25CC1F0A056B00A389DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				220F25CD1F0A056B00A389DA /* iPad */,
+				220F25CE1F0A056B00A389DA /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		220F25CD1F0A056B00A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25CE1F0A056B00A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25CF1F0A056B00A389DA /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				220F25D01F0A056B00A389DA /* Bo */,
+				220F25D11F0A056B00A389DA /* Enums */,
+				220F25D21F0A056B00A389DA /* Request */,
+				220F25D31F0A056B00A389DA /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		220F25D01F0A056B00A389DA /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		220F25D11F0A056B00A389DA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		220F25D21F0A056B00A389DA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		220F25D31F0A056B00A389DA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		220F25D41F0A056B00A389DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				220F25D51F0A056B00A389DA /* iPad */,
+				220F25D61F0A056B00A389DA /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		220F25D51F0A056B00A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25D61F0A056B00A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25D71F0A05A900A389DA /* NotificationsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				220F25D81F0A05A900A389DA /* Controller */,
+				220F25DB1F0A05A900A389DA /* Images */,
+				220F25DE1F0A05A900A389DA /* Modal */,
+				220F25E31F0A05A900A389DA /* View */,
+			);
+			path = NotificationsViewController;
+			sourceTree = "<group>";
+		};
+		220F25D81F0A05A900A389DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				220F25D91F0A05A900A389DA /* iPad */,
+				220F25DA1F0A05A900A389DA /* iPhone */,
+				220F26041F0A089F00A389DA /* NotificationsViewController.h */,
+				220F26051F0A089F00A389DA /* NotificationsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		220F25D91F0A05A900A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25DA1F0A05A900A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				220F26071F0A08B900A389DA /* NotificationsViewControlleriPhone.h */,
+				220F26081F0A08B900A389DA /* NotificationsViewControlleriPhone.m */,
+				220F26091F0A08B900A389DA /* NotificationsViewControlleriPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25DB1F0A05A900A389DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				220F25DC1F0A05A900A389DA /* iPad */,
+				220F25DD1F0A05A900A389DA /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		220F25DC1F0A05A900A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25DD1F0A05A900A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25DE1F0A05A900A389DA /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				220F25DF1F0A05A900A389DA /* Bo */,
+				220F25E01F0A05A900A389DA /* Enums */,
+				220F25E11F0A05A900A389DA /* Request */,
+				220F25E21F0A05A900A389DA /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		220F25DF1F0A05A900A389DA /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		220F25E01F0A05A900A389DA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		220F25E11F0A05A900A389DA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		220F25E21F0A05A900A389DA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		220F25E31F0A05A900A389DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				220F25E41F0A05A900A389DA /* iPad */,
+				220F25E51F0A05A900A389DA /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		220F25E41F0A05A900A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25E51F0A05A900A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25E61F0A05F500A389DA /* TermsAndConditionsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				220F25E71F0A05F500A389DA /* Controller */,
+				220F25EA1F0A05F500A389DA /* Images */,
+				220F25ED1F0A05F500A389DA /* Modal */,
+				220F25F21F0A05F500A389DA /* View */,
+			);
+			path = TermsAndConditionsViewController;
+			sourceTree = "<group>";
+		};
+		220F25E71F0A05F500A389DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				220F25E81F0A05F500A389DA /* iPad */,
+				220F25E91F0A05F500A389DA /* iPhone */,
+				220F260C1F0A096C00A389DA /* TermsAndConditionsViewController.h */,
+				220F260D1F0A096C00A389DA /* TermsAndConditionsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		220F25E81F0A05F500A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25E91F0A05F500A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				220F260F1F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.h */,
+				220F26101F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.m */,
+				220F26111F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25EA1F0A05F500A389DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				220F25EB1F0A05F500A389DA /* iPad */,
+				220F25EC1F0A05F500A389DA /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		220F25EB1F0A05F500A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25EC1F0A05F500A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25ED1F0A05F500A389DA /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				220F25EE1F0A05F500A389DA /* Bo */,
+				220F25EF1F0A05F500A389DA /* Enums */,
+				220F25F01F0A05F500A389DA /* Request */,
+				220F25F11F0A05F500A389DA /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		220F25EE1F0A05F500A389DA /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		220F25EF1F0A05F500A389DA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		220F25F01F0A05F500A389DA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		220F25F11F0A05F500A389DA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		220F25F21F0A05F500A389DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				220F25F31F0A05F500A389DA /* iPad */,
+				220F25F41F0A05F500A389DA /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		220F25F31F0A05F500A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25F41F0A05F500A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25F51F0A062500A389DA /* ContactUsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				220F25F61F0A062500A389DA /* Controller */,
+				220F25F91F0A062500A389DA /* Images */,
+				220F25FC1F0A062500A389DA /* Modal */,
+				220F26011F0A062500A389DA /* View */,
+			);
+			path = ContactUsViewController;
+			sourceTree = "<group>";
+		};
+		220F25F61F0A062500A389DA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				220F25F71F0A062500A389DA /* iPad */,
+				220F25F81F0A062500A389DA /* iPhone */,
+				220F26141F0A0B4E00A389DA /* ContactUsViewController.h */,
+				220F26151F0A0B4E00A389DA /* ContactUsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		220F25F71F0A062500A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25F81F0A062500A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				220F261A1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.h */,
+				220F261B1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.m */,
+				220F261C1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.xib */,
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25F91F0A062500A389DA /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				220F25FA1F0A062500A389DA /* iPad */,
+				220F25FB1F0A062500A389DA /* iPhone */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		220F25FA1F0A062500A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F25FB1F0A062500A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
+		220F25FC1F0A062500A389DA /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				220F25FD1F0A062500A389DA /* Bo */,
+				220F25FE1F0A062500A389DA /* Enums */,
+				220F25FF1F0A062500A389DA /* Request */,
+				220F26001F0A062500A389DA /* Response */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		220F25FD1F0A062500A389DA /* Bo */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bo;
+			sourceTree = "<group>";
+		};
+		220F25FE1F0A062500A389DA /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		220F25FF1F0A062500A389DA /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		220F26001F0A062500A389DA /* Response */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		220F26011F0A062500A389DA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				220F26021F0A062500A389DA /* iPad */,
+				220F26031F0A062500A389DA /* iPhone */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		220F26021F0A062500A389DA /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPad;
+			sourceTree = "<group>";
+		};
+		220F26031F0A062500A389DA /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = iPhone;
+			sourceTree = "<group>";
+		};
 		222783CC1F04970F00FF8096 /* VehicleInfoCell */ = {
 			isa = PBXGroup;
 			children = (
@@ -1048,6 +1594,13 @@
 		CE23A5F11EEE44320063EE90 = {
 			isa = PBXGroup;
 			children = (
+				220F25AF1F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.45.55 PM.png */,
+				220F25B01F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.01 PM.png */,
+				220F25B11F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.30 PM.png */,
+				220F25B21F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.12 PM.png */,
+				220F25B31F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.06 PM.png */,
+				220F25AB1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.22 PM.png */,
+				220F25AC1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.07 PM.png */,
 				222783DD1F05B7FD00FF8096 /* Screen Shot 2017-06-29 at 2.59.36 PM.png */,
 				222783DB1F04A64D00FF8096 /* Screen Shot 2017-06-29 at 3.06.35 PM.png */,
 				222783D91F04A5D700FF8096 /* Screen Shot 2017-06-29 at 3.04.35 PM.png */,
@@ -1143,6 +1696,10 @@
 		CE23A6331EEE44A00063EE90 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
+				220F25F51F0A062500A389DA /* ContactUsViewController */,
+				220F25E61F0A05F500A389DA /* TermsAndConditionsViewController */,
+				220F25D71F0A05A900A389DA /* NotificationsViewController */,
+				220F25C81F0A056B00A389DA /* AccountSettingsViewController */,
 				CE23A7241EEE44A00063EE90 /* VoomParentViewController */,
 				CE6A10D81EF351F100321430 /* AccidentsViewController */,
 				CE6A107D1EF33CAD00321430 /* VehicleRegistrationViewController */,
@@ -3224,6 +3781,8 @@
 				CE6A11091EF3833400321430 /* background-iPhone@2x.png */,
 				CE6A11141EF3839A00321430 /* logo-iPhone@2x.png */,
 				CE28517E1EF384D800A039DF /* back-iPhone@2x.png */,
+				220F25A71F099C6F00A389DA /* tick-mark-iPhone@2x.png */,
+				220F25A81F099C6F00A389DA /* tick-box-iPhone@2x.png */,
 			);
 			path = iPhone;
 			sourceTree = "<group>";
@@ -4085,6 +4644,7 @@
 				CE6A107C1EF33C0A00321430 /* VehicleInfoViewControlleriPhone.xib in Resources */,
 				2227C8E21EF78AFB00315306 /* extract-keys in Resources */,
 				CE6A11121EF3834C00321430 /* VehicleCheck-iPhone@2x.png in Resources */,
+				220F26131F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.xib in Resources */,
 				CE6A11111EF3834C00321430 /* Settings-iPhone@2x.png in Resources */,
 				CE6A10CF1EF34B0300321430 /* FinesViewControlleriPhone.xib in Resources */,
 				CE28518D1EF38E2600A039DF /* 13.png in Resources */,
@@ -4093,13 +4653,16 @@
 				CE2851891EF38E2600A039DF /* 9.png in Resources */,
 				CE6A10F71EF37D0300321430 /* emaiIcon-iPhone@2x.png in Resources */,
 				CE28518B1EF38E2600A039DF /* 11.png in Resources */,
+				220F25B81F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.06 PM.png in Resources */,
 				2227C9571EF9E19200315306 /* loc_pin@2x.png in Resources */,
 				CE23A60A1EEE44320063EE90 /* Assets.xcassets in Resources */,
+				220F25B61F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.30 PM.png in Resources */,
 				222783DE1F05B7FD00FF8096 /* Screen Shot 2017-06-29 at 2.59.36 PM.png in Resources */,
 				CE6A11151EF3839A00321430 /* logo-iPhone@2x.png in Resources */,
 				CE6A10F81EF37D0300321430 /* passwordIcon-iPhone@2x.png in Resources */,
 				2227C9441EF8D2C400315306 /* VoomMapView.xib in Resources */,
 				CE6A10EE1EF3526000321430 /* AccidentsViewControlleriPhone.xib in Resources */,
+				220F261E1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.xib in Resources */,
 				CE6A0F081EEE48C500321430 /* LoginViewControlleriPhone.xib in Resources */,
 				CE6A0F941EEFA37800321430 /* Voom_UI copy 5.jpg in Resources */,
 				CE6A0F611EEF629C00321430 /* RemindersViewControlleriPhone.xib in Resources */,
@@ -4119,12 +4682,16 @@
 				CE6A106C1EF2517500321430 /* SideMenuTableViewCell.xib in Resources */,
 				CE6A10B21EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.xib in Resources */,
 				CE28518A1EF38E2600A039DF /* 10.png in Resources */,
+				220F25B41F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.45.55 PM.png in Resources */,
 				2227C8E51EF78AFB00315306 /* upload-sym in Resources */,
 				CE6A10A21EF345CB00321430 /* VehicleRegistrationInfoViewControlleriPhone.xib in Resources */,
 				CE28518C1EF38E2600A039DF /* 12.png in Resources */,
 				CE6A0F0F1EEE4D6E00321430 /* Default-568h@2x.png in Resources */,
 				CE6A10F41EF3763500321430 /* SettingsViewCell.xib in Resources */,
+				220F260B1F0A08B900A389DA /* NotificationsViewControlleriPhone.xib in Resources */,
+				220F25B51F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.01 PM.png in Resources */,
 				2227C8F21EF78AFB00315306 /* GoogleSignIn.bundle in Resources */,
+				220F25A91F099C6F00A389DA /* tick-mark-iPhone@2x.png in Resources */,
 				2227C8E11EF78AFB00315306 /* dump_syms in Resources */,
 				CE6A0F381EEF4A0800321430 /* HeaderView.xib in Resources */,
 				CE6A10FE1EF37EF400321430 /* addVehicle-iPhone@2x.png in Resources */,
@@ -4135,14 +4702,19 @@
 				CE6A10AA1EF347BC00321430 /* VehicleServicesViewControlleriPhone.xib in Resources */,
 				2227C8E71EF78AFB00315306 /* upload-sym.sh in Resources */,
 				222783DC1F04A64D00FF8096 /* Screen Shot 2017-06-29 at 3.06.35 PM.png in Resources */,
+				220F25B71F0A04AA00A389DA /* Screen Shot 2017-07-03 at 4.46.12 PM.png in Resources */,
 				CE6A0F471EEF527F00321430 /* VehicleLibraryViewControlleriPhone.xib in Resources */,
+				220F25AA1F099C6F00A389DA /* tick-box-iPhone@2x.png in Resources */,
 				222783E61F05BF7300FF8096 /* TollRoadsViewCell.xib in Resources */,
 				CE6A10FC1EF37EA000321430 /* sideMenu-iPhone@2x.png in Resources */,
 				222783DA1F04A5D800FF8096 /* Screen Shot 2017-06-29 at 3.04.35 PM.png in Resources */,
 				CE6A0F3F1EEF4C5300321430 /* BackHeaderView.xib in Resources */,
+				220F25AE1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.07 PM.png in Resources */,
 				CE6A11131EF3834C00321430 /* VehicleLibrary-iPhone@2x.png in Resources */,
 				CE6A10721EF252B600321430 /* VehicleLibraryTableViewCell.xib in Resources */,
 				2227C9411EF8D14C00315306 /* VoomDatePickerView.xib in Resources */,
+				220F26261F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.xib in Resources */,
+				220F25AD1F09F53500A389DA /* Screen Shot 2017-07-03 at 3.44.22 PM.png in Resources */,
 				CE6A0FF31EF0CD5C00321430 /* LoadingView.xib in Resources */,
 				2227C91E1EF8C38000315306 /* GooglePlaces.bundle in Resources */,
 				2227C9221EF8C3AA00315306 /* GoogleMaps.bundle in Resources */,
@@ -4252,6 +4824,7 @@
 				CE6A0F601EEF629C00321430 /* RemindersViewControlleriPhone.m in Sources */,
 				CE6A10ED1EF3526000321430 /* AccidentsViewControlleriPhone.m in Sources */,
 				CE6A0EFA1EEE481F00321430 /* LGSideMenuBorderView.m in Sources */,
+				220F26161F0A0B4E00A389DA /* ContactUsViewController.m in Sources */,
 				CE6A0FF71EF0CD5C00321430 /* SpringAnimation.swift in Sources */,
 				CE6A0F031EEE48A600321430 /* LoginViewController.m in Sources */,
 				CE6A0EE51EEE478000321430 /* SideMenuViewController.m in Sources */,
@@ -4260,15 +4833,18 @@
 				CE6A102F1EF0D49100321430 /* CoreWebService.m in Sources */,
 				CE6A10431EF0DF8A00321430 /* NSObject+NSCoding.m in Sources */,
 				CE6A10AD1EF3484900321430 /* WarrantOfFitnessViewController.m in Sources */,
+				220F26251F0A0D5F00A389DA /* AccountSettingsViewControlleriPhone.m in Sources */,
 				2227C9551EF9CDFD00315306 /* LoginRequestBO.m in Sources */,
 				CE6A109D1EF3459200321430 /* VehicleRegistrationInfoViewController.m in Sources */,
 				CE6A105C1EF1E43700321430 /* VoomTableViewCell.m in Sources */,
 				CE6A0FFB1EF0CD5C00321430 /* SpringTextField.swift in Sources */,
 				CE6A10B11EF3486400321430 /* WarrantOfFitnessViewControlleriPhone.m in Sources */,
 				CE6A0EFC1EEE481F00321430 /* LGSideMenuGesturesHandler.m in Sources */,
+				220F26211F0A0CB700A389DA /* AccountSettingsViewController.m in Sources */,
 				CE6A0F8C1EEFA26300321430 /* TPRoundedTextField.m in Sources */,
 				CE6A0F5C1EEF627E00321430 /* RemindersViewController.m in Sources */,
 				CE6A0F811EEF961400321430 /* TPKeyboardAvoidingCollectionView.m in Sources */,
+				220F260E1F0A096C00A389DA /* TermsAndConditionsViewController.m in Sources */,
 				CE6A0FF91EF0CD5C00321430 /* SpringImageView.swift in Sources */,
 				CE6A0EFE1EEE481F00321430 /* LGSideMenuSegue.m in Sources */,
 				CE6A10F21EF3761A00321430 /* SettingsViewCell.m in Sources */,
@@ -4291,6 +4867,7 @@
 				CE6A10D61EF34D3C00321430 /* BreakdownsViewControlleriPhone.m in Sources */,
 				2227C93F1EF8D11E00315306 /* VoomDatePickerView.m in Sources */,
 				CE6A10CE1EF34B0300321430 /* FinesViewControlleriPhone.m in Sources */,
+				220F26121F0A0AC000A389DA /* TermsAndConditionsViewControlleriPhone.m in Sources */,
 				CE6A0EFD1EEE481F00321430 /* LGSideMenuHelper.m in Sources */,
 				CE6A0FF61EF0CD5C00321430 /* Spring.swift in Sources */,
 				CE6A0F731EEF835E00321430 /* AppPreferences.m in Sources */,
@@ -4316,7 +4893,9 @@
 				222783CF1F04976500FF8096 /* VehicleInfoViewCell.m in Sources */,
 				222783E41F05BF6100FF8096 /* TollRoadsViewCell.m in Sources */,
 				CE6A0F2D1EEF455F00321430 /* RegistrationViewController.m in Sources */,
+				220F261D1F0A0B9C00A389DA /* ContactUsViewControlleriPhone.m in Sources */,
 				CE6A0FEB1EF0CD5C00321430 /* DesignableTabBarController.swift in Sources */,
+				220F260A1F0A08B900A389DA /* NotificationsViewControlleriPhone.m in Sources */,
 				CE6A0EE21EEE475500321430 /* VoomParentViewController.m in Sources */,
 				2227C9061EF7977F00315306 /* UserProfileBO.m in Sources */,
 				CE6A10A91EF347BC00321430 /* VehicleServicesViewControlleriPhone.m in Sources */,
@@ -4334,6 +4913,7 @@
 				2227C8FA1EF78AFB00315306 /* README.md in Sources */,
 				22BC7A221EF77B04004A97D1 /* MMMaterialDesignSpinner.m in Sources */,
 				CE6A0FE71EF0CD5C00321430 /* BlurView.swift in Sources */,
+				220F26061F0A089F00A389DA /* NotificationsViewController.m in Sources */,
 				CE6A10251EF0D49100321430 /* EVEKeyGenrator.m in Sources */,
 				CE6A0F701EEF7F3200321430 /* UITabBar+NewSize.m in Sources */,
 				CE6A0F001EEE481F00321430 /* UIViewController+LGSideMenuController.m in Sources */,

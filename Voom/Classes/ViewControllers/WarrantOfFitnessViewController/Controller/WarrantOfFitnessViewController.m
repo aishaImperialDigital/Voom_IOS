@@ -18,6 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.headerView.titleLabel.text = kFitnessWarrant;
+    [self addDatePickerToTextField:self.wofDatetxtField];
 }
 
 - (void)didReceiveMemoryWarning {

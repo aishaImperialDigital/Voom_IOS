@@ -19,6 +19,15 @@
         self.holderView.backgroundColor = [UIColor clearColor];
         self.contentView.backgroundColor  = [UIColor clearColor];
         [self.contentView addSubview:self.holderView];
+        
+        [_checkboxButton setBackgroundImage:[UIImage imageNamed:@"tick-box-iPhone.png"]
+                            forState:UIControlStateNormal];
+        [_checkboxButton setBackgroundImage:[UIImage imageNamed:@"tick-mark-iPhone.png"]
+                            forState:UIControlStateSelected];
+        [_checkboxButton setBackgroundImage:[UIImage imageNamed:@"tick-mark-iPhone.png"]
+                            forState:UIControlStateHighlighted];
+        _checkboxButton.adjustsImageWhenHighlighted=YES;
+        [_checkboxButton addTarget:self action:@selector(checkboxSelected:) forControlEvents:UIControlEventTouchUpInside];
     }
     return self;
 }
@@ -34,5 +43,11 @@
     // Configure the view for the selected state
 }
 
+
+-(void)checkboxSelected:(id)sender
+{
+    checkBoxSelected = !checkBoxSelected; /* Toggle */
+    [_checkboxButton setSelected:checkBoxSelected];
+}
 
 @end

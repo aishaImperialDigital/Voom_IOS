@@ -8,7 +8,7 @@
 
 #import "TollRoadsViewController.h"
 #import "TollRoadsViewCell.h"
-#define TOLLROADS_TABLE_HEIGHT 40
+#define TOLLROADS_TABLE_HEIGHT 30
 @interface TollRoadsViewController ()
 
 @end

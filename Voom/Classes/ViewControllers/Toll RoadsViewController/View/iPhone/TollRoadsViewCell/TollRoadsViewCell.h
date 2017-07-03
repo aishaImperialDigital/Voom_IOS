@@ -10,9 +10,10 @@
 
 @interface TollRoadsViewCell : VoomTableViewCell
 {
-    
+    BOOL checkBoxSelected;
 }
 @property (nonatomic, strong) IBOutlet UIView *holderView;
 @property (nonatomic, strong) IBOutlet UILabel *dateLabel;
 @property (nonatomic, strong) IBOutlet UILabel *priceLabel;
+@property (nonatomic, strong) IBOutlet UIButton *checkboxButton;
 @end
