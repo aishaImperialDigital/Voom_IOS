@@ -10,7 +10,8 @@
 
 @interface VehicleInfoViewController : VoomParentViewController
 {
-    
+    NSArray *vehicleDetailArray;
+    NSArray *vehicleValueDetailArray;
 }
 @property(nonatomic,strong) IBOutlet UITableView *tableView;
 

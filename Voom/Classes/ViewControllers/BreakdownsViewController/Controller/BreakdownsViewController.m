@@ -18,7 +18,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     self.headerView.titleLabel.text = kTitleBreakDowns;
-    [self addMapView];
+    //[self addMapView];
 }
 
 - (void)didReceiveMemoryWarning {

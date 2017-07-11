@@ -98,6 +98,7 @@
 {
     self.mapView = [[[NSBundle mainBundle] loadNibNamed:@"VoomMapView" owner:self options:nil] objectAtIndex:0];
     self.mapView.frame = CGRectMake(0, 0, self.mapView.frame.size.width, self.mapView.frame.size.height);
+    
     [self.view addSubview:self.mapView];
 }
 
@@ -105,7 +106,10 @@
 {
     self.datePicker = [[[NSBundle mainBundle] loadNibNamed:@"VoomDatePickerView" owner:self options:nil] objectAtIndex:0];
     self.datePicker.frame = CGRectMake(0,SCREEN_HEIGHT-self.datePicker.frame.size.height, self.datePicker.frame.size.width, self.datePicker.frame.size.height);
-    [self.view addSubview:self.datePicker];
+    UIWindow* mainWindow = [[UIApplication sharedApplication] keyWindow];
+    [mainWindow addSubview:self.datePicker];
+
+  //  [self.view addSubview:self.datePicker];
     self.datePicker.hidden = YES;
     self.datePicker.datePicker.timeZone = [NSTimeZone localTimeZone];
     [self.datePicker setDateTextfield:textField];
@@ -113,6 +117,8 @@
     self.datePicker.dateTextfield.delegate = self.datePicker;
 
 }
+
+
 
 
 @end
